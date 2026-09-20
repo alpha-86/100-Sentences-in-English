@@ -42,7 +42,7 @@
 ## 执行与提交顺序（每步落盘即 commit + push）
 
 1. ✅ worklog.md（第一版，已提交 d6cee18）
-2. 本计划文件 plan/plan2-revision.md → commit push
-3. 改 sentences.csv（滚动 review_note 60 行 + S32 改写），跑全量校验（420 覆盖、新词在句中、8 列格式、回读天数正确性）→ commit push
-4. 改 render_pdf.py 字号与每日回读条，重渲染 sentences.pdf，转图抽查 → commit push
-5. 更新 worklog.md（记录本次修订的决策与新逻辑）→ commit push
+2. ✅ 本计划文件 plan/plan2-revision.md → commit push（b740401）
+3. ✅ 改 sentences.csv（滚动 review_note 60 行 + S32 改写），跑全量校验（420 覆盖、新词在句中、8 列格式、回读天数正确性，全部通过）→ commit push（7d98ef6）；batches/ 已按修订后内容重新拆分保持一致
+4. ✅ 改 render_pdf.py 字号与每日回读条，重渲染 sentences.pdf，转图抽查（30 页，每页两卡，页底留白 10-21%）→ commit push（074a94b）
+5. ✅ 更新 worklog.md（记录本次修订的决策与新逻辑）→ commit push（f9f3c15）
