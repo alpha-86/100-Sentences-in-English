@@ -3,69 +3,59 @@
 <head><meta charset="utf-8"><style>
 @page {
   size: A4;
-  margin: 16mm 14mm 18mm 14mm;
+  margin: 11mm 13mm 13mm 13mm;
   @top-center {
     content: "420 必会单词 · 60 句计划";
     font-family: "Noto Sans CJK SC";
-    font-size: 9pt;
+    font-size: 10pt;
     color: #8a7fb8;
   }
   @bottom-center {
     content: "第 " counter(page) " 页 / 共 " counter(pages) " 页";
     font-family: "Noto Sans CJK SC";
-    font-size: 9pt;
+    font-size: 10pt;
     color: #999;
   }
 }
 * { box-sizing: border-box; }
 body {
   font-family: "Noto Sans CJK SC", "DejaVu Sans", sans-serif;
-  font-size: 10.5pt;
-  line-height: 1.55;
+  font-size: 12pt;
+  line-height: 1.38;
   color: #333;
   margin: 0;
 }
 .day-block {
   border: 1px solid #d9d2ee;
   border-radius: 8px;
-  padding: 10px 14px 12px;
-  margin: 0 0 12px;
+  padding: 8px 13px 9px;
+  margin: 0 0 8px;
   break-inside: avoid;
 }
-.review-block { border-color: #e8b86d; background: #fffdf7; }
-.day-head { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.day-head { display: flex; align-items: center; gap: 8px; margin-bottom: 2px; }
 .day-title {
-  font-size: 12pt;
+  font-size: 13.5pt;
   font-weight: bold;
   color: #4a3b8c;
 }
-.day-no { font-size: 9pt; color: #999; }
-.badge.review {
-  margin-left: auto;
-  background: #e8a13c;
-  color: #fff;
-  font-size: 9pt;
-  font-weight: bold;
-  padding: 2px 10px;
-  border-radius: 10px;
-}
+.day-no { font-size: 10pt; color: #999; }
 p.en {
   font-family: "DejaVu Sans", "Noto Sans CJK SC", sans-serif;
-  font-size: 14pt;
+  font-size: 16.5pt;
   font-weight: bold;
   color: #3d2e7a;
-  margin: 4px 0 2px;
-  line-height: 1.4;
+  margin: 2px 0 2px;
+  line-height: 1.3;
 }
-p.zh { font-size: 10.5pt; color: #444; margin: 0 0 6px; }
+p.zh { font-size: 12pt; color: #444; margin: 0 0 4px; }
 .grammar {
   background: #fdf6dd;
   border-left: 3px solid #e6c85a;
   border-radius: 4px;
-  padding: 6px 10px;
-  font-size: 9.5pt;
+  padding: 4px 10px;
+  font-size: 11pt;
   color: #5a4a1a;
-  margin: 6px 0;
+  margin: 4px 0;
 }
 .glabel {
   display: inline-block;
@@ -74,10 +64,10 @@ p.zh { font-size: 10.5pt; color: #444; margin: 0 0 6px; }
   margin-right: 6px;
 }
 .sec-title {
-  font-size: 9.5pt;
+  font-size: 11pt;
   font-weight: bold;
   color: #4a3b8c;
-  margin: 8px 0 3px;
+  margin: 5px 0 2px;
 }
 .grid { display: table; width: 100%; border-collapse: collapse; }
 .grid .cell {
@@ -86,16 +76,16 @@ p.zh { font-size: 10.5pt; color: #444; margin: 0 0 6px; }
   vertical-align: top;
   padding: 2px 6px 2px 0;
 }
-.wc { font-size: 9.5pt; }
-.wen { font-weight: bold; color: #2b2b2b; font-size: 10.5pt; margin-right: 5px; }
+.wc { font-size: 11pt; }
+.wen { font-weight: bold; color: #2b2b2b; font-size: 12pt; margin-right: 5px; }
 .wipa {
   font-family: "DejaVu Sans", "Noto Sans CJK SC", sans-serif;
   color: #8c8c8c;
   margin-right: 5px;
 }
-.pos { font-size: 8pt; color: #7a6fb0; margin-right: 5px; }
+.pos { font-size: 9pt; color: #7a6fb0; margin-right: 5px; }
 .wzh { color: #555; }
-.pc { font-size: 9.5pt; }
+.pc { font-size: 11pt; }
 .pen {
   font-family: "DejaVu Sans", "Noto Sans CJK SC", sans-serif;
   font-weight: bold;
@@ -103,22 +93,32 @@ p.zh { font-size: 10.5pt; color: #444; margin: 0 0 6px; }
   margin-right: 6px;
 }
 .pzh { color: #555; }
+.reread {
+  margin-top: 5px;
+  background: #e8f0fe;
+  border-left: 3px solid #5a8ad6;
+  border-radius: 4px;
+  padding: 3px 10px;
+  font-size: 11pt;
+  font-weight: bold;
+  color: #2f4f8a;
+}
 .review-note {
-  margin-top: 6px;
-  font-size: 9pt;
+  margin-top: 3px;
+  font-size: 10.5pt;
   color: #a06a10;
 }
 h1.doc-title {
   text-align: center;
   color: #4a3b8c;
-  font-size: 20pt;
-  margin: 2mm 0 1mm;
+  font-size: 22pt;
+  margin: 1mm 0 1mm;
 }
 p.doc-sub {
   text-align: center;
   color: #888;
-  font-size: 10pt;
-  margin: 0 0 6mm;
+  font-size: 11pt;
+  margin: 0 0 4mm;
 }
 </style></head>
 <body>
@@ -129,7 +129,6 @@ p.doc-sub {
   <div class="day-head">
     <span class="day-title">Day 1 · 第 1 天</span>
     <span class="day-no">句子 1 / 60</span>
-    
   </div>
   <p class="en">Hello! Hi! How do you do, good people of Hogwarts?</p>
   <p class="zh">你好！嗨！你们好吗，霍格沃茨善良的人们？</p>
@@ -138,6 +137,7 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">hello</span><span class="wipa">/hə'ləʊ/</span><span class="pos">interj.</span><span class="wzh">你好；喂</span></div></div><div class="cell"><div class="wc"><span class="wen">how</span><span class="wipa">/haʊ/</span><span class="pos">adv.</span><span class="wzh">怎样；如何</span></div></div><div class="cell"><div class="wc"><span class="wen">do</span><span class="wipa">/duː; də/</span><span class="pos">aux v. &amp; v.</span><span class="wzh">（第三人称单数形式 does /dʌz/）用于构成否定句和疑问句；做；干</span></div></div><div class="cell"><div class="wc"><span class="wen">you</span><span class="wipa">/juː; ju/</span><span class="pos">pron.</span><span class="wzh">你；您；你们</span></div></div><div class="cell"><div class="wc"><span class="wen">people</span><span class="wipa">/'piːpl/</span><span class="pos">n.</span><span class="wzh">人；人们</span></div></div><div class="cell"><div class="wc"><span class="wen">hi</span><span class="wipa">/haɪ/</span><span class="pos">interj.</span><span class="wzh">嗨；喂</span></div></div><div class="cell"><div class="wc"><span class="wen">good</span><span class="wipa">/ɡʊd/</span><span class="pos">adj.</span><span class="wzh">好的</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">How do you do?</span><span class="pzh">你们好吗（正式问候）</span></div></div></div>
+  <div class="reread">第 1 天，全是新词，无旧词；请大声朗读 3 遍。</div>
   
 </div>
 
@@ -145,7 +145,6 @@ p.doc-sub {
   <div class="day-head">
     <span class="day-title">Day 2 · 第 2 天</span>
     <span class="day-no">句子 2 / 60</span>
-    
   </div>
   <p class="en">Good morning, class! Sit down, please! And good morning, Ms!</p>
   <p class="zh">同学们，早上好！请坐！女士，您也早上好！</p>
@@ -154,14 +153,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">morning</span><span class="wipa">/'mɔːnɪŋ/</span><span class="pos">n.</span><span class="wzh">早晨；上午</span></div></div><div class="cell"><div class="wc"><span class="wen">and</span><span class="wipa">/ænd; ənd/</span><span class="pos">conj.</span><span class="wzh">和；又</span></div></div><div class="cell"><div class="wc"><span class="wen">Ms</span><span class="wipa">/mɪz; məz/</span><span class="wzh">（用于女子的姓氏或姓名前，不指明婚否）女士</span></div></div><div class="cell"><div class="wc"><span class="wen">class</span><span class="wipa">/klɑːs/</span><span class="pos">n.</span><span class="wzh">班级；课</span></div></div><div class="cell"><div class="wc"><span class="wen">sit</span><span class="wipa">/sɪt/</span><span class="pos">v.</span><span class="wzh">坐</span></div></div><div class="cell"><div class="wc"><span class="wen">down</span><span class="wipa">/daʊn/</span><span class="pos">adv.</span><span class="wzh">下；向下</span></div></div><div class="cell"><div class="wc"><span class="wen">please</span><span class="wipa">/pliːz/</span><span class="pos">interj.</span><span class="wzh">（用于客气地请求或吩咐）请</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">good morning</span><span class="pzh">早上好</span></div></div><div class="cell"><div class="pc"><span class="pen">sit down</span><span class="pzh">坐下</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 1 天的句子。</div>
+  <div class="review-note">重现旧词：good（第 1 天），把问候从 hello/hi 升级到 good morning。</div>
 </div>
 
-<div class="day-block review-block">
+<div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 3 · 第 3 天</span>
     <span class="day-no">句子 3 / 60</span>
-    <span class="badge review">今日回读 · 复习日</span>
   </div>
   <p class="en">I am Harry. Can I say thank you to the good people?</p>
   <p class="zh">我是哈利。我能向这些好心的人们说声谢谢吗？</p>
@@ -170,14 +169,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">can</span><span class="wipa">/kæn; kən/</span><span class="pos">modal v.</span><span class="wzh">能；会</span></div></div><div class="cell"><div class="wc"><span class="wen">say</span><span class="wipa">/seɪ/</span><span class="pos">v.</span><span class="wzh">说</span></div></div><div class="cell"><div class="wc"><span class="wen">to</span><span class="wipa">/tuː; tə/</span><span class="pos">prep.</span><span class="wzh">常用于原形动词之前，表示该动词为不定式；朝；至</span></div></div><div class="cell"><div class="wc"><span class="wen">the</span><span class="wipa">/ðiː; ðə, ði/</span><span class="pos">art.</span><span class="wzh">指已提到或易领会到的人或事物</span></div></div><div class="cell"><div class="wc"><span class="wen">I</span><span class="wipa">/aɪ/</span><span class="pos">pron.</span><span class="wzh">我</span></div></div><div class="cell"><div class="wc"><span class="wen">am</span><span class="wipa">/æm; əm/</span><span class="pos">v.</span><span class="wzh">是</span></div></div><div class="cell"><div class="wc"><span class="wen">thank</span><span class="wipa">/θæŋk/</span><span class="pos">v.</span><span class="wzh">感谢；谢谢</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">I am…</span><span class="pzh">我是……</span></div></div><div class="cell"><div class="pc"><span class="pen">say thank you to sb.</span><span class="pzh">向某人说谢谢</span></div></div></div>
-  <div class="review-note">今日回读：请重新朗读第 1-2 天的句子。本句重现旧词：you、good、people，继续复习问候场景。</div>
+  <div class="reread">今日回读：请重新朗读第 2、1 天的句子。</div>
+  <div class="review-note">本句重现旧词：you、good、people，继续复习问候场景。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 4 · 第 4 天</span>
     <span class="day-no">句子 4 / 60</span>
-    
   </div>
   <p class="en">So, what is my name? My name is Harry — nice to meet you!</p>
   <p class="zh">那么，我叫什么名字呢？我叫哈利——很高兴见到你！</p>
@@ -186,14 +185,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">my</span><span class="wipa">/maɪ/</span><span class="pos">pron.</span><span class="wzh">我的</span></div></div><div class="cell"><div class="wc"><span class="wen">name</span><span class="wipa">/neɪm/</span><span class="pos">n.</span><span class="wzh">名字；名称</span></div></div><div class="cell"><div class="wc"><span class="wen">is</span><span class="wipa">/ɪz/</span><span class="pos">v.</span><span class="wzh">是</span></div></div><div class="cell"><div class="wc"><span class="wen">nice</span><span class="wipa">/naɪs/</span><span class="pos">adj.</span><span class="wzh">令人愉快的；宜人的</span></div></div><div class="cell"><div class="wc"><span class="wen">meet</span><span class="wipa">/miːt/</span><span class="pos">v.</span><span class="wzh">遇见；相逢</span></div></div><div class="cell"><div class="wc"><span class="wen">so</span><span class="wipa">/səʊ/</span><span class="pos">conj. &amp; adv.</span><span class="wzh">用来引出评论或问题；所以；这么；那么</span></div></div><div class="cell"><div class="wc"><span class="wen">what</span><span class="wipa">/wɒt/</span><span class="pos">pron. &amp; adj.</span><span class="wzh">什么</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">My name is…</span><span class="pzh">我的名字是……</span></div></div><div class="cell"><div class="pc"><span class="pen">nice to meet you</span><span class="pzh">很高兴见到你</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 3、2 天的句子。</div>
+  <div class="review-note">重现旧词：to、you；be 动词从 am 扩展到 is（My name is…）。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 5 · 第 5 天</span>
     <span class="day-no">句子 5 / 60</span>
-    
   </div>
   <p class="en">Are you a Ms? No, call me Harry! Your name is nice too, so no goodbye.</p>
   <p class="zh">您是女士吗？不，叫我哈利！你的名字也很好听，所以我们先不说再见。</p>
@@ -202,14 +201,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">your</span><span class="wipa">/jɔː(r); jə(r)/</span><span class="pos">pron.</span><span class="wzh">你的；您的；你们的</span></div></div><div class="cell"><div class="wc"><span class="wen">too</span><span class="wipa">/tuː/</span><span class="pos">adv.</span><span class="wzh">也；又；太</span></div></div><div class="cell"><div class="wc"><span class="wen">a</span><span class="wipa">/eɪ; ə/ (an /æn; ən/)</span><span class="pos">art.</span><span class="wzh">（用于单数可数名词前，表示未曾提到的）一（人、事、物）</span></div></div><div class="cell"><div class="wc"><span class="wen">are</span><span class="wipa">/ɑː(r); ə(r)/</span><span class="pos">v.</span><span class="wzh">是</span></div></div><div class="cell"><div class="wc"><span class="wen">goodbye</span><span class="wipa">/ˌɡʊd'baɪ/</span><span class="pos">interj. &amp; n.</span><span class="wzh">再见；再会</span></div></div><div class="cell"><div class="wc"><span class="wen">call</span><span class="wipa">/kɔːl/</span><span class="pos">v. &amp; n.</span><span class="wzh">把……叫作；（给……）打电话；呼唤；打电话；大声呼叫</span></div></div><div class="cell"><div class="wc"><span class="wen">me</span><span class="wipa">/miː; mi/</span><span class="pos">pron.</span><span class="wzh">（I 的宾格）我</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">call me…</span><span class="pzh">叫我……</span></div></div><div class="cell"><div class="pc"><span class="pen">Are you…?</span><span class="pzh">你是……吗</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 4、3、1 天的句子。</div>
+  <div class="review-note">重现旧词：you、Ms、name、is、nice、so；be 动词 am/is/are 至此学全。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 6 · 第 6 天</span>
     <span class="day-no">句子 6 / 60</span>
-    
   </div>
   <p class="en">Bye, bye! Let us go — that is fine, that is great!</p>
   <p class="zh">拜拜！我们走吧——这样很好，这样太棒了！</p>
@@ -218,14 +217,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">fine</span><span class="wipa">/faɪn/</span><span class="pos">adj.</span><span class="wzh">健康的；美好的</span></div></div><div class="cell"><div class="wc"><span class="wen">great</span><span class="wipa">/ɡreɪt/</span><span class="pos">adj.</span><span class="wzh">美妙的；伟大的</span></div></div><div class="cell"><div class="wc"><span class="wen">that</span><span class="wipa">/ðæt/</span><span class="pos">pron.</span><span class="wzh">那；那个</span></div></div><div class="cell"><div class="wc"><span class="wen">let</span><span class="wipa">/let/</span><span class="pos">v.</span><span class="wzh">允许；让</span></div></div><div class="cell"><div class="wc"><span class="wen">us</span><span class="wipa">/ʌs; əs/</span><span class="pos">pron.</span><span class="wzh">（we 的宾格）我们</span></div></div><div class="cell"><div class="wc"><span class="wen">go</span><span class="wipa">/ɡəʊ/</span><span class="pos">v.</span><span class="wzh">去；走</span></div></div><div class="cell"><div class="wc"><span class="wen">bye</span><span class="wipa">/baɪ/ (= goodbye)</span><span class="pos">interj.</span><span class="wzh">再见</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">let us go</span><span class="pzh">我们走吧</span></div></div><div class="cell"><div class="pc"><span class="pen">that is great</span><span class="pzh">那太棒了</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 5、4、2 天的句子。</div>
+  <div class="review-note">重现旧词：is、goodbye 的同义表达 bye（第 5 天学过 goodbye）。</div>
 </div>
 
-<div class="day-block review-block">
+<div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 7 · 第 7 天</span>
     <span class="day-no">句子 7 / 60</span>
-    <span class="badge review">今日回读 · 复习日</span>
   </div>
   <p class="en">It is time for class — keep it tidy, and have a nice time in Hogwarts!</p>
   <p class="zh">上课时间到了——保持整洁，祝你在霍格沃茨过得愉快！</p>
@@ -234,14 +233,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">it</span><span class="wipa">/ɪt/</span><span class="pos">pron.</span><span class="wzh">它</span></div></div><div class="cell"><div class="wc"><span class="wen">time</span><span class="wipa">/taɪm/</span><span class="pos">n.</span><span class="wzh">时间；次</span></div></div><div class="cell"><div class="wc"><span class="wen">for</span><span class="wipa">/fɔː(r); fə(r)/</span><span class="pos">prep.</span><span class="wzh">为了；给；对</span></div></div><div class="cell"><div class="wc"><span class="wen">keep</span><span class="wipa">/kiːp/</span><span class="pos">v.</span><span class="wzh">（使）保持</span></div></div><div class="cell"><div class="wc"><span class="wen">tidy</span><span class="wipa">/'taɪdi/</span><span class="pos">adj.</span><span class="wzh">整洁的；井井有条的</span></div></div><div class="cell"><div class="wc"><span class="wen">have</span><span class="wipa">/hæv; həv/</span><span class="pos">v.</span><span class="wzh">（第三人称单数形式 has /hæz; həz/）有</span></div></div><div class="cell"><div class="wc"><span class="wen">in</span><span class="wipa">/ɪn/</span><span class="pos">prep.</span><span class="wzh">在……里；表示某事完成或发生的方式</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">It is time for…</span><span class="pzh">到……的时间了</span></div></div><div class="cell"><div class="pc"><span class="pen">keep tidy</span><span class="pzh">保持整洁</span></div></div><div class="cell"><div class="pc"><span class="pen">have a nice time</span><span class="pzh">过得愉快</span></div></div></div>
-  <div class="review-note">今日回读：请重新朗读第 1-6 天的句子，重点复习自我介绍句型 My name is… 和 Nice to meet you。本句重现旧词：class、nice、a、and、is。</div>
+  <div class="reread">今日回读：请重新朗读第 6、5、3 天的句子。</div>
+  <div class="review-note">本句重现旧词：class、nice、a、and、is。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 8 · 第 8 天</span>
     <span class="day-no">句子 8 / 60</span>
-    
   </div>
   <p class="en">I have a schoolbag, a cap, a ruler and a pencil — brown, black and yellow!</p>
   <p class="zh">我有一个书包、一顶帽子、一把尺和一支铅笔——棕色的、黑色的和黄色的！</p>
@@ -250,14 +249,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">schoolbag</span><span class="wipa">/'skuːlbæɡ/</span><span class="pos">n.</span><span class="wzh">书包</span></div></div><div class="cell"><div class="wc"><span class="wen">cap</span><span class="wipa">/kæp/</span><span class="pos">n.</span><span class="wzh">（无帽边或有帽舌的）帽子；棒球帽</span></div></div><div class="cell"><div class="wc"><span class="wen">ruler</span><span class="wipa">/'ruːlə(r)/</span><span class="pos">n.</span><span class="wzh">尺；直尺</span></div></div><div class="cell"><div class="wc"><span class="wen">pencil</span><span class="wipa">/'pensl/</span><span class="pos">n.</span><span class="wzh">铅笔</span></div></div><div class="cell"><div class="wc"><span class="wen">brown</span><span class="wipa">/braʊn/</span><span class="pos">adj. &amp; n.</span><span class="wzh">棕色（的）；褐色（的）</span></div></div><div class="cell"><div class="wc"><span class="wen">black</span><span class="wipa">/blæk/</span><span class="pos">adj. &amp; n.</span><span class="wzh">黑色（的）</span></div></div><div class="cell"><div class="wc"><span class="wen">yellow</span><span class="wipa">/'jeləʊ/</span><span class="pos">adj. &amp; n.</span><span class="wzh">黄色（的）</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">in the schoolbag</span><span class="pzh">在书包里</span></div></div><div class="cell"><div class="pc"><span class="pen">brown, black and yellow</span><span class="pzh">棕色、黑色和黄色</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 7、6、4、1 天的句子。</div>
+  <div class="review-note">重现旧词：I、have、a、and；have 从第 7 天的 have a nice time 扩展为“拥有”。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 9 · 第 9 天</span>
     <span class="day-no">句子 9 / 60</span>
-    
   </div>
   <p class="en">What colour are your trousers? Orange, green, blue, white and red!</p>
   <p class="zh">你的裤子是什么颜色的？橙色、绿色、蓝色、白色和红色的！</p>
@@ -266,14 +265,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">orange</span><span class="wipa">/'ɒrɪndʒ/</span><span class="pos">adj. &amp; n.</span><span class="wzh">橙红色（的）；橘黄色（的）；橙子；柑橘</span></div></div><div class="cell"><div class="wc"><span class="wen">green</span><span class="wipa">/ɡriːn/</span><span class="pos">adj. &amp; n.</span><span class="wzh">绿色（的）</span></div></div><div class="cell"><div class="wc"><span class="wen">blue</span><span class="wipa">/bluː/</span><span class="pos">adj. &amp; n.</span><span class="wzh">蓝色（的）</span></div></div><div class="cell"><div class="wc"><span class="wen">white</span><span class="wipa">/waɪt/</span><span class="pos">adj. &amp; n.</span><span class="wzh">白色（的）</span></div></div><div class="cell"><div class="wc"><span class="wen">red</span><span class="wipa">/red/</span><span class="pos">adj. &amp; n.</span><span class="wzh">红色（的）</span></div></div><div class="cell"><div class="wc"><span class="wen">colour</span><span class="wipa">/'kʌlə(r)/ (= color)</span><span class="pos">n.</span><span class="wzh">颜色</span></div></div><div class="cell"><div class="wc"><span class="wen">trousers</span><span class="wipa">/'traʊzəz/</span><span class="pos">n. (pl.)</span><span class="wzh">裤子</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">what colour</span><span class="pzh">什么颜色</span></div></div><div class="cell"><div class="pc"><span class="pen">your trousers</span><span class="pzh">你的裤子</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 8、7、5、2 天的句子。</div>
+  <div class="review-note">重现旧词：what、are、your、and；颜色词接第 8 天的 brown/black/yellow 继续扩充。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 10 · 第 10 天</span>
     <span class="day-no">句子 10 / 60</span>
-    
   </div>
   <p class="en">Where are they? Put the shoe and bicycle by the bed and desk!</p>
   <p class="zh">它们在哪里？把鞋子和自行车放到床边和书桌旁！</p>
@@ -282,14 +281,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">they</span><span class="wipa">/ðeɪ/</span><span class="pos">pron.</span><span class="wzh">他（她、它）们</span></div></div><div class="cell"><div class="wc"><span class="wen">bicycle</span><span class="wipa">/'baɪsɪkl/ (= bike /baɪk/)</span><span class="pos">n.</span><span class="wzh">自行车；脚踏车</span></div></div><div class="cell"><div class="wc"><span class="wen">shoe</span><span class="wipa">/ʃuː/</span><span class="pos">n.</span><span class="wzh">鞋</span></div></div><div class="cell"><div class="wc"><span class="wen">where</span><span class="wipa">/weə(r)/</span><span class="pos">adv.</span><span class="wzh">在哪里；到哪里</span></div></div><div class="cell"><div class="wc"><span class="wen">put</span><span class="wipa">/pʊt/</span><span class="pos">v.</span><span class="wzh">放</span></div></div><div class="cell"><div class="wc"><span class="wen">bed</span><span class="wipa">/bed/</span><span class="pos">n.</span><span class="wzh">床</span></div></div><div class="cell"><div class="wc"><span class="wen">desk</span><span class="wipa">/desk/</span><span class="pos">n.</span><span class="wzh">书桌</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">put…by…</span><span class="pzh">把……放在……旁边</span></div></div><div class="cell"><div class="pc"><span class="pen">by the bed</span><span class="pzh">在床边</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 9、8、6、3 天的句子。</div>
+  <div class="review-note">重现旧词：are、the、and；疑问词从 what 扩展到 where，疑问句句型保持一致。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 11 · 第 11 天</span>
     <span class="day-no">句子 11 / 60</span>
-    
   </div>
   <p class="en">Some socks are on the chair, and a pair of shoes is under it.</p>
   <p class="zh">一些短袜在椅子上，椅子下面有一双鞋。</p>
@@ -298,14 +297,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">chair</span><span class="wipa">/tʃeə(r)/</span><span class="pos">n.</span><span class="wzh">椅子</span></div></div><div class="cell"><div class="wc"><span class="wen">sock</span><span class="wipa">/sɒk/</span><span class="pos">n.</span><span class="wzh">短袜</span></div></div><div class="cell"><div class="wc"><span class="wen">some</span><span class="wipa">/sʌm; səm/</span><span class="pos">adj. &amp; pron.</span><span class="wzh">一些；某些；有些；有的</span></div></div><div class="cell"><div class="wc"><span class="wen">pair</span><span class="wipa">/peə(r)/</span><span class="pos">n.</span><span class="wzh">一双；一对</span></div></div><div class="cell"><div class="wc"><span class="wen">of</span><span class="wipa">/ɒv; əv/</span><span class="pos">prep.</span><span class="wzh">属于（某人）；关于（某人）</span></div></div><div class="cell"><div class="wc"><span class="wen">on</span><span class="wipa">/ɒn/</span><span class="pos">prep.</span><span class="wzh">在……上</span></div></div><div class="cell"><div class="wc"><span class="wen">under</span><span class="wipa">/'ʌndə(r)/</span><span class="pos">prep.</span><span class="wzh">在……下</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">a pair of</span><span class="pzh">一双……</span></div></div><div class="cell"><div class="pc"><span class="pen">on the chair</span><span class="pzh">在椅子上</span></div></div><div class="cell"><div class="pc"><span class="pen">under it</span><span class="pzh">在它下面</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 10、9、7、4 天的句子。</div>
+  <div class="review-note">自然重现旧词：shoe（复数 shoes）、and、the、are、is、it、a。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 12 · 第 12 天</span>
     <span class="day-no">句子 12 / 60</span>
-    
   </div>
   <p class="en">"Mum, I can not find my new shoes in the room!" "No? OK, keep your room tidy, Harry."</p>
   <p class="zh">“妈妈，我在房间里找不到我的新鞋了！”“没有吗？好吧，哈利，那你要保持房间整洁。”</p>
@@ -314,14 +313,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">mum</span><span class="wipa">/mʌm/ (= mom /mɒm/)</span><span class="pos">n.</span><span class="wzh">妈妈</span></div></div><div class="cell"><div class="wc"><span class="wen">not</span><span class="wipa">/nɒt/</span><span class="pos">adv.</span><span class="wzh">不；没有</span></div></div><div class="cell"><div class="wc"><span class="wen">find</span><span class="wipa">/faɪnd/</span><span class="pos">v.</span><span class="wzh">找到；发现</span></div></div><div class="cell"><div class="wc"><span class="wen">new</span><span class="wipa">/njuː/</span><span class="pos">adj.</span><span class="wzh">新的；刚出现的</span></div></div><div class="cell"><div class="wc"><span class="wen">no</span><span class="wipa">/nəʊ/</span><span class="pos">interj. &amp; adj.</span><span class="wzh">不；不要；没有；不是</span></div></div><div class="cell"><div class="wc"><span class="wen">room</span><span class="wipa">/ruːm/</span><span class="pos">n.</span><span class="wzh">房间</span></div></div><div class="cell"><div class="wc"><span class="wen">OK</span><span class="wipa">/əʊ'keɪ/</span><span class="pos">interj. &amp; adj. &amp; adv.</span><span class="wzh">好；行；可以（的）</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">in the room</span><span class="pzh">在房间里</span></div></div><div class="cell"><div class="pc"><span class="pen">keep your room tidy</span><span class="pzh">保持房间整洁</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 11、10、8、5 天的句子。</div>
+  <div class="review-note">自然重现旧词：can、my、in、shoe（shoes）、keep、tidy、your、I。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 13 · 第 13 天</span>
     <span class="day-no">句子 13 / 60</span>
-    
   </div>
   <p class="en">Sorry, Dad, your glasses are on your head — I can see them! Welcome to my room.</p>
   <p class="zh">对不起，爸爸，你的眼镜就在你头上——我能看见它们！欢迎来到我的房间。</p>
@@ -330,14 +329,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">sorry</span><span class="wipa">/'sɒri/</span><span class="pos">adj.</span><span class="wzh">抱歉的；惋惜的</span></div></div><div class="cell"><div class="wc"><span class="wen">dad</span><span class="wipa">/dæd/</span><span class="pos">n.</span><span class="wzh">爸爸</span></div></div><div class="cell"><div class="wc"><span class="wen">glasses</span><span class="wipa">/'ɡlɑːsɪz/</span><span class="pos">n. (pl.)</span><span class="wzh">眼镜</span></div></div><div class="cell"><div class="wc"><span class="wen">see</span><span class="wipa">/siː/</span><span class="pos">v.</span><span class="wzh">看见</span></div></div><div class="cell"><div class="wc"><span class="wen">them</span><span class="wipa">/ðem; ðəm/</span><span class="pos">pron.</span><span class="wzh">（they 的宾格）他（她、它）们</span></div></div><div class="cell"><div class="wc"><span class="wen">head</span><span class="wipa">/hed/</span><span class="pos">n.</span><span class="wzh">头</span></div></div><div class="cell"><div class="wc"><span class="wen">welcome</span><span class="wipa">/'welkəm/</span><span class="pos">adj. &amp; interj., v. &amp; n.</span><span class="wzh">受欢迎的；欢迎</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">on your head</span><span class="pzh">在你头上</span></div></div><div class="cell"><div class="pc"><span class="pen">welcome to</span><span class="pzh">欢迎来到……</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 12、11、9、6 天的句子。</div>
+  <div class="review-note">自然重现旧词：your、can、my、on、room（承接第 12 天房间场景）、I。</div>
 </div>
 
-<div class="day-block review-block">
+<div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 14 · 第 14 天</span>
     <span class="day-no">句子 14 / 60</span>
-    <span class="badge review">今日回读 · 复习日</span>
   </div>
   <p class="en">These baby chickens are brown, and Mum's black cat puts her nose on the plant.</p>
   <p class="zh">这些小鸡宝宝是棕色的，妈妈的黑猫把它的鼻子凑到植物上。</p>
@@ -346,14 +345,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">her</span><span class="wipa">/hɜː(r); hə(r)/</span><span class="pos">pron.</span><span class="wzh">她的</span></div></div><div class="cell"><div class="wc"><span class="wen">nose</span><span class="wipa">/nəʊz/</span><span class="pos">n.</span><span class="wzh">鼻子</span></div></div><div class="cell"><div class="wc"><span class="wen">cat</span><span class="wipa">/kæt/</span><span class="pos">n.</span><span class="wzh">猫</span></div></div><div class="cell"><div class="wc"><span class="wen">these</span><span class="wipa">/ðiːz/</span><span class="pos">pron.</span><span class="wzh">这些</span></div></div><div class="cell"><div class="wc"><span class="wen">plant</span><span class="wipa">/plɑːnt/</span><span class="pos">n. &amp; v.</span><span class="wzh">植物；种植</span></div></div><div class="cell"><div class="wc"><span class="wen">baby</span><span class="wipa">/'beɪbi/</span><span class="pos">n.</span><span class="wzh">动物幼崽；婴儿</span></div></div><div class="cell"><div class="wc"><span class="wen">chicken</span><span class="wipa">/'tʃɪkɪn/</span><span class="pos">n.</span><span class="wzh">鸡；鸡肉</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">baby chickens</span><span class="pzh">小鸡宝宝</span></div></div><div class="cell"><div class="pc"><span class="pen">black cat</span><span class="pzh">黑猫</span></div></div><div class="cell"><div class="pc"><span class="pen">her nose</span><span class="pzh">她的鼻子</span></div></div></div>
-  <div class="review-note">今日回读：请重新朗读第 8-13 天的句子。本句回顾颜色词 brown、black，动词 put（三单 puts）、介词 on，以及第 12 天的 Mum。</div>
+  <div class="reread">今日回读：请重新朗读第 13、12、10、7 天的句子。</div>
+  <div class="review-note">本句回顾颜色词 brown、black，动词 put（三单 puts）、介词 on，以及第 12 天的 Mum。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 15 · 第 15 天</span>
     <span class="day-no">句子 15 / 60</span>
-    
   </div>
   <p class="en">This dog and the rabbit are under the apple tree. Flowers and tomatoes are red.</p>
   <p class="zh">这只狗和那只兔子在苹果树下面。花和西红柿都是红色的。</p>
@@ -362,14 +361,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">dog</span><span class="wipa">/dɒɡ/</span><span class="pos">n.</span><span class="wzh">狗</span></div></div><div class="cell"><div class="wc"><span class="wen">rabbit</span><span class="wipa">/'ræbɪt/</span><span class="pos">n.</span><span class="wzh">兔子</span></div></div><div class="cell"><div class="wc"><span class="wen">tomato</span><span class="wipa">/tə'mɑːtəʊ; tə'meɪtəʊ/</span><span class="pos">n.</span><span class="wzh">(pl. tomatoes) 西红柿</span></div></div><div class="cell"><div class="wc"><span class="wen">flower</span><span class="wipa">/'flaʊə(r)/</span><span class="pos">n.</span><span class="wzh">花</span></div></div><div class="cell"><div class="wc"><span class="wen">apple</span><span class="wipa">/'æpl/</span><span class="pos">n.</span><span class="wzh">苹果</span></div></div><div class="cell"><div class="wc"><span class="wen">tree</span><span class="wipa">/triː/</span><span class="pos">n.</span><span class="wzh">树</span></div></div><div class="cell"><div class="wc"><span class="wen">this</span><span class="wipa">/ðɪs/</span><span class="pos">pron.</span><span class="wzh">这；这个</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">under the tree</span><span class="pzh">在树下</span></div></div><div class="cell"><div class="pc"><span class="pen">apple tree</span><span class="pzh">苹果树</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 14、13、11、8 天的句子。</div>
+  <div class="review-note">自然重现旧词：under（第 11 天）、red、and、the、are，承接第 14 天农场动物场景。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 16 · 第 16 天</span>
     <span class="day-no">句子 16 / 60</span>
-    
   </div>
   <p class="en">Those animals on the farm are ducks. Grandpa has many potatoes and chickens.</p>
   <p class="zh">农场里那些动物是鸭子。爷爷有许多土豆和鸡。</p>
@@ -378,14 +377,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">those</span><span class="wipa">/ðəʊz/</span><span class="pos">pron.</span><span class="wzh">那些</span></div></div><div class="cell"><div class="wc"><span class="wen">animal</span><span class="wipa">/'ænɪml/</span><span class="pos">n.</span><span class="wzh">动物</span></div></div><div class="cell"><div class="wc"><span class="wen">duck</span><span class="wipa">/dʌk/</span><span class="pos">n.</span><span class="wzh">鸭子</span></div></div><div class="cell"><div class="wc"><span class="wen">potato</span><span class="wipa">/pə'teɪtəʊ/</span><span class="pos">n.</span><span class="wzh">(pl. potatoes) 土豆</span></div></div><div class="cell"><div class="wc"><span class="wen">many</span><span class="wipa">/'meni/</span><span class="pos">adj. &amp; pron.</span><span class="wzh">许多</span></div></div><div class="cell"><div class="wc"><span class="wen">grandpa</span><span class="wipa">/'ɡrænpɑː/ (= grandfather /'ɡrænfɑːðə(r)/)</span><span class="pos">n.</span><span class="wzh">爷爷；外公</span></div></div><div class="cell"><div class="wc"><span class="wen">farm</span><span class="wipa">/fɑːm/</span><span class="pos">n.</span><span class="wzh">农场</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">on the farm</span><span class="pzh">在农场</span></div></div><div class="cell"><div class="pc"><span class="pen">many potatoes</span><span class="pzh">许多土豆</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 15、14、12、9、1 天的句子。</div>
+  <div class="review-note">自然重现旧词：on、the、have（三单 has）、and、chicken（第 14 天）。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 17 · 第 17 天</span>
     <span class="day-no">句子 17 / 60</span>
-    
   </div>
   <p class="en">The farm has a small house, a big lake, cows, horses and sheep.</p>
   <p class="zh">农场里有一座小房子、一个大湖，还有奶牛、马和绵羊。</p>
@@ -394,14 +393,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">cow</span><span class="wipa">/kaʊ/</span><span class="pos">n.</span><span class="wzh">奶牛</span></div></div><div class="cell"><div class="wc"><span class="wen">small</span><span class="wipa">/smɔːl/</span><span class="pos">adj.</span><span class="wzh">小的</span></div></div><div class="cell"><div class="wc"><span class="wen">lake</span><span class="wipa">/leɪk/</span><span class="pos">n.</span><span class="wzh">湖</span></div></div><div class="cell"><div class="wc"><span class="wen">house</span><span class="wipa">/haʊs/</span><span class="pos">n.</span><span class="wzh">房子</span></div></div><div class="cell"><div class="wc"><span class="wen">horse</span><span class="wipa">/hɔːs/</span><span class="pos">n.</span><span class="wzh">马</span></div></div><div class="cell"><div class="wc"><span class="wen">sheep</span><span class="wipa">/ʃiːp/</span><span class="pos">n.</span><span class="wzh">(pl. sheep) 羊；绵羊</span></div></div><div class="cell"><div class="wc"><span class="wen">big</span><span class="wipa">/bɪɡ/</span><span class="pos">adj.</span><span class="wzh">大的</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">a big lake</span><span class="pzh">一个大湖</span></div></div><div class="cell"><div class="pc"><span class="pen">cows and sheep</span><span class="pzh">奶牛和绵羊</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 16、15、13、10、2 天的句子。</div>
+  <div class="review-note">自然重现旧词：farm（第 16 天）、have（has）、a、and、the。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 18 · 第 18 天</span>
     <span class="day-no">句子 18 / 60</span>
-    
   </div>
   <p class="en">Look! There is a kind pig on the grass. He is Uncle's baby pig.</p>
   <p class="zh">看！草地上有一头友善的猪。它是舅舅的猪宝宝。</p>
@@ -410,14 +409,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">look</span><span class="wipa">/lʊk/</span><span class="pos">v.</span><span class="wzh">看；看起来</span></div></div><div class="cell"><div class="wc"><span class="wen">uncle</span><span class="wipa">/'ʌŋkl/</span><span class="pos">n.</span><span class="wzh">舅父；叔父；伯父；姑父；姨父</span></div></div><div class="cell"><div class="wc"><span class="wen">grass</span><span class="wipa">/ɡrɑːs/</span><span class="pos">n.</span><span class="wzh">草</span></div></div><div class="cell"><div class="wc"><span class="wen">kind</span><span class="wipa">/kaɪnd/</span><span class="pos">n. &amp; adj.</span><span class="wzh">种类；体贴的；亲切的</span></div></div><div class="cell"><div class="wc"><span class="wen">he</span><span class="wipa">/hiː; hi/</span><span class="pos">pron.</span><span class="wzh">他</span></div></div><div class="cell"><div class="wc"><span class="wen">pig</span><span class="wipa">/pɪɡ/</span><span class="pos">n.</span><span class="wzh">猪</span></div></div><div class="cell"><div class="wc"><span class="wen">there</span><span class="wipa">/ðeə(r)/</span><span class="pos">adv.</span><span class="wzh">在那里</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">there is</span><span class="pzh">有（接单数）</span></div></div><div class="cell"><div class="pc"><span class="pen">on the grass</span><span class="pzh">在草地上</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 17、16、14、11、3 天的句子。</div>
+  <div class="review-note">自然重现旧词：on、baby（第 14 天）、is、a、the。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 19 · 第 19 天</span>
     <span class="day-no">句子 19 / 60</span>
-    
   </div>
   <p class="en">Look at his beautiful home behind the farm. We like it!</p>
   <p class="zh">看他在农场后面美丽的家。我们真喜欢它！</p>
@@ -426,14 +425,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">behind</span><span class="wipa">/bɪ'haɪnd/</span><span class="pos">prep.</span><span class="wzh">在……的后面</span></div></div><div class="cell"><div class="wc"><span class="wen">home</span><span class="wipa">/həʊm/</span><span class="pos">n.</span><span class="wzh">家</span></div></div><div class="cell"><div class="wc"><span class="wen">beautiful</span><span class="wipa">/'bjuːtɪfl/</span><span class="pos">adj.</span><span class="wzh">美丽的</span></div></div><div class="cell"><div class="wc"><span class="wen">like</span><span class="wipa">/laɪk/</span><span class="pos">v. &amp; prep.</span><span class="wzh">喜欢；例如；像……一样</span></div></div><div class="cell"><div class="wc"><span class="wen">his</span><span class="wipa">/hɪz; ɪz/</span><span class="pos">pron.</span><span class="wzh">他的</span></div></div><div class="cell"><div class="wc"><span class="wen">at</span><span class="wipa">/æt; ət/</span><span class="pos">prep.</span><span class="wzh">向；朝；在（某处、某时间或时刻）</span></div></div><div class="cell"><div class="wc"><span class="wen">we</span><span class="wipa">/wiː; wi/</span><span class="pos">pron.</span><span class="wzh">我们</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">look at</span><span class="pzh">看……</span></div></div><div class="cell"><div class="pc"><span class="pen">behind the farm</span><span class="pzh">在农场后面</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 18、17、15、12、4 天的句子。</div>
+  <div class="review-note">自然重现旧词：look（第 18 天）、farm（第 16、17 天）、the、it。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 20 · 第 20 天</span>
     <span class="day-no">句子 20 / 60</span>
-    
   </div>
   <p class="en">Harry and Ron make friends and get apples from old Hagrid. "May I know your name, friend?"</p>
   <p class="zh">哈利和罗恩交上了朋友，还从老海格那里得到了苹果。“朋友，我可以知道你的名字吗？”</p>
@@ -442,14 +441,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">make</span><span class="wipa">/meɪk/</span><span class="pos">v.</span><span class="wzh">使成为；制造</span></div></div><div class="cell"><div class="wc"><span class="wen">friend</span><span class="wipa">/frend/</span><span class="pos">n.</span><span class="wzh">朋友</span></div></div><div class="cell"><div class="wc"><span class="wen">get</span><span class="wipa">/ɡet/</span><span class="pos">v.</span><span class="wzh">去取（或带来）；得到</span></div></div><div class="cell"><div class="wc"><span class="wen">know</span><span class="wipa">/nəʊ/</span><span class="pos">v.</span><span class="wzh">知道</span></div></div><div class="cell"><div class="wc"><span class="wen">from</span><span class="wipa">/frɒm; frəm/</span><span class="pos">prep.</span><span class="wzh">从……来；从……开始</span></div></div><div class="cell"><div class="wc"><span class="wen">may</span><span class="wipa">/meɪ/</span><span class="pos">modal v.</span><span class="wzh">可以；可能</span></div></div><div class="cell"><div class="wc"><span class="wen">old</span><span class="wipa">/əʊld/</span><span class="pos">adj.</span><span class="wzh">老的；旧的</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">make friends</span><span class="pzh">交朋友</span></div></div><div class="cell"><div class="pc"><span class="pen">get ... from</span><span class="pzh">从……得到……</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 19、18、16、13、5 天的句子。</div>
+  <div class="review-note">自然重现旧词：and、your、name、apple（第 15 天）、I，为第 2 幕收尾。</div>
 </div>
 
-<div class="day-block review-block">
+<div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 21 · 第 21 天</span>
     <span class="day-no">句子 21 / 60</span>
-    <span class="badge review">今日回读 · 复习日</span>
   </div>
   <p class="en">Yes, Mr Dumbledore, last year our English teacher had a dog on his farm.</p>
   <p class="zh">好的，邓布利多先生，去年我们的英语老师在他的农场里养了一只狗。</p>
@@ -458,14 +457,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">last</span><span class="wipa">/lɑːst/</span><span class="pos">adj.</span><span class="wzh">最后的；末尾的</span></div></div><div class="cell"><div class="wc"><span class="wen">year</span><span class="wipa">/jɪə(r); jɜː(r)/</span><span class="pos">n.</span><span class="wzh">年</span></div></div><div class="cell"><div class="wc"><span class="wen">yes</span><span class="wipa">/jes/</span><span class="pos">interj.</span><span class="wzh">是的；可以</span></div></div><div class="cell"><div class="wc"><span class="wen">Mr</span><span class="wipa">/'mɪstə(r)/</span><span class="wzh">（用于男子的姓氏或姓名前）先生</span></div></div><div class="cell"><div class="wc"><span class="wen">our</span><span class="wipa">/ɑː(r); 'aʊə(r)/</span><span class="pos">pron.</span><span class="wzh">我们的</span></div></div><div class="cell"><div class="wc"><span class="wen">English</span><span class="wipa">/'ɪŋɡlɪʃ/</span><span class="pos">n. &amp; adj.</span><span class="wzh">英语；英格兰人；英语的；英格兰的</span></div></div><div class="cell"><div class="wc"><span class="wen">teacher</span><span class="wipa">/'tiːtʃə(r)/</span><span class="pos">n.</span><span class="wzh">教师</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">last year</span><span class="pzh">去年</span></div></div><div class="cell"><div class="pc"><span class="pen">our English teacher</span><span class="pzh">我们的英语老师</span></div></div><div class="cell"><div class="pc"><span class="pen">on the farm</span><span class="pzh">在农场</span></div></div></div>
-  <div class="review-note">今日回读：请重新朗读第 14-20 天的句子（cat、dog、rabbit、duck、cow、horse、sheep、pig、farm、grandpa、uncle 等动物家庭词）；本句重现了 dog、farm、his、have（had）。</div>
+  <div class="reread">今日回读：请重新朗读第 20、19、17、14、6 天的句子。</div>
+  <div class="review-note">本句重现了 dog、farm、his、have（had）。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 22 · 第 22 天</span>
     <span class="day-no">句子 22 / 60</span>
-    
   </div>
   <p class="en">Who is she? She is a student of my age. Which job is her favourite?</p>
   <p class="zh">她是谁？她和我同龄，是一名学生。她最喜欢的工作是什么？</p>
@@ -474,14 +473,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">which</span><span class="wipa">/wɪtʃ/</span><span class="pos">pron.</span><span class="wzh">哪一个；哪一些</span></div></div><div class="cell"><div class="wc"><span class="wen">who</span><span class="wipa">/huː/</span><span class="pos">pron.</span><span class="wzh">谁；什么人</span></div></div><div class="cell"><div class="wc"><span class="wen">job</span><span class="wipa">/dʒɒb/</span><span class="pos">n.</span><span class="wzh">工作</span></div></div><div class="cell"><div class="wc"><span class="wen">student</span><span class="wipa">/'stjuːdnt/</span><span class="pos">n.</span><span class="wzh">学生</span></div></div><div class="cell"><div class="wc"><span class="wen">age</span><span class="wipa">/eɪdʒ/</span><span class="pos">n.</span><span class="wzh">年龄</span></div></div><div class="cell"><div class="wc"><span class="wen">she</span><span class="wipa">/ʃiː; ʃi/</span><span class="pos">pron.</span><span class="wzh">她</span></div></div><div class="cell"><div class="wc"><span class="wen">favourite</span><span class="wipa">/'feɪvərɪt/ (= favorite)</span><span class="pos">adj.</span><span class="wzh">最喜欢的；最爱的</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">of my age</span><span class="pzh">和我同龄</span></div></div><div class="cell"><div class="pc"><span class="pen">her favourite job</span><span class="pzh">她最喜欢的工作</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 21、20、18、15、7 天的句子。</div>
+  <div class="review-note">自然重现旧词 is、a、of、my、her。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 23 · 第 23 天</span>
     <span class="day-no">句子 23 / 60</span>
-    
   </div>
   <p class="en">I like my pet Hedwig very much; she is cute, like a panda in hot China.</p>
   <p class="zh">我非常喜欢我的宠物海德薇；她很可爱，就像炎热的中国的熊猫一样。</p>
@@ -490,14 +489,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">pet</span><span class="wipa">/pet/</span><span class="pos">n.</span><span class="wzh">宠物</span></div></div><div class="cell"><div class="wc"><span class="wen">very</span><span class="wipa">/'veri/</span><span class="pos">adv.</span><span class="wzh">很；非常</span></div></div><div class="cell"><div class="wc"><span class="wen">cute</span><span class="wipa">/kjuːt/</span><span class="pos">adj.</span><span class="wzh">可爱的</span></div></div><div class="cell"><div class="wc"><span class="wen">much</span><span class="wipa">/mʌtʃ/</span><span class="pos">adv. &amp; pron. &amp; adj.</span><span class="wzh">非常；十分；许多；大量</span></div></div><div class="cell"><div class="wc"><span class="wen">China</span><span class="wipa">/'tʃaɪnə/</span><span class="wzh">中国</span></div></div><div class="cell"><div class="wc"><span class="wen">panda</span><span class="wipa">/'pændə/</span><span class="pos">n.</span><span class="wzh">熊猫</span></div></div><div class="cell"><div class="wc"><span class="wen">hot</span><span class="wipa">/hɒt/</span><span class="pos">adj.</span><span class="wzh">热的；炎热的</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">very much</span><span class="pzh">非常</span></div></div><div class="cell"><div class="pc"><span class="pen">like a panda</span><span class="pzh">像熊猫一样</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 22、21、19、16、8 天的句子。</div>
+  <div class="review-note">自然重现旧词 I、like、my、is、a、in，以及昨天的 she。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 24 · 第 24 天</span>
     <span class="day-no">句子 24 / 60</span>
-    
   </div>
   <p class="en">Now Ron lives with his parents at home, and they also like Chinese food.</p>
   <p class="zh">现在罗恩和他的父母住在家里，他们也喜欢中国菜。</p>
@@ -506,14 +505,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">also</span><span class="wipa">/'ɔːlsəʊ/</span><span class="pos">adv.</span><span class="wzh">也；而且</span></div></div><div class="cell"><div class="wc"><span class="wen">now</span><span class="wipa">/naʊ/</span><span class="pos">adv.</span><span class="wzh">现在；目前</span></div></div><div class="cell"><div class="wc"><span class="wen">live</span><span class="wipa">/lɪv/</span><span class="pos">v.</span><span class="wzh">居住；生活</span></div></div><div class="cell"><div class="wc"><span class="wen">with</span><span class="wipa">/wɪð; wɪθ/</span><span class="pos">prep.</span><span class="wzh">和……在一起；带有；使用</span></div></div><div class="cell"><div class="wc"><span class="wen">parent</span><span class="wipa">/'peərənt/</span><span class="pos">n.</span><span class="wzh">父（母）亲</span></div></div><div class="cell"><div class="wc"><span class="wen">Chinese</span><span class="wipa">/ˌtʃaɪ'niːz/</span><span class="pos">adj. &amp; n.</span><span class="wzh">中国的；中国人；汉语</span></div></div><div class="cell"><div class="wc"><span class="wen">food</span><span class="wipa">/fuːd/</span><span class="pos">n.</span><span class="wzh">食物</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">live with</span><span class="pzh">和……住在一起</span></div></div><div class="cell"><div class="pc"><span class="pen">at home</span><span class="pzh">在家</span></div></div><div class="cell"><div class="pc"><span class="pen">Chinese food</span><span class="pzh">中国菜</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 23、22、20、17、9 天的句子。</div>
+  <div class="review-note">自然重现旧词 his、at、home、and、they、like。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 25 · 第 25 天</span>
     <span class="day-no">句子 25 / 60</span>
-    
   </div>
   <p class="en">The family on the wall can speak about sports, and they often play at Hogwarts.</p>
   <p class="zh">在霍格沃茨，墙上的一家人会谈论运动，他们还经常玩。</p>
@@ -522,14 +521,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">about</span><span class="wipa">/ə'baʊt/</span><span class="pos">prep. &amp; adv.</span><span class="wzh">关于；大约</span></div></div><div class="cell"><div class="wc"><span class="wen">wall</span><span class="wipa">/wɔːl/</span><span class="pos">n.</span><span class="wzh">墙</span></div></div><div class="cell"><div class="wc"><span class="wen">family</span><span class="wipa">/'fæməli/</span><span class="pos">n.</span><span class="wzh">家庭</span></div></div><div class="cell"><div class="wc"><span class="wen">speak</span><span class="wipa">/spiːk/</span><span class="pos">v.</span><span class="wzh">说（某种语言）；说话</span></div></div><div class="cell"><div class="wc"><span class="wen">sport</span><span class="wipa">/spɔːt/</span><span class="pos">n.</span><span class="wzh">运动</span></div></div><div class="cell"><div class="wc"><span class="wen">often</span><span class="wipa">/'ɒfn; 'ɒftən/</span><span class="pos">adv.</span><span class="wzh">时常；常常</span></div></div><div class="cell"><div class="wc"><span class="wen">play</span><span class="wipa">/pleɪ/</span><span class="pos">v.</span><span class="wzh">玩</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">on the wall</span><span class="pzh">在墙上</span></div></div><div class="cell"><div class="pc"><span class="pen">speak about</span><span class="pzh">谈论</span></div></div><div class="cell"><div class="pc"><span class="pen">play sports</span><span class="pzh">做运动</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 24、23、21、18、10 天的句子。</div>
+  <div class="review-note">自然重现旧词 the、on、can、and、they、at。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 26 · 第 26 天</span>
     <span class="day-no">句子 26 / 60</span>
-    
   </div>
   <p class="en">After school, we want to be in a place with music, and we love it.</p>
   <p class="zh">放学后，我们想待在一个有音乐的地方，我们很喜欢。</p>
@@ -538,14 +537,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">after</span><span class="wipa">/'ɑːftə(r)/</span><span class="pos">prep. &amp; conj.</span><span class="wzh">在……以后</span></div></div><div class="cell"><div class="wc"><span class="wen">school</span><span class="wipa">/skuːl/</span><span class="pos">n.</span><span class="wzh">学校</span></div></div><div class="cell"><div class="wc"><span class="wen">want</span><span class="wipa">/wɒnt/</span><span class="pos">v.</span><span class="wzh">想要</span></div></div><div class="cell"><div class="wc"><span class="wen">be</span><span class="wipa">/biː; bi/</span><span class="pos">v.</span><span class="wzh">是</span></div></div><div class="cell"><div class="wc"><span class="wen">place</span><span class="wipa">/pleɪs/</span><span class="pos">n.</span><span class="wzh">地方；地点</span></div></div><div class="cell"><div class="wc"><span class="wen">music</span><span class="wipa">/'mjuːzɪk/</span><span class="pos">n.</span><span class="wzh">音乐</span></div></div><div class="cell"><div class="wc"><span class="wen">love</span><span class="wipa">/lʌv/</span><span class="pos">v. &amp; n.</span><span class="wzh">喜爱；爱</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">after school</span><span class="pzh">放学后</span></div></div><div class="cell"><div class="pc"><span class="pen">want to be</span><span class="pzh">想要成为/想要待在</span></div></div><div class="cell"><div class="pc"><span class="pen">a place with music</span><span class="pzh">有音乐的地方</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 25、24、22、19、11 天的句子。</div>
+  <div class="review-note">自然重现旧词 we、to、in、a、it，以及前天的 with。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 27 · 第 27 天</span>
     <span class="day-no">句子 27 / 60</span>
-    
   </div>
   <p class="en">Is this my mother or my aunt? The children are my brothers, sisters and cousins.</p>
   <p class="zh">这是我妈妈还是我姑姑？这些孩子是我的兄弟、姐妹和堂表亲。</p>
@@ -554,14 +553,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">or</span><span class="wipa">/ɔː(r)/</span><span class="pos">conj.</span><span class="wzh">或者；也不（用于否定句）</span></div></div><div class="cell"><div class="wc"><span class="wen">mother</span><span class="wipa">/'mʌðə(r)/</span><span class="pos">n.</span><span class="wzh">母亲</span></div></div><div class="cell"><div class="wc"><span class="wen">child</span><span class="wipa">/tʃaɪld/</span><span class="pos">n.</span><span class="wzh">(pl. children /'tʃɪldrən/) 儿童；小孩</span></div></div><div class="cell"><div class="wc"><span class="wen">sister</span><span class="wipa">/'sɪstə(r)/</span><span class="pos">n.</span><span class="wzh">姐；妹</span></div></div><div class="cell"><div class="wc"><span class="wen">brother</span><span class="wipa">/'brʌðə(r)/</span><span class="pos">n.</span><span class="wzh">兄；弟</span></div></div><div class="cell"><div class="wc"><span class="wen">cousin</span><span class="wipa">/'kʌzn/</span><span class="pos">n.</span><span class="wzh">堂兄（弟、姊、妹）；表兄（弟、姊、妹）</span></div></div><div class="cell"><div class="wc"><span class="wen">aunt</span><span class="wipa">/ɑːnt/</span><span class="pos">n.</span><span class="wzh">姑（姨、伯、婶、舅）母</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">my mother or my aunt</span><span class="pzh">我妈妈还是我姑姑</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 26、25、23、20、12 天的句子。</div>
+  <div class="review-note">自然重现旧词 is、this、my、the、are、and；呼应第 21 天 our、teacher 的家庭话题。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 28 · 第 28 天</span>
     <span class="day-no">句子 28 / 60</span>
-    
   </div>
   <p class="en">My grandmother and father come to play ping-pong every day of the week.</p>
   <p class="zh">我奶奶和爸爸一周七天每天都来打乒乓球。</p>
@@ -570,14 +569,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">grandmother</span><span class="wipa">/'ɡrænmʌðə(r)/ (= grandma /'ɡrænmɑː/)</span><span class="pos">n.</span><span class="wzh">奶奶；外婆</span></div></div><div class="cell"><div class="wc"><span class="wen">come</span><span class="wipa">/kʌm/</span><span class="pos">v.</span><span class="wzh">来；来到</span></div></div><div class="cell"><div class="wc"><span class="wen">ping-pong</span><span class="wipa">/'pɪŋpɒŋ/</span><span class="pos">n.</span><span class="wzh">乒乓球运动</span></div></div><div class="cell"><div class="wc"><span class="wen">every</span><span class="wipa">/'evri/</span><span class="pos">adj.</span><span class="wzh">每一；每个</span></div></div><div class="cell"><div class="wc"><span class="wen">day</span><span class="wipa">/deɪ/</span><span class="pos">n.</span><span class="wzh">一天；白天</span></div></div><div class="cell"><div class="wc"><span class="wen">week</span><span class="wipa">/wiːk/</span><span class="pos">n.</span><span class="wzh">周</span></div></div><div class="cell"><div class="wc"><span class="wen">father</span><span class="wipa">/'fɑːðə(r)/</span><span class="pos">n.</span><span class="wzh">父亲；爸爸</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">play ping-pong</span><span class="pzh">打乒乓球</span></div></div><div class="cell"><div class="pc"><span class="pen">every day</span><span class="pzh">每天</span></div></div><div class="cell"><div class="pc"><span class="pen">every day of the week</span><span class="pzh">一周里的每一天</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 27、26、24、21、13 天的句子。</div>
+  <div class="review-note">自然重现旧词 my、and、to、of、the，以及第 25 天的 play。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 29 · 第 29 天</span>
     <span class="day-no">句子 29 / 60</span>
-    
   </div>
   <p class="en">They read a lot in their classroom, play the piano well and play basketball.</p>
   <p class="zh">他们在教室里读很多书，钢琴弹得好，还打篮球。</p>
@@ -586,14 +585,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">lot</span><span class="wipa">/lɒt/</span><span class="pos">pron.</span><span class="wzh">大量；许多</span></div></div><div class="cell"><div class="wc"><span class="wen">read</span><span class="wipa">/riːd/</span><span class="pos">v.</span><span class="wzh">读；阅读</span></div></div><div class="cell"><div class="wc"><span class="wen">piano</span><span class="wipa">/pi'ænəʊ/</span><span class="pos">n.</span><span class="wzh">(pl. pianos) 钢琴</span></div></div><div class="cell"><div class="wc"><span class="wen">well</span><span class="wipa">/wel/</span><span class="pos">adv. &amp; interj. &amp; adj.</span><span class="wzh">好；令人满意地；嗯；好吧；健康的</span></div></div><div class="cell"><div class="wc"><span class="wen">basketball</span><span class="wipa">/'bɑːskɪtbɔːl/</span><span class="pos">n.</span><span class="wzh">篮球；篮球运动</span></div></div><div class="cell"><div class="wc"><span class="wen">classroom</span><span class="wipa">/'klɑːsruːm/</span><span class="pos">n.</span><span class="wzh">教室</span></div></div><div class="cell"><div class="wc"><span class="wen">their</span><span class="wipa">/ðeə(r)/</span><span class="pos">pron.</span><span class="wzh">他（她、它）们的</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">read a lot</span><span class="pzh">读很多书</span></div></div><div class="cell"><div class="pc"><span class="pen">play the piano</span><span class="pzh">弹钢琴</span></div></div><div class="cell"><div class="pc"><span class="pen">play basketball</span><span class="pzh">打篮球</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 28、27、25、22、14 天的句子。</div>
+  <div class="review-note">自然重现旧词 they、a、in、the、and，以及第 25 天的 play。</div>
 </div>
 
-<div class="day-block review-block">
+<div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 30 · 第 30 天</span>
     <span class="day-no">句子 30 / 60</span>
-    <span class="badge review">今日回读 · 复习日</span>
   </div>
   <p class="en">A little child with short hair plays ball and talks with tall students on the playground.</p>
   <p class="zh">一个短头发的小孩子在操场上和高个子学生们聊天、玩球。</p>
@@ -602,14 +601,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">little</span><span class="wipa">/'lɪtl/</span><span class="pos">adj.</span><span class="wzh">小的；年幼的</span></div></div><div class="cell"><div class="wc"><span class="wen">ball</span><span class="wipa">/bɔːl/</span><span class="pos">n.</span><span class="wzh">球</span></div></div><div class="cell"><div class="wc"><span class="wen">playground</span><span class="wipa">/'pleɪɡraʊnd/</span><span class="pos">n.</span><span class="wzh">游乐场；操场</span></div></div><div class="cell"><div class="wc"><span class="wen">talk</span><span class="wipa">/tɔːk/</span><span class="pos">v. &amp; n.</span><span class="wzh">说话；交谈</span></div></div><div class="cell"><div class="wc"><span class="wen">tall</span><span class="wipa">/tɔːl/</span><span class="pos">adj.</span><span class="wzh">高的</span></div></div><div class="cell"><div class="wc"><span class="wen">short</span><span class="wipa">/ʃɔːt/</span><span class="pos">adj.</span><span class="wzh">短的；矮的</span></div></div><div class="cell"><div class="wc"><span class="wen">hair</span><span class="wipa">/heə(r)/</span><span class="pos">n.</span><span class="wzh">头发</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">short hair</span><span class="pzh">短头发</span></div></div><div class="cell"><div class="pc"><span class="pen">play ball</span><span class="pzh">玩球</span></div></div><div class="cell"><div class="pc"><span class="pen">on the playground</span><span class="pzh">在操场上</span></div></div></div>
-  <div class="review-note">今日回读：请重新朗读第 21-29 天的句子；本句重现了 child（第 27 天）、student（第 22 天）、play（第 25 天）、with（第 24 天）等本批词汇。</div>
+  <div class="reread">今日回读：请重新朗读第 29、28、26、23、15 天的句子。</div>
+  <div class="review-note">本句重现了 child（第 27 天）、student（第 22 天）、play（第 25 天）、with（第 24 天）等本批词汇。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 31 · 第 31 天</span>
     <span class="day-no">句子 31 / 60</span>
-    
   </div>
   <p class="en">Here is a long, quiet room, but the girl cannot find any photo in it.</p>
   <p class="zh">这里有一个又长又安静的房间，但那个女孩在里面找不到任何照片。</p>
@@ -618,30 +617,30 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">long</span><span class="wipa">/lɒŋ/</span><span class="pos">adj.</span><span class="wzh">长的</span></div></div><div class="cell"><div class="wc"><span class="wen">quiet</span><span class="wipa">/'kwaɪət/</span><span class="pos">adj.</span><span class="wzh">安静的</span></div></div><div class="cell"><div class="wc"><span class="wen">girl</span><span class="wipa">/ɡɜːl/</span><span class="pos">n.</span><span class="wzh">女孩</span></div></div><div class="cell"><div class="wc"><span class="wen">but</span><span class="wipa">/bʌt; bət/</span><span class="pos">conj.</span><span class="wzh">但是</span></div></div><div class="cell"><div class="wc"><span class="wen">any</span><span class="wipa">/'eni/</span><span class="pos">adj. &amp; pron.</span><span class="wzh">任何（的）；任一（的）</span></div></div><div class="cell"><div class="wc"><span class="wen">here</span><span class="wipa">/hɪə(r)/</span><span class="pos">adv.</span><span class="wzh">在这里</span></div></div><div class="cell"><div class="wc"><span class="wen">photo</span><span class="wipa">/'fəʊtəʊ/ (= photograph /'fəʊtəɡrɑːf/)</span><span class="pos">n.</span><span class="wzh">(pl. photos) 照片</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">here is</span><span class="pzh">这里有……</span></div></div><div class="cell"><div class="pc"><span class="pen">any photo</span><span class="pzh">任何照片</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 30、29、27、24、16、1 天的句子。</div>
+  <div class="review-note">重现旧词：room, can, not, find, in, it, is, a, the。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 32 · 第 32 天</span>
     <span class="day-no">句子 32 / 60</span>
-    
   </div>
-  <p class="en">At night, all the students always listen, think, and put their pink football under the bed.</p>
-  <p class="zh">夜晚，所有学生总是听一听、想一想，再把他们的粉红色足球放到床底下。</p>
-  <div class="grammar"><span class="glabel">语法 · 句型</span>频率副词 always 放在实义动词前；at night 是固定短语；listen、think、put 三个并列动词共用一个主语。</div>
+  <p class="en">At night, all the students always listen and think, and Ron puts his football and pink socks under the bed.</p>
+  <p class="zh">夜晚，所有学生总是听一听、想一想；罗恩把他的足球和粉红色的袜子放到床底下。</p>
+  <div class="grammar"><span class="glabel">语法 · 句型</span>频率副词 always 放在实义动词前；at night 是固定短语；listen、think、put 三个动词并列，共用一个主语或分句。pink 修饰 socks，表示“粉红色的袜子”。</div>
   <div class="sec-title">本句生词</div>
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">pink</span><span class="wipa">/pɪŋk/</span><span class="pos">adj. &amp; n.</span><span class="wzh">粉红色（的）</span></div></div><div class="cell"><div class="wc"><span class="wen">always</span><span class="wipa">/'ɔːlweɪz/</span><span class="pos">adv.</span><span class="wzh">总是</span></div></div><div class="cell"><div class="wc"><span class="wen">night</span><span class="wipa">/naɪt/</span><span class="pos">n.</span><span class="wzh">夜晚</span></div></div><div class="cell"><div class="wc"><span class="wen">think</span><span class="wipa">/θɪŋk/</span><span class="pos">v.</span><span class="wzh">思考</span></div></div><div class="cell"><div class="wc"><span class="wen">all</span><span class="wipa">/ɔːl/</span><span class="pos">pron. &amp; adj.</span><span class="wzh">所有（的）；全部（的）</span></div></div><div class="cell"><div class="wc"><span class="wen">listen</span><span class="wipa">/'lɪsn/</span><span class="pos">v.</span><span class="wzh">听</span></div></div><div class="cell"><div class="wc"><span class="wen">football</span><span class="wipa">/'fʊtbɔːl/</span><span class="pos">n.</span><span class="wzh">足球；足球运动</span></div></div></div>
   <div class="sec-title">短语</div>
-  <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">at night</span><span class="pzh">在夜晚</span></div></div><div class="cell"><div class="pc"><span class="pen">under the bed</span><span class="pzh">在床底下</span></div></div></div>
-  
+  <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">at night</span><span class="pzh">在夜晚</span></div></div><div class="cell"><div class="pc"><span class="pen">under the bed</span><span class="pzh">在床底下</span></div></div><div class="cell"><div class="pc"><span class="pen">pink socks</span><span class="pzh">粉红色的袜子</span></div></div></div>
+  <div class="reread">今日回读：请重新朗读第 31、30、28、25、17、2 天的句子。</div>
+  <div class="review-note">重现旧词：student、put（三单 puts）、his、sock（复数 socks）、under、bed、the。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 33 · 第 33 天</span>
     <span class="day-no">句子 33 / 60</span>
-    
   </div>
   <p class="en">Next, the clever girl with big eyes is happy to help him in front of class.</p>
   <p class="zh">接下来，那个长着大眼睛的聪明女孩很开心地在全班面前帮助他。</p>
@@ -650,14 +649,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">happy</span><span class="wipa">/'hæpi/</span><span class="pos">adj.</span><span class="wzh">快乐的</span></div></div><div class="cell"><div class="wc"><span class="wen">eye</span><span class="wipa">/aɪ/</span><span class="pos">n.</span><span class="wzh">眼睛</span></div></div><div class="cell"><div class="wc"><span class="wen">clever</span><span class="wipa">/'klevə(r)/</span><span class="pos">adj.</span><span class="wzh">聪明的</span></div></div><div class="cell"><div class="wc"><span class="wen">next</span><span class="wipa">/nekst/</span><span class="pos">adj., adv. &amp; n.</span><span class="wzh">下一个（的）</span></div></div><div class="cell"><div class="wc"><span class="wen">him</span><span class="wipa">/hɪm; ɪm/</span><span class="pos">pron.</span><span class="wzh">（he 的宾格）他</span></div></div><div class="cell"><div class="wc"><span class="wen">help</span><span class="wipa">/help/</span><span class="pos">v. &amp; n.</span><span class="wzh">帮助</span></div></div><div class="cell"><div class="wc"><span class="wen">front</span><span class="wipa">/frʌnt/</span><span class="pos">n.</span><span class="wzh">前面</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">be happy to do</span><span class="pzh">乐于做某事</span></div></div><div class="cell"><div class="pc"><span class="pen">in front of</span><span class="pzh">在……前面</span></div></div><div class="cell"><div class="pc"><span class="pen">help him</span><span class="pzh">帮助他</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 32、31、29、26、18、3 天的句子。</div>
+  <div class="review-note">重现旧词：girl（S31 新词）, with, big, class, is, the。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 34 · 第 34 天</span>
     <span class="day-no">句子 34 / 60</span>
-    
   </div>
   <p class="en">Between the library and the back wall, they are putting their art up on the blackboard in the middle.</p>
   <p class="zh">在图书馆和后墙之间，他们正把自己的美术作品张贴到中间的黑板上。</p>
@@ -666,14 +665,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">art</span><span class="wipa">/ɑːt/</span><span class="pos">n.</span><span class="wzh">艺术；美术</span></div></div><div class="cell"><div class="wc"><span class="wen">middle</span><span class="wipa">/'mɪdl/</span><span class="pos">n. &amp; adj.</span><span class="wzh">中间；中间的</span></div></div><div class="cell"><div class="wc"><span class="wen">between</span><span class="wipa">/bɪ'twiːn/</span><span class="pos">prep.</span><span class="wzh">在……之间</span></div></div><div class="cell"><div class="wc"><span class="wen">library</span><span class="wipa">/'laɪbrəri/</span><span class="pos">n.</span><span class="wzh">图书馆</span></div></div><div class="cell"><div class="wc"><span class="wen">blackboard</span><span class="wipa">/'blækbɔːd/</span><span class="pos">n.</span><span class="wzh">黑板</span></div></div><div class="cell"><div class="wc"><span class="wen">up</span><span class="wipa">/ʌp/</span><span class="pos">adv.</span><span class="wzh">向上</span></div></div><div class="cell"><div class="wc"><span class="wen">back</span><span class="wipa">/bæk/</span><span class="pos">n. &amp; adj. &amp; adv.</span><span class="wzh">后面；背部；后面的；背后的；回来；回原处</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">put up</span><span class="pzh">张贴</span></div></div><div class="cell"><div class="pc"><span class="pen">between...and</span><span class="pzh">在……和……之间</span></div></div><div class="cell"><div class="pc"><span class="pen">in the middle</span><span class="pzh">在中间</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 33、32、30、27、19、4 天的句子。</div>
+  <div class="review-note">重现旧词：they, their, wall, on；front 类方位表达呼应 S33。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 35 · 第 35 天</span>
     <span class="day-no">句子 35 / 60</span>
-    
   </div>
   <p class="en">In the science room, a famous picture is between the clock and the map, and the computer is under the window.</p>
   <p class="zh">在科学（魔药）教室里，一幅著名的图画挂在时钟和地图之间，电脑放在窗户下面。</p>
@@ -682,14 +681,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">clock</span><span class="wipa">/klɒk/</span><span class="pos">n.</span><span class="wzh">时钟；钟</span></div></div><div class="cell"><div class="wc"><span class="wen">map</span><span class="wipa">/mæp/</span><span class="pos">n.</span><span class="wzh">地图</span></div></div><div class="cell"><div class="wc"><span class="wen">computer</span><span class="wipa">/kəm'pjuːtə(r)/</span><span class="pos">n.</span><span class="wzh">电脑</span></div></div><div class="cell"><div class="wc"><span class="wen">window</span><span class="wipa">/'wɪndəʊ/</span><span class="pos">n.</span><span class="wzh">窗户</span></div></div><div class="cell"><div class="wc"><span class="wen">science</span><span class="wipa">/'saɪəns/</span><span class="pos">n.</span><span class="wzh">科学</span></div></div><div class="cell"><div class="wc"><span class="wen">picture</span><span class="wipa">/'pɪktʃə(r)/</span><span class="pos">n.</span><span class="wzh">照片；图画</span></div></div><div class="cell"><div class="wc"><span class="wen">famous</span><span class="wipa">/'feɪməs/</span><span class="pos">adj.</span><span class="wzh">著名的</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">science room</span><span class="pzh">科学（魔药）教室</span></div></div><div class="cell"><div class="pc"><span class="pen">under the window</span><span class="pzh">在窗户下面</span></div></div><div class="cell"><div class="pc"><span class="pen">between the clock and the map</span><span class="pzh">在时钟和地图之间</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 34、33、31、28、20、5 天的句子。</div>
+  <div class="review-note">重现旧词：room, under, in, the；between 复现 S34。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 36 · 第 36 天</span>
     <span class="day-no">句子 36 / 60</span>
-    
   </div>
   <p class="en">Today he is sitting at the table, answering an email — every question is a good exercise and a good way.</p>
   <p class="zh">今天他坐在桌边回复一封邮件——每个问题都是一次好练习、一个好方法。</p>
@@ -698,14 +697,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">table</span><span class="wipa">/'teɪbl/</span><span class="pos">n.</span><span class="wzh">桌子</span></div></div><div class="cell"><div class="wc"><span class="wen">today</span><span class="wipa">/tə'deɪ/</span><span class="pos">adv. &amp; n.</span><span class="wzh">在今天；今天</span></div></div><div class="cell"><div class="wc"><span class="wen">email</span><span class="wipa">/'iːmeɪl/</span><span class="pos">n. &amp; v.</span><span class="wzh">电子邮件；（给某人）发电子邮件</span></div></div><div class="cell"><div class="wc"><span class="wen">answer</span><span class="wipa">/'ɑːnsə(r)/</span><span class="pos">v. &amp; n.</span><span class="wzh">回答；答复；答案</span></div></div><div class="cell"><div class="wc"><span class="wen">question</span><span class="wipa">/'kwestʃən/</span><span class="pos">n.</span><span class="wzh">问题</span></div></div><div class="cell"><div class="wc"><span class="wen">exercise</span><span class="wipa">/'eksəsaɪz/</span><span class="pos">n. &amp; v.</span><span class="wzh">运动；锻炼；练习</span></div></div><div class="cell"><div class="wc"><span class="wen">way</span><span class="wipa">/weɪ/</span><span class="pos">n.</span><span class="wzh">方式；道路</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">at the table</span><span class="pzh">在桌边</span></div></div><div class="cell"><div class="pc"><span class="pen">answer an email</span><span class="pzh">回复邮件</span></div></div><div class="cell"><div class="pc"><span class="pen">a good way</span><span class="pzh">一个好方法</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 35、34、32、29、21、6 天的句子。</div>
+  <div class="review-note">重现旧词：he, sit, at, every, good, is, a, and。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 37 · 第 37 天</span>
     <span class="day-no">句子 37 / 60</span>
-    
   </div>
   <p class="en">Why do they like the library best? Because it is clean, and their dear teacher tells them about interesting animals.</p>
   <p class="zh">他们为什么最喜欢图书馆？因为那里干净，而且他们亲爱的老师在那里给他们讲有趣的动物。</p>
@@ -714,14 +713,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">clean</span><span class="wipa">/kliːn/</span><span class="pos">adj. &amp; v.</span><span class="wzh">干净的；使……干净；打扫</span></div></div><div class="cell"><div class="wc"><span class="wen">best</span><span class="wipa">/best/</span><span class="pos">adj. &amp; adv.</span><span class="wzh">最好的；最</span></div></div><div class="cell"><div class="wc"><span class="wen">because</span><span class="wipa">/bɪ'kɒz/</span><span class="pos">conj.</span><span class="wzh">因为</span></div></div><div class="cell"><div class="wc"><span class="wen">why</span><span class="wipa">/waɪ/</span><span class="pos">adv.</span><span class="wzh">为什么</span></div></div><div class="cell"><div class="wc"><span class="wen">dear</span><span class="wipa">/dɪə(r)/</span><span class="pos">adj.</span><span class="wzh">亲爱的</span></div></div><div class="cell"><div class="wc"><span class="wen">tell</span><span class="wipa">/tel/</span><span class="pos">v.</span><span class="wzh">告诉</span></div></div><div class="cell"><div class="wc"><span class="wen">interesting</span><span class="wipa">/'ɪntrəstɪŋ/</span><span class="pos">adj.</span><span class="wzh">有趣的</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">like...best</span><span class="pzh">最喜欢……</span></div></div><div class="cell"><div class="pc"><span class="pen">tell them about</span><span class="pzh">告诉他们关于……</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 36、35、33、30、22、7 天的句子。</div>
+  <div class="review-note">重现旧词：library（S34 新词）, they, like, do, teacher, about, animal, their。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 38 · 第 38 天</span>
     <span class="day-no">句子 38 / 60</span>
-    
   </div>
   <p class="en">Maths is a hard subject, and PE is difficult too, but they are sure they can learn them well.</p>
   <p class="zh">数学是一门很难的学科，体育（飞行）课也不容易，但他们确信自己能把它们学好。</p>
@@ -730,14 +729,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">subject</span><span class="wipa">/'sʌbdʒɪkt/</span><span class="pos">n.</span><span class="wzh">学科；科目</span></div></div><div class="cell"><div class="wc"><span class="wen">learn</span><span class="wipa">/lɜːn/</span><span class="pos">v.</span><span class="wzh">学习；得知</span></div></div><div class="cell"><div class="wc"><span class="wen">maths</span><span class="wipa">/mæθs/ (= mathematics /ˌmæθə'mætɪks/, math /mæθ/)</span><span class="pos">n.</span><span class="wzh">数学</span></div></div><div class="cell"><div class="wc"><span class="wen">PE</span><span class="wipa">/ˌpiː 'iː/ (= physical /'fɪzɪkl/ education /ˌedʒu'keɪʃn/)</span><span class="pos">n.</span><span class="wzh">体育</span></div></div><div class="cell"><div class="wc"><span class="wen">hard</span><span class="wipa">/hɑːd/</span><span class="pos">adj. &amp; adv.</span><span class="wzh">困难的；努力地</span></div></div><div class="cell"><div class="wc"><span class="wen">difficult</span><span class="wipa">/'dɪfɪkəlt/</span><span class="pos">adj.</span><span class="wzh">困难的</span></div></div><div class="cell"><div class="wc"><span class="wen">sure</span><span class="wipa">/ʃʊə(r)/</span><span class="pos">adv.</span><span class="wzh">当然；一定</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">be sure</span><span class="pzh">确信</span></div></div><div class="cell"><div class="pc"><span class="pen">learn them well</span><span class="pzh">把它们学好</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 37、36、34、31、23、8 天的句子。</div>
+  <div class="review-note">重现旧词：too, but（S31 新词）, can, well, they, is, a, and。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 39 · 第 39 天</span>
     <span class="day-no">句子 39 / 60</span>
-    
   </div>
   <p class="en">Her idea is easy to use: draw a map, give it to him, and they walk and travel home.</p>
   <p class="zh">她的主意用起来很简单：画一张地图，把它给他，然后他们就能步行远行回家。</p>
@@ -746,14 +745,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">easy</span><span class="wipa">/'iːzi/</span><span class="pos">adj.</span><span class="wzh">容易的</span></div></div><div class="cell"><div class="wc"><span class="wen">use</span><span class="wipa">/juːz/; /juːs/</span><span class="pos">v. &amp; n.</span><span class="wzh">使用；利用；使用；用途</span></div></div><div class="cell"><div class="wc"><span class="wen">give</span><span class="wipa">/ɡɪv/</span><span class="pos">v.</span><span class="wzh">给；送给；供给</span></div></div><div class="cell"><div class="wc"><span class="wen">idea</span><span class="wipa">/aɪ'dɪə/</span><span class="pos">n.</span><span class="wzh">想法；主意</span></div></div><div class="cell"><div class="wc"><span class="wen">draw</span><span class="wipa">/drɔː/</span><span class="pos">v.</span><span class="wzh">画画</span></div></div><div class="cell"><div class="wc"><span class="wen">travel</span><span class="wipa">/'trævl/</span><span class="pos">v. &amp; n.</span><span class="wzh">旅行；游历</span></div></div><div class="cell"><div class="wc"><span class="wen">walk</span><span class="wipa">/wɔːk/</span><span class="pos">v. &amp; n.</span><span class="wzh">行走；步行</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">easy to use</span><span class="pzh">容易使用</span></div></div><div class="cell"><div class="pc"><span class="pen">draw a map</span><span class="pzh">画一张地图</span></div></div><div class="cell"><div class="pc"><span class="pen">give it to him</span><span class="pzh">把它给他</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 38、37、35、32、24、9 天的句子。</div>
+  <div class="review-note">重现旧词：her, map（S35 新词）, him（S33 新词）, home, it, they, and。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 40 · 第 40 天</span>
     <span class="day-no">句子 40 / 60</span>
-    
   </div>
   <p class="en">In the afternoon they are working hard; sometimes they feel busy, and then Miss comes to help them.</p>
   <p class="zh">下午他们正努力学习；有时觉得忙碌，这时老师就来帮助他们。</p>
@@ -762,14 +761,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">afternoon</span><span class="wipa">/ˌɑːftə'nuːn/</span><span class="pos">n.</span><span class="wzh">下午</span></div></div><div class="cell"><div class="wc"><span class="wen">then</span><span class="wipa">/ðen/</span><span class="pos">adv.</span><span class="wzh">那时；然后；那么</span></div></div><div class="cell"><div class="wc"><span class="wen">Miss</span><span class="wipa">/mɪs/</span><span class="wzh">（对未婚女子的礼貌称呼）小姐；女士</span></div></div><div class="cell"><div class="wc"><span class="wen">work</span><span class="wipa">/wɜːk/</span><span class="pos">v. &amp; n.</span><span class="wzh">工作</span></div></div><div class="cell"><div class="wc"><span class="wen">sometimes</span><span class="wipa">/'sʌmtaɪmz/</span><span class="pos">adv.</span><span class="wzh">有时</span></div></div><div class="cell"><div class="wc"><span class="wen">feel</span><span class="wipa">/fiːl/</span><span class="pos">v.</span><span class="wzh">感觉；觉得</span></div></div><div class="cell"><div class="wc"><span class="wen">busy</span><span class="wipa">/'bɪzi/</span><span class="pos">adj.</span><span class="wzh">忙碌的；无暇的</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">in the afternoon</span><span class="pzh">在下午</span></div></div><div class="cell"><div class="pc"><span class="pen">feel busy</span><span class="pzh">感到忙碌</span></div></div><div class="cell"><div class="pc"><span class="pen">help them</span><span class="pzh">帮助他们</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 39、38、36、33、25、10 天的句子。</div>
+  <div class="review-note">重现旧词：hard（S38 新词）, come, help（S33 新词）, they, in, the, and。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 41 · 第 41 天</span>
     <span class="day-no">句子 41 / 60</span>
-    
   </div>
   <p class="en">Right, at Hogwarts Harry can study, sing a song, swim, run and go out to play.</p>
   <p class="zh">对，在霍格沃茨，哈利会学习、唱歌、游泳、跑步，还能出去玩。</p>
@@ -778,14 +777,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">study</span><span class="wipa">/'stʌdi/</span><span class="pos">v. &amp; n.</span><span class="wzh">学习；研究</span></div></div><div class="cell"><div class="wc"><span class="wen">song</span><span class="wipa">/sɒŋ/</span><span class="pos">n.</span><span class="wzh">歌曲</span></div></div><div class="cell"><div class="wc"><span class="wen">out</span><span class="wipa">/aʊt/</span><span class="pos">adv. &amp; prep.</span><span class="wzh">（从……里）出来；出去</span></div></div><div class="cell"><div class="wc"><span class="wen">sing</span><span class="wipa">/sɪŋ/</span><span class="pos">v.</span><span class="wzh">唱歌</span></div></div><div class="cell"><div class="wc"><span class="wen">right</span><span class="wipa">/raɪt/</span><span class="pos">interj. &amp; adj. &amp; n. &amp; adv.</span><span class="wzh">对吗；正确的；适当的；右边；向右边</span></div></div><div class="cell"><div class="wc"><span class="wen">swim</span><span class="wipa">/swɪm/</span><span class="pos">v. &amp; n.</span><span class="wzh">游泳</span></div></div><div class="cell"><div class="wc"><span class="wen">run</span><span class="wipa">/rʌn/</span><span class="pos">v. &amp; n.</span><span class="wzh">跑；跑步</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">go out</span><span class="pzh">出去；出去玩</span></div></div><div class="cell"><div class="pc"><span class="pen">sing a song</span><span class="pzh">唱歌</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 40、39、37、34、26、11 天的句子。</div>
+  <div class="review-note">自然重现旧词 can、play、go、and；句首 Right 表示“对、没错”。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 42 · 第 42 天</span>
     <span class="day-no">句子 42 / 60</span>
-    
   </div>
   <p class="en">We watch Hedwig fly fast, Hermione dance, and Hagrid cook fish and cake.</p>
   <p class="zh">我们看海德薇飞得飞快，看赫敏跳舞，还看海格做鱼和蛋糕。</p>
@@ -794,14 +793,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">fast</span><span class="wipa">/fɑːst/</span><span class="pos">adv. &amp; adj.</span><span class="wzh">快地；快的</span></div></div><div class="cell"><div class="wc"><span class="wen">dance</span><span class="wipa">/dɑːns/</span><span class="pos">v. &amp; n.</span><span class="wzh">跳舞</span></div></div><div class="cell"><div class="wc"><span class="wen">fish</span><span class="wipa">/fɪʃ/</span><span class="pos">n. &amp; v.</span><span class="wzh">鱼；鱼肉；钓鱼</span></div></div><div class="cell"><div class="wc"><span class="wen">fly</span><span class="wipa">/flaɪ/</span><span class="pos">v.</span><span class="wzh">飞</span></div></div><div class="cell"><div class="wc"><span class="wen">watch</span><span class="wipa">/wɒtʃ/</span><span class="pos">v. &amp; n.</span><span class="wzh">注视；观看；表；手表</span></div></div><div class="cell"><div class="wc"><span class="wen">cake</span><span class="wipa">/keɪk/</span><span class="pos">n.</span><span class="wzh">蛋糕</span></div></div><div class="cell"><div class="wc"><span class="wen">cook</span><span class="wipa">/kʊk/</span><span class="pos">v. &amp; n.</span><span class="wzh">做饭；厨师</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">fly fast</span><span class="pzh">飞得飞快</span></div></div><div class="cell"><div class="pc"><span class="pen">cook fish</span><span class="pzh">做鱼</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 41、40、38、35、27、12 天的句子。</div>
+  <div class="review-note">自然重现旧词 we、and；巩固 watch sb do sth 句型；cake 在第 47、49、50 天还会复现。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 43 · 第 43 天</span>
     <span class="day-no">句子 43 / 60</span>
-    
   </div>
   <p class="en">We visit the open park, take bird photos, have noodles and listen to Hagrid's story.</p>
   <p class="zh">我们去开放的公园，拍小鸟的照片，吃面条，还听海格的故事。</p>
@@ -810,14 +809,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">story</span><span class="wipa">/'stɔːri/</span><span class="pos">n.</span><span class="wzh">故事</span></div></div><div class="cell"><div class="wc"><span class="wen">noodle</span><span class="wipa">/'nuːdl/</span><span class="pos">n.</span><span class="wzh">(usually pl.) 面条</span></div></div><div class="cell"><div class="wc"><span class="wen">open</span><span class="wipa">/'əʊpən/</span><span class="pos">v. &amp; adj.</span><span class="wzh">打开；开放的；敞开的</span></div></div><div class="cell"><div class="wc"><span class="wen">bird</span><span class="wipa">/bɜːd/</span><span class="pos">n.</span><span class="wzh">鸟</span></div></div><div class="cell"><div class="wc"><span class="wen">take</span><span class="wipa">/teɪk/</span><span class="pos">v.</span><span class="wzh">拍照；拿；取；买下</span></div></div><div class="cell"><div class="wc"><span class="wen">visit</span><span class="wipa">/'vɪzɪt/</span><span class="pos">v. &amp; n.</span><span class="wzh">参观；拜访</span></div></div><div class="cell"><div class="wc"><span class="wen">park</span><span class="wipa">/pɑːk/</span><span class="pos">n.</span><span class="wzh">公园</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">take photos</span><span class="pzh">拍照</span></div></div><div class="cell"><div class="pc"><span class="pen">listen to a story</span><span class="pzh">听故事</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 42、41、39、36、28、13 天的句子。</div>
+  <div class="review-note">自然重现旧词 we、have、listen(to)、photo、and；noodles 常用复数形式。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 44 · 第 44 天</span>
     <span class="day-no">句子 44 / 60</span>
-    
   </div>
   <p class="en">When do we dress? At 7 o'clock. We have breakfast at half past 7, then write and share stories.</p>
   <p class="zh">我们什么时候穿衣服？7 点钟。我们 7 点半吃早餐，然后写故事、互相分享。</p>
@@ -826,14 +825,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">when</span><span class="wipa">/wen/</span><span class="pos">adv.</span><span class="wzh">什么时候</span></div></div><div class="cell"><div class="wc"><span class="wen">write</span><span class="wipa">/raɪt/</span><span class="pos">v.</span><span class="wzh">写</span></div></div><div class="cell"><div class="wc"><span class="wen">share</span><span class="wipa">/ʃeə(r)/</span><span class="pos">v.</span><span class="wzh">分享；合用；分担</span></div></div><div class="cell"><div class="wc"><span class="wen">o'clock</span><span class="wipa">/ə'klɒk/</span><span class="pos">adv.</span><span class="wzh">（表示整点）……点钟</span></div></div><div class="cell"><div class="wc"><span class="wen">half</span><span class="wipa">/hɑːf/</span><span class="pos">n. &amp; pron.</span><span class="wzh">一半；半；半数</span></div></div><div class="cell"><div class="wc"><span class="wen">dress</span><span class="wipa">/dres/</span><span class="pos">v. &amp; n.</span><span class="wzh">穿衣服；连衣裙</span></div></div><div class="cell"><div class="wc"><span class="wen">breakfast</span><span class="wipa">/'brekfəst/</span><span class="pos">n.</span><span class="wzh">早餐</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">have breakfast</span><span class="pzh">吃早餐</span></div></div><div class="cell"><div class="pc"><span class="pen">half past 7</span><span class="pzh">七点半</span></div></div><div class="cell"><div class="pc"><span class="pen">at 7 o'clock</span><span class="pzh">在 7 点钟</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 43、42、40、37、29、14 天的句子。</div>
+  <div class="review-note">重现昨日新词 story（复数 stories）与旧词 have、then、we；时间用数字表达，为第 49-50 天的数词做铺垫。</div>
 </div>
 
-<div class="day-block review-block">
+<div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 45 · 第 45 天</span>
     <span class="day-no">句子 45 / 60</span>
-    <span class="badge review">今日回读 · 复习日</span>
   </div>
   <p class="en">Harry gets up early and asks: 'Does lunch begin before the film? Can we have dinner after it?'</p>
   <p class="zh">哈利起得很早，问道：“午餐在电影开始前吗？我们可以在电影结束后吃晚饭吗？”</p>
@@ -842,14 +841,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">before</span><span class="wipa">/bɪ'fɔː(r)/</span><span class="pos">prep. &amp; conj. &amp; adv.</span><span class="wzh">在……以前；以前</span></div></div><div class="cell"><div class="wc"><span class="wen">begin</span><span class="wipa">/bɪ'ɡɪn/</span><span class="pos">v.</span><span class="wzh">开始</span></div></div><div class="cell"><div class="wc"><span class="wen">dinner</span><span class="wipa">/'dɪnə(r)/</span><span class="pos">n.</span><span class="wzh">正餐；主餐</span></div></div><div class="cell"><div class="wc"><span class="wen">early</span><span class="wipa">/'ɜːli/</span><span class="pos">adj. &amp; adv.</span><span class="wzh">早的；早期的；提前；在早期</span></div></div><div class="cell"><div class="wc"><span class="wen">ask</span><span class="wipa">/ɑːsk/</span><span class="pos">v.</span><span class="wzh">询问；请求</span></div></div><div class="cell"><div class="wc"><span class="wen">lunch</span><span class="wipa">/lʌntʃ/</span><span class="pos">n.</span><span class="wzh">午餐</span></div></div><div class="cell"><div class="wc"><span class="wen">film</span><span class="wipa">/fɪlm/</span><span class="pos">n.</span><span class="wzh">电影</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">get up</span><span class="pzh">起床</span></div></div><div class="cell"><div class="pc"><span class="pen">have dinner</span><span class="pzh">吃晚饭</span></div></div><div class="cell"><div class="pc"><span class="pen">before the film</span><span class="pzh">在电影之前</span></div></div></div>
-  <div class="review-note">今日回读：请重新朗读第 37-44 天的句子。重点回顾三餐词 breakfast（第 44 天）、活动词 study、sing、swim、run、dance、watch、cook（第 41-42 天）以及时间表达 o'clock、half past（第 44 天）；本句还重现旧词 get up、can、have、after。</div>
+  <div class="reread">今日回读：请重新朗读第 44、43、41、38、30、15 天的句子。</div>
+  <div class="review-note">本句还重现旧词 get up、can、have、after。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 46 · 第 46 天</span>
     <span class="day-no">句子 46 / 60</span>
-    
   </div>
   <p class="en">An hour has 60 minutes. This month, Harry gets a birthday gift after his lesson on the ice.</p>
   <p class="zh">一小时有 60 分钟。这个月，哈利在冰上的课结束后收到一份生日礼物。</p>
@@ -858,14 +857,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">minute</span><span class="wipa">/'mɪnɪt/</span><span class="pos">n.</span><span class="wzh">分；分钟</span></div></div><div class="cell"><div class="wc"><span class="wen">lesson</span><span class="wipa">/'lesn/</span><span class="pos">n.</span><span class="wzh">课；一节课</span></div></div><div class="cell"><div class="wc"><span class="wen">ice</span><span class="wipa">/aɪs/</span><span class="pos">n.</span><span class="wzh">冰；冰块</span></div></div><div class="cell"><div class="wc"><span class="wen">hour</span><span class="wipa">/'aʊə(r)/</span><span class="pos">n.</span><span class="wzh">小时</span></div></div><div class="cell"><div class="wc"><span class="wen">birthday</span><span class="wipa">/'bɜːθdeɪ/</span><span class="pos">n.</span><span class="wzh">生日</span></div></div><div class="cell"><div class="wc"><span class="wen">month</span><span class="wipa">/mʌnθ/</span><span class="pos">n.</span><span class="wzh">月份</span></div></div><div class="cell"><div class="wc"><span class="wen">gift</span><span class="wipa">/ɡɪft/</span><span class="pos">n.</span><span class="wzh">礼物</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">birthday gift</span><span class="pzh">生日礼物</span></div></div><div class="cell"><div class="pc"><span class="pen">on the ice</span><span class="pzh">在冰上</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 45、44、42、39、31、16 天的句子。</div>
+  <div class="review-note">自然重现旧词 this、after、his、has、get(gets)；birthday 在第 47-50 天的派对场景继续复现。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 47 · 第 47 天</span>
     <span class="day-no">句子 47 / 60</span>
-    
   </div>
   <p class="en">A kind woman at the shop will help Hermione buy eggs and candles for the party.</p>
   <p class="zh">商店里一位好心的女士会帮赫敏为派对买鸡蛋和蜡烛。</p>
@@ -874,14 +873,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">party</span><span class="wipa">/'pɑːti/</span><span class="pos">n.</span><span class="wzh">聚会</span></div></div><div class="cell"><div class="wc"><span class="wen">buy</span><span class="wipa">/baɪ/</span><span class="pos">v.</span><span class="wzh">买</span></div></div><div class="cell"><div class="wc"><span class="wen">shop</span><span class="wipa">/ʃɒp/</span><span class="pos">n. &amp; v.</span><span class="wzh">商店；逛商店；在商店购物</span></div></div><div class="cell"><div class="wc"><span class="wen">woman</span><span class="wipa">/'wʊmən/</span><span class="pos">n.</span><span class="wzh">(pl. women /'wɪmɪn/) 女人</span></div></div><div class="cell"><div class="wc"><span class="wen">candle</span><span class="wipa">/'kændl/</span><span class="pos">n.</span><span class="wzh">蜡烛</span></div></div><div class="cell"><div class="wc"><span class="wen">will</span><span class="wipa">/wɪl/</span><span class="pos">modal v.</span><span class="wzh">将要；会</span></div></div><div class="cell"><div class="wc"><span class="wen">egg</span><span class="wipa">/eɡ/</span><span class="pos">n.</span><span class="wzh">蛋</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">buy eggs and candles</span><span class="pzh">买鸡蛋和蜡烛</span></div></div><div class="cell"><div class="pc"><span class="pen">at the shop</span><span class="pzh">在商店</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 46、45、43、40、32、17 天的句子。</div>
+  <div class="review-note">自然重现旧词 kind、help、at、for、and；句型 help sb do sth 呼应第 42 天 watch sb do sth。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 48 · 第 48 天</span>
     <span class="day-no">句子 48 / 60</span>
-    
   </div>
   <p class="en">Ron writes on the card: 'Dear Mrs, thank you for the milk, juice, candy, drink and doll.'</p>
   <p class="zh">罗恩在卡片上写道：“亲爱的夫人，谢谢您的牛奶、果汁、糖果、饮料和玩偶。”</p>
@@ -890,14 +889,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">juice</span><span class="wipa">/dʒuːs/</span><span class="pos">n.</span><span class="wzh">果汁</span></div></div><div class="cell"><div class="wc"><span class="wen">milk</span><span class="wipa">/mɪlk/</span><span class="pos">n.</span><span class="wzh">牛奶</span></div></div><div class="cell"><div class="wc"><span class="wen">candy</span><span class="wipa">/'kændi/</span><span class="pos">n.</span><span class="wzh">糖果</span></div></div><div class="cell"><div class="wc"><span class="wen">drink</span><span class="wipa">/drɪŋk/</span><span class="pos">n. &amp; v.</span><span class="wzh">饮品；喝</span></div></div><div class="cell"><div class="wc"><span class="wen">card</span><span class="wipa">/kɑːd/</span><span class="pos">n.</span><span class="wzh">厚纸片；卡片</span></div></div><div class="cell"><div class="wc"><span class="wen">doll</span><span class="wipa">/dɒl/</span><span class="pos">n.</span><span class="wzh">玩偶；玩具娃娃</span></div></div><div class="cell"><div class="wc"><span class="wen">Mrs</span><span class="wipa">/'mɪsɪz/</span><span class="wzh">（对已婚妇女的礼貌称呼）夫人；太太</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">thank you for</span><span class="pzh">为……而感谢</span></div></div><div class="cell"><div class="pc"><span class="pen">write on the card</span><span class="pzh">在卡片上写字</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 47、46、44、41、33、18 天的句子。</div>
+  <div class="review-note">重现第 44 天新词 write（三单 writes）与旧词 dear、thank you、for、on；承接第 47 天商店场景。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 49 · 第 49 天</span>
     <span class="day-no">句子 49 / 60</span>
-    
   </div>
   <p class="en">Harry hears the door: one, two! A nurse comes with cake — make a wish and eat.</p>
   <p class="zh">哈利听到门响了：一、二！一位护士带着蛋糕来了——许个愿，吃吧！</p>
@@ -906,14 +905,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">eat</span><span class="wipa">/iːt/</span><span class="pos">v.</span><span class="wzh">吃</span></div></div><div class="cell"><div class="wc"><span class="wen">wish</span><span class="wipa">/wɪʃ/</span><span class="pos">v. &amp; n.</span><span class="wzh">希望；祝愿；愿望</span></div></div><div class="cell"><div class="wc"><span class="wen">nurse</span><span class="wipa">/nɜːs/</span><span class="pos">n.</span><span class="wzh">护士</span></div></div><div class="cell"><div class="wc"><span class="wen">hear</span><span class="wipa">/hɪə(r)/</span><span class="pos">v.</span><span class="wzh">听到</span></div></div><div class="cell"><div class="wc"><span class="wen">door</span><span class="wipa">/dɔː(r)/</span><span class="pos">n.</span><span class="wzh">门</span></div></div><div class="cell"><div class="wc"><span class="wen">one</span><span class="wipa">/wʌn/</span><span class="pos">num.</span><span class="wzh">一</span></div></div><div class="cell"><div class="wc"><span class="wen">two</span><span class="wipa">/tuː/</span><span class="pos">num.</span><span class="wzh">二</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">make a wish</span><span class="pzh">许愿</span></div></div><div class="cell"><div class="pc"><span class="pen">hear the door</span><span class="pzh">听到门响</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 48、47、45、42、34、19 天的句子。</div>
+  <div class="review-note">自然重现旧词 cake、come(comes)、with、make、and；数词 one、two 为第 50 天的 three-nine 做铺垫。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 50 · 第 50 天</span>
     <span class="day-no">句子 50 / 60</span>
-    
   </div>
   <p class="en">Look at the cake: three, four, five, six, seven, eight, nine candles — happy birthday, Harry!</p>
   <p class="zh">看那个蛋糕：三、四、五、六、七、八、九根蜡烛——生日快乐，哈利！</p>
@@ -922,14 +921,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">three</span><span class="wipa">/θriː/</span><span class="pos">num.</span><span class="wzh">三</span></div></div><div class="cell"><div class="wc"><span class="wen">four</span><span class="wipa">/fɔː(r)/</span><span class="pos">num.</span><span class="wzh">四</span></div></div><div class="cell"><div class="wc"><span class="wen">five</span><span class="wipa">/faɪv/</span><span class="pos">num.</span><span class="wzh">五</span></div></div><div class="cell"><div class="wc"><span class="wen">six</span><span class="wipa">/sɪks/</span><span class="pos">num.</span><span class="wzh">六</span></div></div><div class="cell"><div class="wc"><span class="wen">seven</span><span class="wipa">/'sevn/</span><span class="pos">num.</span><span class="wzh">七</span></div></div><div class="cell"><div class="wc"><span class="wen">eight</span><span class="wipa">/eɪt/</span><span class="pos">num.</span><span class="wzh">八</span></div></div><div class="cell"><div class="wc"><span class="wen">nine</span><span class="wipa">/naɪn/</span><span class="pos">num.</span><span class="wzh">九</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">happy birthday</span><span class="pzh">生日快乐</span></div></div><div class="cell"><div class="pc"><span class="pen">look at</span><span class="pzh">看</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 49、48、46、43、35、20 天的句子。</div>
+  <div class="review-note">重现第 47 天新词 candle（复数 candles）、第 46 天 birthday、第 42 天 cake 与旧词 look at、happy。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 51 · 第 51 天</span>
     <span class="day-no">句子 51 / 60</span>
-    
   </div>
   <p class="en">Ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen candles are on Harry's birthday cake!</p>
   <p class="zh">十、十一、十二、十三、十四、十五、十六根蜡烛，插在哈利的生日蛋糕上！</p>
@@ -938,14 +937,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">ten</span><span class="wipa">/ten/</span><span class="pos">num.</span><span class="wzh">十</span></div></div><div class="cell"><div class="wc"><span class="wen">eleven</span><span class="wipa">/ɪ'levn/</span><span class="pos">num.</span><span class="wzh">十一</span></div></div><div class="cell"><div class="wc"><span class="wen">twelve</span><span class="wipa">/twelv/</span><span class="pos">num.</span><span class="wzh">十二</span></div></div><div class="cell"><div class="wc"><span class="wen">thirteen</span><span class="wipa">/ˌθɜː'tiːn/</span><span class="pos">num.</span><span class="wzh">十三</span></div></div><div class="cell"><div class="wc"><span class="wen">fourteen</span><span class="wipa">/ˌfɔː'tiːn/</span><span class="pos">num.</span><span class="wzh">十四</span></div></div><div class="cell"><div class="wc"><span class="wen">fifteen</span><span class="wipa">/ˌfɪf'tiːn/</span><span class="pos">num.</span><span class="wzh">十五</span></div></div><div class="cell"><div class="wc"><span class="wen">sixteen</span><span class="wipa">/ˌsɪk'stiːn/</span><span class="pos">num.</span><span class="wzh">十六</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">sixteen candles</span><span class="pzh">十六根蜡烛</span></div></div><div class="cell"><div class="pc"><span class="pen">birthday cake</span><span class="pzh">生日蛋糕</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 50、49、47、44、36、21 天的句子。</div>
+  <div class="review-note">自然重现旧词 candle、cake、birthday、on；数数口号式句子方便孩子拍着手跟读。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 52 · 第 52 天</span>
     <span class="day-no">句子 52 / 60</span>
-    
   </div>
   <p class="en">Seventeen, eighteen, nineteen, twenty, thirty, forty, fifty gifts — Harry's friends are so kind!</p>
   <p class="zh">十七、十八、十九、二十、三十、四十、五十份礼物——哈利的朋友们真是太好了！</p>
@@ -954,14 +953,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">seventeen</span><span class="wipa">/ˌsevn'tiːn/</span><span class="pos">num.</span><span class="wzh">十七</span></div></div><div class="cell"><div class="wc"><span class="wen">eighteen</span><span class="wipa">/ˌeɪ'tiːn/</span><span class="pos">num.</span><span class="wzh">十八</span></div></div><div class="cell"><div class="wc"><span class="wen">nineteen</span><span class="wipa">/ˌnaɪn'tiːn/</span><span class="pos">num.</span><span class="wzh">十九</span></div></div><div class="cell"><div class="wc"><span class="wen">twenty</span><span class="wipa">/'twenti/</span><span class="pos">num.</span><span class="wzh">二十</span></div></div><div class="cell"><div class="wc"><span class="wen">thirty</span><span class="wipa">/'θɜːti/</span><span class="pos">num.</span><span class="wzh">三十</span></div></div><div class="cell"><div class="wc"><span class="wen">forty</span><span class="wipa">/'fɔːti/</span><span class="pos">num.</span><span class="wzh">四十</span></div></div><div class="cell"><div class="wc"><span class="wen">fifty</span><span class="wipa">/'fɪfti/</span><span class="pos">num.</span><span class="wzh">五十</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">fifty gifts</span><span class="pzh">五十份礼物</span></div></div><div class="cell"><div class="pc"><span class="pen">so kind</span><span class="pzh">真友善</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 51、50、48、45、37、22 天的句子。</div>
+  <div class="review-note">自然重现旧词 gift、friend、kind、so；接着第 51 天的礼物场景继续数数。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 53 · 第 53 天</span>
     <span class="day-no">句子 53 / 60</span>
-    
   </div>
   <p class="en">Sixty, seventy, eighty, ninety, a hundred gifts, a thousand candles — Harry is one in a million!</p>
   <p class="zh">六十、七十、八十、九十、一百份礼物，一千根蜡烛——哈利真是万里挑一的幸运儿！</p>
@@ -970,14 +969,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">sixty</span><span class="wipa">/'sɪksti/</span><span class="pos">num.</span><span class="wzh">六十</span></div></div><div class="cell"><div class="wc"><span class="wen">seventy</span><span class="wipa">/'sevnti/</span><span class="pos">num.</span><span class="wzh">七十</span></div></div><div class="cell"><div class="wc"><span class="wen">eighty</span><span class="wipa">/'eɪti/</span><span class="pos">num.</span><span class="wzh">八十</span></div></div><div class="cell"><div class="wc"><span class="wen">ninety</span><span class="wipa">/'naɪnti/</span><span class="pos">num.</span><span class="wzh">九十</span></div></div><div class="cell"><div class="wc"><span class="wen">hundred</span><span class="wipa">/'hʌndrəd/</span><span class="pos">num.</span><span class="wzh">百</span></div></div><div class="cell"><div class="wc"><span class="wen">thousand</span><span class="wipa">/'θaʊznd/</span><span class="pos">num.</span><span class="wzh">千</span></div></div><div class="cell"><div class="wc"><span class="wen">million</span><span class="wipa">/'mɪljən/</span><span class="pos">num.</span><span class="wzh">百万</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">a hundred gifts</span><span class="pzh">一百份礼物</span></div></div><div class="cell"><div class="pc"><span class="pen">one in a million</span><span class="pzh">万里挑一</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 52、51、49、46、38、23 天的句子。</div>
+  <div class="review-note">自然重现旧词 gift、candle、one、in；数数升级到大数，孩子感受数字的气势。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 54 · 第 54 天</span>
     <span class="day-no">句子 54 / 60</span>
-    
   </div>
   <p class="en">Seventh, sixth, fifth, fourth, third, second, first — Harry flies to the front!</p>
   <p class="zh">第七、第六、第五、第四、第三、第二、第一——哈利一路反超，飞到了最前面！</p>
@@ -986,14 +985,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">first</span><span class="wipa">/fɜːst/</span><span class="pos">num.</span><span class="wzh">第一</span></div></div><div class="cell"><div class="wc"><span class="wen">second</span><span class="wipa">/'sekənd/</span><span class="pos">num.</span><span class="wzh">第二</span></div></div><div class="cell"><div class="wc"><span class="wen">third</span><span class="wipa">/θɜːd/</span><span class="pos">num.</span><span class="wzh">第三</span></div></div><div class="cell"><div class="wc"><span class="wen">fourth</span><span class="wipa">/fɔːθ/</span><span class="pos">num.</span><span class="wzh">第四</span></div></div><div class="cell"><div class="wc"><span class="wen">fifth</span><span class="wipa">/fɪfθ/</span><span class="pos">num.</span><span class="wzh">第五</span></div></div><div class="cell"><div class="wc"><span class="wen">sixth</span><span class="wipa">/sɪksθ/</span><span class="pos">num.</span><span class="wzh">第六</span></div></div><div class="cell"><div class="wc"><span class="wen">seventh</span><span class="wipa">/'sevnθ/</span><span class="pos">num.</span><span class="wzh">第七</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">fly to the front</span><span class="pzh">飞到最前面</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 53、52、50、47、39、24 天的句子。</div>
+  <div class="review-note">自然重现旧词 fly（三单 flies）、front；倒计时式句子呼应飞行比赛画面。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 55 · 第 55 天</span>
     <span class="day-no">句子 55 / 60</span>
-    
   </div>
   <p class="en">Dumbledore reads the names: eighth, ninth, tenth, eleventh, twelfth, thirteenth, fourteenth — every child gets a gift!</p>
   <p class="zh">邓布利多念出名字：第八、第九、第十、第十一、第十二、第十三、第十四——每个孩子都得到一份礼物！</p>
@@ -1002,14 +1001,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">eighth</span><span class="wipa">/eɪtθ/</span><span class="pos">num.</span><span class="wzh">第八</span></div></div><div class="cell"><div class="wc"><span class="wen">ninth</span><span class="wipa">/naɪnθ/</span><span class="pos">num.</span><span class="wzh">第九</span></div></div><div class="cell"><div class="wc"><span class="wen">tenth</span><span class="wipa">/tenθ/</span><span class="pos">num.</span><span class="wzh">第十</span></div></div><div class="cell"><div class="wc"><span class="wen">eleventh</span><span class="wipa">/ɪ'levnθ/</span><span class="pos">num.</span><span class="wzh">第十一</span></div></div><div class="cell"><div class="wc"><span class="wen">twelfth</span><span class="wipa">/twelfθ/</span><span class="pos">num.</span><span class="wzh">第十二</span></div></div><div class="cell"><div class="wc"><span class="wen">thirteenth</span><span class="wipa">/ˌθɜː'tiːnθ/</span><span class="pos">num.</span><span class="wzh">第十三</span></div></div><div class="cell"><div class="wc"><span class="wen">fourteenth</span><span class="wipa">/ˌfɔː'tiːnθ/</span><span class="pos">num.</span><span class="wzh">第十四</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">read the names</span><span class="pzh">念名字</span></div></div><div class="cell"><div class="pc"><span class="pen">get a gift</span><span class="pzh">得到一份礼物</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 54、53、51、48、40、25 天的句子。</div>
+  <div class="review-note">自然重现旧词 read、name、every、child、gift；比赛颁奖延续第 54 天的故事。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 56 · 第 56 天</span>
     <span class="day-no">句子 56 / 60</span>
-    
   </div>
   <p class="en">Hermione writes them down: fifteenth, sixteenth, seventeenth, eighteenth, nineteenth, twentieth, and Hagrid is thirtieth!</p>
   <p class="zh">赫敏把名次记下来：第十五、第十六、第十七、第十八、第十九、第二十——海格是第三十名！</p>
@@ -1018,14 +1017,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">fifteenth</span><span class="wipa">/ˌfɪf'tiːnθ/</span><span class="pos">num.</span><span class="wzh">第十五</span></div></div><div class="cell"><div class="wc"><span class="wen">sixteenth</span><span class="wipa">/ˌsɪk'stiːnθ/</span><span class="pos">num.</span><span class="wzh">第十六</span></div></div><div class="cell"><div class="wc"><span class="wen">seventeenth</span><span class="wipa">/ˌsevn'tiːnθ/</span><span class="pos">num.</span><span class="wzh">第十七</span></div></div><div class="cell"><div class="wc"><span class="wen">eighteenth</span><span class="wipa">/ˌeɪ'tiːnθ/</span><span class="pos">num.</span><span class="wzh">第十八</span></div></div><div class="cell"><div class="wc"><span class="wen">nineteenth</span><span class="wipa">/ˌnaɪn'tiːnθ/</span><span class="pos">num.</span><span class="wzh">第十九</span></div></div><div class="cell"><div class="wc"><span class="wen">twentieth</span><span class="wipa">/'twentiəθ/</span><span class="pos">num.</span><span class="wzh">第二十</span></div></div><div class="cell"><div class="wc"><span class="wen">thirtieth</span><span class="wipa">/'θɜːtiəθ/</span><span class="pos">num.</span><span class="wzh">第三十</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">write down</span><span class="pzh">写下来</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 55、54、52、49、41、26 天的句子。</div>
+  <div class="review-note">自然重现旧词 write、them、down；憨厚的海格跑最后一名，画面幽默好记。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 57 · 第 57 天</span>
     <span class="day-no">句子 57 / 60</span>
-    
   </div>
   <p class="en">The fortieth, fiftieth, sixtieth, seventieth, eightieth, ninetieth — today is the hundredth day at Hogwarts!</p>
   <p class="zh">第四十天、第五十天、第六十天、第七十天、第八十天、第九十天——今天是在霍格沃茨的第一百天！</p>
@@ -1034,14 +1033,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">fortieth</span><span class="wipa">/'fɔːtiəθ/</span><span class="pos">num.</span><span class="wzh">第四十</span></div></div><div class="cell"><div class="wc"><span class="wen">fiftieth</span><span class="wipa">/'fɪftiəθ/</span><span class="pos">num.</span><span class="wzh">第五十</span></div></div><div class="cell"><div class="wc"><span class="wen">sixtieth</span><span class="wipa">/'sɪkstiəθ/</span><span class="pos">num.</span><span class="wzh">第六十</span></div></div><div class="cell"><div class="wc"><span class="wen">seventieth</span><span class="wipa">/'sevntiəθ/</span><span class="pos">num.</span><span class="wzh">第七十</span></div></div><div class="cell"><div class="wc"><span class="wen">eightieth</span><span class="wipa">/'eɪtiəθ/</span><span class="pos">num.</span><span class="wzh">第八十</span></div></div><div class="cell"><div class="wc"><span class="wen">ninetieth</span><span class="wipa">/'naɪntiəθ/</span><span class="pos">num.</span><span class="wzh">第九十</span></div></div><div class="cell"><div class="wc"><span class="wen">hundredth</span><span class="wipa">/'hʌndrədθ/</span><span class="pos">num.</span><span class="wzh">第一百</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">the hundredth day</span><span class="pzh">第一百天</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 56、55、53、50、42、27 天的句子。</div>
+  <div class="review-note">自然重现旧词 today、day、at；入学一百天纪念日，为后面的毕业庆祝做铺垫。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 58 · 第 58 天</span>
     <span class="day-no">句子 58 / 60</span>
-    
   </div>
   <p class="en">When is the party — in January, February, March, April or May? Harry asks it for the thousandth and millionth time!</p>
   <p class="zh">聚会在什么时候——一月、二月、三月、四月还是五月？哈利都问了第一千次、第一百万次啦！</p>
@@ -1050,14 +1049,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">thousandth</span><span class="wipa">/'θaʊzndθ/</span><span class="pos">num.</span><span class="wzh">第一千</span></div></div><div class="cell"><div class="wc"><span class="wen">millionth</span><span class="wipa">/'mɪljənθ/</span><span class="pos">num.</span><span class="wzh">第一百万</span></div></div><div class="cell"><div class="wc"><span class="wen">January</span><span class="wipa">/'dʒænjuəri/</span><span class="pos">n.</span><span class="wzh">一月</span></div></div><div class="cell"><div class="wc"><span class="wen">February</span><span class="wipa">/'februəri/</span><span class="pos">n.</span><span class="wzh">二月</span></div></div><div class="cell"><div class="wc"><span class="wen">March</span><span class="wipa">/mɑːtʃ/</span><span class="pos">n.</span><span class="wzh">三月</span></div></div><div class="cell"><div class="wc"><span class="wen">April</span><span class="wipa">/'eɪprəl/</span><span class="pos">n.</span><span class="wzh">四月</span></div></div><div class="cell"><div class="wc"><span class="wen">May</span><span class="wipa">/meɪ/</span><span class="pos">n.</span><span class="wzh">五月</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">in January</span><span class="pzh">在一月</span></div></div><div class="cell"><div class="pc"><span class="pen">for the thousandth time</span><span class="pzh">第一千次</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 57、56、54、51、43、28 天的句子。</div>
+  <div class="review-note">自然重现旧词 when、party、ask、time；用夸张的“第一百万次”写出孩子的期待心情。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 59 · 第 59 天</span>
     <span class="day-no">句子 59 / 60</span>
-    
   </div>
   <p class="en">Is it in June, July, August, September, October, November or December? Hermione says: the party is in July!</p>
   <p class="zh">是在六月、七月、八月、九月、十月、十一月还是十二月？赫敏笑着说：聚会在七月！</p>
@@ -1066,14 +1065,14 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">June</span><span class="wipa">/dʒuːn/</span><span class="pos">n.</span><span class="wzh">六月</span></div></div><div class="cell"><div class="wc"><span class="wen">July</span><span class="wipa">/dʒu'laɪ/</span><span class="pos">n.</span><span class="wzh">七月</span></div></div><div class="cell"><div class="wc"><span class="wen">August</span><span class="wipa">/'ɔːɡəst/</span><span class="pos">n.</span><span class="wzh">八月</span></div></div><div class="cell"><div class="wc"><span class="wen">September</span><span class="wipa">/sep'tembə(r)/</span><span class="pos">n.</span><span class="wzh">九月</span></div></div><div class="cell"><div class="wc"><span class="wen">October</span><span class="wipa">/ɒk'təʊbə(r)/</span><span class="pos">n.</span><span class="wzh">十月</span></div></div><div class="cell"><div class="wc"><span class="wen">November</span><span class="wipa">/nəʊ'vembə(r)/</span><span class="pos">n.</span><span class="wzh">十一月</span></div></div><div class="cell"><div class="wc"><span class="wen">December</span><span class="wipa">/dɪ'sembə(r)/</span><span class="pos">n.</span><span class="wzh">十二月</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">in July</span><span class="pzh">在七月</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 58、57、55、52、44、29 天的句子。</div>
+  <div class="review-note">自然重现旧词 say、party、it、in；呼应第 58 天的问题，揭晓答案就在七月。</div>
 </div>
 
 <div class="day-block">
   <div class="day-head">
     <span class="day-title">Day 60 · 第 60 天</span>
     <span class="day-no">句子 60 / 60</span>
-    
   </div>
   <p class="en">Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday — Dumbledore and all the school sing and dance every day!</p>
   <p class="zh">星期一、星期二、星期三、星期四、星期五、星期六、星期天——邓布利多和全校师生每天唱歌跳舞，欢庆学年结束！</p>
@@ -1082,7 +1081,8 @@ p.doc-sub {
   <div class="grid words"><div class="cell"><div class="wc"><span class="wen">Monday</span><span class="wipa">/'mʌndeɪ; -di/</span><span class="pos">n.</span><span class="wzh">星期一</span></div></div><div class="cell"><div class="wc"><span class="wen">Tuesday</span><span class="wipa">/'tjuːzdeɪ; -di/</span><span class="pos">n.</span><span class="wzh">星期二</span></div></div><div class="cell"><div class="wc"><span class="wen">Wednesday</span><span class="wipa">/'wenzdeɪ; -di/</span><span class="pos">n.</span><span class="wzh">星期三</span></div></div><div class="cell"><div class="wc"><span class="wen">Thursday</span><span class="wipa">/'θɜːzdeɪ; -di/</span><span class="pos">n.</span><span class="wzh">星期四</span></div></div><div class="cell"><div class="wc"><span class="wen">Friday</span><span class="wipa">/'fraɪdeɪ; -di/</span><span class="pos">n.</span><span class="wzh">星期五</span></div></div><div class="cell"><div class="wc"><span class="wen">Saturday</span><span class="wipa">/'sætədeɪ; -di/</span><span class="pos">n.</span><span class="wzh">星期六</span></div></div><div class="cell"><div class="wc"><span class="wen">Sunday</span><span class="wipa">/'sʌndeɪ; -di/</span><span class="pos">n.</span><span class="wzh">星期天</span></div></div></div>
   <div class="sec-title">短语</div>
   <div class="grid phrases"><div class="cell"><div class="pc"><span class="pen">every day</span><span class="pzh">每天</span></div></div><div class="cell"><div class="pc"><span class="pen">sing and dance</span><span class="pzh">唱歌跳舞</span></div></div><div class="cell"><div class="pc"><span class="pen">on Monday</span><span class="pzh">在星期一</span></div></div></div>
-  
+  <div class="reread">今日回读：请重新朗读第 59、58、56、53、45、30 天的句子。</div>
+  <div class="review-note">大结局句：全校师生一起庆祝。重现旧词 every、day、school、sing、dance、all、and；鼓励孩子回读全册 60 句。</div>
 </div>
 </body>
 </html>
