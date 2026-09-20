@@ -205,68 +205,120 @@ p.zh { font-size: 12pt; color: #444; margin: 0 0 4px; }
   color: #a06a10;
 }
 .howto {
-  margin-bottom: 4mm;
+  break-after: page;
+}
+.title-block {
+  height: 88mm;
+  text-align: center;
+  border: 2px solid #7a6fb0;
+  border-radius: 12px;
+  background: #f6f3fc;
+  padding: 14mm 8mm 0;
+  margin-bottom: 7mm;
 }
 .howto-title {
-  text-align: center;
   color: #4a3b8c;
-  font-size: 20pt;
-  margin: 0 0 1mm;
+  font-size: 30pt;
+  margin: 0 0 3mm;
 }
 .howto-sub {
-  text-align: center;
-  color: #888;
-  font-size: 11pt;
-  margin: 0 0 2mm;
+  color: #777;
+  font-size: 13pt;
+  margin: 0 0 7mm;
 }
-.howto h2 {
+.title-facts {
   font-size: 12pt;
+  color: #4a3b8c;
+  font-weight: bold;
+}
+.title-facts span { margin: 0 4mm; }
+.howto h2 {
+  font-size: 14pt;
   color: #4a3b8c;
   border-left: 4px solid #7a6fb0;
   padding-left: 8px;
-  margin: 2mm 0 1mm;
+  margin: 7mm 0 2.5mm;
 }
 .howto p, .howto li {
-  font-size: 10.5pt;
-  line-height: 1.4;
+  font-size: 12pt;
+  line-height: 1.65;
   color: #333;
-  margin: 0.5mm 0;
+  margin: 1mm 0;
 }
-.howto ul { margin: 0.5mm 0; padding-left: 6mm; }
+.howto ul { margin: 1mm 0; padding-left: 7mm; }
 .howto .hl {
   background: #fdf6dd;
   border-radius: 4px;
-  padding: 4px 8px;
+  padding: 6px 10px;
+}
+.howto .blue {
+  background: #e8f0fe;
+  border-radius: 4px;
+  padding: 6px 10px;
 }
 """
 
 
 HOWTO = """
 <div class="howto">
-  <h1 class="howto-title">420 必会单词 · 60 句计划</h1>
-  <p class="howto-sub">哈利·波特主题例句 · 每天一句 · 共 60 天 · KET / Think Starter 适用</p>
+  <div class="title-block">
+    <h1 class="howto-title">420 必会单词 · 60 句计划</h1>
+    <p class="howto-sub">哈利·波特主题例句 · 小学生每日一句背诵手册</p>
+    <p class="title-facts"><span>420 个必会单词</span><span>60 个例句</span><span>6 幕故事</span><span>60 天学完</span></p>
+  </div>
 
   <h2>这本书怎么用</h2>
-  <p>每天学 1 句（Day 1 → Day 60），按卡片从上到下的顺序：大声朗读英文句 3 遍 → 看中文意思 → 读语法讲解 → 记 7 个生词和短语。每天约 10-15 分钟。</p>
+  <p>每天学 1 句，从 Day 1 学到 Day 60，每天大约 10-15 分钟。学习步骤：</p>
+  <ul>
+    <li>第 1 步：看着英文句，大声朗读 3 遍；</li>
+    <li>第 2 步：看中文意思，确认自己读懂了；</li>
+    <li>第 3 步：读「语法 · 句型」讲解，明白这句话为什么这样说；</li>
+    <li>第 4 步：记 7 个生词和 1-3 个短语，合上书试着背出整句。</li>
+  </ul>
 
   <h2>每天回读（艾宾浩斯遗忘曲线）</h2>
-  <p class="hl">每张卡片底部的蓝色「今日回读」条，写着今天要重新朗读的旧句子。按学习后第 1、2、4、7、15、30 天滚动复习，每句话一共会复习 6 次——只要跟着回读条走，就不容易忘记。</p>
+  <p class="blue">每张卡片底部有一条蓝色的「今日回读」，写着今天要重新朗读的旧句子。它按照艾宾浩斯遗忘曲线设计：学完一句后，在第 1、2、4、7、15、30 天各复习一次，每句话一共复习 6 次。</p>
+  <p>举个例子：Day 8 的回读任务是 Day 7、6、4、1；Day 16 的回读任务是 Day 15、14、12、9、1。复习每天都在滚动，只要跟着回读条走，学过的句子就不容易忘记。</p>
 
   <h2>单词是怎么安排的</h2>
   <ul>
-    <li>60 句 × 每句 7 个新词 ＝ 420 个小学必会单词，全部覆盖，一个不落。</li>
-    <li>每天只遇到 7 个新词，句子里其余都是学过的旧词，越往后读越轻松。</li>
-    <li>生词带音标、词性和中文，每行两个，方便指读。</li>
+    <li>60 句 × 每句 7 个新词 ＝ 420 个小学必会单词，全部覆盖，一个不落；</li>
+    <li>每天只遇到 7 个新词，句子里其余单词都是前几天学过的，越往后读越轻松；</li>
+    <li>生词带音标、词性和中文，每行两个，方便孩子用手指指着读；</li>
+    <li>旧词会在后面的句子里自然重复出现，读新句子的时候也在复习旧单词。</li>
   </ul>
 
   <h2>故事与句子</h2>
-  <p>60 句是一个连贯的哈利·波特故事，共 6 幕：入学第一天 → 宿舍与农场 → 朋友与家人 → 校园生活 → 日常作息与生日会 → 数字与日期大综合。每句 8-16 个词，好读、好背、有画面。</p>
+  <p>60 个句子连起来是一个完整的哈利·波特故事，共 6 幕：入学第一天 → 宿舍与农场 → 朋友与家人 → 校园生活 → 日常作息与生日会 → 数字与日期大综合。每句 8-16 个词，好读、好背、有画面感，孩子可以跟着 Harry、Ron 和 Hermione 一起学完整个学年。</p>
 
   <h2>语法进阶</h2>
-  <p>语法由浅入深：be 动词与祈使句 → there be 与介词 → 一般现在时 → 现在进行时 → can、时间与 will 将来时 → 数词、序数词与日期，覆盖 KET / Think Starter 的主要句型。</p>
+  <p>语法由浅入深，覆盖 KET / Think Starter 的主要句型：</p>
+  <ul>
+    <li>Day 1-10：be 动词、祈使句、自我介绍、what 疑问句；</li>
+    <li>Day 11-20：there be 句型、介词、名词复数、this / these / those；</li>
+    <li>Day 21-30：一般现在时、频率副词、want to be、who / which 疑问句；</li>
+    <li>Day 31-40：现在进行时、物主代词、why / because、方位表达；</li>
+    <li>Day 41-50：can 表能力、时间表达、before / after、will 将来时；</li>
+    <li>Day 51-60：基数词、序数词、日期、月份与星期、when 疑问句。</li>
+  </ul>
 
-  <h2>短语</h2>
-  <p>每句配 1-3 个高频短语（如 play the piano、get up、on Monday），全部来自学过的单词，可以直接用在口语和写话里。</p>
+  <h2>一张卡片里有什么</h2>
+  <ul>
+    <li>英文句：紫色大字，先读它；中文意思：帮助理解；</li>
+    <li>语法 · 句型：淡黄色底，讲清这句话的语法点；</li>
+    <li>本句生词：7 个新词，带音标、词性、中文，每行两个；</li>
+    <li>短语：1-3 个高频搭配（如 play the piano、get up、on Monday），可以直接用在口语和写话里；</li>
+    <li>今日回读：蓝色条，今天需要重新朗读的旧句子；</li>
+    <li>最下面一行小字：这句话里重现了哪些学过的旧词。</li>
+  </ul>
+
+  <h2>给家长的小建议</h2>
+  <ul>
+    <li>每天固定一个时间学习（比如晚饭后），10-15 分钟就够，贵在坚持；</li>
+    <li>让孩子指着单词大声读出来，读比看记得牢；</li>
+    <li>不要赶进度，一天一句就好；某天状态不好，只做「今日回读」也可以；</li>
+    <li>鼓励孩子把句子演出来：学问候句就和家人打招呼，学生日句就给家人唱数蜡烛。</li>
+  </ul>
 
   <h2>给小朋友的话</h2>
   <p class="hl">每天一句，跟着「今日回读」复习，60 天后你就会认识全部 420 个单词——和 Harry 一起，从 Hogwarts 顺利毕业吧！</p>
