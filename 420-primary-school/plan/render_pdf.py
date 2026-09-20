@@ -205,38 +205,38 @@ p.zh { font-size: 12pt; color: #444; margin: 0 0 4px; }
   color: #a06a10;
 }
 .howto {
-  break-after: page;
+  margin-bottom: 4mm;
 }
 .howto-title {
   text-align: center;
   color: #4a3b8c;
-  font-size: 26pt;
-  margin: 10mm 0 2mm;
+  font-size: 20pt;
+  margin: 0 0 1mm;
 }
 .howto-sub {
   text-align: center;
   color: #888;
-  font-size: 12pt;
-  margin: 0 0 8mm;
+  font-size: 11pt;
+  margin: 0 0 2mm;
 }
 .howto h2 {
-  font-size: 13pt;
+  font-size: 12pt;
   color: #4a3b8c;
   border-left: 4px solid #7a6fb0;
   padding-left: 8px;
-  margin: 6mm 0 2mm;
+  margin: 2mm 0 1mm;
 }
 .howto p, .howto li {
-  font-size: 11.5pt;
-  line-height: 1.55;
+  font-size: 10.5pt;
+  line-height: 1.4;
   color: #333;
-  margin: 1mm 0;
+  margin: 0.5mm 0;
 }
-.howto ul { margin: 1mm 0; padding-left: 6mm; }
+.howto ul { margin: 0.5mm 0; padding-left: 6mm; }
 .howto .hl {
   background: #fdf6dd;
   border-radius: 4px;
-  padding: 5px 10px;
+  padding: 4px 8px;
 }
 """
 

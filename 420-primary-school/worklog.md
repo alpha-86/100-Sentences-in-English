@@ -77,6 +77,6 @@
 1. **复习逻辑改滚动式**：见第六节。删除原六个固定复习句的旧回读指令及绑定固定区间的"重点回顾"从句，保留各行"重现旧词"说明；PDF 上改为每天卡片都显示蓝色"今日回读"条（原来只有 6 天有橙色复习徽章）。
 2. **S32 内容修正**：原句 "…put their pink football under the bed." 中 pink football 不合常理、且"全体学生共放一个足球"语义别扭。改写为 "At night, all the students always listen and think, and Ron puts his football and pink socks under the bed." —— pink 改修饰旧词 sock（罗恩的粉红袜子，符合韦斯莱家的幽默感），7 个新词（pink/always/night/think/all/listen/football）与 covered_ids 不变，中文、语法、短语、复习说明同步更新，改写后重新跑全量校验通过。
 3. **PDF 字号加大**：英文句 14pt→16.5pt、正文 10.5pt→12pt、语法/生词/短语 9.5pt→11pt、英文单词 10.5pt→12pt、页眉页脚 9pt→10pt；配合间距压缩保持每页两张卡片、无大面积空白，最终 30 页。
-4. **新增 Howto 首页**（后续追加）：把本 worklog 第一至六节提炼成一页使用说明，放在 PDF 第 1 页（书名大标题 + 这本书怎么用 / 每天回读 / 单词安排 / 故事与句子 / 语法进阶 / 短语 / 给小朋友的话），`break-after: page` 保证 Day 1 卡片从第 2 页开始；全书 31 页。
+4. **新增 Howto 首页**（后续追加）：把本 worklog 第一至六节提炼成一页使用说明（书名大标题 + 这本书怎么用 / 每天回读 / 单词安排 / 故事与句子 / 语法进阶 / 短语 / 给小朋友的话）。标题不独占页面：Howto 压缩排版后与 Day 1 卡片同页流式排列，全书 31 页，首页无留白浪费。
 
 提交序列（每步落盘即 commit + push）：worklog 初版（d6cee18）→ plan2 计划（b740401）→ sentences.csv 修订（7d98ef6）→ PDF 重排（074a94b）→ 本 worklog 更新。
