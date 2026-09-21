@@ -8,16 +8,16 @@
 - 60 句有连贯性：6 幕故事线（见下）
 - KET / Think Starter 语法句型，循序渐进
 - 艾宾浩斯回顾：S3、S7、S14、S21、S30、S45 标记为复习句，句中自然重現前面学过的词；词汇在后续句子中重复出现 2-3 次
-- 产出：`420-primary-school/sentences.csv` → 然后排版 PDF（weasyprint 已装好，Noto CJK 字体已装好）
+- 产出：`420-primary-school/420-primary-school-sentences.csv` → 然后排版 PDF（weasyprint 已装好，Noto CJK 字体已装好）
 
 ## 工作方式（防卡死约定）
 
-1. 每批生成 10 句，**写完立即追加落盘** sentences.csv，再开下一批
+1. 每批生成 10 句，**写完立即追加落盘** 420-primary-school-sentences.csv，再开下一批
 2. 单次思考不超过 10 句的规划量
 3. 生词的音标/词性/中文：每批用 grep 从原 CSV 只查该批用到的词，不整读
 4. 全部 6 批完成后：跑覆盖率校验脚本 → 补漏 → 再排版 PDF
 
-## CSV 列设计（sentences.csv）
+## CSV 列设计（420-primary-school-sentences.csv）
 
 | 列 | 内容 |
 |---|---|
@@ -91,7 +91,7 @@
 5. ✅ 批 4：S31-40 → `batches/batch4.csv`
 6. ✅ 批 5：S41-50 → `batches/batch5.csv`
 7. ✅ 批 6：S51-60 → `batches/batch6.csv`
-8. ✅ 覆盖率校验：420 词全覆盖、无重复无遗漏；每个新词真实出现在句中；new_words 与原表逐字一致；6 个复习句（S3/7/14/21/30/45）均含"今日回读"→ 合并为 `sentences.csv`（60 行 × 8 列，UTF-8 带 BOM）
-9. ✅ PDF：`plan/render_pdf.py`（weasyprint）→ `sentences.pdf`（30 页 A4，句子大号深紫、语法区淡黄底、生词短语每行两个、复习句橙色徽章、页眉页码齐全；IPA 用 DejaVu Sans 回退，无乱码无大面积空白）
+8. ✅ 覆盖率校验：420 词全覆盖、无重复无遗漏；每个新词真实出现在句中；new_words 与原表逐字一致；6 个复习句（S3/7/14/21/30/45）均含"今日回读"→ 合并为 `420-primary-school-sentences.csv`（60 行 × 8 列，UTF-8 带 BOM）
+9. ✅ PDF：`plan/render_pdf.py`（weasyprint）→ `420-primary-school-sentences.pdf`（30 页 A4，句子大号深紫、语法区淡黄底、生词短语每行两个、复习句橙色徽章、页眉页码齐全；IPA 用 DejaVu Sans 回退，无乱码无大面积空白）
 
 > 注意：new_words 的音标内部可能含 `; `，下游解析须按 covered_ids 对照原词表取词条，不能按 `; ` 简单切分。

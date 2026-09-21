@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Render 420-primary-school/sentences.csv into an A4 PDF for primary-school kids."""
+"""Render 420-primary-school/420-primary-school-sentences.csv into an A4 PDF for primary-school kids."""
 import csv
 import html
 import os
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SENT_CSV = os.path.join(BASE, "sentences.csv")
+SENT_CSV = os.path.join(BASE, "420-primary-school-sentences.csv")
 VOCAB_CSV = os.path.join(BASE, "420-primary-school.csv")
-OUT_PDF = os.path.join(BASE, "sentences.pdf")
+OUT_PDF = os.path.join(BASE, "420-primary-school-sentences.pdf")
 OUT_HTML = os.path.join(BASE, "plan", "sentences.html")
 
 

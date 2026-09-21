@@ -1,12 +1,12 @@
 # 生成过程与选择逻辑 Worklog
 
-记录 `sentences.csv`（60 句）与 `sentences.pdf` 的生成过程，以及单词、句子、短语、语法的选择逻辑。原始需求见 `prompts/1-420-primary-school-001.md`，执行计划见 `plan/plan.md`（第一版）与 `plan/plan2-revision.md`（修订版，当前生效）。
+记录 `420-primary-school-sentences.csv`（60 句）与 `420-primary-school-sentences.pdf` 的生成过程，以及单词、句子、短语、语法的选择逻辑。原始需求见 `prompts/1-420-primary-school-001.md`，执行计划见 `plan/plan.md`（第一版）与 `plan/plan2-revision.md`（修订版，当前生效）。
 
 ## 一、整体流程
 
 1. **读需求 + 制定计划**：确认核心约束是"60 句覆盖 420 词"（420 = 60 × 7，即每句恰好 7 个新词），并把故事线、语法进阶、复习节奏一次性写进 `plan/plan.md`，作为后续所有批次的统一契约。
 2. **6 个并行子代理分批生成**：每个代理负责 10 句（连续的 70 个词），各自写入独立的 `batches/batchN.csv`，避免并发写同一文件。每个代理只读取自己负责的 CSV 行区间（单词 id = 行号 - 1），并自检"70 词各出现一次、每词真实出现在句中、格式 8 列"。
-3. **合并 + 机器校验**：合并 6 个批次为 `sentences.csv`（加表头，UTF-8 带 BOM），跑校验脚本确认：
+3. **合并 + 机器校验**：合并 6 个批次为 `420-primary-school-sentences.csv`（加表头，UTF-8 带 BOM），跑校验脚本确认：
    - 60 行 × 8 列，id 1-60 连续；
    - 420 个词每个恰好被覆盖一次，无遗漏、无重复、无表外词；
    - 每个新词（含复数/-ing/三单等变形）真实出现在对应英文句中；
@@ -66,7 +66,7 @@
 ## 七、踩过的坑（供下游维护参考）
 
 1. **音标内含 `; `**（如 `/duː; də/`），与 new_words 的词条分隔符冲突：任何解析都不能按 `; ` 简单切分，应按 covered_ids 对照原词表取词条（`plan/render_pdf.py` 就是这么做的）。
-2. **CSV 转义**：covered_ids 含英文逗号，写出/读回统一用 python csv 模块；sentences.csv 带 BOM 方便 Excel 直接打开。
+2. **CSV 转义**：covered_ids 含英文逗号，写出/读回统一用 python csv 模块；420-primary-school-sentences.csv 带 BOM 方便 Excel 直接打开。
 3. **配额中断**：首批并行代理因 5 小时用量限制 403 失败，恢复（resume）后全部完成；批次落盘到独立文件的设计让断点续跑没有产生任何冲突或重写。
 4. **渲染环境**：无 poppler/pdftoppm，用 PyMuPDF 等效渲染检查；IPA 字符需 DejaVu Sans 字体回退，否则音标会变方框。
 5. **字号与空白的平衡**（plan2）：字号整体放大 15-20% 后卡片变高，一度一句一页、页底留白约 50%；通过压缩页边距/卡片内边距/行高（而不是缩字号）把排版拉回每页两张卡片，全页底留白稳定在 10-21%。
@@ -80,5 +80,6 @@
 3. **PDF 字号加大**：英文句 14pt→16.5pt、正文 10.5pt→12pt、语法/生词/短语 9.5pt→11pt、英文单词 10.5pt→12pt、页眉页脚 9pt→10pt；配合间距压缩保持每页两张卡片、无大面积空白，最终 30 页。
 4. **新增 Howto 首页**（后续追加）：把本 worklog 第一至六节提炼成使用说明，放在 PDF 前两页——第 1 页约 35% 为书名标题区（大标题 + 副标题 + 420 词/60 句/6 幕/60 天关键信息），其余 65% 与第 2 页为 Howto（这本书怎么用 / 每天回读 / 单词安排 / 故事与句子 / 语法进阶 / 一张卡片里有什么 / 给家长的小建议 / 给小朋友的话），`break-after: page` 让 Day 1 卡片从第 3 页开始；全书 32 页。
 5. **强调背诵与背写**（第三次修订）：review_note 回读文案从"请重新朗读第 X 天的句子"统一改为"请重新朗读背诵第 X 天的句子"（59 行，脚本替换 + 机器校验）；PDF Howto 同步强化——学习步骤新增第 5 步"背诵（合上书背出整句）+ 背写（默写整句，错词红笔改 3 遍）"，每天回读、卡片结构说明、给家长的小建议、给小朋友的话各节均补上背诵/背写要求。
+6. **产物改名（第四次修订）**：`sentences.csv` → `420-primary-school-sentences.csv`、`sentences.pdf` → `420-primary-school-sentences.pdf`（git mv）。原因：仓库将容纳多个词表项目（420 小学词、1500 KET 词……），通用名 `sentences.*` 无法区分归属，统一改为"项目名-用途"命名。同步更新了 `plan/render_pdf.py` 的路径常量、`plan/plan.md`、`plan/plan2-revision.md`、本 worklog 的全部引用；`prompts/2-1500-KET-001.md` 也已采用同款命名约定（`1500-KET-sentences.csv/.pdf`）。重渲染验证 32 页不变。
 
-提交序列（每步落盘即 commit + push）：worklog 初版（d6cee18）→ plan2 计划（b740401）→ sentences.csv 修订（7d98ef6）→ PDF 重排（074a94b）→ 本 worklog 更新 → Howto 首页（aaabd29 / 6330532）→ 背诵背写强化。
+提交序列（每步落盘即 commit + push）：worklog 初版（d6cee18）→ plan2 计划（b740401）→ 420-primary-school-sentences.csv 修订（7d98ef6）→ PDF 重排（074a94b）→ 本 worklog 更新 → Howto 首页（aaabd29 / 6330532）→ 背诵背写强化（4e02de0）→ 新 prompt 2-1500-KET-001（f2150a8）→ 产物改名。
