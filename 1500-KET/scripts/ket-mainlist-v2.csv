@@ -1,0 +1,1245 @@
+word,pos,raw
+"a, an",art,"a, an"
+able,adj,able
+about,adv & prep,about
+above,prep,above
+act,v,act
+accident,n,accident
+across,prep,across
+activity,n,activity
+actor,n,actor
+actually,adv,actually
+add,v,add
+address,n,address
+adult,adj & n,adult
+advanced,adj,advanced
+adventure,n,adventure
+advertisement,n,advertisement
+aeroplane,n,aeroplane
+afraid,adj,afraid
+after,adv & prep,after
+afternoon,n,afternoon
+afterwards,adv,afterwards
+again,adv,again
+against,prep,against
+age,n,age
+ago,adv,ago
+agree,v,agree
+air,n,air
+airport,n,airport
+all,det & pron,all
+all right,adv,all right/alright
+almost,adv,almost
+alone,adj & adv,alone
+already,adv,already
+also,adv,also
+always,adv,always
+a.m.,adv,a.m.
+amazing,adj,amazing
+ambulance,n,ambulance
+among,prep,among
+and,conj,and
+angry,adj,angry
+animal,n,animal
+another,det & pron,another
+answer,n & v,answer
+any,det & pron,any
+anybody,pron,anybody
+anyone,pron,anyone
+anything,pron,anything
+anyway,adv,anyway
+anywhere,adv,anywhere
+apartment,n,apartment
+apple,n,apple
+appointment,n,appointment
+area,n,area
+arm,n,arm
+around,adv & prep,(a)round
+arrive,v,arrive
+art,n,art
+article,n,article
+artist,n,artist
+as,prep,as
+ask,v,ask
+assistant,n,assistant
+as well,adv,as well
+as well as,prep phr,as well as
+at,prep,at
+at all,adv,at all
+aunt,n,aunt
+autumn,n,autumn
+away,adv,away
+baby,n,baby
+back,"n, adv & adj",back
+bad,adj,bad
+bag,n,bag
+ball,n,ball
+banana,n,banana
+band,n,band
+bank,n,bank
+barbecue,n,barbecue
+baseball,n,baseball
+basketball,n,basketball
+bath,n,bath
+bathroom,n,bathroom
+be,v,be
+beach,n,beach
+bear,n,bear
+beautiful,adj,beautiful
+because,conj,because
+become,v,become
+bed,n,bed
+bedroom,n,bedroom
+before,adv & prep,before
+begin,v,begin
+beginner,n,beginner
+behind,adv & prep,behind
+believe,v,believe
+belong,v,belong
+below,prep,below
+belt,n,belt
+between,prep,between
+bicycle,n,bicycle
+big,adj,big
+bike,n,bike
+bill,n,bill
+bird,n,bird
+birthday,n,birthday
+biscuit,n,biscuit
+bit,n,bit
+black,adj,black
+blanket,n,blanket
+blonde,adj,blond(e)
+blouse,n,blouse
+blue,adj,blue
+board,n,board
+boat,n,boat
+body,n,body
+boil,v,boil
+book,n & v,book
+bookshelf,n,bookshelf
+bookshop,n,bookshop
+boot,n,boot
+bored,adj,bored
+boring,adj,boring
+born,adj,born
+borrow,v,borrow
+boss,n,boss
+both,pron & det,both
+bottle,n,bottle
+bottom,n,bottom
+bowl,n,bowl
+box,n,box
+boy,n,boy
+brake,n & v,brake
+bread,n,bread
+break,n & v,break
+breakfast,n,breakfast
+bridge,n,bridge
+brilliant,adj,brilliant
+bring,v,bring
+brother,n,brother
+brown,adj,brown
+build,v,build
+building,n,building
+burger,n,burger
+burn,v,burn
+bus,n,bus
+business,n,business
+businessman,n,businessman
+businesswoman,n,businesswoman
+bus station,n,bus station
+bus stop,n,bus stop
+busy,adj,busy
+but,conj,but
+butter,n,butter
+buy,v,buy
+by,prep,by
+cafe,n,cafe/café
+cake,n,cake
+call,v,call
+camel,n,camel
+camera,n,camera
+camp,n & v,camp
+campsite,n,campsite
+can,n & v,can
+canal,n,canal
+car,n,car
+card,n,card
+career,n,career
+careful,adj,careful
+carpet,n,carpet
+carrot,n,carrot
+carry,v,carry
+cartoon,n,cartoon
+cash,n & v,cash
+castle,n,castle
+cat,n,cat
+catch,v,catch
+cathedral,n,cathedral
+CD,n,CD
+CD player,n,CD player
+cent,n,cent
+centre,n,centre
+centimetre,n,centimetre
+century,n,century
+certain,adj,certain
+certainly,adv,certainly (not)
+chair,n,chair
+change,v & n,change
+channel,n,channel
+chat,n,chat
+chatroom,n,chatroom
+cheap,adj,cheap
+check,v,check
+cheers,exclam,cheers!
+cheese,n,cheese
+chemist,n,chemist
+cheque,n,cheque
+chicken,n,chicken
+child,n,child
+chips,n pl,chips
+chocolate,n,chocolate
+choose,v,choose
+church,n,church
+cinema,n,cinema
+circus,n,circus
+city,n,city
+class,n,class
+class member,n,class member
+classical,adj,classical
+classmate,n,classmate
+classroom,n,classroom
+clean,adj & v,clean
+clear,adj,clear
+clever,adj,clever
+click,v,click
+climb,v,climb
+clock,n,clock
+close,v,close
+closed,adj,closed
+close to,prep phr,close to
+clothes,n pl,clothes
+cloud,n,cloud
+cloudy,adj,cloudy
+clown,n,clown
+club,n,club
+coach,n,coach
+coat,n,coat
+coffee,n,coffee
+cold,adj & n,cold
+colleague,n,colleague
+collect,v,collect
+college,n,college
+colour,n,colour
+comb,n,comb
+come,v,come
+comfortable,adj,comfortable
+company,n,company
+competition,n,competition
+computer,n,computer
+concert,n,concert
+congratulations,exclam,congratulations!
+conversation,n,conversation
+cook,n & v,cook
+cooker,n,cooker
+cool,adj,cool
+corner,n,corner
+correct,adj,correct
+cost,n & v,cost
+costume,n,costume
+could,v,could
+country,n,country
+countryside,n,countryside
+course,n,course
+of course,adv,of course
+cousin,n,cousin
+cow,n,cow
+cream,n,cream
+credit card,n,credit card
+cross,v,cross
+crossing,n,crossing
+crossroads,n,crossroads
+crowd,n,crowd
+crowded,adj,crowded
+cry,v,cry
+cup,n,cup
+cupboard,n,cupboard
+curtains,n,curtains
+customer,n,customer
+cut,v,cut
+cycle,v,cycle
+dad,n,dad(dy)
+daily,adj & adv,daily
+dance,n & v,dance
+dancing,n,dancing
+danger,n,danger
+dangerous,adj,dangerous
+dark,adj,dark
+date,n,date
+daughter,n,daughter
+day,n,day
+dead,adj,dead
+dear,adj,dear
+decide,v,decide
+degree,n,degree
+delay,n & v,delay
+dentist,n,dentist
+department,n,department
+describe,v,describe
+desk,n,desk
+diary,n,diary
+dictionary,n,dictionary
+die,v,die
+difference,n,difference
+different,adj,different
+difficult,adj,difficult
+digital,adj,digital
+dining room,n,dining room
+dinner,n,dinner
+dinosaur,n,dinosaur
+diploma,n,diploma
+dirty,adj,dirty
+disco,n,disco
+discount,n,discount
+dish,n,dish
+do,v,do
+doctor,n,doctor
+dog,n,dog
+dollar,n,dollar
+dolphin,n,dolphin
+door,n,door
+dot,n,dot
+double,adj,double
+down,adv & prep,down
+download,n & v,download
+downstairs,adv,downstairs
+dragon,n,dragon
+draw,v,draw
+drawing,n,drawing
+dream,n & v,dream
+dress,n & v,dress
+drink,n & v,drink
+drive,v,drive
+driving licence,n,driving licence
+drum,n,drum
+dry,adj & v,dry
+during,prep,during
+DVD,n,DVD
+DVD player,n,DVD player
+each,det & pron,each
+ear,n,ear
+early,adj & adv,early
+earn,v,earn
+east,"n, adj & adv",east
+easy,adj,easy
+eat,v,eat
+egg,n,egg
+electric,adj,electric
+electricity,n,electricity
+elephant,n,elephant
+else,adv,else
+email,n & v,email
+empty,adj & v,empty
+end,v & n,end
+engine,n,engine
+engineer,n,engineer
+enjoy,v,enjoy
+enough,det & pron,enough
+enter,v,enter
+entrance,n,entrance
+envelope,n,envelope
+euro,n,euro
+even,adv,even
+evening,n,evening
+ever,adv,ever
+every,det,every
+everybody,pron,everybody
+everyone,pron,everyone
+everything,pron,everything
+everywhere,adv,everywhere
+exam,n,examination/exam
+example,n,example
+excellent,adj,excellent
+except,prep,except
+exercise,n & v,exercise
+excited,adj,excited
+exciting,adj,exciting
+excuse,v,excuse
+exhibition,n,exhibition
+exit,n,exit
+expensive,adj,expensive
+explain,v,explain
+explore,v,explore
+explorer,n,explorer
+extra,det & adj,extra
+face,n,face
+factory,n,factory
+fan,n,fan
+fail,v,fail
+fair,adj,fair
+fall,v,fall
+family,n,family
+famous,adj,famous
+far,adv,far
+farm,n,farm
+fashion,n,fashion
+fast,adj & adv,fast
+fast food,n,fast food
+fat,adj,fat
+father,n,father
+favourite,adj,favourite
+feel,v,feel
+festival,n,festival
+few,det & adj,few
+field,n,field
+fill,v,fill
+fill in,phr v,fill in
+film,n & v,film
+find,v,find
+fine,adj,fine
+finish,v,finish
+fire,n,fire
+first,adv & adj,first
+first name,adj,first name
+fish,n & v,fish
+fit,adj,fit
+flat,n,flat
+flight,n,flight
+floor,n,floor
+flower,n,flower
+fly,n & v,fly
+fog,n,fog
+foggy,adj,foggy
+follow,v,follow
+food,n,food
+foot,n,foot
+football,n,football
+for,prep,for
+foreign,adj,foreign
+forest,n,forest
+forget,v,forget
+fork,n,fork
+form,n,form
+free,adj,free
+fresh,adj,fresh
+fridge,n,fridge
+fried,adj,fried
+friend,n,friend
+friendly,adj,friendly
+from,prep,from
+front,n,front
+fruit,n,fruit
+fry,v,fry
+full of,adj,full (of)
+fun,n,fun
+funny,adj,funny
+furniture,n,furniture
+game,n,game
+garage,n,garage
+garden,n,garden
+gas,n,gas
+gate,n,gate
+get,v,get
+get fit,v,get fit
+get off,phr v,get off
+get on,phr v,get on
+get up,phr v,get up
+girl,n,girl
+give,v,give
+glad,adj,glad
+glass,n & adj,glass
+glasses,n pl,glasses
+go,v,go
+go out,phr v,go out
+golf,n,golf
+gold,n & adj,gold
+good,adj,good
+goodbye,exclam,goodbye
+gram,n,gram(me)
+grandchild,n,grandchild
+granddad,n,grand(d)ad
+granddaughter,n,granddaughter
+grandfather,n,grandfather
+grandma,n,grandma
+grandmother,n,grandmother
+grandpa,n,grandpa
+grandparent,n,grandparent
+grandson,n,grandson
+grape,n,grape
+grass,n,grass
+great,adj,great
+green,adj,green
+grey,adj,grey
+grill,v,grill
+grilled,adj,grilled
+group,n,group
+grow,v,grow
+grow up,phr v,grow up
+guest,n,guest
+guest-house,n,guest-house
+guide,n,guide
+guidebook,n,guidebook
+guitar,n,guitar
+guy,n,guy
+hair,n,hair
+hairdresser,n,hairdresser
+hairdryer,n,hairdryer
+half,n & pron,half
+hall,n,hall
+hello,exclam,hallo/hello!
+hand,n,hand
+happen,v,happen
+happy,adj,happy
+hard,adj & adv,hard
+hat,n,hat
+hate,v,hate
+have,v,have
+have got,v,have got
+have to,v,have to
+he,pron,he
+head,n,head
+health,n,health
+healthy,adj,healthy
+hear,v,hear
+heart,n,heart
+heating,n,heating
+heavy,adj,heavy
+helicopter,n,helicopter
+help,v,help
+her,det & pron,her
+herself,pron,herself
+here,adv,here
+hers,pron,hers
+high,adj,high
+hill,n,hill
+him,pron,him
+himself,pron,himself
+hip hop,n,hip hop
+his,det & pron,his
+hit,v,hit
+hobby,n,hobby
+hockey,n,hockey
+holidays,n,holiday(s)
+home,n & adv,home
+homework,n,homework
+hope,v,hope
+horse,n,horse
+hospital,n,hospital
+hot,adj,hot
+hotel,n,hotel
+hour,n,hour
+house,n,house
+how,adv,how
+hungry,adj,hungry
+hurry,v,hurry
+hurt,v,hurt
+husband,n,husband
+I,pron,I
+ice,n,ice
+ice cream,n,ice cream
+ice skating,n,ice skating
+idea,n,idea
+if,conj,if
+ill,adj,ill
+immediately,adv,immediately
+important,adj,important
+impossible,adj,impossible
+improve,v,improve
+in,adv & prep,in
+include,v,include
+indoor,adj,indoor
+indoors,adv,indoors
+information,n,information
+in front of,prep phr,in front of
+insect,n,insect
+inside,adv & prep,inside
+instead,adv,instead
+instead of,prep phr,instead of
+instructions,n pl,instructions
+instrument,n,instrument
+insurance,n,insurance
+interested,adj,interested
+interesting,adj,interesting
+international,adj,international
+internet,n,internet
+into,prep,into
+invite,v,invite
+island,n,island
+it,pron,it
+its,det,its
+itself,pron,itself
+jacket,n,jacket
+jam,n,jam
+jeans,n pl,jeans
+job,n,job
+join,v,join
+journalist,n,journalist
+journey,n,journey
+juice,n,juice
+jump,v,jump
+just,adv,just
+keep,v,keep
+key,n,key
+keyboard,n,keyboard
+kilogram,n,kilo(gram[me]) / kg
+kilometre,n,kilometre / km
+kind,adj & n,kind
+king,n,king
+kitchen,n,kitchen
+kite,n,kite
+knife,n,knife
+know,v,know
+lake,n,lake
+lamp,n,lamp
+language,n,language
+laptop,n,laptop (computer)
+large,adj,large
+last,adj & adv,last
+late,adj & adv,late
+later,adv,later
+laugh,v,laugh
+learn,v,learn
+leather,n & adj,leather
+leave,v,leave
+left,"n, adj & adv",left
+left hand,adj,left hand
+leg,n,leg
+lemon,n,lemon
+lemonade,n,lemonade
+less,"adj, det, pron & adv",less
+lesson,n,lesson
+let,v,let
+letter,n,letter
+level,n,level
+library,n,library
+licence,n,licence
+lie down,phr v,lie down
+life,n,life
+lift,n,lift
+light,n & adj,light
+like,"v, prep & adv",like
+line,n,line
+lion,n,lion
+listen,v,listen
+litre,n,litre
+little,"adj, det & pron",little
+live,v,live
+living room,n,living room
+long,adj,long
+look,v,look
+look after,phr v,look after
+look at,phr v,look at
+look for,phr v,look for
+look out,phr v,look out
+lorry,n,lorry
+lose,v,lose
+lot,n,lot
+lots,n,lots
+loud,adj,loud
+love,n & v,love
+lovely,adj,lovely
+low,adj,low
+luck,n,luck
+lucky,adj,lucky
+luggage,n,luggage
+lunch,n,lunch
+machine,n,machine
+magazine,n,magazine
+make,v,make
+make up,n,make up
+man,n,man
+manager,n,manager
+many,"det, adj & pron",many
+map,n,map
+market,n,market
+married,adj,married
+match,n,match
+matter,v,matter
+maybe,adv,maybe
+me,pron,me
+meal,n,meal
+mean,v,mean
+meat,n,meat
+mechanic,n,mechanic
+medicine,n,medicine
+meet,v,meet
+meeting,n,meeting
+member,n,member
+menu,n,menu
+message,n,message
+metre,n,metre
+middle,n,middle
+midnight,n,midnight
+mile,n,mile
+milk,n,milk
+million,n,million
+mind,v,mind
+mine,pron,mine
+mineral water,n,mineral water
+minute,n,minute
+mirror,n,mirror
+Miss,n,Miss
+miss,v,miss
+mistake,n,mistake
+mobile phone,n,mobile (phone)
+modern,adj,modern
+moment,n,moment
+money,n,money
+monkey,n,monkey
+month,n,month
+monthly,adj & adv,monthly
+moon,n,moon
+more,"adj, det, pron & adv",more
+morning,n,morning
+most,"adj, det, pron & adv",most
+mother,n,mother
+motorbike,n,motorbike
+motorway,n,motorway
+mountain,n,mountain
+mouse,n,mouse
+mouth,n,mouth
+move,v,move
+MP3 player,n,MP3 player
+Mr,n,Mr
+Mrs,n,Mrs
+Ms,n,Ms
+much,"adj, det, pron & adv",much
+mummy,n,mum(my)
+museum,n,museum
+music,n,music
+musician,n,musician
+must,v,must
+my,det,my
+myself,pron,myself
+name,n,name
+national,adj,national
+nationality,n,nationality
+nature,n,nature
+near,adv & prep,near
+nearly,adv,nearly
+neck,n,neck
+need,v,need
+neighbour,n,neighbour
+never,adv,never
+new,adj,new
+news,n,news
+newsagent,n,newsagent
+newspaper,n,newspaper
+next,adj & adv,next
+next to,prep,next to
+nice,adj,nice
+night,n,night
+no,det & exclam,no
+nobody,pron,nobody
+no one,pron,no one
+noisy,adj,noisy
+noon,n,noon
+none,pron,none
+normal,adj,normal
+north,"n, adj & adv",north
+nose,n,nose
+not,adv,not
+note,n & v,note
+nothing,pron,nothing
+now,adv,now
+nowhere,adv,nowhere
+number,n,number
+nurse,n,nurse
+occupation,n,occupation
+o'clock,adv,o'clock
+of,prep,of
+off,adv,off
+office,n,office
+often,adv,often
+oil,n,oil
+OK,exclam,OK/okay
+old,adj,old
+omelette,n,omelette
+on,prep & adv,on
+once,adv,once
+one,"pron, det & num",one
+onion,n,onion
+online,adj & adv,online
+only,adv & adj,only
+open,adj & v,open
+opera,n,opera
+opposite,prep,opposite
+or,conj,or
+orange,adj & n,orange
+order,n,order
+other,det,other
+our,det,our
+ours,pron,ours
+ourselves,pron,ourselves
+out,adv,out
+outdoor,adj,outdoor
+outdoors,adv,outdoors
+outside,prep & adv,outside
+over,prep & adv,over
+own,adj,own
+pack,v,pack
+page,n,page
+pain,n,pain
+paint,v & n,paint
+pair,n,pair
+paper,n & adj,paper
+pardon,exclam,pardon
+parent,n,parent
+park,n & v,park
+parrot,n,parrot
+part,n,part
+party,n,party
+pass,v,pass
+passenger,n,passenger
+passport,n,passport
+past,prep,past
+pasta,n,pasta
+path,n,path
+pay,v,pay
+pen,n,pen
+pence,n pl,pence
+pencil,n,pencil
+pencil case,n,pencil case
+pen-friend,n,pen-friend
+penny,n,penny
+people,n pl,people
+pepper,n,pepper
+per,prep,per
+perhaps,adv,perhaps
+person,n,person
+pet,n,pet
+petrol,n,petrol
+petrol station,n,petrol station
+pharmacy,n,pharmacy
+phone,v & n,phone
+photo,n,photo(graph)
+photography,n,photography
+piano,n,piano
+picnic,n,picnic
+picture,n,picture
+piece,n,piece
+pillow,n,pillow
+pilot,n,pilot
+pink,adj,pink
+pity,n,pity
+pizza,n,pizza
+place,n,place
+plan,n & v,plan
+plane,n,plane
+plant,n,plant
+plastic,n & adj,plastic
+plate,n,plate
+platform,n,platform
+play,v & n,play
+playground,n,playground
+pleasant,adj,pleasant
+please,v & exclam,please
+p.m.,adv,p.m.
+pocket,n,pocket
+point,v,point
+police,n,police
+police car,n,police car
+police officer,n,police officer
+police station,n,police station
+pool,n,pool
+poor,adj,poor
+pop,n & adj,pop
+popular,adj,popular
+possible,adj,possible
+post,v & n,post
+postcard,n,postcard
+post office,n,post office
+poster,n,poster
+potato,n,potato
+pound,n,pound (£)
+practice,n,practice
+practise,v,practise
+prefer,v,prefer
+present,n,present
+pretty,adj,pretty
+price,n,price
+prize,n,prize
+problem,n,problem
+programme,n,programme
+project,n,project
+pull,v,pull
+pupil,n,pupil
+purple,adj,purple
+purse,n,purse
+push,v,push
+put,v,put
+put on,phr v,put on
+quarter,n,quarter
+queen,n,queen
+question,n,question
+quick,adj,quick
+quiet,adj,quiet
+quite,adv,quite
+quiz,n,quiz
+race,n & v,race
+racket,n,racket
+radio,n,radio
+railway,n,railway
+rain,n & v,rain
+raincoat,n,raincoat
+rap,n,rap
+rather,adv,rather
+read,v,read
+ready,adj,ready
+real,adj,real
+really,adv,really
+receptionist,n,receptionist
+red,adj,red
+reggae,n,reggae
+remember,v,remember
+rent,v,rent
+repair,v,repair
+rest,n & v,rest
+restaurant,n,restaurant
+return,n & v,return
+rice,n,rice
+rich,adj,rich
+ride,n & v,ride
+right,"n, adj & adv",right
+river,n,river
+road,n,road
+roast,v & adj,roast
+rock,n,rock
+roof,n,roof
+room,n,room
+round,adj,round
+roundabout,n,roundabout
+run,v,run
+sad,adj,sad
+safe,adj,safe
+sail,v,sail
+sailing,n,sailing
+salad,n,salad
+sale,n,sale
+salt,n,salt
+same,adj & pron,same
+sandwich,n,sandwich
+save,v,save
+say,v,say
+school,n,school
+screen,n,screen
+scooter,n,scooter
+sea,n,sea
+seat,n,seat
+second,n & adj,second
+secretary,n,secretary
+see,v,see
+sell,v,sell
+send,v,send
+sentence,n,sentence
+several,det & adj,several
+shall,v,shall
+shampoo,v & n,shampoo
+she,pron,she
+sheet,n,sheet
+shelf,n,shelf
+ship,n,ship
+shirt,n,shirt
+shoe,n,shoe
+shop,n & v,shop
+shop assistant,n,shop assistant
+short,adj,short
+shorts,n pl,shorts
+should,v,should
+shout,v,shout
+show,v & n,show
+shower,n,shower
+shut,v,shut
+sick,adj,sick
+side,n,side
+silver,n & adj,silver
+since,prep,since
+sincerely,adv,sincerely
+sing,v,sing
+single,adj,single
+sister,n,sister
+sit,v,sit
+sit down,phr v,sit down
+sitting room,n,sitting room
+size,n,size
+skate,v,skate
+skateboard,n,skateboard
+ski,v,ski
+skirt,n,skirt
+sky,n,sky
+sleep,v,sleep
+slice,n,slice
+slow,adj,slow
+small,adj,small
+smoke,v,smoke
+snack,n,snack
+snow,n & v,snow
+snowboard,n,snowboard
+snowboarding,n,snowboarding
+so,conj & adv,so
+soap,n,soap
+sock,n,sock
+sofa,n,sofa
+soft,adj,soft
+some,det & pron,some
+somebody,pron,somebody
+someone,pron,someone
+something,pron,something
+sometimes,adv,sometimes
+somewhere,adv,somewhere
+son,n,son
+song,n,song
+soon,adv,soon
+sorry,adj,sorry
+sound,v,sound
+soup,n,soup
+south,"n, adj & adv",south
+space,n,space
+speak,v,speak
+special,adj,special
+spell,v,spell
+spend,v,spend
+spoon,n,spoon
+sport,n,sport
+sports centre,n,sports centre
+spring,n,spring
+square,n & adj,square
+stadium,n,stadium
+staff,n,staff
+stage,n,stage
+stairs,n pl,stairs
+stamp,n,stamp
+stand,v,stand
+star,n & v,star
+start,v,start
+station,n,station
+stay,v,stay
+steak,n,steak
+steal,v,steal
+still,adv,still
+stomach,n,stomach
+stop,n & v,stop
+store,n,store
+storm,n,storm
+story,n,story
+straight,adj,straight
+straight on,adv,straight on
+strange,adj,strange
+street,n,street
+strong,adj,strong
+student,n,student
+studies,n pl,studies
+study,v,study
+subject,n,subject
+success,n,success
+such,det & adj,such
+suddenly,adv,suddenly
+sugar,n,sugar
+suit,n,suit
+suitcase,n,suitcase
+summer,n,summer
+sun,n,sun
+sunny,adj,sunny
+supermarket,n,supermarket
+supper,n,supper
+suppose,v,suppose
+sure,adj,sure
+surfboard,n,surfboard
+surfing,n,surfing
+surname,n,surname
+surprise,n,surprise
+surprised,adj,surprised
+sweater,n,sweater
+sweet,n & adj,sweet
+swim,v,swim
+table,n,table
+table-tennis,n,table-tennis
+take,v,take
+take off,phr v,take off
+talk,n & v,talk
+tall,adj,tall
+taxi,n,taxi
+tea,n,tea
+teach,v,teach
+team,n,team
+teenager,n,teenager
+telephone,n & v,telephone
+television,n,television
+tell,v,tell
+temperature,n,temperature
+tennis,n,tennis
+tent,n,tent
+term,n,term
+terrible,adj,terrible
+test,n,test
+text,n & v,text
+text book,n,text book
+text message,n,text message
+than,prep & conj,than
+thank,v,thank
+the,det,the
+theatre,n,theatre
+their,det,their
+theirs,pron,theirs
+them,pron,them
+themselves,pron,themselves
+then,adv,then
+there,adv,there
+these,det & pron,these
+they,pron,they
+thin,adj,thin
+thing,n,thing
+think,v,think
+thirsty,adj,thirsty
+this,det & pron,this
+those,det & pron,those
+through,prep,through
+throw,v,throw
+thunderstorm,n,thunderstorm
+ticket,n,ticket
+tidy,adj & v,tidy
+tidy up,v,tidy up
+tiger,n,tiger
+tights,n pl,tights
+till,prep,till
+time,n,time
+tired,adj,tired
+to,prep,to
+today,n & adv,today
+together,adv,together
+toilet,n,toilet
+tomato,n,tomato
+tomorrow,n & adv,tomorrow
+tonight,n & adv,tonight
+too,adv,too
+tooth,n,tooth
+toothbrush,n,toothbrush
+top,n,top
+total,adj & n,total
+tour,n & v,tour
+tour guide,n,tour guide
+tourist,n,tourist
+tourist information centre,n,tourist information centre
+towel,n,towel
+town,n,town
+toy,n,toy
+traffic,n,traffic
+traffic lights,n pl,traffic lights
+train,n,train
+trainers,n pl,trainers
+tram,n,tram
+travel,v,travel
+travel agent,n,travel agent
+tree,n,tree
+trip,n,trip
+trouble,n,trouble
+trousers,n pl,trousers
+try,v,try
+try on,phr v,try on
+T-shirt,n,T-shirt
+turn,v,turn
+turn off,phr v,turn off
+turn on,phr v,turn on
+twice,adv,twice
+type,n,type
+tyre,n,tyre
+umbrella,n,umbrella
+uncle,n,uncle
+under,prep,under
+underground,n & adj,underground
+understand,v,understand
+uniform,n,uniform
+university,n,university
+until,prep,until
+up,prep & adv,up
+upstairs,adv,upstairs
+us,pron,us
+use,v,use
+useful,adj,useful
+usual,adj,usual
+variety,n,variety
+vegetable,n,vegetable
+very,adv,very
+video,n,video
+video recorder,n,video recorder
+village,n,village
+violin,n,violin
+visit,v,visit
+visitor,n,visitor
+volleyball,n,volleyball
+wait,v,wait
+waiter,n,waiter
+waitress,n,waitress
+wake up,phr v,wake up
+walk,v,walk
+wall,n,wall
+wallet,n,wallet
+want,v,want
+warm,adj,warm
+wash,v,wash
+wash up,phr v,wash up
+watch,n & v,watch
+water,n,water
+way,n,way
+we,pron,we
+wear,v,wear
+weather,n,weather
+website,n,website
+wedding,n,wedding
+week,n,week
+weekday,n,weekday
+weekend,n,weekend
+weekly,adj & adv,weekly
+welcome,v,welcome
+well,adv & adj,well
+west,"n, adj & adv",west
+wet,adj,wet
+whale,n,whale
+what,det & pron,what
+wheel,n,wheel
+when,adv,when
+where,adv,where
+which,det & pron,which
+while,conj,while
+white,adj,white
+who,pron,who
+whole,adj & n,whole
+whose,pron,whose
+why,adv,why
+wife,n,wife
+wild,adj,wild
+will,v,will ('ll)
+win,v,win
+wind,n,wind
+window,n,window
+windsurfing,n,windsurfing
+windy,adj,windy
+winter,n,winter
+wishes,n pl,wishes
+with,prep,with
+without,prep,without
+woman,n,woman
+wonderful,adj,wonderful
+wood,n,wood
+wool,n,wool
+word,n,word
+work,n & v,work
+world,n,world
+worry,v,worry
+would,v,would
+write,v,write
+write down,phr v,write down
+wrong,adj,wrong
+year,n,year
+yellow,adj,yellow
+yes,exclam,yes
+yesterday,n & adv,yesterday
+yet,adv,yet
+you,pron,you
+young,adj,young
+your,det,your
+yours,pron,yours
+yourself,pron,yourself
+zero,n,zero
+zoo,n,zoo

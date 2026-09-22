@@ -1,0 +1,259 @@
+# Appendix 1 词族展开（PDF 用 etc. 省略，按官方 spec 显式展开）
+Monday	n	星期一
+Tuesday	n	星期二
+Wednesday	n	星期三
+Thursday	n	星期四
+Friday	n	星期五
+Saturday	n	星期六
+Sunday	n	星期日
+January	n	一月
+February	n	二月
+March	n	三月
+April	n	四月
+May	n	五月
+June	n	六月
+July	n	七月
+August	n	八月
+September	n	九月
+October	n	十月
+November	n	十一月
+December	n	十二月
+two	num	二
+three	num	三
+four	num	四
+five	num	五
+six	num	六
+seven	num	七
+eight	num	八
+nine	num	九
+ten	num	十
+eleven	num	十一
+twelve	num	十二
+thirteen	num	十三
+fourteen	num	十四
+fifteen	num	十五
+sixteen	num	十六
+seventeen	num	十七
+eighteen	num	十八
+nineteen	num	十九
+twenty	num	二十
+thirty	num	三十
+forty	num	四十
+fifty	num	五十
+sixty	num	六十
+seventy	num	七十
+eighty	num	八十
+ninety	num	九十
+hundred	num	百
+thousand	num	千
+third	num	第三
+fourth	num	第四
+fifth	num	第五
+sixth	num	第六
+seventh	num	第七
+eighth	num	第八
+ninth	num	第九
+tenth	num	第十
+eleventh	num	第十一
+twelfth	num	第十二
+thirteenth	num	第十三
+fourteenth	num	第十四
+fifteenth	num	第十五
+sixteenth	num	第十六
+seventeenth	num	第十七
+eighteenth	num	第十八
+nineteenth	num	第十九
+twentieth	num	第二十
+twenty-first	num	第二十一
+twenty-second	num	第二十二
+twenty-third	num	第二十三
+twenty-fourth	num	第二十四
+twenty-fifth	num	第二十五
+twenty-sixth	num	第二十六
+twenty-seventh	num	第二十七
+twenty-eighth	num	第二十八
+twenty-ninth	num	第二十九
+thirtieth	num	第三十
+thirty-first	num	第三十一
+Brazil	n	巴西
+Brazilian	adj & n	巴西的；巴西人
+Canada	n	加拿大
+Canadian	adj & n	加拿大的；加拿大人
+China	n	中国
+Chinese	adj & n	中国的；中国人；汉语
+France	n	法国
+French	adj & n	法国的；法国人；法语
+Ireland	n	爱尔兰
+Irish	adj & n	爱尔兰的；爱尔兰人
+India	n	印度
+Indian	adj & n	印度的；印度人
+Italy	n	意大利
+Italian	adj & n	意大利的；意大利人
+Spain	n	西班牙
+Spanish	adj & n	西班牙的；西班牙人；西班牙语
+Britain	n	英国
+British	adj & n	英国的；英国人
+America	n	美国
+American	adj & n	美国的；美国人
+Australia	n	澳大利亚
+Australian	adj & n	澳大利亚的；澳大利亚人
+Japan	n	日本
+Japanese	adj & n	日本的；日本人；日语
+Germany	n	德国
+German	adj & n	德国的；德国人；德语
+Russia	n	俄罗斯
+Russian	adj & n	俄罗斯的；俄罗斯人；俄语
+Korea	n	韩国
+Korean	adj & n	韩国的；韩国人；韩语
+Africa	n	非洲
+Antarctica	n	南极洲
+Asia	n	亚洲
+Europe	n	欧洲
+North America	n	北美洲
+South America	n	南美洲
+geography	n	地理（学）
+history	n	历史
+mathematics	n	数学
+science	n	科学
+teacher	n	教师
+driver	n	司机；驾驶员
+farmer	n	农民
+cleaner	n	清洁工
+dancer	n	舞蹈演员；跳舞的人
+painter	n	画家；油漆工
+photographer	n	摄影师
+footballer	n	足球运动员
+carefully	adv	仔细地
+quickly	adv	快地
+slowly	adv	慢地
+usually	adv	通常
+unhappy	adj	不高兴的；不快乐的
+fishing	n	钓鱼（活动）
+parking	n	停车（活动）
+reading	n	阅读（活动）
+shopping	n	购物
+# Appendix 3 主题词表漏收词（与主表 diff 得到）
+lights	n pl	灯（复数）
+TV	n	电视
+boots	n pl	靴子
+shoes	n pl	鞋
+by post	prep phr	邮寄；通过邮政
+main course	n	主菜
+piece of cake	n	一块蛋糕；轻松的事
+better	adj & adv	更好的；较好地
+department store	n	百货商店
+car park	n	停车场
+city centre	n	市中心
+railway station	n	火车站
+swimming pool	n	游泳池
+rainforest	n	雨林
+for sale	prep phr	出售；待售
+shopper	n	购物者
+player	n	运动员；选手；玩家
+riding	n	骑马（活动）
+swimming	n	游泳（活动）
+tennis player	n	网球运动员
+winner	n	获胜者；赢家
+skiing	n	滑雪（运动）
+swimming costume	n	泳衣
+surfboarding	n	冲浪板运动
+half past	prep phr	…点半
+working hours	n pl	工作时间
+delayed	adj	延误的；迟的
+worker	n	工人；工作者
+listen to	prep phr	听
+singer	n	歌手
+writer	n	作家
+New Year	n	新年
+# 小学高频词兜底（review 通过；worklog 记录来源）
+eye	n	眼睛
+finger	n	手指
+toe	n	脚趾
+knee	n	膝盖
+niece	n	侄女；外甥女
+nephew	n	侄子；外甥
+rabbit	n	兔子
+snake	n	蛇
+duck	n	鸭子
+noodles	n pl	面条
+sausage	n	香肠
+pie	n	馅饼；派
+honey	n	蜂蜜
+strawberry	n	草莓
+pear	n	梨
+peach	n	桃子
+mango	n	芒果
+cola	n	可乐
+kick	v	踢
+smile	n & v	微笑；笑容
+wish	n & v	愿望；祝愿
+bake	v	烤；烘焙
+brush	n & v	刷子；刷
+hold	v	拿着；握住
+wide	adj	宽的
+weak	adj	虚弱的
+simple	adj	简单的
+true	adj	真实的
+ugly	adj	丑的
+alive	adj	活着的
+sleepy	adj	困的；想睡的
+rainy	adj	下雨的；多雨的
+snowy	adj	下雪的；多雪的
+stormy	adj	有暴风雨的
+along	prep & adv	沿着；向前
+beside	prep	在…旁边
+housework	n	家务
+season	n	季节
+rainbow	n	彩虹
+gym	n	体育馆；健身房
+metal	n	金属
+circle	n	圆形；圆圈
+triangle	n	三角形
+doll	n	玩具娃娃
+printer	n	打印机
+van	n	面包车；货车
+jazz	n	爵士乐
+ruler	n	尺子
+rubber	n	橡皮
+notebook	n	笔记本
+schoolbag	n	书包
+scissors	n pl	剪刀
+crayon	n	蜡笔
+sharpener	n	卷笔刀
+tie	n & v	领带；系
+cap	n	帽子；鸭舌帽
+gloves	n pl	手套
+scarf	n	围巾
+Christmas	n	圣诞节
+Easter	n	复活节
+Halloween	n	万圣节前夜
+badminton	n	羽毛球运动
+cough	n & v	咳嗽
+fever	n	发烧
+headache	n	头痛
+gardener	n	园丁；园艺工人
+postman	n	邮递员
+fire station	n	消防站
+firefighter	n	消防员
+shoulder	n	肩膀
+thumb	n	拇指
+pyjamas	n pl	睡衣
+toast	n	烤面包片；吐司
+cereal	n	谷类早餐；麦片
+pancake	n	薄煎饼
+milkshake	n	奶昔
+wave	n & v	波浪；挥手
+fix	v	修理；安装
+perfect	adj	完美的
+delicious	adj	美味的
+fantastic	adj	极好的
+huge	adj	巨大的
+tiny	adj	极小的
+narrow	adj	狭窄的
+bat	n	球拍；蝙蝠
+goal	n	球门；目标
+score	n & v	得分；分数
+skating	n	滑冰（活动）
+dozen	num	十二；一打
+Mexico	n	墨西哥
+Mexican	adj & n	墨西哥的；墨西哥人
