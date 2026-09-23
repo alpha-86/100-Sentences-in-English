@@ -144,6 +144,7 @@ IRREG_N = {
     "half": "halves", "wolf": "wolves", "life": "lives", "potato": "potatoes", "tomato": "tomatoes",
     "hero": "heroes", "piano": "pianos", "photo": "photos", "scarf": "scarves", "loaf": "loaves",
     "pence": "pence", "penny": "pence", "aircraft": "aircraft", "series": "series",
+    "grandchild": "grandchildren", "grandson": "grandsons", "granddaughter": "granddaughters",
 }
 
 IRREG_ADJ = {
@@ -209,7 +210,10 @@ def _forms_simple(w, tags):
     tags 来自词表词性列的字母标签：v→动词形态；n/pron→复数；adj/adv→比较级最高级。
     """
     is_n = bool(tags & {"n", "pron"}) or not tags
-    is_v = "v" in tags or not tags
+    # 动词形态：标了 v 的，以及**只标名词**的（skateboard/garden/plant 这类在本书语境中
+    # 会当动词用：skateboarding/gardening/planting）。纯 adj/adv/art/det/prep/conj/num
+    # 不生成动词形态，避免 very→verying 这类垃圾。
+    is_v = "v" in tags or tags <= {"n", "pl"} or not tags
     is_a = bool(tags & {"adj", "adv"}) or not tags
     out = {w}
     if is_n:
