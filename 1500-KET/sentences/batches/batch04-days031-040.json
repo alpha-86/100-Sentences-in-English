@@ -1,0 +1,669 @@
+{
+  "batch": 4,
+  "days": [
+    31,
+    40
+  ],
+  "sentences": [
+    {
+      "id": 31,
+      "sentence_en": "In autumn it is windy; in the wood, field and forest the flowers fall in the wind; the sky is grey and the plants, the grass and the trees grow.",
+      "sentence_zh": "秋天风很大；在树林、田野和森林里，花朵随风飘落；天空灰蒙蒙的，植物、青草和树木还在生长。",
+      "grammar": "分号把三个并列分句连成一句，描写秋天的景色。It is windy 是描述天气的常用句型（It is + 形容词）。grass 是不可数名词，泛指时前面不加冠词。",
+      "new_words": [
+        "autumn",
+        "windy",
+        "wood",
+        "field",
+        "forest",
+        "flower",
+        "fall",
+        "wind",
+        "sky",
+        "plant",
+        "grass",
+        "tree",
+        "grow"
+      ],
+      "ext_groups": [
+        {
+          "note": "云家族（锚词：wind）",
+          "anchor": "wind",
+          "members": [
+            "cloud",
+            "cloudy"
+          ]
+        }
+      ],
+      "phrases": [
+        "in autumn|在秋天",
+        "the autumn wind|秋风",
+        "in the field|在田野里"
+      ],
+      "repeats": "复现 grey（第 10 天）；in、the、and 等基础词（第 1 天）。",
+      "covered_ids": [
+        81,
+        258,
+        259,
+        436,
+        455,
+        480,
+        491,
+        556,
+        563,
+        978,
+        1162,
+        1359,
+        1465,
+        1468,
+        1477
+      ],
+      "_hint_sent": [
+        "autumn",
+        "wind",
+        "windy",
+        "sky",
+        "fall",
+        "tree",
+        "wood",
+        "forest",
+        "grass",
+        "field",
+        "flower",
+        "plant",
+        "grow"
+      ]
+    },
+    {
+      "id": 32,
+      "sentence_en": "The weather is cool and rainy, and the rain makes the wet grass cold; but it is sunny and warm, and the sun is hot and the flowers are dry.",
+      "sentence_zh": "天气凉爽又多雨，雨水把湿草弄得冰凉；但天晴时很暖和，太阳热热的，花儿都干了。",
+      "grammar": "用 and / but 把几个并列分句连起来，形成雨天和晴天的对比。make + 宾语 + 形容词（makes the wet grass cold）表示“使……变得……”。",
+      "new_words": [
+        "weather",
+        "cool",
+        "rainy",
+        "rain",
+        "wet",
+        "cold",
+        "sunny",
+        "warm",
+        "sun",
+        "hot",
+        "dry"
+      ],
+      "ext_groups": [
+        {
+          "note": "天气补充（锚词：rain）",
+          "anchor": "rain",
+          "members": [
+            "storm",
+            "fog",
+            "foggy",
+            "rainbow"
+          ]
+        }
+      ],
+      "phrases": [
+        "rainy weather|多雨的天气",
+        "in the sun|在阳光下",
+        "warm and sunny|温暖晴朗"
+      ],
+      "repeats": "复现 flowers、grass（第 31 天）、make（第 21 天）。",
+      "covered_ids": [
+        266,
+        282,
+        371,
+        482,
+        483,
+        622,
+        1039,
+        1040,
+        1043,
+        1224,
+        1244,
+        1246,
+        1426,
+        1436,
+        1447
+      ],
+      "_hint_sent": [
+        "weather",
+        "rain",
+        "rainy",
+        "sun",
+        "sunny",
+        "warm",
+        "cool",
+        "hot",
+        "cold",
+        "dry",
+        "wet"
+      ]
+    },
+    {
+      "id": 33,
+      "sentence_en": "Mother looks at the clothes in my cupboard: T-shirt, jeans, sweater, jacket, coat, shirt, skirt, dress, blouse, suit and tie — are they too small for me?",
+      "sentence_zh": "妈妈看着我校柜里的衣服：T 恤、牛仔裤、毛衣、夹克、外套、衬衫、短裙、连衣裙、女式衬衫、西装和领带——它们对我来说都太小了吗？",
+      "grammar": "冒号后列举一串名词，末尾用破折号加一个问句收尾。清单式列举里名词前省略冠词；jeans、clothes 这类词固定用复数形式。",
+      "new_words": [
+        "clothes",
+        "T-shirt",
+        "jeans",
+        "sweater",
+        "jacket",
+        "coat",
+        "shirt",
+        "skirt",
+        "dress",
+        "blouse",
+        "suit",
+        "tie"
+      ],
+      "ext_groups": [
+        {
+          "note": "下装（锚词：jeans）",
+          "anchor": "jeans",
+          "members": [
+            "trousers",
+            "shorts",
+            "tights"
+          ]
+        }
+      ],
+      "phrases": [
+        "in my cupboard|在我的柜子里",
+        "a suit and a tie|西装和领带"
+      ],
+      "repeats": "复现 cupboard（第 4 天）、small（第 2 天）、too（第 17 天）。",
+      "covered_ids": [
+        129,
+        257,
+        263,
+        365,
+        674,
+        680,
+        1122,
+        1130,
+        1161,
+        1241,
+        1257,
+        1324,
+        1326,
+        1363,
+        1367
+      ],
+      "_hint_sent": [
+        "clothes",
+        "T-shirt",
+        "jeans",
+        "sweater",
+        "jacket",
+        "coat",
+        "shirt",
+        "skirt",
+        "dress",
+        "blouse",
+        "suit",
+        "tie"
+      ]
+    },
+    {
+      "id": 34,
+      "sentence_en": "It is cold, so I put on my socks and boots, and I wear a hat, a scarf and gloves; in the shop I try on shoes and a cap.",
+      "sentence_zh": "天冷了，所以我穿上袜子和靴子，戴着帽子、围巾和手套；在店里我试了鞋子和一顶鸭舌帽。",
+      "grammar": "put on 表示“穿上”的动作，wear 表示“穿着”的状态，try on 表示“试穿”。shoes、boots 这类成双穿的衣物通常用复数形式。so 引出结果，分号连接并列的两件事。",
+      "new_words": [
+        "put on",
+        "sock",
+        "boots",
+        "wear",
+        "hat",
+        "scarf",
+        "gloves",
+        "try on",
+        "shoes",
+        "cap"
+      ],
+      "ext_groups": [
+        {
+          "note": "配饰（锚词：hat）",
+          "anchor": "hat",
+          "members": [
+            "belt",
+            "glasses"
+          ]
+        }
+      ],
+      "phrases": [
+        "put on|穿上",
+        "try on|试穿",
+        "wear a hat|戴帽子"
+      ],
+      "repeats": "复现 cold（第 32 天）、shop（第 6 天）。",
+      "covered_ids": [
+        114,
+        139,
+        192,
+        536,
+        537,
+        583,
+        1023,
+        1091,
+        1124,
+        1179,
+        1366,
+        1435
+      ],
+      "_hint_sent": [
+        "wear",
+        "put on",
+        "try on",
+        "shoes",
+        "boots",
+        "sock",
+        "hat",
+        "cap",
+        "scarf",
+        "gloves"
+      ]
+    },
+    {
+      "id": 35,
+      "sentence_en": "We go shopping: the shop sells cheap clothes at a discount price, not expensive ones; boots cost money, so I buy my size, pay, and do not spend much.",
+      "sentence_zh": "我们去购物：那家店以折扣价卖便宜衣服，而不是贵的；靴子是要花钱的，于是我买了我的尺码，付了钱，也没多花。",
+      "grammar": "说价格与商品：商品用 cheap / expensive（cheap clothes, not expensive ones），价格则说 at a discount price。cost 的主语是物（boots cost money），pay 的主语是人（I pay）。",
+      "new_words": [
+        "shopping",
+        "sell",
+        "cheap",
+        "discount",
+        "price",
+        "expensive",
+        "cost",
+        "money",
+        "buy",
+        "size",
+        "pay",
+        "spend"
+      ],
+      "ext_groups": [
+        {
+          "note": "促销相关（锚词：price）",
+          "anchor": "price",
+          "members": [
+            "sale",
+            "for sale"
+          ]
+        }
+      ],
+      "phrases": [
+        "go shopping|去购物",
+        "at a discount price|以折扣价",
+        "the price of|……的价格"
+      ],
+      "repeats": "复现 clothes（第 33 天）、shop（第 6 天）、boots（第 34 天）。",
+      "covered_ids": [
+        178,
+        222,
+        285,
+        346,
+        426,
+        495,
+        812,
+        941,
+        1011,
+        1083,
+        1105,
+        1128,
+        1155,
+        1202
+      ],
+      "_hint_sent": [
+        "shopping",
+        "buy",
+        "sell",
+        "price",
+        "cost",
+        "pay",
+        "money",
+        "cheap",
+        "expensive",
+        "discount",
+        "size",
+        "spend"
+      ]
+    },
+    {
+      "id": 36,
+      "sentence_en": "Mother has a hundred pounds in cash, and pays with a credit card, not a cheque; my purse has fifty pence, a penny, a cent, a dollar and a euro.",
+      "sentence_zh": "妈妈有一百英镑现金，付款时用信用卡而不是支票；我的钱包里有五十便士、一便士、一欧分、一美元和一欧元。",
+      "grammar": "金额说法：数词 + 货币名词（a hundred pounds、fifty pence）。not a cheque 用 not 直接否定名词，表示“而不是”。",
+      "new_words": [
+        "hundred",
+        "pound",
+        "cash",
+        "credit card",
+        "cheque",
+        "fifty",
+        "pence",
+        "penny",
+        "cent",
+        "dollar",
+        "euro"
+      ],
+      "ext_groups": [
+        {
+          "note": "整十数（锚词：fifty）",
+          "anchor": "fifty",
+          "members": [
+            "thirty",
+            "forty",
+            "sixty",
+            "seventy",
+            "eighty",
+            "ninety"
+          ]
+        }
+      ],
+      "phrases": [
+        "in cash|用现金",
+        "a credit card|一张信用卡",
+        "fifty pence|五十便士"
+      ],
+      "repeats": "复现 purse（第 5 天）、pay（第 35 天）。",
+      "covered_ids": [
+        203,
+        210,
+        227,
+        296,
+        352,
+        389,
+        406,
+        459,
+        496,
+        629,
+        864,
+        945,
+        949,
+        1005,
+        1113,
+        1154,
+        1310
+      ],
+      "_hint_sent": [
+        "pound",
+        "dollar",
+        "euro",
+        "penny",
+        "pence",
+        "cent",
+        "cash",
+        "credit card",
+        "cheque",
+        "fifty",
+        "hundred"
+      ]
+    },
+    {
+      "id": 37,
+      "sentence_en": "The mathematics teacher writes certain numbers: the first is a thousand, the third is a million, a dozen is twelve; the whole class has enough time to double them all.",
+      "sentence_zh": "数学老师写了几个数字：第一个是一千，第三个是一百万，一打是十二；全班有足够的时间把它们都翻倍。",
+      "grammar": "序数词 the first / the third 表示“第一 / 第三（个）”。a thousand、a million、a dozen 前的 a 表示“一”。double them 里的 them 指老师写的那些数字。",
+      "new_words": [
+        "certain",
+        "number",
+        "first",
+        "thousand",
+        "third",
+        "million",
+        "dozen",
+        "whole",
+        "enough",
+        "double"
+      ],
+      "ext_groups": [
+        {
+          "note": "序数词 4-10（锚词：third）",
+          "anchor": "third",
+          "members": [
+            "fourth",
+            "fifth",
+            "sixth",
+            "seventh",
+            "eighth",
+            "ninth",
+            "tenth"
+          ]
+        }
+      ],
+      "phrases": [
+        "a thousand|一千",
+        "a dozen|一打；十二个",
+        "the whole class|全班"
+      ],
+      "repeats": "复现 mathematics、teacher、class（第 11-12 天）、twelve（第 9 天）、write（第 21 天）。",
+      "covered_ids": [
+        215,
+        356,
+        360,
+        388,
+        402,
+        458,
+        470,
+        500,
+        799,
+        865,
+        884,
+        1112,
+        1153,
+        1283,
+        1305,
+        1314,
+        1457
+      ],
+      "_hint_sent": [
+        "thousand",
+        "million",
+        "dozen",
+        "double",
+        "first",
+        "third",
+        "number",
+        "whole",
+        "enough",
+        "certain"
+      ]
+    },
+    {
+      "id": 38,
+      "sentence_en": "Today is the eleventh of October; I just write the twelfth and the twentieth in my diary again, and I read several old pages once a week — twice this week.",
+      "sentence_zh": "今天是十月十一日；我又在日记里写下十二号和二十号，我每周读几页旧内容——这周读了两次。",
+      "grammar": "日期用“the + 序数词 + of + 月份”：the eleventh of October。once / twice 表示“一次 / 两次”，once a week 就是“每周一次”。",
+      "new_words": [
+        "eleventh",
+        "just",
+        "twelfth",
+        "twentieth",
+        "again",
+        "several",
+        "once",
+        "twice"
+      ],
+      "ext_groups": [
+        {
+          "note": "序数 13-19（锚词：twelfth）",
+          "anchor": "twelfth",
+          "members": [
+            "thirteenth",
+            "fourteenth",
+            "fifteenth",
+            "sixteenth",
+            "seventeenth",
+            "eighteenth",
+            "nineteenth"
+          ]
+        }
+      ],
+      "phrases": [
+        "the eleventh of October|十月十一日",
+        "once a week|每周一次",
+        "twice a week|每周两次"
+      ],
+      "repeats": "复现 diary（第 11 天）、read、write（第 21 天）、week（第 15 天）。",
+      "covered_ids": [
+        23,
+        387,
+        394,
+        457,
+        499,
+        689,
+        863,
+        899,
+        1111,
+        1114,
+        1152,
+        1308,
+        1373,
+        1375,
+        1386
+      ],
+      "_hint_sent": [
+        "eleventh",
+        "twelfth",
+        "twentieth",
+        "several",
+        "once",
+        "twice",
+        "again",
+        "just"
+      ]
+    },
+    {
+      "id": 39,
+      "sentence_en": "The twenty-first of October is here; my diary has about one page per week, and the total is nearly four pages — the twenty-fifth and the thirty-first are almost here.",
+      "sentence_zh": "十月二十一日到了；我的日记大约每周一页，总数差不多四页——二十五号和三十一号也快到了。",
+      "grammar": "about / nearly / almost 都表示“差不多、将近”：about 多修饰数量，nearly 多与数字连用，almost 常与 here 等词连用。per 表示“每”（one page per week）。",
+      "new_words": [
+        "twenty-first",
+        "about",
+        "per",
+        "total",
+        "nearly",
+        "twenty-fifth",
+        "thirty-first",
+        "almost"
+      ],
+      "ext_groups": [
+        {
+          "note": "大序数（锚词：twenty-first）",
+          "anchor": "twenty-first",
+          "members": [
+            "twenty-second",
+            "twenty-third",
+            "twenty-fourth",
+            "twenty-sixth",
+            "twenty-seventh",
+            "twenty-eighth",
+            "twenty-ninth",
+            "thirtieth"
+          ]
+        }
+      ],
+      "phrases": [
+        "one page per week|每周一页",
+        "the twenty-first of October|十月二十一日",
+        "the total|总数"
+      ],
+      "repeats": "复现 diary、page（第 11 天）、October（第 16 天）。",
+      "covered_ids": [
+        3,
+        33,
+        845,
+        952,
+        1309,
+        1311,
+        1344,
+        1377,
+        1378,
+        1379,
+        1380,
+        1381,
+        1382,
+        1383,
+        1384,
+        1385
+      ],
+      "_hint_sent": [
+        "twenty-first",
+        "twenty-fifth",
+        "thirty-first",
+        "about",
+        "almost",
+        "nearly",
+        "per",
+        "total"
+      ]
+    },
+    {
+      "id": 40,
+      "sentence_en": "We walk along the river, across the bridge and through the park, past the shop on the left; Bingo goes over the wall and under the gate on the right.",
+      "sentence_zh": "我们沿着河走，过了桥，穿过公园，从左边那家店旁经过；Bingo 翻过墙，从右边的门底下钻过去。",
+      "grammar": "方位介词 along（沿着）、across（穿过平面）、through（穿过立体空间）、past（经过）、over（越过上方）、under（在下方）。on the left / on the right 表示“在左边 / 在右边”。",
+      "new_words": [
+        "along",
+        "across",
+        "through",
+        "past",
+        "left",
+        "over",
+        "under",
+        "right"
+      ],
+      "ext_groups": [
+        {
+          "note": "位置介词（锚词：left）",
+          "anchor": "left",
+          "members": [
+            "behind",
+            "beside",
+            "between",
+            "above",
+            "below"
+          ]
+        }
+      ],
+      "phrases": [
+        "along the river|沿着河",
+        "on the left|在左边",
+        "over the wall|翻过墙"
+      ],
+      "repeats": "复现 river、bridge、park、shop（第 6 天）、walk（第 21 天）、Bingo（第 25 天）。",
+      "covered_ids": [
+        4,
+        6,
+        35,
+        110,
+        113,
+        115,
+        117,
+        717,
+        918,
+        938,
+        1064,
+        1316,
+        1393
+      ],
+      "_hint_sent": [
+        "across",
+        "along",
+        "through",
+        "past",
+        "over",
+        "under",
+        "left",
+        "right"
+      ]
+    }
+  ]
+}
