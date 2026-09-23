@@ -1,0 +1,762 @@
+{
+  "batch": 7,
+  "days": [
+    61,
+    70
+  ],
+  "sentences": [
+    {
+      "id": 61,
+      "sentence_en": "Christmas is my favourite festival: I give every member of the family a card with a star and lights, and write 'congratulations, wishes for the New Year, yours sincerely, Lucy'.",
+      "sentence_zh": "圣诞节是我最喜欢的节日：我给家里每个人都送一张卡片，上面有星星和彩灯，并写上“祝贺、新年祝福，谨启，露西”。",
+      "grammar": "本句用一般现在时讲圣诞节的做法：give every member a card 是 give sb sth（给某人某物）的双宾语结构；and 连接 give 与 write 两个并列动作；引号里是贺卡上的文字，英文贺卡或信件结尾常用 Yours sincerely 再署名。",
+      "new_words": [
+        "Christmas",
+        "festival",
+        "give",
+        "member",
+        "card",
+        "star",
+        "lights",
+        "congratulations",
+        "wishes",
+        "New Year",
+        "sincerely"
+      ],
+      "ext_groups": [
+        {
+          "note": "节日与庆典（锚词：Christmas）",
+          "anchor": "Christmas",
+          "members": [
+            "Easter",
+            "wedding"
+          ]
+        },
+        {
+          "note": "贺卡用语（锚词：card）",
+          "anchor": "card",
+          "members": [
+            "dear"
+          ]
+        }
+      ],
+      "phrases": [
+        "Christmas card|圣诞贺卡",
+        "New Year wishes|新年祝福",
+        "Yours sincerely|（信件结尾）谨启"
+      ],
+      "repeats": "复现旧词：favourite（第 12 天）、family（第 3 天）、every（第 17 天）、write（第 21 天）、yours（第 18 天）。",
+      "covered_ids": [
+        194,
+        235,
+        278,
+        321,
+        381,
+        452,
+        533,
+        733,
+        787,
+        855,
+        1142,
+        1214,
+        1438,
+        1472
+      ],
+      "_hint_sent": [
+        "Christmas",
+        "New Year",
+        "festival",
+        "wishes",
+        "card",
+        "star",
+        "lights",
+        "member",
+        "give",
+        "congratulations",
+        "sincerely"
+      ]
+    },
+    {
+      "id": 62,
+      "sentence_en": "At Christmas my grandparents are Grandfather, Grandmother and Granddad; Tom is their grandson, cousin Ella is their granddaughter, and I am their grandchild; we are our uncle's nephew and niece.",
+      "sentence_zh": "圣诞节时，我的祖父母就是爷爷（Grandfather/ Granddad）和奶奶（Grandmother）；汤姆是他们的孙子，表妹埃拉是他们的孙女，我是他们的孙辈；而我们俩是叔叔的侄子和侄女。",
+      "grammar": "本句用一般现在时介绍家人关系。grandparent 是“祖父母”的统称，grandfather / grandmother / granddad 是具体称呼；grandchild 是“孙辈”的统称，grandson（孙子）/ granddaughter（孙女）是具体说法。Tom is their grandson 用 is 表示身份，末尾 we are our uncle's nephew and niece 说明“我们俩”与叔叔的关系。",
+      "new_words": [
+        "grandparent",
+        "grandfather",
+        "grandmother",
+        "granddad",
+        "grandson",
+        "granddaughter",
+        "grandchild",
+        "cousin",
+        "uncle",
+        "nephew",
+        "niece"
+      ],
+      "ext_groups": [
+        {
+          "note": "亲属总称（锚词：cousin）",
+          "anchor": "cousin",
+          "members": [
+            "person",
+            "people"
+          ]
+        },
+        {
+          "note": "婚姻（锚词：grandmother）",
+          "anchor": "grandmother",
+          "members": [
+            "married"
+          ]
+        }
+      ],
+      "phrases": [
+        "family tree|家谱，家族树",
+        "brothers and sisters|兄弟姐妹",
+        "uncle and aunt|叔叔和姑姑，舅舅和姨妈"
+      ],
+      "repeats": "复现旧词：Christmas（第 61 天，祖孙同堂正接着昨天的节日故事）、family 与 tree（第 3、31 天，“家族树”）、aunt（第 3 天，与 new 词 uncle 成对）。",
+      "covered_ids": [
+        292,
+        546,
+        547,
+        548,
+        549,
+        551,
+        553,
+        554,
+        773,
+        849,
+        859,
+        950,
+        955,
+        1392
+      ],
+      "_hint_sent": [
+        "grandfather",
+        "grandmother",
+        "grandparent",
+        "grandson",
+        "granddaughter",
+        "grandchild",
+        "granddad",
+        "uncle",
+        "cousin",
+        "nephew",
+        "niece"
+      ]
+    },
+    {
+      "id": 63,
+      "sentence_en": "At the school concert the band plays rock and pop songs: Sam the drums, Lily the piano, Ella the violin, Tom the guitar; I am a jazz and classical fan.",
+      "sentence_zh": "学校音乐会上，乐队演奏摇滚和流行歌曲：山姆打鼓，莉莉弹钢琴，埃拉拉小提琴，汤姆弹吉他；我是爵士乐和古典乐的乐迷。",
+      "grammar": "本句用一般现在时描写音乐会现场：the band plays rock and pop songs 是主谓宾结构；冒号后面是四个并列部分，后三个省略了 plays（Sam the drums = Sam plays the drums）；表示“演奏某种乐器”用 play the + 乐器；末尾 I am a jazz and classical fan 用名词 fan 表示“……迷”。",
+      "new_words": [
+        "concert",
+        "band",
+        "rock",
+        "pop",
+        "song",
+        "drum",
+        "piano",
+        "violin",
+        "guitar",
+        "jazz",
+        "classical",
+        "fan"
+      ],
+      "ext_groups": [
+        {
+          "note": "音乐流派（锚词：jazz）",
+          "anchor": "jazz",
+          "members": [
+            "hip hop",
+            "rap",
+            "reggae",
+            "opera"
+          ]
+        },
+        {
+          "note": "乐器与载体（锚词：guitar）",
+          "anchor": "guitar",
+          "members": [
+            "instrument",
+            "CD"
+          ]
+        }
+      ],
+      "phrases": [
+        "play the guitar|弹吉他",
+        "rock band|摇滚乐队",
+        "pop music|流行音乐"
+      ],
+      "repeats": "复现旧词：school（第 11 天）、play（第 19 天）、music（第 12 天）、Christmas（第 61 天，本场是学校圣诞音乐会）。扩展组复习旧词另在扩展块回读。",
+      "covered_ids": [
+        91,
+        208,
+        243,
+        277,
+        370,
+        439,
+        569,
+        608,
+        658,
+        679,
+        905,
+        964,
+        996,
+        1044,
+        1053,
+        1068,
+        1189,
+        1414
+      ],
+      "_hint_sent": [
+        "band",
+        "concert",
+        "drum",
+        "guitar",
+        "piano",
+        "violin",
+        "song",
+        "pop",
+        "rock",
+        "jazz",
+        "classical",
+        "fan"
+      ]
+    },
+    {
+      "id": 64,
+      "sentence_en": "Seaview is smaller than the old town but better: larger houses, narrow streets, wide roads, a high hill, a low wall, more lights, less rain, and the most beautiful tree.",
+      "sentence_zh": "塞维尤比老家的小镇小，但更好：房子更大、街道更窄、马路更宽、山更高、墙更矮，灯更多、雨更少，还有一棵最漂亮的树。",
+      "grammar": "本句用比较级和最高级对比新旧两个小镇：单音节形容词加 -er 构成比较级（smaller、larger），than 引出比较对象；better 是 good 的不规则比较级；多音节形容词用 more / most（the most beautiful）；less 表示“更少”，后面接不可数名词（less rain）。冒号后是并列的名词短语，省略了重复的谓语。",
+      "new_words": [
+        "than",
+        "better",
+        "large",
+        "narrow",
+        "wide",
+        "high",
+        "low",
+        "more",
+        "less",
+        "most"
+      ],
+      "ext_groups": [
+        {
+          "note": "程度副词（锚词：more）",
+          "anchor": "more",
+          "members": [
+            "quite",
+            "rather"
+          ]
+        },
+        {
+          "note": "反义复习（锚词：less）",
+          "anchor": "less",
+          "members": [
+            {
+              "rev": "small",
+              "from": 2
+            },
+            {
+              "rev": "tall",
+              "from": 50
+            },
+            {
+              "rev": "short",
+              "from": 50
+            },
+            {
+              "rev": "easy",
+              "from": 12
+            },
+            {
+              "rev": "difficult",
+              "from": 12
+            }
+          ]
+        }
+      ],
+      "phrases": [
+        "better than|比……更好",
+        "narrow streets|狭窄的街道",
+        "the most beautiful|最美的（最高级）"
+      ],
+      "repeats": "复现旧词：town（第 6 天）、old（第 6 天）、lights（第 61 天，圣诞灯）、tree（第 31 天）、beautiful（第 50 天）、rain（第 32 天）。扩展组复习词 small（第 2 天）、tall / short（第 50 天）、easy / difficult（第 12 天）随扩展块回读。",
+      "covered_ids": [
+        116,
+        604,
+        709,
+        722,
+        756,
+        817,
+        819,
+        840,
+        1031,
+        1045,
+        1290,
+        1460
+      ],
+      "_hint_sent": [
+        "than",
+        "more",
+        "most",
+        "better",
+        "less",
+        "high",
+        "low",
+        "large",
+        "narrow",
+        "wide"
+      ]
+    },
+    {
+      "id": 65,
+      "sentence_en": "Suppose we plan a party. Shall we call the cafe immediately? It is not far. Of course — maybe, perhaps: possible, not impossible, but not sure. Mrs Carter's appointment is fine.",
+      "sentence_zh": "我们筹划一个聚会吧。我们现在就给咖啡馆打电话好吗？那里不远。当然——也许、或许吧：是可能的，不是不可能，但我不太确定。卡特太太的预约没问题。",
+      "grammar": "本句是露西的计划笔记。Suppose we ... 表示“要不我们……吧”，用来提出建议；Shall we ...? 是 shall 的典型用法，第一人称提建议、征求意见；of course、maybe、perhaps、possible、impossible、sure 是一组表示“确定程度”的说法，从最肯定到不确定依次排列；but not sure 承接前面的推测。",
+      "new_words": [
+        "suppose",
+        "plan",
+        "shall",
+        "call",
+        "cafe",
+        "immediately",
+        "far",
+        "of course",
+        "maybe",
+        "perhaps",
+        "possible",
+        "impossible",
+        "sure",
+        "appointment",
+        "fine"
+      ],
+      "ext_groups": [
+        {
+          "note": "预约地址（锚词：appointment）",
+          "anchor": "appointment",
+          "members": [
+            "address"
+          ]
+        },
+        {
+          "note": "肯定与确定（锚词：sure）",
+          "anchor": "sure",
+          "members": [
+            "certainly"
+          ]
+        }
+      ],
+      "phrases": [
+        "of course|当然可以",
+        "plan a party|筹备一个聚会",
+        "an appointment with the doctor|与医生的预约"
+      ],
+      "repeats": "复现旧词：party（第 47 天万圣节派对）、we / it / is / not（第 1-2 天）；Mrs Carter 是白名单人物（第 2 天起登场）。",
+      "covered_ids": [
+        12,
+        59,
+        181,
+        183,
+        216,
+        441,
+        464,
+        641,
+        643,
+        778,
+        890,
+        954,
+        976,
+        998,
+        1115,
+        1249,
+        1250
+      ],
+      "_hint_sent": [
+        "plan",
+        "shall",
+        "suppose",
+        "maybe",
+        "perhaps",
+        "immediately",
+        "possible",
+        "impossible",
+        "sure",
+        "of course",
+        "appointment",
+        "cafe",
+        "call",
+        "fine",
+        "far"
+      ]
+    },
+    {
+      "id": 66,
+      "sentence_en": "What has happened since December? Granddad has already left; the flowers died; Christmas came, the new year begins; Tom has not found the card yet; the old tree is dead.",
+      "sentence_zh": "十二月以来都发生了什么？爷爷已经回去了；花都谢了；圣诞节过去了，新年就要开始；汤姆还没找到那张卡片；那棵老树也死了。",
+      "grammar": "本句是露西的十二月回顾，重点是现在完成时（has / have + 过去分词）：has happened、has already left、has not found ... yet 都表示“到现在为止已经（还没）发生的事”。since + 时间点表示“自从……以来”，常与现在完成时连用；already 表示“已经”，yet 用在否定句末尾表示“还没”。句中也用一般过去时讲已经结束的事（died、came），用一般现在时讲眼前的事实（begins、is dead）。",
+      "new_words": [
+        "happen",
+        "since",
+        "already",
+        "leave",
+        "die",
+        "come",
+        "begin",
+        "find",
+        "yet",
+        "dead"
+      ],
+      "ext_groups": [
+        {
+          "note": "生命阶段（锚词：die）",
+          "anchor": "die",
+          "members": [
+            "born",
+            "life",
+            "live"
+          ]
+        }
+      ],
+      "phrases": [
+        "What has happened?|发生了什么事？",
+        "not yet|还没有",
+        "since December|自十二月以来"
+      ],
+      "repeats": "复现旧词：December（第 16 天）、Christmas（第 61 天）、card（第 61 天贺卡）、Granddad（第 62 天）、tree 与 flowers（第 31 天）、old（第 6 天）。",
+      "covered_ids": [
+        36,
+        108,
+        142,
+        272,
+        320,
+        335,
+        463,
+        580,
+        716,
+        730,
+        741,
+        1141,
+        1493
+      ],
+      "_hint_sent": [
+        "already",
+        "yet",
+        "since",
+        "happen",
+        "leave",
+        "find",
+        "begin",
+        "die",
+        "dead",
+        "come"
+      ]
+    },
+    {
+      "id": 67,
+      "sentence_en": "Together we fill a box and collect the small cards — even Tom pulls and pushes; Dad checks, fixes the star; I only use my hands to hold, point and choose.",
+      "sentence_zh": "我们一起把盒子装满、把小卡片收起来——连汤姆都在拉、在推；爸爸检查并修好了那颗星星；我只用自己的手去拿、去指、去挑。",
+      "grammar": "本句用一般现在时描写一家人动手干活的连续镜头。pull / push / fill / collect 是一组动作动词，check（检查）和 fix（修理）常连用；only 表示“只”，even 表示“甚至”，都紧放在被强调的词前：I only use my hands（我只用手）、even Tom pulls（连汤姆都拉）。分号和破折号把几个并列动作连成一段画面。",
+      "new_words": [
+        "together",
+        "fill",
+        "collect",
+        "even",
+        "pull",
+        "push",
+        "check",
+        "fix",
+        "only",
+        "use",
+        "hold",
+        "point",
+        "choose"
+      ],
+      "ext_groups": [
+        {
+          "note": "拥有与借还（锚词：hold）",
+          "anchor": "hold",
+          "members": [
+            "own",
+            "borrow",
+            "belong"
+          ]
+        },
+        {
+          "note": "短语动词（锚词：fill）",
+          "anchor": "fill",
+          "members": [
+            "fill in"
+          ]
+        }
+      ],
+      "phrases": [
+        "fill in|填写，填入",
+        "use your hands|用你的手",
+        "check the answer|检查答案"
+      ],
+      "repeats": "复现旧词：box（第 5 天）、cards（第 61 天贺卡）、star（第 61 天）、Dad（第 3 天）、Tom（第 3 天）、small（第 2 天）。扩展组里的 own / borrow / belong（锚词 hold）、fill in（锚词 fill）随扩展块回读。",
+      "covered_ids": [
+        112,
+        143,
+        223,
+        234,
+        268,
+        408,
+        460,
+        461,
+        476,
+        614,
+        903,
+        919,
+        989,
+        1017,
+        1021,
+        1335,
+        1403
+      ],
+      "_hint_sent": [
+        "pull",
+        "push",
+        "hold",
+        "check",
+        "choose",
+        "collect",
+        "fill",
+        "fix",
+        "together",
+        "only",
+        "even",
+        "point",
+        "use"
+      ]
+    },
+    {
+      "id": 68,
+      "sentence_en": "The school concert was brilliant, really excellent: lovely lights, pretty cards, amazing songs, a perfect tree, great food and pleasant music — a real, fantastic, wonderful Christmas, the best ever.",
+      "sentence_zh": "学校的音乐会太棒了，真是精彩：可爱的彩灯、漂亮的卡片、美妙的歌声、完美的圣诞树、美味的食物和悦耳的音乐——这是一个真正的、梦幻的、美妙的圣诞节，有史以来最好的一个。",
+      "grammar": "本句是露西对圣诞音乐会的满口称赞，was 后面接一串褒义形容词（brilliant、excellent、lovely、pretty、amazing、perfect、great、pleasant、fantastic、wonderful）。really 放在形容词前加强语气（really excellent）；冒号和破折号后是并列的名词短语，省略了重复的主谓语；the best ever 是 good 的最高级加 ever，表示“有史以来最好的”。",
+      "new_words": [
+        "brilliant",
+        "really",
+        "excellent",
+        "lovely",
+        "pretty",
+        "amazing",
+        "perfect",
+        "great",
+        "pleasant",
+        "real",
+        "fantastic",
+        "wonderful",
+        "ever"
+      ],
+      "ext_groups": [
+        {
+          "note": "好极了复习（锚词：brilliant）",
+          "anchor": "brilliant",
+          "members": [
+            {
+              "rev": "nice",
+              "from": 7
+            },
+            {
+              "rev": "good",
+              "from": 50
+            },
+            {
+              "rev": "beautiful",
+              "from": 50
+            }
+          ]
+        }
+      ],
+      "phrases": [
+        "the best ever|有史以来最好的",
+        "a wonderful Christmas|美好的圣诞节",
+        "great food|美味的食物"
+      ],
+      "repeats": "复现旧词：school（第 11 天）、concert 与 songs（第 63 天）、Christmas、lights、cards（第 61 天）、tree（第 31 天）、music（第 12 天）、food（第 27 天）、best 来自 good（第 50 天）。扩展组复习词 nice（第 7 天）、good / beautiful（第 50 天）随扩展块回读。",
+      "covered_ids": [
+        40,
+        158,
+        410,
+        418,
+        440,
+        557,
+        755,
+        953,
+        985,
+        1010,
+        1049,
+        1050,
+        1476
+      ],
+      "_hint_sent": [
+        "amazing",
+        "brilliant",
+        "excellent",
+        "fantastic",
+        "wonderful",
+        "perfect",
+        "pleasant",
+        "lovely",
+        "great",
+        "real",
+        "really",
+        "pretty",
+        "ever"
+      ]
+    },
+    {
+      "id": 69,
+      "sentence_en": "Being healthy and free is important; my clever cousin is interested in famous modern art; a clear, simple answer is correct, the wrong one is not fair — that is normal.",
+      "sentence_zh": "身体健康、自由自在很重要；我聪明的表妹对著名的现代艺术感兴趣；清楚、简单的答案才是正确的，错的答案就不公平——这很正常。",
+      "grammar": "本句用形容词描述人和事。动名词短语 Being healthy and free 作主语，系动词用 is；be interested in 表示“对……感兴趣”，后面接名词（famous modern art）；形容词并列时按顺序读作 a clear, simple answer；the wrong one 用 one 代替前面提过的 answer，避免重复。normal 表示“正常的、平常的”。",
+      "new_words": [
+        "healthy",
+        "free",
+        "important",
+        "clever",
+        "interested",
+        "famous",
+        "modern",
+        "clear",
+        "simple",
+        "correct",
+        "wrong",
+        "fair",
+        "normal"
+      ],
+      "ext_groups": [
+        {
+          "note": "平常与通常（锚词：normal）",
+          "anchor": "normal",
+          "members": [
+            "usual"
+          ]
+        },
+        {
+          "note": "正确复习（锚词：correct）",
+          "anchor": "correct",
+          "members": [
+            {
+              "rev": "right",
+              "from": 40
+            }
+          ]
+        }
+      ],
+      "phrases": [
+        "be interested in|对……感兴趣",
+        "free time|空闲时间",
+        "a wrong answer|错误的答案"
+      ],
+      "repeats": "复现旧词：cousin（第 62 天）、art（第 12 天美术课）、answer（第 14 天）、one / not（第 8 天）。扩展组里的 usual（锚词 normal）与复习词 right（第 40 天）随扩展块回读。",
+      "covered_ids": [
+        249,
+        250,
+        284,
+        435,
+        438,
+        502,
+        592,
+        642,
+        660,
+        809,
+        873,
+        1140,
+        1405,
+        1488
+      ],
+      "_hint_sent": [
+        "important",
+        "clear",
+        "clever",
+        "correct",
+        "wrong",
+        "simple",
+        "normal",
+        "interested",
+        "famous",
+        "fair",
+        "healthy",
+        "free",
+        "modern"
+      ]
+    },
+    {
+      "id": 70,
+      "sentence_en": "An accident: the car broke down — an ambulance, danger, a dangerous minute — but we saved him, he is safe; repair, insurance, no problem, no trouble, only a change, a pity.",
+      "sentence_zh": "出了一场事故：我们的车在路上抛锚了——救护车、危险、危险的一分钟——不过我们把他救了出来，他平安无事；修理、保险、没问题、没麻烦，只是行程有了变化，真可惜。",
+      "grammar": "本句讲一桩小事故。broke down 是 break down 的过去式，指汽车（中途）抛锚；danger 是名词（in danger 表示“处于危险中”），dangerous 是形容词（a dangerous minute 表示“危险的一分钟”）；save 的过去式 saved 表示“救出”。no problem / no trouble 用 no 直接否定名词。冒号和分号后面用名词短语列出要处理的事（repair、insurance），是日记里常见的省略写法。",
+      "new_words": [
+        "accident",
+        "break",
+        "ambulance",
+        "danger",
+        "dangerous",
+        "save",
+        "safe",
+        "repair",
+        "insurance",
+        "problem",
+        "trouble",
+        "change",
+        "pity"
+      ],
+      "ext_groups": [
+        {
+          "note": "延误（锚词：accident）",
+          "anchor": "accident",
+          "members": [
+            "delay",
+            "delayed"
+          ]
+        }
+      ],
+      "phrases": [
+        "break down|（车）抛锚",
+        "in danger|处于危险中",
+        "save money|省钱"
+      ],
+      "repeats": "复现旧词：car（第 42 天）、minute（第 30 天）、no（第 9 天）、he / him（第 3 天）、only（第 67 天）。扩展组单词 delay / delayed（锚词 accident）随扩展块回读。",
+      "covered_ids": [
+        5,
+        41,
+        155,
+        218,
+        314,
+        315,
+        325,
+        326,
+        659,
+        973,
+        1014,
+        1056,
+        1079,
+        1089,
+        1362
+      ],
+      "_hint_sent": [
+        "accident",
+        "ambulance",
+        "insurance",
+        "problem",
+        "trouble",
+        "danger",
+        "dangerous",
+        "safe",
+        "save",
+        "repair",
+        "break",
+        "change",
+        "pity"
+      ]
+    }
+  ]
+}
