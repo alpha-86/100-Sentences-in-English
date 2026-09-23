@@ -20,7 +20,7 @@ DAYS = [
                 {"rev": "easy", "from": 12}, {"rev": "difficult", "from": 12}])]),
     dict(day=65, act=7, theme="制定计划",
          sent=["plan", "shall", "suppose", "maybe", "perhaps", "immediately", "possible", "impossible", "sure", "of course", "appointment", "cafe", "call", "fine", "far"],
-         ext=[("预约与地址（锚词：appointment）", "appointment", ["address"]),
+         ext=[("预约地址（锚词：appointment）", "appointment", ["address"]),
               ("肯定与确定（锚词：sure）", "sure", ["certainly"])]),
     dict(day=66, act=7, theme="现在完成时入门",
          sent=["ever", "already", "yet", "since", "still", "happen", "leave", "return", "find", "begin", "die", "dead", "learn", "come"],
