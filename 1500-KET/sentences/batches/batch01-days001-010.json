@@ -1,0 +1,581 @@
+{
+  "batch": 1,
+  "days": [
+    1,
+    10
+  ],
+  "sentences": [
+    {
+      "id": 1,
+      "sentence_en": "I am Lucy, and we are in Seaview, our new town. Our new home is a house, and there is a gate on the garden wall.",
+      "sentence_zh": "我是露西，我们来到了海边小镇 Seaview，这就是我们的新家。我们的新家是一栋房子，花园的围墙上有一道门。",
+      "grammar": "be 动词随主语变化：I 用 am，we 用 are，单数主语用 is。there be 表示“某处有某物”：There is a gate。介词 in / on 表示位置：in Seaview、on the garden wall。our 是物主代词“我们的”。",
+      "new_words": [
+        "I",
+        "be",
+        "and",
+        "we",
+        "in",
+        "our",
+        "new",
+        "town",
+        "home",
+        "a, an",
+        "house",
+        "there",
+        "on",
+        "the"
+      ],
+      "ext_groups": [
+        {
+          "note": "房屋与院落（锚词：house）",
+          "anchor": "house",
+          "members": [
+            "garden",
+            "gate",
+            "wall"
+          ]
+        }
+      ],
+      "phrases": [
+        "in our new town|在我们的新小镇里",
+        "our new home|我们的新家",
+        "on the garden wall|在花园的围墙上"
+      ],
+      "repeats": "第 1 天：新学，无回读。",
+      "covered_ids": [
+        1,
+        45,
+        99,
+        520,
+        523,
+        616,
+        625,
+        634,
+        645,
+        851,
+        898,
+        911,
+        1292,
+        1299,
+        1350,
+        1423,
+        1433
+      ]
+    },
+    {
+      "id": 2,
+      "sentence_en": "This is your new bedroom, Tom. It is a big room, and you have got a window here. There is a small door, and the kitchen floor is new.",
+      "sentence_zh": "这是你的新卧室，汤姆。它是个大房间，你这里有一扇窗户。这里有一扇小门，厨房的地板也是新的。",
+      "grammar": "there be 表示“某处有某物”：There is a small door。have got 表示“拥有”，主语 you 后用 have got；have 与 have got 同义。it 作代词，指前面提到的 bedroom。",
+      "new_words": [
+        "this",
+        "your",
+        "bedroom",
+        "it",
+        "big",
+        "room",
+        "you",
+        "have",
+        "have got",
+        "window",
+        "here",
+        "small",
+        "door",
+        "kitchen",
+        "floor"
+      ],
+      "ext_groups": [
+        {
+          "note": "更多房间（锚词：room）",
+          "anchor": "room",
+          "members": [
+            "bathroom",
+            "toilet",
+            "hall"
+          ]
+        }
+      ],
+      "phrases": [
+        "your new bedroom|你的新卧室",
+        "a big room|一个大房间",
+        "the kitchen floor|厨房的地板"
+      ],
+      "repeats": "本句复现：第 1 天的 be 动词（is）、there be 句型（There is）以及 the / a / and / new。",
+      "covered_ids": [
+        98,
+        106,
+        119,
+        354,
+        479,
+        577,
+        585,
+        586,
+        601,
+        669,
+        698,
+        1070,
+        1168,
+        1312,
+        1336,
+        1466,
+        1494,
+        1496
+      ]
+    },
+    {
+      "id": 3,
+      "sentence_en": "This is our family. She is our mother, and he is our father. They are our parents. Tom is the son and our baby brother. I am the sister.",
+      "sentence_zh": "这是我们的全家。她是我们的妈妈，他是我们的爸爸。他们是我们的父母。汤姆是儿子，是我们最小的弟弟。我是姐姐。",
+      "grammar": "人称代词与 be 动词搭配：she is / he is / they are。our 是形容词性物主代词，表示“我们的”，后接名词。our baby brother 指“家里最小的弟弟”（汤姆七岁），不是婴儿。",
+      "new_words": [
+        "family",
+        "she",
+        "mother",
+        "he",
+        "father",
+        "they",
+        "parent",
+        "son",
+        "baby",
+        "brother",
+        "sister"
+      ],
+      "ext_groups": [
+        {
+          "note": "家庭称呼（锚词：father）",
+          "anchor": "father",
+          "members": [
+            "dad",
+            "mummy",
+            "grandpa",
+            "grandma"
+          ]
+        },
+        {
+          "note": "女儿与姑姨（锚词：sister）",
+          "anchor": "sister",
+          "members": [
+            "daughter",
+            "aunt"
+          ]
+        }
+      ],
+      "phrases": [
+        "our family|我们的家庭",
+        "our baby brother|我们最小的弟弟",
+        "our parents|我们的父母"
+      ],
+      "repeats": "本句复现：第 1 天的 be 动词与 our / the / and / I；第 2 天的 this。",
+      "covered_ids": [
+        78,
+        83,
+        162,
+        309,
+        318,
+        437,
+        448,
+        550,
+        552,
+        588,
+        820,
+        832,
+        929,
+        1118,
+        1146,
+        1188,
+        1301
+      ]
+    },
+    {
+      "id": 4,
+      "sentence_en": "This is me in my new room. My furniture is here: my bed, desk, chair, lamp and clock. A sofa, table, cupboard and fridge are in the hall.",
+      "sentence_zh": "这是在新房间里的我。我的家具都在这儿：我的床、书桌、椅子、台灯和钟。沙发、桌子、碗柜和冰箱还在门厅里。",
+      "grammar": "形容词性物主代词 my 修饰名词，表示“我的”：my bed、my new room。并列名词短语列举时，只在第一个名词前加限定词（my bed, desk, chair, lamp and clock）。介词 in 表示位置：in my new room、in the hall。",
+      "new_words": [
+        "me",
+        "my",
+        "furniture",
+        "bed",
+        "desk",
+        "chair",
+        "lamp",
+        "clock",
+        "sofa",
+        "table",
+        "cupboard",
+        "fridge"
+      ],
+      "ext_groups": [
+        {
+          "note": "收纳与床品（锚词：bed）",
+          "anchor": "bed",
+          "members": [
+            "bookshelf",
+            "shelf",
+            "pillow",
+            "blanket"
+          ]
+        }
+      ],
+      "phrases": [
+        "in my new room|在我的新房间里",
+        "my bed and desk|我的床和书桌",
+        "in the hall|在门厅里"
+      ],
+      "repeats": "本句复现：第 1 天的 in / the / a / new / home；第 2 天的 this、room、here；第 3 天的 our。",
+      "covered_ids": [
+        105,
+        127,
+        136,
+        217,
+        253,
+        304,
+        332,
+        506,
+        517,
+        706,
+        779,
+        837,
+        970,
+        1120,
+        1180,
+        1263
+      ]
+    },
+    {
+      "id": 5,
+      "sentence_en": "Open the box from Grandma, Tom, and put the things in your room. Carry the heavy bag with me, and close that empty box. This bag is for you.",
+      "sentence_zh": "汤姆，把奶奶寄来的箱子打开，把里面的东西放到你的房间里。和我一起搬这个很重的包，再把那个空箱子合上。这个包是给你的。",
+      "grammar": "祈使句用动词原形开头，表示请求或命令：Open…、Carry…、close…。介词 with 表示“和……一起”（with me），for 表示“给……”（for you），from 表示“来自……”（from Grandma）。",
+      "new_words": [
+        "open",
+        "box",
+        "from",
+        "put",
+        "thing",
+        "carry",
+        "heavy",
+        "bag",
+        "with",
+        "close",
+        "empty",
+        "for"
+      ],
+      "ext_groups": [
+        {
+          "note": "随身小物（锚词：bag）",
+          "anchor": "bag",
+          "members": [
+            "wallet",
+            "purse",
+            "key"
+          ]
+        }
+      ],
+      "phrases": [
+        "open the box|打开箱子",
+        "put the things in your room|把东西放进你的房间",
+        "a heavy bag|一个很重的包"
+      ],
+      "repeats": "本句复现：第 1 天的 be 动词与 the / and / in；第 2 天的 your / room / this / you；第 3 天的 grandma（扩展词）；第 4 天的 me。",
+      "covered_ids": [
+        87,
+        149,
+        201,
+        254,
+        397,
+        489,
+        510,
+        596,
+        691,
+        904,
+        1020,
+        1022,
+        1303,
+        1424,
+        1473
+      ]
+    },
+    {
+      "id": 6,
+      "sentence_en": "Our new place is near an old bridge and a river. There is a park, a shop and a supermarket near the road, and a hill near us.",
+      "sentence_zh": "我们的新家附近有一座旧桥和一条河。路边有公园、商店和超市，我们身边还有一座小山。",
+      "grammar": "介词 near 表示“在……附近”：near an old bridge、near us。there be 后接并列名词（There is a park, a shop and a supermarket）。old 作定语修饰名词；us 是宾格，作介词 near 的宾语。",
+      "new_words": [
+        "place",
+        "near",
+        "old",
+        "bridge",
+        "river",
+        "park",
+        "shop",
+        "supermarket",
+        "road",
+        "hill",
+        "us"
+      ],
+      "ext_groups": [
+        {
+          "note": "更多场所（锚词：shop）",
+          "anchor": "shop",
+          "members": [
+            "market",
+            "bookshop"
+          ]
+        }
+      ],
+      "phrases": [
+        "near the road|在路边",
+        "an old bridge|一座旧桥",
+        "near us|在我们附近"
+      ],
+      "repeats": "本句复现：第 1 天的 our / new / the / a / and 与 be 动词、there be；第 2 天的 room 家族方位表达。",
+      "covered_ids": [
+        137,
+        157,
+        605,
+        772,
+        844,
+        896,
+        930,
+        975,
+        1065,
+        1066,
+        1125,
+        1247,
+        1402
+      ]
+    },
+    {
+      "id": 7,
+      "sentence_en": "Hello! Welcome! My name is Lucy, and Mr and Mrs Carter are the parents of Tom and me. We are glad to meet our nice neighbour at Seaview. Goodbye!",
+      "sentence_zh": "你好！欢迎！我叫露西，卡特先生和卡特太太是汤姆和我的父母。我们很高兴在 Seaview 认识我们这位好邻居。再见！",
+      "grammar": "问候与道别用语：Hello / Welcome / Goodbye。of 表示所属关系：the parents of Tom and me。介词 at + 地点表示“在……（地点）”：at Seaview。形容词 nice 作定语修饰 neighbour。",
+      "new_words": [
+        "hello",
+        "welcome",
+        "name",
+        "Mr",
+        "Mrs",
+        "of",
+        "glad",
+        "to",
+        "meet",
+        "nice",
+        "neighbour",
+        "at",
+        "goodbye"
+      ],
+      "ext_groups": [
+        {
+          "note": "礼貌用语（锚词：hello）",
+          "anchor": "hello",
+          "members": [
+            "please",
+            "thank",
+            "sorry",
+            "cheers",
+            "pardon"
+          ]
+        }
+      ],
+      "phrases": [
+        "nice to meet you|很高兴认识你",
+        "Mr and Mrs Carter|卡特先生和卡特太太",
+        "at Seaview|在 Seaview"
+      ],
+      "repeats": "本句复现：第 1 天的 I / we / our / the / and 与 be 动词；第 3 天的 family 相关称呼；第 4 天的 my / me。",
+      "covered_ids": [
+        74,
+        224,
+        534,
+        543,
+        598,
+        785,
+        828,
+        829,
+        839,
+        848,
+        858,
+        889,
+        928,
+        986,
+        1191,
+        1291,
+        1331,
+        1444
+      ]
+    },
+    {
+      "id": 8,
+      "sentence_en": "Our neighbour's cat is three, and the dog by our door is five, not eight. Tom's age is seven, and he is a boy. I am a girl.",
+      "sentence_zh": "我们邻居家的猫三岁，我们家门口的狗五岁，不是八岁。汤姆的年龄是七岁，他是男孩。我是女孩。",
+      "grammar": "数词 three / five / eight / seven 作表语。名词所有格用 's：Tom's age、our neighbour's cat。be 动词的否定式 is not。介词 by 表示“在……旁边”：by our door。",
+      "new_words": [
+        "cat",
+        "three",
+        "dog",
+        "by",
+        "five",
+        "not",
+        "eight",
+        "age",
+        "boy",
+        "girl"
+      ],
+      "ext_groups": [
+        {
+          "note": "基数词 1-10（锚词：five）",
+          "anchor": "five",
+          "members": [
+            "one",
+            "two",
+            "four",
+            "six",
+            "seven",
+            "nine",
+            "ten"
+          ]
+        }
+      ],
+      "phrases": [
+        "by our door|在我们门边",
+        "Tom's age|汤姆的年龄",
+        "the cat and the dog|猫和狗"
+      ],
+      "repeats": "本句复现：第 1 天的 be 动词与 a / the / and / our；第 2 天的 door；第 3 天的 he；第 7 天的 neighbour。",
+      "covered_ids": [
+        25,
+        150,
+        179,
+        205,
+        350,
+        385,
+        475,
+        497,
+        532,
+        861,
+        877,
+        900,
+        1109,
+        1150,
+        1279,
+        1315,
+        1387
+      ]
+    },
+    {
+      "id": 9,
+      "sentence_en": "Our neighbour has no children. I am twelve, not fifteen, not twenty, not zero. My father is a man, and my mother is a woman: they are adults.",
+      "sentence_zh": "我们邻居家没有孩子。我十二岁，不是十五岁，不是二十岁，也不是零岁。我的爸爸是男人，妈妈是女人：他们是成年人。",
+      "grammar": "数词 eleven–twenty 表示十一到二十。no + 名词 = not any：no children（没有孩子）。名词不规则复数：child → children。be 动词否定用 is not / am not。",
+      "new_words": [
+        "no",
+        "child",
+        "twelve",
+        "fifteen",
+        "twenty",
+        "zero",
+        "man",
+        "woman",
+        "adult"
+      ],
+      "ext_groups": [
+        {
+          "note": "基数词 11-20（锚词：twelve）",
+          "anchor": "twelve",
+          "members": [
+            "eleven",
+            "thirteen",
+            "fourteen",
+            "sixteen",
+            "seventeen",
+            "eighteen",
+            "nineteen"
+          ]
+        }
+      ],
+      "phrases": [
+        "no children|没有孩子",
+        "a man and a woman|一位男士和一位女士",
+        "my father and mother|我的爸爸和妈妈"
+      ],
+      "repeats": "本句复现：第 1 天的 be 动词与 our；第 3 天的 father / mother / parents；第 4 天的 my；第 7 天的 neighbour。",
+      "covered_ids": [
+        13,
+        229,
+        386,
+        393,
+        456,
+        498,
+        766,
+        862,
+        866,
+        1110,
+        1151,
+        1307,
+        1374,
+        1376,
+        1475,
+        1499
+      ]
+    },
+    {
+      "id": 10,
+      "sentence_en": "The colour of my new schoolbag is blue. I have got a red pen, a yellow pencil, a rubber, a ruler and a sharpener from the shop.",
+      "sentence_zh": "我的新书包是蓝色的。我从商店买到了一支红笔、一支黄铅笔、一块橡皮、一把尺子和一个卷笔刀。",
+      "grammar": "形容词作表语（The colour is blue）和定语（a red pen、a yellow pencil）。of 结构表示所属：the colour of my new schoolbag。have got 表示“拥有”，后接并列名词。",
+      "new_words": [
+        "colour",
+        "schoolbag",
+        "blue",
+        "red",
+        "pen",
+        "yellow",
+        "pencil",
+        "rubber",
+        "ruler",
+        "sharpener"
+      ],
+      "ext_groups": [
+        {
+          "note": "常见颜色（锚词：blue）",
+          "anchor": "blue",
+          "members": [
+            "green",
+            "black",
+            "white",
+            "grey",
+            "pink",
+            "purple"
+          ]
+        }
+      ],
+      "phrases": [
+        "a red pen|一支红笔",
+        "the colour of my schoolbag|我书包的颜色",
+        "from the shop|从商店买来的"
+      ],
+      "repeats": "本句复现：第 1 天的 new / a / the；第 2 天的 have got；第 4 天的 my；第 5 天的 from；第 6 天的 shop；第 7 天的 of。",
+      "covered_ids": [
+        126,
+        130,
+        270,
+        558,
+        559,
+        944,
+        946,
+        972,
+        1019,
+        1052,
+        1073,
+        1074,
+        1093,
+        1117,
+        1455,
+        1490
+      ]
+    }
+  ]
+}
