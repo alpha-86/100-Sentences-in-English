@@ -78,7 +78,9 @@ TAGMAP = {  # 词条词性 -> ECDICT 行首标签
     'det': ['det.'], 'phr': ['phr.'],
 }
 
-IPA_FIX = {'ә': 'ə', 'є': 'e', 'ӕ': 'æ', '：': ':', 'ː': ':', 'ɡ': 'g'}
+# '^' 是 ECDICT 源里少数词条 g 的坏字（grandchild/granddaughter/grandpa/photographer/
+# reggae/schoolbag 共 6 例），原样输出会在 PDF 里显示成非 IPA 符号，统一并回 g。
+IPA_FIX = {'ә': 'ə', 'є': 'e', 'ӕ': 'æ', '：': ':', 'ː': ':', 'ɡ': 'g', '^': 'g'}
 
 def fix_ipa(p):
     for a, b in IPA_FIX.items():
