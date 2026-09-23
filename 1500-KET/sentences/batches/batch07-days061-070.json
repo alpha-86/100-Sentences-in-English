@@ -78,9 +78,9 @@
     },
     {
       "id": 62,
-      "sentence_en": "At Christmas my grandparents are Grandfather, Grandmother and Granddad; Tom is their grandson, cousin Ella is their granddaughter, and I am their grandchild; we are our uncle's nephew and niece.",
-      "sentence_zh": "圣诞节时，我的祖父母就是爷爷（Grandfather/ Granddad）和奶奶（Grandmother）；汤姆是他们的孙子，表妹埃拉是他们的孙女，我是他们的孙辈；而我们俩是叔叔的侄子和侄女。",
-      "grammar": "本句用一般现在时介绍家人关系。grandparent 是“祖父母”的统称，grandfather / grandmother / granddad 是具体称呼；grandchild 是“孙辈”的统称，grandson（孙子）/ granddaughter（孙女）是具体说法。Tom is their grandson 用 is 表示身份，末尾 we are our uncle's nephew and niece 说明“我们俩”与叔叔的关系。",
+      "sentence_en": "My grandfather — Granddad — and my grandmother are my grandparents; Tom is their grandson, cousin Ella is their granddaughter, and I am their grandchild; we are our uncle's nephew and niece.",
+      "sentence_zh": "我的祖父（我平时叫他 Granddad）和我的祖母就是我的祖父母；汤姆是他们的孙子，表妹埃拉是他们的孙女，我是他们的孙辈；而我们俩是叔叔的侄子和侄女。",
+      "grammar": "本句用一般现在时介绍家人关系。破折号中间的 Granddad 是同位语，说明 grandfather 就是平时叫的“爷爷”——祖父只有一位，只是有正式与口语两种说法。grandparent 是“祖父母”的统称，grandfather / grandmother 是具体称呼；grandchild 是“孙辈”的统称，grandson（孙子）/ granddaughter（孙女）是具体说法。",
       "new_words": [
         "grandparent",
         "grandfather",
@@ -116,7 +116,7 @@
         "brothers and sisters|兄弟姐妹",
         "uncle and aunt|叔叔和姑姑，舅舅和姨妈"
       ],
-      "repeats": "复现旧词：Christmas（第 61 天，祖孙同堂正接着昨天的节日故事）、family 与 tree（第 3、31 天，“家族树”）、aunt（第 3 天，与 new 词 uncle 成对）。",
+      "repeats": "复现旧词：Christmas（第 61 天）之后祖孙同堂的延续、family 与 tree（第 3、31 天，“家族树”）、aunt（第 3 天，与 uncle 成对）。",
       "covered_ids": [
         292,
         546,
