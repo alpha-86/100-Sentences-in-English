@@ -1,0 +1,569 @@
+{
+  "batch": 2,
+  "days": [
+    11,
+    20
+  ],
+  "sentences": [
+    {
+      "id": 11,
+      "sentence_en": "At school, my classmate Lily and I do our lessons in my class with my teacher Miss Green. My classroom has twenty pupils, books, notebooks, dictionaries, crayons and scissors.",
+      "sentence_zh": "在学校里，我和我的同学莉莉一起在我们班上课，我们的老师是格林小姐。我的教室里有二十名学生，还有书、笔记本、词典、蜡笔和剪刀。",
+      "grammar": "一般现在时表示经常做的事：do our lessons。with 表示“和……一起”。名词复数在词尾加 -s：pupils、books、crayons。have / has 表示“有”，主语是第三人称单数时用 has。",
+      "new_words": [
+        "school",
+        "classmate",
+        "do",
+        "lesson",
+        "class",
+        "teacher",
+        "classroom",
+        "pupil",
+        "book",
+        "notebook",
+        "dictionary",
+        "crayon",
+        "scissors"
+      ],
+      "ext_groups": [
+        {
+          "note": "书籍与纸页（锚词：book）",
+          "anchor": "book",
+          "members": [
+            "text book",
+            "page",
+            "diary"
+          ]
+        },
+        {
+          "note": "同班同学（锚词：classmate）",
+          "anchor": "classmate",
+          "members": [
+            "class member"
+          ]
+        }
+      ],
+      "phrases": [
+        "my classmate Lily|我的同学莉莉",
+        "do our lessons|上课、做功课",
+        "in my classroom|在我的教室里"
+      ],
+      "repeats": "本句复现：第 1 天的 in / the / and 与 be 动词；第 4 天的 my；第 9 天的 twenty；第 10 天的文具同族词（pen、pencil、schoolbag）。",
+      "covered_ids": [
+        135,
+        242,
+        244,
+        245,
+        246,
+        294,
+        333,
+        334,
+        348,
+        723,
+        879,
+        921,
+        1018,
+        1092,
+        1095,
+        1272,
+        1288
+      ]
+    },
+    {
+      "id": 12,
+      "sentence_en": "Art is my favourite subject, and mathematics is difficult, not easy. We have got Chinese, geography, history, music and science at school.",
+      "sentence_zh": "美术是我最喜欢的科目，数学很难，不容易。我们在学校要学语文、地理、历史、音乐和科学。",
+      "grammar": "favourite 作定语修饰名词：my favourite subject。difficult 和 easy 作表语。学科名首字母要大写：Art、Mathematics、Chinese、Geography。have got 后接并列名词。",
+      "new_words": [
+        "art",
+        "favourite",
+        "subject",
+        "mathematics",
+        "difficult",
+        "easy",
+        "Chinese",
+        "geography",
+        "history",
+        "music",
+        "science"
+      ],
+      "ext_groups": [
+        {
+          "note": "学期与课程（锚词：subject）",
+          "anchor": "subject",
+          "members": [
+            "term",
+            "course",
+            "studies"
+          ]
+        }
+      ],
+      "phrases": [
+        "my favourite subject|我最喜欢的科目",
+        "difficult and easy|难和容易",
+        "at school|在学校"
+      ],
+      "repeats": "本句复现：第 1 天的 and 与 be 动词；第 2 天的 have got；第 4 天的 my；第 7 天的 at；第 11 天的 school。",
+      "covered_ids": [
+        65,
+        231,
+        291,
+        338,
+        382,
+        449,
+        524,
+        610,
+        775,
+        834,
+        1094,
+        1234,
+        1236,
+        1284
+      ]
+    },
+    {
+      "id": 13,
+      "sentence_en": "I get up at seven in the morning, and I am hungry and thirsty. I go down and eat my breakfast, but Tom is not up. I go out.",
+      "sentence_zh": "我早上七点起床，又饿又渴。我下楼吃早饭，可是汤姆还没起床。我出门去上学。",
+      "grammar": "一般现在时描述每天固定的作息：I get up / I go / I eat。get up、go down、go out 是动词短语。and 表并列，but 表转折。be 动词的否定式：is not up（还没起来）。",
+      "new_words": [
+        "get",
+        "get up",
+        "up",
+        "morning",
+        "hungry",
+        "thirsty",
+        "go",
+        "down",
+        "eat",
+        "breakfast",
+        "but",
+        "out"
+      ],
+      "ext_groups": [
+        {
+          "note": "一日三餐（锚词：breakfast）",
+          "anchor": "breakfast",
+          "members": [
+            "lunch",
+            "dinner",
+            "supper",
+            "meal"
+          ]
+        }
+      ],
+      "phrases": [
+        "get up in the morning|早上起床",
+        "eat my breakfast|吃早饭",
+        "go out|出门"
+      ],
+      "repeats": "本句复现：第 1 天的 in / the 与 be 动词；第 3 天的 Tom；第 4 天的 my；第 7 天的 at；第 8 天的 seven。",
+      "covered_ids": [
+        156,
+        176,
+        341,
+        357,
+        383,
+        527,
+        531,
+        538,
+        630,
+        760,
+        780,
+        818,
+        914,
+        1248,
+        1306,
+        1400
+      ]
+    },
+    {
+      "id": 14,
+      "sentence_en": "In my lesson there are eight questions: who, what, where, when, why, which, whose and how. I have got the answers.",
+      "sentence_zh": "我的课上有八个问题：谁、什么、在哪里、什么时候、为什么、哪一个、谁的、怎么样。我有了这些问题的答案。",
+      "grammar": "疑问词 who / what / where / when / why / which / whose / how 是提问时开头的词。there be 表示“存在有”，have got 表示“拥有”。whose 后面接名词表示“……的”。",
+      "new_words": [
+        "question",
+        "who",
+        "what",
+        "where",
+        "when",
+        "why",
+        "which",
+        "whose",
+        "how",
+        "answer"
+      ],
+      "ext_groups": [
+        {
+          "note": "any- 不定代词（锚词：who）",
+          "anchor": "who",
+          "members": [
+            "anybody",
+            "anyone",
+            "anything",
+            "anywhere"
+          ]
+        },
+        {
+          "note": "some- 不定代词（锚词：who）",
+          "anchor": "who",
+          "members": [
+            "somebody",
+            "someone",
+            "something",
+            "somewhere"
+          ]
+        }
+      ],
+      "phrases": [
+        "eight questions|八个问题",
+        "in my lesson|在我的课上",
+        "the answers|这些答案"
+      ],
+      "repeats": "本句复现：第 1 天的 there be；第 2 天的 have got；第 4 天的 my；第 8 天的 eight；第 11 天的 lesson。",
+      "covered_ids": [
+        49,
+        52,
+        53,
+        54,
+        56,
+        627,
+        1027,
+        1183,
+        1184,
+        1185,
+        1187,
+        1449,
+        1451,
+        1452,
+        1453,
+        1456,
+        1458,
+        1459
+      ]
+    },
+    {
+      "id": 15,
+      "sentence_en": "Today is Monday. My week has five weekdays and a weekend: Friday is my favourite. Now, before my daily lesson, I eat breakfast, and then, after it, I go home.",
+      "sentence_zh": "今天是星期一。我的一周有五个工作日和一个周末：星期五是我最喜欢的日子。现在，在上每天那节课之前我先吃早饭，然后下课后回家。",
+      "grammar": "星期名首字母大写：Monday、Friday。时间副词 now / then / today 的位置。before 和 after 表示时间先后：before my lesson、after it。week 由 weekday（工作日）和 weekend（周末）组成。",
+      "new_words": [
+        "today",
+        "Monday",
+        "week",
+        "weekday",
+        "weekend",
+        "Friday",
+        "now",
+        "before",
+        "daily",
+        "then",
+        "after"
+      ],
+      "ext_groups": [
+        {
+          "note": "星期名（锚词：Monday）",
+          "anchor": "Monday",
+          "members": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Saturday",
+            "Sunday"
+          ]
+        }
+      ],
+      "phrases": [
+        "five weekdays|五个工作日",
+        "my favourite weekday|我最喜欢的工作日",
+        "after my lesson|上完课之后"
+      ],
+      "repeats": "本句复现：第 2 天的 has（have 的第三人称单数）；第 4 天的 my；第 8 天的 five；第 11 天的 lesson；第 12 天的 favourite；第 13 天的 morning / breakfast / go / eat。",
+      "covered_ids": [
+        20,
+        107,
+        310,
+        505,
+        811,
+        882,
+        1087,
+        1245,
+        1298,
+        1320,
+        1333,
+        1368,
+        1439,
+        1440,
+        1441,
+        1442
+      ]
+    },
+    {
+      "id": 16,
+      "sentence_en": "Yesterday was Monday, and now it is September. My birthday has got a date: it is in October, and it is soon. A year has twelve months.",
+      "sentence_zh": "昨天是星期一，现在已经是九月了。我的生日有确切的日期：就在十月，很快就要到了。一年有十二个月。",
+      "grammar": "月份名首字母大写：September、October。was 是 be 动词的过去式，常与 yesterday 连用。have got 的第三人称单数形式是 has got。a year 与 twelve months 是单复数的对照。",
+      "new_words": [
+        "yesterday",
+        "September",
+        "birthday",
+        "date",
+        "October",
+        "soon",
+        "year",
+        "month"
+      ],
+      "ext_groups": [
+        {
+          "note": "月份名（锚词：September）",
+          "anchor": "September",
+          "members": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "November",
+            "December"
+          ]
+        }
+      ],
+      "phrases": [
+        "twelve months|十二个月",
+        "my birthday|我的生日",
+        "in October|在十月"
+      ],
+      "repeats": "本句复现：第 2 天的 have got（has got）；第 4 天的 my；第 9 天的 twelve；第 15 天的 Monday / now / today 这组时间词。",
+      "covered_ids": [
+        60,
+        77,
+        123,
+        317,
+        322,
+        450,
+        676,
+        686,
+        688,
+        771,
+        777,
+        814,
+        881,
+        888,
+        1108,
+        1190,
+        1489,
+        1492
+      ]
+    },
+    {
+      "id": 17,
+      "sentence_en": "Every morning we both always eat too much, and we all eat so very many meals: each of us eats a few, usually three, often four, sometimes five, never eight.",
+      "sentence_zh": "每天早上我们俩总是吃太多，我们大家都要吃很多顿：其实我们每人吃得并不多，通常三顿，常常四顿，有时五顿，从没吃过八顿。",
+      "grammar": "频率副词 always / usually / often / sometimes / never 常放在实义动词前、be 动词后。every + 单数名词（every morning），each of + 复数代词（each of us）。both 和 all 放在主语后：we both、we all。many 修饰可数名词复数，much 表示不可数数量；so / very / too 表示程度。",
+      "new_words": [
+        "every",
+        "both",
+        "always",
+        "too",
+        "much",
+        "all",
+        "so",
+        "very",
+        "many",
+        "usually",
+        "often",
+        "sometimes",
+        "never",
+        "few",
+        "each"
+      ],
+      "ext_groups": [
+        {
+          "note": "数量词（锚词：many）",
+          "anchor": "many",
+          "members": [
+            "lot",
+            "lots",
+            "little"
+          ]
+        }
+      ],
+      "phrases": [
+        "every morning|每天早上",
+        "too much|太多",
+        "a few|几个、少量"
+      ],
+      "repeats": "本句复现：第 8 天的 three / five / eight；第 9 天的 twenty 同族数字词；第 13 天的 morning / eat。",
+      "covered_ids": [
+        31,
+        38,
+        145,
+        376,
+        411,
+        454,
+        740,
+        751,
+        752,
+        769,
+        831,
+        850,
+        893,
+        1177,
+        1186,
+        1340,
+        1406,
+        1410
+      ]
+    },
+    {
+      "id": 18,
+      "sentence_en": "Everything's for everybody and everyone. None of them is for him. Their things are everywhere, and my bag is nowhere. Nothing's here, and nobody and no one are at school.",
+      "sentence_zh": "所有的东西都是给大家的。它们当中没有一个是要给他的。他们的东西到处都是，我的包却哪儿都找不到。这里什么都没有，也没有人在学校。",
+      "grammar": "不定代词作主语时谓语用单数：Everything's（= Everything is）、Nothing's（= Nothing is）。none of + 复数代词，谓语用单数 is。them 和 him 是宾格，their 是形容词性物主代词。",
+      "new_words": [
+        "everything",
+        "everybody",
+        "everyone",
+        "none",
+        "them",
+        "him",
+        "their",
+        "everywhere",
+        "nowhere",
+        "nothing",
+        "nobody",
+        "no one"
+      ],
+      "ext_groups": [
+        {
+          "note": "物主代词（锚词：their）",
+          "anchor": "their",
+          "members": [
+            "mine",
+            "yours",
+            "hers",
+            "ours",
+            "theirs"
+          ]
+        }
+      ],
+      "phrases": [
+        "none of them|它们当中没有一个",
+        "for everybody|给大家",
+        "my bag is nowhere|我的包哪儿都找不到"
+      ],
+      "repeats": "本句复现：第 4 天的 my；第 5 天的 for；第 11 天的 at school；第 13 天的 here 与 there be 家族。",
+      "covered_ids": [
+        412,
+        413,
+        414,
+        415,
+        602,
+        606,
+        801,
+        867,
+        869,
+        872,
+        880,
+        883,
+        912,
+        1294,
+        1295,
+        1296,
+        1497
+      ]
+    },
+    {
+      "id": 19,
+      "sentence_en": "I like games, love my kite and enjoy funny cartoons. My hobby's my kite: I play with it because it is fun. My doll and toys are interesting, not boring.",
+      "sentence_zh": "我喜欢游戏，爱我的风筝，也喜欢好玩的卡通片。我的爱好就是风筝：我玩风筝，因为它很有趣。我的娃娃和玩具都很有意思，一点也不无聊。",
+      "grammar": "like / love / enjoy 后面接名词，表示喜好。because 引导原因：because it is fun。interesting、boring、funny 是形容词，可作表语（are interesting）或定语（funny cartoons）。play with 表示“玩……”。",
+      "new_words": [
+        "like",
+        "game",
+        "love",
+        "kite",
+        "enjoy",
+        "funny",
+        "cartoon",
+        "hobby",
+        "play",
+        "because",
+        "fun",
+        "doll",
+        "toy",
+        "interesting",
+        "boring"
+      ],
+      "ext_groups": [],
+      "phrases": [
+        "my hobby|我的爱好",
+        "funny cartoons|有趣的卡通片",
+        "play with my kite|放风筝、玩风筝"
+      ],
+      "repeats": "本句复现：第 4 天的 my；第 5 天的 with；第 8 天的 not；第 11 天的复数名词（games、cartoons 同类）。",
+      "covered_ids": [
+        103,
+        141,
+        202,
+        351,
+        401,
+        515,
+        516,
+        518,
+        612,
+        661,
+        699,
+        734,
+        754,
+        982,
+        1351
+      ]
+    },
+    {
+      "id": 20,
+      "sentence_en": "Our school has a library, a gym and a playground. The staff meeting is in the office. My group has a computer and a keyboard. My internet project is online.",
+      "sentence_zh": "我们学校有图书馆、体育馆和操场。教职工会议在办公室开。我们小组有一台电脑和一个键盘。我的网络课题是在网上做的。",
+      "grammar": "学校场所名词：library、gym、playground、office。have / has 表示“有”，主语为第三人称单数时用 has。in + 地点表示位置。online 与 internet 都表示“在网上”。",
+      "new_words": [
+        "library",
+        "gym",
+        "playground",
+        "staff",
+        "meeting",
+        "office",
+        "group",
+        "computer",
+        "keyboard",
+        "internet",
+        "project",
+        "online"
+      ],
+      "ext_groups": [],
+      "phrases": [
+        "a library and a gym|图书馆和体育馆",
+        "the staff meeting|教职工会议",
+        "online on the internet|在网上"
+      ],
+      "repeats": "本句复现：第 1 天的 our / in / the / and；第 2 天的 has（have）；第 4 天的 my；第 11 天的 school / classroom 这组场所词。",
+      "covered_ids": [
+        276,
+        562,
+        571,
+        663,
+        692,
+        727,
+        786,
+        892,
+        902,
+        984,
+        1016,
+        1209
+      ]
+    }
+  ]
+}
