@@ -1,14 +1,14 @@
 # 第 8 幕（Day 71-80）：圣诞假期与澳大利亚之旅（南半球夏天）。语法：比较级/最高级巩固、现在完成时、被动入门。
 DAYS = [
     dict(day=71, act=8, theme="打包出发",
-         sent=["suitcase", "luggage", "pack", "passport", "ticket", "hotel", "arrive", "stay", "trip", "journey", "travel"],
+         sent=["suitcase", "luggage", "pack", "passport", "ticket", "hotel", "arrive", "stay", "trip", "journey", "travel", "return"],
          ext=[("旅人（锚词：travel）", "travel", ["visit", "visitor", "tourist", "tour"]),
               ("旅行服务（锚词：journey）", "journey", ["travel agent", "tourist information centre"])]),
     dict(day=72, act=8, theme="海滩与泳池",
          sent=["beach", "sea", "summer", "swimming pool", "swimming costume", "swimming", "pool", "umbrella", "wave", "surfboard", "surfing"],
          ext=[("水上运动（锚词：surfing）", "surfing", ["surfboarding", "windsurfing", "sailing", "sail"])]),
     dict(day=73, act=8, theme="雨林露营",
-         sent=["camp", "campsite", "tent", "barbecue", "rainforest", "explore", "explorer", "adventure", "map", "guidebook"],
+         sent=["camp", "campsite", "tent", "barbecue", "rainforest", "explore", "explorer", "adventure", "map", "guidebook", "guy"],
          ext=[("船与航行（锚词：map）", "map", ["boat", "ship"])]),
     dict(day=74, act=8, theme="在澳大利亚",
          sent=["Australia", "Australian", "foreign", "language", "speak", "tell", "say", "talk", "conversation", "sentence", "spell", "surname"],

@@ -327,7 +327,7 @@
 - 贺卡用语（锚词：card）：dear
 
 ### Day 62｜第 7 幕｜祖孙同堂
-句中新词 12 个：**grandfather**、**grandmother**、**grandparent**、**grandson**、**granddaughter**、**grandchild**、**granddad**、**uncle**、**cousin**、**nephew**、**niece**、**guy**
+句中新词 11 个：**grandfather**、**grandmother**、**grandparent**、**grandson**、**granddaughter**、**grandchild**、**granddad**、**uncle**、**cousin**、**nephew**、**niece**
 扩展必背词 3 个：
 - 亲属总称（锚词：cousin）：person、people
 - 婚姻（锚词：grandmother）：married
@@ -351,7 +351,7 @@
 - 肯定与确定（锚词：sure）：certainly
 
 ### Day 66｜第 7 幕｜现在完成时入门
-句中新词 14 个：**ever**、**already**、**yet**、**since**、**still**、**happen**、**leave**、**return**、**find**、**begin**、**die**、**dead**、**learn**、**come**
+句中新词 10 个：**already**、**yet**、**since**、**happen**、**leave**、**find**、**begin**、**die**、**dead**、**come**
 扩展必背词 3 个：
 - 生命阶段（锚词：die）：born、life、live
 
@@ -362,7 +362,7 @@
 - 短语动词（锚词：fill）：fill in
 
 ### Day 68｜第 7 幕｜赞不绝口
-句中新词 12 个：**amazing**、**brilliant**、**excellent**、**fantastic**、**wonderful**、**perfect**、**pleasant**、**lovely**、**great**、**real**、**really**、**pretty**
+句中新词 13 个：**amazing**、**brilliant**、**excellent**、**fantastic**、**wonderful**、**perfect**、**pleasant**、**lovely**、**great**、**real**、**really**、**pretty**、**ever**
 扩展必背词 3 个：
 - 好极了复习（锚词：brilliant）：nice（复习·D7）、good（复习·D50）、beautiful（复习·D50）
 
@@ -381,7 +381,7 @@
 ## 第 8 幕词分配（Day 71-80）
 
 ### Day 71｜第 8 幕｜打包出发
-句中新词 11 个：**suitcase**、**luggage**、**pack**、**passport**、**ticket**、**hotel**、**arrive**、**stay**、**trip**、**journey**、**travel**
+句中新词 12 个：**suitcase**、**luggage**、**pack**、**passport**、**ticket**、**hotel**、**arrive**、**stay**、**trip**、**journey**、**travel**、**return**
 扩展必背词 6 个：
 - 旅人（锚词：travel）：visit、visitor、tourist、tour
 - 旅行服务（锚词：journey）：travel agent、tourist information centre
@@ -392,7 +392,7 @@
 - 水上运动（锚词：surfing）：surfboarding、windsurfing、sailing、sail
 
 ### Day 73｜第 8 幕｜雨林露营
-句中新词 10 个：**camp**、**campsite**、**tent**、**barbecue**、**rainforest**、**explore**、**explorer**、**adventure**、**map**、**guidebook**
+句中新词 11 个：**camp**、**campsite**、**tent**、**barbecue**、**rainforest**、**explore**、**explorer**、**adventure**、**map**、**guidebook**、**guy**
 扩展必背词 2 个：
 - 船与航行（锚词：map）：boat、ship
 
@@ -438,12 +438,12 @@
 ## 第 9 幕词分配（Day 81-90）
 
 ### Day 81｜第 9 幕｜考试周
-句中新词 15 个：**exam**、**test**、**quiz**、**practice**、**practise**、**study**、**improve**、**mistake**、**fail**、**pass**、**homework**、**ready**、**useful**、**reading**、**pencil case**
+句中新词 14 个：**exam**、**test**、**quiz**、**practice**、**practise**、**study**、**improve**、**mistake**、**fail**、**pass**、**homework**、**ready**、**useful**、**reading**
 扩展必背词 2 个：
 - 教与学（锚词：study）：teach、student
 
 ### Day 82｜第 9 幕｜because 从句
-句中新词 13 个：**agree**、**against**、**among**、**ask**、**describe**、**explain**、**difference**、**different**、**example**、**activity**、**else**、**anyway**、**excuse**
+句中新词 12 个：**agree**、**among**、**ask**、**describe**、**explain**、**difference**、**different**、**example**、**activity**、**anyway**、**excuse**、**learn**
 扩展必背词 2 个：
 - 说明与信息（锚词：explain）：instructions、information
 
@@ -453,7 +453,7 @@
 - 时间反义复习（锚词：later）：early（复习·D24）、late（复习·D24）、soon（复习·D16）
 
 ### Day 84｜第 9 幕｜if 条件句
-句中新词 13 个：**if**、**or**、**any**、**some**、**other**、**another**、**such**、**all right**、**at all**、**without**、**except**、**yes**、**next**
+句中新词 14 个：**if**、**or**、**any**、**some**、**other**、**another**、**such**、**all right**、**at all**、**without**、**except**、**yes**、**next**、**else**
 
 ### Day 85｜第 9 幕｜转述与通信
 句中新词 14 个：**sound**、**hear**、**matter**、**mind**、**true**、**story**、**note**、**chat**、**chatroom**、**pen-friend**、**heart**、**her**、**his**、**its**
@@ -461,7 +461,7 @@
 - 通信与记录（锚词：chat）：email（复习·D78）、letter（复习·D57）、postcard（复习·D57）、write down
 
 ### Day 86｜第 9 幕｜学校演出
-句中新词 15 个：**stage**、**show**、**act**、**actor**、**clown**、**circus**、**dancing**、**picture**、**drawing**、**paint**、**king**、**queen**、**dragon**、**Miss**、**Ms**
+句中新词 12 个：**stage**、**show**、**act**、**actor**、**clown**、**circus**、**paint**、**king**、**queen**、**dragon**、**Miss**、**Ms**
 扩展必背词 3 个：
 - 影像（锚词：paint）：camera、photography、photo
 
@@ -482,7 +482,7 @@
 - 衣物补充（锚词：fashion）：uniform、pyjamas、trainers
 
 ### Day 90｜第 9 幕｜梦想未来
-句中新词 12 个：**dream**、**become**、**grow up**、**teenager**、**college**、**university**、**diploma**、**advanced**、**level**、**company**、**would**、**include**
+句中新词 14 个：**dream**、**become**、**grow up**、**teenager**、**college**、**university**、**diploma**、**advanced**、**level**、**company**、**would**、**include**、**picture**、**drawing**
 扩展必背词 2 个：
 - 成功之路（锚词：dream）：success、prize
 
@@ -490,7 +490,7 @@
 ## 第 10 幕词分配（Day 91-100）
 
 ### Day 91｜第 10 幕｜度量衡
-句中新词 13 个：**metre**、**centimetre**、**kilometre**、**kilogram**、**gram**、**litre**、**mile**、**foot**、**add**、**half**、**full of**、**bit**、**extra**
+句中新词 14 个：**metre**、**centimetre**、**kilometre**、**kilogram**、**gram**、**litre**、**mile**、**foot**、**add**、**half**、**full of**、**bit**、**extra**、**pencil case**
 
 ### Day 92｜第 10 幕｜副词与功能词收尾
 句中新词 14 个：**actually**、**also**、**as well**、**away**、**these**、**those**、**instead**、**itself**、**ourselves**、**themselves**、**herself**、**himself**、**yourself**、**myself**
@@ -499,12 +499,12 @@
 - 替代（锚词：instead）：instead of
 
 ### Day 93｜第 10 幕｜动作动词收尾
-句中新词 13 个：**off**、**keep**、**let**、**try**、**start**、**finish**、**join**、**follow**、**rest**、**move**、**hit**、**lie down**、**catch**
+句中新词 14 个：**off**、**keep**、**let**、**try**、**start**、**finish**、**join**、**follow**、**rest**、**move**、**hit**、**lie down**、**catch**、**against**
 扩展必背词 1 个：
 - 休息与停止（锚词：rest）：stop（复习·D24）
 
 ### Day 94｜第 10 幕｜居家收尾
-句中新词 12 个：**carpet**、**sheet**、**board**、**roof**、**light**、**living room**、**sitting room**、**dining room**、**comfortable**、**make up**、**part**、**pair**
+句中新词 13 个：**carpet**、**sheet**、**board**、**roof**、**light**、**living room**、**sitting room**、**dining room**、**comfortable**、**make up**、**part**、**pair**、**still**
 
 ### Day 95｜第 10 幕｜自然与能源
 句中新词 15 个：**island**、**lake**、**mountain**、**space**、**air**、**alive**、**season**、**spring**、**burn**、**gas**、**electric**、**electricity**、**nature**、**east**、**west**
@@ -512,12 +512,12 @@
 - 燃烧（锚词：burn）：smoke
 
 ### Day 96｜第 10 幕｜健康生活
-句中新词 13 个：**exercise**、**fit**、**health**、**sleep**、**sleepy**、**shoulder**、**stomach**、**laugh**、**smile**、**fishing**、**riding**、**skateboard**、**sports centre**
+句中新词 14 个：**exercise**、**fit**、**health**、**sleep**、**sleepy**、**shoulder**、**stomach**、**laugh**、**smile**、**fishing**、**riding**、**skateboard**、**sports centre**、**dancing**
 扩展必背词 1 个：
 - 健身（锚词：exercise）：get fit
 
 ### Day 97｜第 10 幕｜出行与邮政收尾
-句中新词 13 个：**scooter**、**passenger**、**path**、**way**、**seat**、**holidays**、**rich**、**poor**、**same**、**luck**、**lucky**、**run**、**send**
+句中新词 14 个：**scooter**、**passenger**、**path**、**way**、**seat**、**holidays**、**rich**、**poor**、**same**、**luck**、**lucky**、**run**、**send**、**canal**
 扩展必背词 4 个：
 - 邮政（锚词：way）：by post、postcard（复习·D57）、stamp（复习·D57）
 - 住宿（锚词：holidays）：guest-house
@@ -534,4 +534,4 @@
 - 方位复习（锚词：front）：behind（复习·D40）、above（复习·D40）、below（复习·D40）、left（复习·D40）、right（复习·D40）
 
 ### Day 100｜第 10 幕｜综合复习 2：百天收官
-句中新词 13 个：**OK**、**able**、**prefer**、**exciting**、**loud**、**noisy**、**slowly**、**beginner**、**variety**、**canal**、**left hand**、**friend**、**friendly**
+句中新词 12 个：**OK**、**able**、**prefer**、**exciting**、**loud**、**noisy**、**slowly**、**beginner**、**variety**、**left hand**、**friend**、**friendly**
