@@ -395,12 +395,15 @@ class Ctx:
         return single, phrases
 
 
-def check_sentence_text(ctx, text, d, errs, where):
-    """单句文本体检：数字、长度、用词范围（多词词条整体匹配后逐 token 判定）。"""
+def check_sentence_text(ctx, text, d, errs, where, check_len=True):
+    """单句文本体检：数字、长度、用词范围（多词词条整体匹配后逐 token 判定）。
+
+    短语用 check_len=False（15-30 词的长度约束只针对 sentence_en）。
+    """
     if re.search(r"\d", text):
         errs.append(f"{where}: 英文句含数字，须全部拼写（{text[:40]}...）")
     toks = [normalize(t) for t in tokenize(text)]
-    if not (15 <= len(toks) <= 30):
+    if check_len and not (15 <= len(toks) <= 30):
         errs.append(f"{where}: 词数 {len(toks)} 不在 15-30")
     single, phrases = ctx.allowed(d)
     maxlen = max((len(p.split()) for p in phrases), default=1)
@@ -557,7 +560,7 @@ def check_day(ctx, d, s, errs, warns, csv_row=None):
         en, zh = p.split("|", 1)
         if not zh.strip():
             errs.append(f"{where}: 短语无中文：{p!r}")
-        check_sentence_text(ctx, en, d, errs, f"{where}·短语")
+        check_sentence_text(ctx, en, d, errs, f"{where}·短语", check_len=False)
 
     # --- 中文/语法非空
     if len(s.get("sentence_zh", "").strip()) < 4:
