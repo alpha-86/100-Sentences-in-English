@@ -1,0 +1,737 @@
+{
+  "batch": 9,
+  "days": [
+    81,
+    90
+  ],
+  "sentences": [
+    {
+      "id": 81,
+      "sentence_en": "Exam week: I study, practise with the quiz and improve my reading; the test is useful practice, and the homework is ready — no mistake, I will pass, not fail.",
+      "sentence_zh": "考试周：我学习、用小测验练习、提高阅读；测验是很有用的练习，作业也做完了——没有错误，我会通过，不会不及格。",
+      "grammar": "本句用一般现在时讲考试周，并用 will 讲结果。exam / test / quiz 都指“考试、测验”，从正式到轻松排列；practice 是名词（useful practice），practise 是动词（practise with the quiz），拼写不同、词性不同；pass 与 fail 是一对反义动词；破折号前的 no mistake 是名词短语，表示“没有错误”。",
+      "new_words": [
+        "exam",
+        "study",
+        "practise",
+        "quiz",
+        "improve",
+        "reading",
+        "test",
+        "useful",
+        "practice",
+        "homework",
+        "ready",
+        "mistake",
+        "pass",
+        "fail"
+      ],
+      "ext_groups": [
+        {
+          "note": "教与学（锚词：study）",
+          "anchor": "study",
+          "members": [
+            "teach",
+            "student"
+          ]
+        }
+      ],
+      "phrases": [
+        "do my homework|做作业",
+        "pass the exam|通过考试",
+        "make a mistake|犯错误"
+      ],
+      "repeats": "复现旧词：week（第 15 天）、will（第 57 天）、no / not（第 8-9 天）、with（第 6 天）。扩展组复习词 teach / student（锚词 study）随扩展块回读。",
+      "covered_ids": [
+        416,
+        434,
+        617,
+        644,
+        807,
+        935,
+        1006,
+        1007,
+        1032,
+        1047,
+        1048,
+        1233,
+        1235,
+        1271,
+        1286,
+        1404
+      ],
+      "_hint_sent": [
+        "exam",
+        "test",
+        "quiz",
+        "practice",
+        "practise",
+        "study",
+        "improve",
+        "mistake",
+        "fail",
+        "pass",
+        "homework",
+        "ready",
+        "useful",
+        "reading"
+      ]
+    },
+    {
+      "id": 82,
+      "sentence_en": "I ask Miss Green to describe and explain the difference between the two different activities, and she agrees with me: one example among many — no excuse, anyway, so learn it.",
+      "sentence_zh": "我请格林老师描述并解释这两种不同活动的区别，她同意我的说法：许多例子里的一个——没有借口，反正，学会它吧。",
+      "grammar": "本句用一般现在时讲课堂上的问答。ask sb to do sth 表示“请某人做某事”（ask Miss Green to explain）；difference 是名词（the difference between A and B），different 是形容词（two different activities）；among 表示“在（三者以上）之中”；agree with sb 表示“同意某人”；anyway 表示“无论如何、反正”。冒号后面是老师给出的一个例子。",
+      "new_words": [
+        "ask",
+        "describe",
+        "explain",
+        "difference",
+        "different",
+        "activity",
+        "agree",
+        "example",
+        "among",
+        "excuse",
+        "anyway",
+        "learn"
+      ],
+      "ext_groups": [
+        {
+          "note": "说明与信息（锚词：explain）",
+          "anchor": "explain",
+          "members": [
+            "instructions",
+            "information"
+          ]
+        }
+      ],
+      "phrases": [
+        "for example|例如",
+        "ask a question|问问题",
+        "the difference between|……之间的差别"
+      ],
+      "repeats": "复现旧词：Miss Green（白名单人物，第 11 天起）、two（第 8 天）、many（第 17 天）、with（第 6 天）、one（第 8 天）。扩展组里的 instructions / information（锚词 explain）随扩展块回读。",
+      "covered_ids": [
+        8,
+        27,
+        44,
+        55,
+        70,
+        331,
+        336,
+        337,
+        417,
+        422,
+        427,
+        651,
+        657,
+        714
+      ],
+      "_hint_sent": [
+        "agree",
+        "among",
+        "ask",
+        "describe",
+        "explain",
+        "difference",
+        "different",
+        "example",
+        "activity",
+        "anyway",
+        "excuse",
+        "learn"
+      ]
+    },
+    {
+      "id": 83,
+      "sentence_en": "All day, afternoon till night: I study until the evening, and afterwards, while the moon is up, the weekly and monthly tests come — later, suddenly, I am not well.",
+      "sentence_zh": "一整天，从下午到夜里：我一直学到傍晚，之后，月亮升起来的时候，每周和每月的测验来了——后来，我突然不舒服了。",
+      "grammar": "本句用时间状语从句串起一天：while 引导“当……时”（while the moon is up），until / till 表示“直到……为止”；afterwards 表示“之后”，later 表示“后来”，suddenly 表示“突然”。weekly 是“每周的”，monthly 是“每月的”，由 week / month 加 -ly 构成。all day 表示“一整天”。",
+      "new_words": [
+        "day",
+        "afternoon",
+        "till",
+        "night",
+        "until",
+        "evening",
+        "afterwards",
+        "while",
+        "moon",
+        "weekly",
+        "monthly",
+        "later",
+        "suddenly",
+        "well"
+      ],
+      "ext_groups": [
+        {
+          "note": "时间反义复习（锚词：later）",
+          "anchor": "later",
+          "members": [
+            {
+              "rev": "early",
+              "from": 24
+            },
+            {
+              "rev": "late",
+              "from": 24
+            },
+            {
+              "rev": "soon",
+              "from": 16
+            }
+          ]
+        }
+      ],
+      "phrases": [
+        "all day|一整天",
+        "in the evening|在晚上",
+        "from morning till night|从早到晚"
+      ],
+      "repeats": "复现旧词：study（第 81 天）、come（第 66 天）、test（第 81 天）、am / not（第 1、8 天）。扩展组复习词 early / late（第 24 天）、soon（第 16 天）随扩展块回读。",
+      "covered_ids": [
+        21,
+        22,
+        319,
+        409,
+        712,
+        815,
+        816,
+        860,
+        1239,
+        1327,
+        1399,
+        1443,
+        1445,
+        1454
+      ],
+      "_hint_sent": [
+        "while",
+        "until",
+        "till",
+        "afternoon",
+        "evening",
+        "night",
+        "day",
+        "afterwards",
+        "later",
+        "weekly",
+        "monthly",
+        "moon",
+        "well",
+        "suddenly"
+      ]
+    },
+    {
+      "id": 84,
+      "sentence_en": "If you need any help, ask me or another student; some other day we can study without such problems at all — except next week, all right? Yes — ask someone else.",
+      "sentence_zh": "如果你需要任何帮助，可以问我或者别的同学；改天我们可以毫无这类问题地一起学习——除了下周，行吗？好的——去问别人吧。",
+      "grammar": "本句练习 if 引导的条件句：If you need any help（如果你需要帮助）。any 多用于疑问句和条件句，some 多用于肯定句（some other day）；another 表示“另一个”，other 表示“别的”；without 表示“没有、不用”，except 表示“除……之外”；such 是“这样的”；at all 用于强调（not ... at all / 句末加强语气）。All right? 用来征求同意，Yes 是最简单的肯定回答。",
+      "new_words": [
+        "if",
+        "any",
+        "or",
+        "another",
+        "some",
+        "other",
+        "without",
+        "such",
+        "at all",
+        "except",
+        "next",
+        "all right",
+        "yes",
+        "else"
+      ],
+      "ext_groups": [],
+      "phrases": [
+        "all right|好吧，行",
+        "next week|下周",
+        "someone else|别人"
+      ],
+      "repeats": "复现旧词：help（第 56 天）、ask（第 82 天）、study（第 81 天）、week（第 15 天）、we / you / me（第 1-2 天）。",
+      "covered_ids": [
+        32,
+        48,
+        51,
+        75,
+        395,
+        419,
+        639,
+        856,
+        907,
+        910,
+        1182,
+        1238,
+        1474,
+        1491
+      ],
+      "_hint_sent": [
+        "if",
+        "or",
+        "any",
+        "some",
+        "other",
+        "another",
+        "such",
+        "all right",
+        "at all",
+        "without",
+        "except",
+        "yes",
+        "next",
+        "else"
+      ]
+    },
+    {
+      "id": 85,
+      "sentence_en": "I hear a sound in the chatroom: we chat, my pen-friend tells a true story — her brother, her heart and his note, its name — no matter, I do not mind.",
+      "sentence_zh": "我听见聊天室里有声音：我们聊天，我的笔友讲了一个真实的故事——她的弟弟、她的心事、他留的便条、故事的名字——没关系，我不介意。",
+      "grammar": "本句讲在网上和朋友聊天。hear 是“听见”（强调结果），sound 是名词“声音”；chat 既是动词“聊天”，也是名词，chatroom 是由 chat + room 合成的“聊天室”；pen-friend 是“笔友”。her / his / its 是形容词性物主代词，分别对应“她的 / 他的 / 它的”（its 指前面那个 story）。It does not matter. 与 I do not mind. 都是“没关系、我不介意”。",
+      "new_words": [
+        "hear",
+        "sound",
+        "chatroom",
+        "chat",
+        "pen-friend",
+        "true",
+        "story",
+        "her",
+        "heart",
+        "his",
+        "note",
+        "its",
+        "matter",
+        "mind"
+      ],
+      "ext_groups": [
+        {
+          "note": "通信与记录（锚词：chat）",
+          "anchor": "chat",
+          "members": [
+            {
+              "rev": "email",
+              "from": 78
+            },
+            {
+              "rev": "letter",
+              "from": 57
+            },
+            {
+              "rev": "postcard",
+              "from": 57
+            },
+            "write down"
+          ]
+        }
+      ],
+      "phrases": [
+        "a true story|真实的故事",
+        "chat with a pen-friend|和笔友聊天",
+        "write down|写下"
+      ],
+      "repeats": "复现旧词：brother（第 3 天）、name（第 7 天）、no / not（第 9、8 天）、I / my（第 1 天）。扩展组复习词 email（第 78 天）、letter / postcard（第 57 天）随扩展块回读。",
+      "covered_ids": [
+        220,
+        221,
+        593,
+        594,
+        600,
+        609,
+        672,
+        776,
+        800,
+        878,
+        948,
+        1192,
+        1226,
+        1364,
+        1486
+      ],
+      "_hint_sent": [
+        "sound",
+        "hear",
+        "matter",
+        "mind",
+        "true",
+        "story",
+        "note",
+        "chat",
+        "chatroom",
+        "pen-friend",
+        "heart",
+        "her",
+        "his",
+        "its"
+      ]
+    },
+    {
+      "id": 86,
+      "sentence_en": "On the stage: the school show — an actor, a clown, a king, a queen and a dragon act in the circus; I paint them for Miss Green and Ms White.",
+      "sentence_zh": "舞台上：学校的演出——演员、小丑、国王、王后和一条龙在马戏团里表演；我为格林老师和怀特女士画下他们。",
+      "grammar": "本句描写学校演出。act 既是动词“表演”，也是名词“幕、表演”，actor 是“演员”（act + or）；clown、king、queen、dragon 是舞台上的角色；circus 指“马戏团”。Miss 用于未婚女性的姓前（Miss Green），Ms 是不知道婚姻状况时对女性的称呼（Ms White），两者后面都只接姓——Ms White 是另一位女老师。",
+      "new_words": [
+        "stage",
+        "show",
+        "actor",
+        "clown",
+        "king",
+        "queen",
+        "dragon",
+        "act",
+        "circus",
+        "paint",
+        "Miss",
+        "Ms"
+      ],
+      "ext_groups": [
+        {
+          "note": "影像（锚词：paint）",
+          "anchor": "paint",
+          "members": [
+            "camera",
+            "photography",
+            "photo"
+          ]
+        }
+      ],
+      "phrases": [
+        "on the stage|在舞台上",
+        "a school show|学校演出",
+        "a dragon and a queen|一条龙和一位王后"
+      ],
+      "repeats": "复现旧词：school（第 11 天）、paint 之外的 picture / drawing 已在前几天学过、for / them（第 6、18 天）。扩展组里的 camera / photography / photo（锚词 paint）随扩展块回读。",
+      "covered_ids": [
+        7,
+        9,
+        185,
+        239,
+        260,
+        361,
+        697,
+        805,
+        830,
+        923,
+        961,
+        963,
+        1026,
+        1134,
+        1210
+      ],
+      "_hint_sent": [
+        "stage",
+        "show",
+        "act",
+        "actor",
+        "clown",
+        "circus",
+        "paint",
+        "king",
+        "queen",
+        "dragon",
+        "Miss",
+        "Ms"
+      ]
+    },
+    {
+      "id": 87,
+      "sentence_en": "At the petrol station: the engine, the brake, the tyre, the wheel — Dad drives on the motorway with his driving licence to the garage for parking; I cycle home.",
+      "sentence_zh": "在加油站：发动机、刹车、轮胎、车轮——爸爸带着他的驾照沿高速公路开到车库去停车；我骑自行车回家。",
+      "grammar": "本句讲汽车与道路。engine（发动机）、brake（刹车）、tyre（轮胎）、wheel（车轮）是汽车的四个部件；petrol station 是“加油站”（petrol 就是汽油）；motorway 是“高速公路”；garage 是“车库、修车行”；parking 是“停车”；driving licence 是“驾驶执照”（licence 单独用也表示执照/许可证），开车要带驾照，而 cycle（骑自行车）不需要，所以骑车的人是露西自己。",
+      "new_words": [
+        "petrol",
+        "petrol station",
+        "engine",
+        "brake",
+        "tyre",
+        "wheel",
+        "motorway",
+        "garage",
+        "parking",
+        "cycle",
+        "driving licence",
+        "licence"
+      ],
+      "ext_groups": [
+        {
+          "note": "形状与线（锚词：wheel）",
+          "anchor": "wheel",
+          "members": [
+            "round",
+            "circle",
+            "triangle",
+            "dot",
+            "line"
+          ]
+        },
+        {
+          "note": "道路设施（锚词：motorway）",
+          "anchor": "motorway",
+          "members": [
+            "traffic lights"
+          ]
+        }
+      ],
+      "phrases": [
+        "at the petrol station|在加油站",
+        "park the car|停车",
+        "a driving licence|驾照"
+      ],
+      "repeats": "复现旧词：drive（第 42 天）、with / my / the（第 1 天）。扩展组里的 round / circle / triangle / dot / line（锚词 wheel）与 traffic lights（锚词 motorway）随扩展块回读。",
+      "covered_ids": [
+        151,
+        238,
+        308,
+        355,
+        369,
+        399,
+        519,
+        728,
+        735,
+        822,
+        931,
+        957,
+        958,
+        1071,
+        1353,
+        1360,
+        1389,
+        1450
+      ],
+      "_hint_sent": [
+        "brake",
+        "tyre",
+        "wheel",
+        "engine",
+        "driving licence",
+        "parking",
+        "garage",
+        "petrol",
+        "petrol station",
+        "motorway",
+        "licence",
+        "cycle"
+      ]
+    },
+    {
+      "id": 88,
+      "sentence_en": "I wake up, go out, get on, get off, enter at the entrance, sit down, take off the coat; turn on and turn off the TV, shut the door, exit.",
+      "sentence_zh": "我醒来、出门、上车、下车，从大门进学校，坐下、脱掉外套；晚上打开电视又关掉，关上房门，出去。",
+      "grammar": "本句按一天的时间顺序串起短语动词。动词加小品词会组成新的意思：wake up（醒来）、go out（出去）、get on（上车）、get off（下车）、sit down（坐下）、take off（脱下）；turn on and turn off the TV 表示“打开又关掉电视”，宾语是代词时要放中间（turn it on）。enter 是“进入”，entrance 是名词“入口”，exit 表示“出去、出口”。",
+      "new_words": [
+        "wake up",
+        "go out",
+        "get on",
+        "get off",
+        "enter",
+        "sit down",
+        "take off",
+        "turn on",
+        "turn off",
+        "shut",
+        "entrance",
+        "exit"
+      ],
+      "ext_groups": [
+        {
+          "note": "开关反义复习（锚词：shut）",
+          "anchor": "shut",
+          "members": [
+            {
+              "rev": "close",
+              "from": 5
+            },
+            {
+              "rev": "put on",
+              "from": 34
+            }
+          ]
+        }
+      ],
+      "phrases": [
+        "get on the bus|上公交车",
+        "turn on the TV|打开电视",
+        "sit down|坐下"
+      ],
+      "repeats": "复现旧词：the bus（第 42 天）、the TV（第 79 天）、the coat（第 33 天）、the entrance? 本句新词。扩展组复习词 close（第 5 天）、put on（第 34 天）随扩展块回读。",
+      "covered_ids": [
+        403,
+        404,
+        425,
+        529,
+        530,
+        544,
+        1136,
+        1148,
+        1266,
+        1370,
+        1371,
+        1421
+      ],
+      "_hint_sent": [
+        "get on",
+        "get off",
+        "take off",
+        "turn on",
+        "turn off",
+        "shut",
+        "exit",
+        "enter",
+        "entrance",
+        "sit down",
+        "wake up",
+        "go out"
+      ]
+    },
+    {
+      "id": 89,
+      "sentence_en": "My brown leather boots and soft wool shoes are this year's type of fashion; gold, silver, plastic and metal are hard, but the paper is soft — Ella's hair is blonde.",
+      "sentence_zh": "我那双棕色皮靴和软羊毛鞋是今年的时尚款式；金、银、塑料和金属都是硬的，而纸是软的——埃拉的头发是金色的。",
+      "grammar": "本句用材质形容词描述衣物。leather（皮革）、wool（羊毛）、plastic（塑料）、metal（金属）、paper（纸）都是不可数名词，直接放在名词前作定语（leather boots、wool shoes）；gold 与 silver 既是“金、银”两种材料，也是颜色词；brown 是棕色，blonde 专指头发“金黄色的”。type 表示“类型、款式”，soft 与 hard 是一对反义词。",
+      "new_words": [
+        "brown",
+        "leather",
+        "boot",
+        "soft",
+        "wool",
+        "shoe",
+        "type",
+        "fashion",
+        "gold",
+        "silver",
+        "plastic",
+        "metal",
+        "hard",
+        "paper",
+        "blonde"
+      ],
+      "ext_groups": [
+        {
+          "note": "衣物补充（锚词：fashion）",
+          "anchor": "fashion",
+          "members": [
+            "uniform",
+            "pyjamas",
+            "trainers"
+          ]
+        }
+      ],
+      "phrases": [
+        "a type of|一种",
+        "soft and hard|软的与硬的",
+        "leather shoes|皮鞋"
+      ],
+      "repeats": "复现旧词：year（第 16 天）、hair（第 44 天）；Ella 是白名单人物（第 62 天起）。扩展组里的 uniform / pyjamas / trainers（锚词 fashion）随扩展块回读。",
+      "covered_ids": [
+        128,
+        138,
+        163,
+        444,
+        540,
+        582,
+        715,
+        790,
+        927,
+        979,
+        1024,
+        1123,
+        1139,
+        1181,
+        1355,
+        1388,
+        1397,
+        1478
+      ],
+      "_hint_sent": [
+        "fashion",
+        "leather",
+        "wool",
+        "silver",
+        "gold",
+        "blonde",
+        "plastic",
+        "metal",
+        "paper",
+        "type",
+        "soft",
+        "hard",
+        "brown",
+        "boot",
+        "shoe"
+      ]
+    },
+    {
+      "id": 90,
+      "sentence_en": "When I grow up I would like to become a painter: my dream includes pictures, drawings, college, university, an advanced level diploma and work in a company — a teenager's dream.",
+      "sentence_zh": "等我长大了，我想当画家：我的梦想里有图画、素描、学院、大学、一张高级水平证书，还有在一家公司工作——一个青少年的梦想。",
+      "grammar": "本句讲梦想。would like to do sth 表示“想要做某事”（比 want 更客气）；grow up 表示“长大”，become 表示“成为”；college（学院）与 university（大学）是升学路上的两级，an advanced level diploma 是“高级水平证书”；include 表示“包括”，后面接一串并列成分；teenager 指 13-19 岁的青少年。破折号后用 a teenager's dream 收尾。",
+      "new_words": [
+        "grow up",
+        "would",
+        "become",
+        "dream",
+        "include",
+        "picture",
+        "drawing",
+        "college",
+        "university",
+        "advanced",
+        "level",
+        "diploma",
+        "company",
+        "teenager"
+      ],
+      "ext_groups": [
+        {
+          "note": "成功之路（锚词：dream）",
+          "anchor": "dream",
+          "members": [
+            "success",
+            "prize"
+          ]
+        }
+      ],
+      "phrases": [
+        "grow up|长大",
+        "would like to|想要（更客气）",
+        "a picture and a drawing|一幅画与一张素描"
+      ],
+      "repeats": "复现旧词：painter（第 59 天）、work（第 59 天）、when（第 14 天）、a / my / in（第 1 天）。扩展组里的 success / prize（锚词 dream）随扩展块回读。",
+      "covered_ids": [
+        14,
+        104,
+        269,
+        274,
+        343,
+        363,
+        364,
+        564,
+        646,
+        726,
+        966,
+        1013,
+        1237,
+        1274,
+        1398,
+        1484
+      ],
+      "_hint_sent": [
+        "dream",
+        "become",
+        "grow up",
+        "teenager",
+        "college",
+        "university",
+        "diploma",
+        "advanced",
+        "level",
+        "company",
+        "would",
+        "include",
+        "picture",
+        "drawing"
+      ]
+    }
+  ]
+}

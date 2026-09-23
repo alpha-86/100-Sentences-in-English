@@ -1,0 +1,751 @@
+{
+  "batch": 10,
+  "days": [
+    91,
+    100
+  ],
+  "sentences": [
+    {
+      "id": 91,
+      "sentence_en": "My pencil case is full of numbers: add a metre, a centimetre, a kilometre, a kilogram, a gram, a litre, half a mile and a foot — a bit extra.",
+      "sentence_zh": "我的笔袋里全是数字：把一米、一厘米、一千米、一千克、一克、一升、半英里和一英尺加起来——还多出一点点。",
+      "grammar": "本句是度量衡的复习。metre（米）、centimetre（厘米）、kilometre（千米）、kilogram（千克）、gram（克）、litre（升）是公制单位，mile（英里）和 foot（英尺）是英制单位；a metre / a kilogram 这样的说法表示“一米、一千克”。full of 表示“装满……的”，add 是“加上”，half 是“一半”，a bit extra 是“多一点点”。",
+      "new_words": [
+        "pencil case",
+        "full of",
+        "add",
+        "metre",
+        "centimetre",
+        "kilometre",
+        "kilogram",
+        "gram",
+        "litre",
+        "half",
+        "mile",
+        "foot",
+        "bit",
+        "extra"
+      ],
+      "ext_groups": [],
+      "phrases": [
+        "a metre long|一米长",
+        "full of water|装满水",
+        "a bit extra|多一点点"
+      ],
+      "repeats": "复现旧词：numbers 之外的 one / two 等基数词已在第 8-9 天学过、my / is / a / and（第 1 天）。",
+      "covered_ids": [
+        11,
+        125,
+        211,
+        430,
+        486,
+        514,
+        545,
+        575,
+        694,
+        695,
+        739,
+        791,
+        796,
+        947
+      ],
+      "_hint_sent": [
+        "metre",
+        "centimetre",
+        "kilometre",
+        "kilogram",
+        "gram",
+        "litre",
+        "mile",
+        "foot",
+        "add",
+        "half",
+        "full of",
+        "bit",
+        "extra",
+        "pencil case"
+      ]
+    },
+    {
+      "id": 92,
+      "sentence_en": "These things: I do them myself, you yourself, he himself, she herself, we ourselves, they themselves — and it itself; put those away, and instead we also read as well, actually.",
+      "sentence_zh": "这些事：我自己做，你自己做，他自己做，她自己做，我们自己做，他们自己做——还有它自己做；把那些收起来，我们反而是也在读书，实际上。",
+      "grammar": "本句集中练反身代词：myself、yourself、himself、herself、itself、ourselves、themselves 用在动词后面，表示“自己（亲自）做”。these / those 是 this / that 的复数；away 与 put 连用表示“收起来”；instead 表示“反而、代替”；also 与 as well 都表示“也”，actually 表示“实际上”。",
+      "new_words": [
+        "these",
+        "myself",
+        "yourself",
+        "himself",
+        "herself",
+        "ourselves",
+        "themselves",
+        "itself",
+        "those",
+        "away",
+        "instead",
+        "also",
+        "as well",
+        "actually"
+      ],
+      "ext_groups": [
+        {
+          "note": "也的家族（锚词：also）",
+          "anchor": "also",
+          "members": [
+            "as well as",
+            "at the same time"
+          ]
+        },
+        {
+          "note": "替代（锚词：instead）",
+          "anchor": "instead",
+          "members": [
+            "instead of"
+          ]
+        }
+      ],
+      "phrases": [
+        "put away|收起来",
+        "instead of|代替",
+        "as well as|也，还有"
+      ],
+      "repeats": "复现旧词：do / read / put（第 21、21、5 天）、I / you / he / she / we / they / it / them（第 1-3 天）。扩展组里的 as well as / at the same time（锚词 also）与 instead of（锚词 instead）随扩展块回读。",
+      "covered_ids": [
+        10,
+        37,
+        72,
+        73,
+        76,
+        82,
+        603,
+        607,
+        655,
+        656,
+        673,
+        838,
+        913,
+        1297,
+        1300,
+        1313,
+        1498
+      ],
+      "_hint_sent": [
+        "actually",
+        "also",
+        "as well",
+        "away",
+        "these",
+        "those",
+        "instead",
+        "itself",
+        "ourselves",
+        "themselves",
+        "herself",
+        "himself",
+        "yourself",
+        "myself"
+      ]
+    },
+    {
+      "id": 93,
+      "sentence_en": "Let me try: I start and finish the race, hit the ball against the wall, catch it, join them, follow it, move and rest, lie down — keep off the grass!",
+      "sentence_zh": "让我试试：我起跑又跑完全程，把球打到墙上、接住它，加入他们，跟着球跑，动一动再休息，躺下来——别踩草坪！",
+      "grammar": "本句是一串动作动词。let sb do sth 表示“让某人做某事”（Let me try）；start 与 finish 是一对反义动词；hit 表示“打、撞”，against 表示“靠着、对着”（hit the ball against the wall）；join 是“加入”，follow 是“跟随”；rest 是“休息”，lie down 是“躺下”；keep off 表示“远离、不要踩”。",
+      "new_words": [
+        "let",
+        "try",
+        "start",
+        "finish",
+        "hit",
+        "against",
+        "catch",
+        "join",
+        "follow",
+        "move",
+        "rest",
+        "lie down",
+        "keep",
+        "off"
+      ],
+      "ext_groups": [
+        {
+          "note": "休息与停止（锚词：rest）",
+          "anchor": "rest",
+          "members": [
+            {
+              "rev": "stop",
+              "from": 24
+            }
+          ]
+        }
+      ],
+      "phrases": [
+        "start and finish|开始并完成",
+        "join the team|加入队伍",
+        "keep off the grass|勿踏草坪"
+      ],
+      "repeats": "复现旧词：race（第 46 天）、ball 与 wall（第 22、2 天）、grass（第 31 天）、them / it（第 18 天）。扩展组复习词 stop（第 24 天）随扩展块回读。",
+      "covered_ids": [
+        24,
+        206,
+        466,
+        484,
+        611,
+        682,
+        690,
+        724,
+        729,
+        826,
+        891,
+        1057,
+        1215,
+        1365
+      ],
+      "_hint_sent": [
+        "off",
+        "keep",
+        "let",
+        "try",
+        "start",
+        "finish",
+        "join",
+        "follow",
+        "rest",
+        "move",
+        "hit",
+        "lie down",
+        "catch",
+        "against"
+      ]
+    },
+    {
+      "id": 94,
+      "sentence_en": "The living room, the sitting room, the dining room: a carpet, a light, a board, a roof, a pair of sheets — comfortable, still part of it; make up the bed.",
+      "sentence_zh": "客厅、起居室、餐厅：地毯、灯、木板、屋顶、一对床单——很舒服，仍然是它的一部分；铺好床。",
+      "grammar": "本句复习家里的房间与物品。living room（客厅）、sitting room（起居室）、dining room（餐厅）都由“用途 + room”构成；carpet 是“地毯”，board 是“木板”，roof 是“屋顶”，light 是“灯”；a pair of 表示“一对、一双”；make up the bed 是“铺床”；still 表示“仍然”，part 表示“部分”。",
+      "new_words": [
+        "living room",
+        "sitting room",
+        "dining room",
+        "carpet",
+        "light",
+        "board",
+        "roof",
+        "pair",
+        "sheet",
+        "comfortable",
+        "still",
+        "part",
+        "make up"
+      ],
+      "ext_groups": [],
+      "phrases": [
+        "make up the bed|铺床",
+        "a pair of|一对，一双",
+        "in the living room|在客厅里"
+      ],
+      "repeats": "复现旧词：room（第 2 天）、bed（第 4 天）、the / a / of（第 1 天）。",
+      "covered_ids": [
+        131,
+        199,
+        273,
+        340,
+        732,
+        742,
+        765,
+        925,
+        933,
+        1069,
+        1119,
+        1149,
+        1220
+      ],
+      "_hint_sent": [
+        "carpet",
+        "sheet",
+        "board",
+        "roof",
+        "light",
+        "living room",
+        "sitting room",
+        "dining room",
+        "comfortable",
+        "make up",
+        "part",
+        "pair",
+        "still"
+      ]
+    },
+    {
+      "id": 95,
+      "sentence_en": "Nature in spring: the island, the lake, the mountain, the air, space — alive; the sun burns in the east and the west; gas, electric lights, electricity — the season is fine.",
+      "sentence_zh": "春天的自然：岛屿、湖泊、高山、空气、太空——生机勃勃；太阳在东方和西方燃烧；天然气、电灯、电——这个季节真好。",
+      "grammar": "本句复习自然与能源。nature 是“大自然”，alive 是形容词“活着的”（作表语或后置）；island（岛）、lake（湖）、mountain（山）、air（空气）、space（太空）都是名词；burn 表示“燃烧”，east / west 是“东、西”；gas（天然气）、electric（电的）、electricity（电）是一组能源词；season 是“季节”，spring 是“春天”。",
+      "new_words": [
+        "nature",
+        "spring",
+        "island",
+        "lake",
+        "mountain",
+        "air",
+        "space",
+        "alive",
+        "burn",
+        "east",
+        "west",
+        "gas",
+        "electric",
+        "electricity",
+        "season"
+      ],
+      "ext_groups": [
+        {
+          "note": "燃烧（锚词：burn）",
+          "anchor": "burn",
+          "members": [
+            "smoke"
+          ]
+        }
+      ],
+      "phrases": [
+        "in spring|在春天",
+        "in the east|在东方",
+        "electric lights|电灯"
+      ],
+      "repeats": "复现旧词：sun（第 32 天）、fine（第 65 天）、the / in / and（第 1 天）。扩展组里的 smoke（锚词 burn）随扩展块回读。",
+      "covered_ids": [
+        28,
+        30,
+        168,
+        380,
+        390,
+        391,
+        522,
+        668,
+        705,
+        823,
+        843,
+        1100,
+        1170,
+        1196,
+        1206,
+        1446
+      ],
+      "_hint_sent": [
+        "island",
+        "lake",
+        "mountain",
+        "space",
+        "air",
+        "alive",
+        "season",
+        "spring",
+        "burn",
+        "gas",
+        "electric",
+        "electricity",
+        "nature",
+        "east",
+        "west"
+      ]
+    },
+    {
+      "id": 96,
+      "sentence_en": "Health: exercise at the sports centre — riding, dancing, fishing, a skateboard; good for the shoulder, the stomach, and I keep fit; I laugh, smile, sleep well, but I am sleepy.",
+      "sentence_zh": "健康：在体育中心锻炼——骑车、跳舞、钓鱼、玩滑板；对肩膀和胃都有好处，我保持健康；我笑、我微笑、睡得好，不过我有点困。",
+      "grammar": "本句复习健康生活。health 是名词“健康”，healthy 才是形容词（第 69 天学过）；exercise 既是名词也是动词，keep fit 表示“保持健康”；riding、dancing、fishing 是 -ing 形式的运动名称；sleep 是“睡觉”，sleepy 是形容词“困的”；laugh 与 smile 是“大笑”和“微笑”。",
+      "new_words": [
+        "health",
+        "exercise",
+        "sports centre",
+        "riding",
+        "dancing",
+        "fishing",
+        "skateboard",
+        "shoulder",
+        "stomach",
+        "fit",
+        "laugh",
+        "smile",
+        "sleep",
+        "sleepy"
+      ],
+      "ext_groups": [
+        {
+          "note": "健身（锚词：exercise）",
+          "anchor": "exercise",
+          "members": [
+            "get fit"
+          ]
+        }
+      ],
+      "phrases": [
+        "keep fit|保持健康",
+        "do exercise|做运动",
+        "sleep well|睡得好"
+      ],
+      "repeats": "复现旧词：well（第 83 天）、good（第 50 天）、I / am / but / and（第 1 天）。扩展组里的 get fit（锚词 exercise）随扩展块回读。",
+      "covered_ids": [
+        313,
+        423,
+        473,
+        474,
+        528,
+        591,
+        713,
+        1063,
+        1132,
+        1157,
+        1163,
+        1164,
+        1169,
+        1205,
+        1221
+      ],
+      "_hint_sent": [
+        "exercise",
+        "fit",
+        "health",
+        "sleep",
+        "sleepy",
+        "shoulder",
+        "stomach",
+        "laugh",
+        "smile",
+        "fishing",
+        "riding",
+        "skateboard",
+        "sports centre",
+        "dancing"
+      ]
+    },
+    {
+      "id": 97,
+      "sentence_en": "Holidays: I run along the canal path; a passenger on a scooter takes a seat — the same way for rich and poor; good luck, we are lucky, send a postcard.",
+      "sentence_zh": "假期：我沿着运河边的小路跑步；一个骑小轮摩托的乘客找了个位子坐下——富人和穷人走的是同一条路；祝好运，我们很幸运，寄一张明信片吧。",
+      "grammar": "本句复习出行与邮政。Seaview 有一条 canal（运河），沿着它的小路叫 canal path，可以 run along（沿着……跑）；scooter 是“小轮摩托车”，passenger 是“乘客”，takes a seat 是“找个位子坐下”；way 表示“路、方式”，the same way 是“同一条路”；rich 与 poor 是一对反义形容词；luck 是名词“运气”，lucky 是形容词“幸运的”；send 是“寄、发送”。",
+      "new_words": [
+        "holidays",
+        "run",
+        "canal",
+        "path",
+        "passenger",
+        "scooter",
+        "seat",
+        "same",
+        "way",
+        "rich",
+        "poor",
+        "luck",
+        "lucky",
+        "send"
+      ],
+      "ext_groups": [
+        {
+          "note": "邮政（锚词：way）",
+          "anchor": "way",
+          "members": [
+            "by post",
+            {
+              "rev": "postcard",
+              "from": 57
+            },
+            {
+              "rev": "stamp",
+              "from": 57
+            }
+          ]
+        },
+        {
+          "note": "住宿（锚词：holidays）",
+          "anchor": "holidays",
+          "members": [
+            "guest-house"
+          ]
+        }
+      ],
+      "phrases": [
+        "good luck|祝好运",
+        "the same way|同一条路",
+        "send a postcard|寄明信片"
+      ],
+      "repeats": "复现旧词：postcard（第 57 天）、take（第 46 天）、for / the / and（第 1 天）、we（第 1 天）。扩展组里的 by post（锚词 way）、postcard / stamp（第 57 天复习）与 guest-house（锚词 holidays）随扩展块回读。",
+      "covered_ids": [
+        180,
+        191,
+        566,
+        615,
+        757,
+        758,
+        936,
+        940,
+        995,
+        1061,
+        1075,
+        1085,
+        1096,
+        1101,
+        1106,
+        1432
+      ],
+      "_hint_sent": [
+        "scooter",
+        "passenger",
+        "path",
+        "way",
+        "seat",
+        "holidays",
+        "rich",
+        "poor",
+        "same",
+        "luck",
+        "lucky",
+        "run",
+        "send",
+        "canal"
+      ]
+    },
+    {
+      "id": 98,
+      "sentence_en": "Business: Dad builds machines in a factory; the department store is closed on Sunday, the shoppers fill in a form — a new building, working hours, and he earns the rent.",
+      "sentence_zh": "生意：爸爸在工厂里造机器；百货商店周日关门，顾客们填写表格——新大楼、工作时间，他挣出房租。",
+      "grammar": "本句复习工作与商店。business 是“生意、business”，earn 是“挣钱”，rent 是“房租”，working hours 是“工作时间”；factory 是“工厂”，machine 是“机器”，build 是动词“建造”，building 是名词“建筑物”；department store 是“百货商店”（department 是“部门”，store 是“商店”）；closed 是形容词“关着的”，shopper 是“购物者”，form 是“表格”，fill in 表示“填写”。",
+      "new_words": [
+        "business",
+        "build",
+        "machine",
+        "factory",
+        "department store",
+        "department",
+        "store",
+        "closed",
+        "shopper",
+        "form",
+        "building",
+        "working hours",
+        "earn",
+        "rent"
+      ],
+      "ext_groups": [
+        {
+          "note": "商店复习（锚词：store）",
+          "anchor": "store",
+          "members": [
+            {
+              "rev": "shop",
+              "from": 6
+            },
+            {
+              "rev": "supermarket",
+              "from": 6
+            },
+            {
+              "rev": "market",
+              "from": 6
+            }
+          ]
+        },
+        {
+          "note": "金钱复习（锚词：earn）",
+          "anchor": "earn",
+          "members": [
+            {
+              "rev": "money",
+              "from": 35
+            },
+            {
+              "rev": "cash",
+              "from": 36
+            },
+            {
+              "rev": "cheque",
+              "from": 36
+            },
+            {
+              "rev": "credit card",
+              "from": 36
+            }
+          ]
+        }
+      ],
+      "phrases": [
+        "fill in a form|填写表格",
+        "a department store|百货商店",
+        "working hours|工作时间"
+      ],
+      "repeats": "复现旧词：fill in（第 67 天扩展短语）、Sunday（第 15 天）、new（第 2 天）、Dad（第 3 天）。扩展组复习词 shop / supermarket / market（第 6 天）与 money / cash / cheque / credit card（第 35-36 天）随扩展块回读。",
+      "covered_ids": [
+        165,
+        166,
+        170,
+        255,
+        329,
+        330,
+        379,
+        433,
+        494,
+        761,
+        1055,
+        1127,
+        1223,
+        1481
+      ],
+      "_hint_sent": [
+        "earn",
+        "rent",
+        "working hours",
+        "shopper",
+        "department store",
+        "department",
+        "store",
+        "closed",
+        "build",
+        "building",
+        "business",
+        "machine",
+        "factory",
+        "form"
+      ]
+    },
+    {
+      "id": 99,
+      "sentence_en": "In my pocket: my diary — the front, the side, the top, the bottom, the middle, the end; as busy as the north, the south — nobody can steal it this century.",
+      "sentence_zh": "口袋里：我的日记——正面、侧面、上面、下面、中间、末尾；像北方和南方一样忙碌——这个世纪没人能把它偷走。",
+      "grammar": "本句复习方位与杂项词。front（前面）、side（侧面）、top（顶部）、bottom（底部）、middle（中间）、end（末尾）都是位置词；north / south 是“北、南”；pocket 是“口袋”；as ... as 表示“和……一样”（as busy as ...）；busy 是“忙碌的”，century 是“世纪”，steal 是“偷”。露西把这些词收进日记里一起复习。",
+      "new_words": [
+        "pocket",
+        "front",
+        "side",
+        "top",
+        "bottom",
+        "middle",
+        "end",
+        "as",
+        "busy",
+        "north",
+        "south",
+        "steal",
+        "century"
+      ],
+      "ext_groups": [
+        {
+          "note": "方位复习（锚词：front）",
+          "anchor": "front",
+          "members": [
+            {
+              "rev": "behind",
+              "from": 40
+            },
+            {
+              "rev": "above",
+              "from": 40
+            },
+            {
+              "rev": "below",
+              "from": 40
+            },
+            {
+              "rev": "left",
+              "from": 40
+            },
+            {
+              "rev": "right",
+              "from": 40
+            }
+          ]
+        }
+      ],
+      "phrases": [
+        "in my pocket|在我口袋里",
+        "as busy as|和……一样忙",
+        "the end of the day|一天结束时"
+      ],
+      "repeats": "复现旧词：diary（第 11 天）、nobody / can（第 18、23 天）、my / it / this（第 1-2 天）。扩展组复习词 behind / above / below / left / right（第 40 天）随扩展块回读。",
+      "covered_ids": [
+        68,
+        147,
+        175,
+        213,
+        398,
+        511,
+        794,
+        874,
+        988,
+        1138,
+        1194,
+        1219,
+        1343
+      ],
+      "_hint_sent": [
+        "front",
+        "side",
+        "end",
+        "top",
+        "bottom",
+        "middle",
+        "as",
+        "steal",
+        "busy",
+        "pocket",
+        "century",
+        "north",
+        "south"
+      ]
+    },
+    {
+      "id": 100,
+      "sentence_en": "OK: able to write slowly with my left hand, no beginner; I prefer friendly smiles to loud, noisy ones — a hundred days, a variety, a friend, and an exciting end.",
+      "sentence_zh": "好了：我能够用左手慢慢地写字了，不再是初学者；比起又吵又闹的，我更喜欢友好的微笑——一百天、各种各样的故事、一个朋友，还有一个令人兴奋的结尾。",
+      "grammar": "本句是百天日记的收官句。OK 是最常用的口语应答；be able to do sth 表示“能够做某事”（able 常与 be 连用）；slowly 是 slow 加 -ly 构成的副词；left hand 表示“左手”；prefer A to B 表示“喜欢 A 胜过 B”（prefer friendly smiles to loud, noisy ones）；variety 是“各种各样”；friend 是名词，friendly 是形容词“友好的”。破折号后回望这一百天：一百天、许多故事、一个朋友。",
+      "new_words": [
+        "OK",
+        "able",
+        "slowly",
+        "left hand",
+        "beginner",
+        "prefer",
+        "friendly",
+        "loud",
+        "noisy",
+        "variety",
+        "friend",
+        "exciting"
+      ],
+      "ext_groups": [],
+      "phrases": [
+        "be able to|能够",
+        "prefer tea to coffee|喜欢茶胜过咖啡",
+        "left hand|左手"
+      ],
+      "repeats": "复现旧词：write（第 21 天）、smile（第 96 天）、end（第 99 天）、my / I / a / with（第 1 天）；一百天的日记到此收官——一百天、许多故事、一个朋友。",
+      "covered_ids": [
+        2,
+        109,
+        421,
+        508,
+        509,
+        718,
+        753,
+        868,
+        895,
+        1008,
+        1167,
+        1408
+      ],
+      "_hint_sent": [
+        "OK",
+        "able",
+        "prefer",
+        "exciting",
+        "loud",
+        "noisy",
+        "slowly",
+        "beginner",
+        "variety",
+        "left hand",
+        "friend",
+        "friendly"
+      ]
+    }
+  ]
+}
