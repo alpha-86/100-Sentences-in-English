@@ -617,8 +617,8 @@ def check_day(ctx, d, s, errs, warns, csv_row=None):
     return covered
 
 
-def load_batches(only=None):
-    """-> {day: sentence dict}"""
+def load_batches(day_range=None):
+    """-> {day: sentence dict}；day_range=(lo, hi) 时只取该天数区间（--batch N 用）。"""
     out = {}
     files = sorted(BATCH_DIR.glob("batch*.json"))
     if not files:
@@ -627,7 +627,7 @@ def load_batches(only=None):
         data = json.loads(f.read_text(encoding="utf-8"))
         items = data["sentences"] if isinstance(data, dict) else data
         for s in items:
-            if only is not None and s["id"] != only:
+            if day_range is not None and not (day_range[0] <= s["id"] <= day_range[1]):
                 continue
             if s["id"] in out:
                 raise SystemExit(f"Day {s['id']} 在多个批次文件中重复（{f.name}）")
@@ -672,7 +672,10 @@ def main():
 
     only = None
     if a.batch and a.batch != "all":
-        only = int(a.batch)
+        b = int(a.batch)
+        if not 1 <= b <= 10:
+            ap.error("--batch 取 1-10 或 all")
+        only = ((b - 1) * 10 + 1, b * 10)          # 批 N = Day (N-1)*10+1 .. N*10
     batches = load_batches(only)
 
     if not batches:
