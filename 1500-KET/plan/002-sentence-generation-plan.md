@@ -672,13 +672,19 @@
 ```
 1500-KET/sentences/
   batches/batch01-days001-010.json ... batch10-days091-100.json
-  (每批结构：[{id, sentence_en, sentence_zh, grammar, new_words, extend_words,
-               extend_note, phrases, covered_ids}, ...]  # review_note 留空，由合并脚本生成)
+  (每批结构：[{id, sentence_en, sentence_zh, grammar,
+               new_words: [词名...按句中出现顺序],
+               ext_groups: [{note, anchor, members: [词名 | {rev: 词名, from: 天}]}],
+               phrases, covered_ids}, ...])
 ```
 
+**批次文件只存词名与组结构**：`new_words`/`extend_words`/`extend_note` 单元格、`review_note` 一律由 `merge_batches.py` 按 covered_ids 查原词表拼写生成（强制执行"逐字照抄"，杜绝手抄音标/词性/中文）。
+
 1. **每批 10 句，写完立即落盘 + commit**（防中断丢失；每批是独立 JSON，可单独重跑）。
-2. 每批自查：§2 内容清单 5 条 + §6 陷阱 + 句中新词真实出现 + 旧词均更早 + 短语（1-3 个，`短语|中文`，仅由已学词+本句新词构成）。
-3. **机器校验 `scripts/validate_sentences.py`**（合并后、排版前必须全绿）：
+2. 每批自查：§2 内容清单 5 条 + §6 陷阱 + 句中新词真实出现 + 旧词均更早 + 短语（1-3 个，`短语|中文`，仅由已学词+本句新词构成）。句子形态：15-30 词、鼓励复合句；**允许"一句 = 两个关联短句"**（需求 §1.7，仍按 1 个 id 计数）。
+3. **机器校验 `scripts/validate_sentences.py`**（合并后、排版前必须全绿；脚本须内置两张执行表）：
+   - **变形表**：复数、三单、-ing、过去式、过去分词、比较级/最高级、缩写 `n't`、`'s`；多词词条整体匹配（如 `have got`、`ice cream`）。
+   - **闭类功能词放行清单**：词表外的功能词（that、may、might、whom 等）与词表情态/助动词（be、have、do、will、would、can、could、shall、should、must、have to）的一切变形一律放行，不作为"表外词"报错。
    - 结构：100 行 × 10 列、id 连续、UTF-8 BOM；
    - 覆盖：1500 词各恰好一次（new_words + 扩展新词对照 covered_ids），无遗漏/重复/表外词；每天 12-18；
    - 出现性：每个 new_words 词（含常见变形表：复数/三单/-ing/过去式/过去分词/比较级/缩写 n't）在对应英文句中真实出现；
