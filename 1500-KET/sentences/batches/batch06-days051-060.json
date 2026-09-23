@@ -1,0 +1,655 @@
+{
+  "batch": 6,
+  "days": [
+    51,
+    60
+  ],
+  "sentences": [
+    {
+      "id": 51,
+      "sentence_en": "Winter is snowy and stormy; at zero degrees the heating and the fire are on, and Tom skis on the snow — I skate on the ice inside the sports hall!",
+      "sentence_zh": "冬天多雪又多风暴；零度时暖气和炉火都开着，Tom 在雪地上滑雪——我在体育馆里溜冰！",
+      "grammar": "at zero degrees 表示“零度”，degree 用复数形式。ski 和 skate 都是动词：ski on the snow（在雪上滑雪）、skate on the ice（在冰上滑冰）。heating 是暖气，fire 是炉火。",
+      "new_words": [
+        "winter",
+        "snowy",
+        "stormy",
+        "degree",
+        "heating",
+        "fire",
+        "ski",
+        "snow",
+        "skate",
+        "ice"
+      ],
+      "ext_groups": [
+        {
+          "note": "冬季运动（锚词：ski）",
+          "anchor": "ski",
+          "members": [
+            "skiing",
+            "ice skating",
+            "skating",
+            "snowboard",
+            "snowboarding"
+          ]
+        },
+        {
+          "note": "风暴家族（锚词：stormy）",
+          "anchor": "stormy",
+          "members": [
+            "thunderstorm",
+            "temperature",
+            "raincoat"
+          ]
+        }
+      ],
+      "phrases": [
+        "in winter|在冬天",
+        "zero degrees|零度",
+        "on the ice|在冰面上"
+      ],
+      "repeats": "复现 sport（第 22 天）、hall（第 2 天）、inside（第 41 天）。",
+      "covered_ids": [
+        324,
+        467,
+        595,
+        635,
+        637,
+        1041,
+        1156,
+        1158,
+        1159,
+        1160,
+        1173,
+        1174,
+        1175,
+        1176,
+        1225,
+        1278,
+        1319,
+        1470
+      ],
+      "_hint_sent": [
+        "winter",
+        "ice",
+        "snow",
+        "snowy",
+        "skate",
+        "ski",
+        "heating",
+        "fire",
+        "degree",
+        "stormy"
+      ]
+    },
+    {
+      "id": 52,
+      "sentence_en": "Aunt Kate's flat is upstairs: we go up the stairs, and a lift takes us to the apartment; the bath, shower, mirror and curtains are new — I go downstairs!",
+      "sentence_zh": "Kate 姑姑的公寓在楼上：我们爬楼梯上去，电梯也能把我们送到那套公寓；浴缸、淋浴、镜子和窗帘都是新的——我要下楼啦！",
+      "grammar": "upstairs / downstairs 是副词，前面不加介词：go upstairs、go downstairs。flat 和 apartment 意思相同（英式常用 flat，美式常用 apartment）。",
+      "new_words": [
+        "flat",
+        "upstairs",
+        "stairs",
+        "lift",
+        "apartment",
+        "bath",
+        "shower",
+        "mirror",
+        "curtains",
+        "downstairs"
+      ],
+      "ext_groups": [
+        {
+          "note": "洗漱用品（锚词：bath）",
+          "anchor": "bath",
+          "members": [
+            "soap",
+            "towel",
+            "toothbrush",
+            "shampoo"
+          ]
+        }
+      ],
+      "phrases": [
+        "go upstairs|上楼",
+        "the bath and the shower|浴缸和淋浴",
+        "new curtains|新窗帘"
+      ],
+      "repeats": "复现 Aunt Kate（白名单）、take（第 46 天）、go（第 13 天）。",
+      "covered_ids": [
+        57,
+        97,
+        305,
+        359,
+        477,
+        731,
+        804,
+        1116,
+        1135,
+        1178,
+        1211,
+        1342,
+        1349,
+        1401
+      ],
+      "_hint_sent": [
+        "flat",
+        "apartment",
+        "stairs",
+        "upstairs",
+        "downstairs",
+        "lift",
+        "bath",
+        "shower",
+        "mirror",
+        "curtains"
+      ]
+    },
+    {
+      "id": 53,
+      "sentence_en": "During the morning we cook: Mother boils rice, fries fish and roasts meat in the cooker; I grill vegetables, bake a cake, cut bread and wash up the dishes.",
+      "sentence_zh": "早上我们做饭：妈妈煮米饭、煎鱼，还在炉灶上烤肉；我炙烤蔬菜、烘烤蛋糕、切面包，还洗碗。",
+      "grammar": "做饭的动词：boil（煮）、fry（煎）、roast（烤肉）、grill（炙烤）、bake（烘烤）。cook 是“做饭”，cooker 是“炉灶”，只差一个字母，别混用。",
+      "new_words": [
+        "during",
+        "cook",
+        "boil",
+        "fry",
+        "roast",
+        "cooker",
+        "grill",
+        "bake",
+        "cut",
+        "wash up",
+        "dish"
+      ],
+      "ext_groups": [
+        {
+          "note": "烹饪方式（锚词：fry）",
+          "anchor": "fry",
+          "members": [
+            "fried",
+            "grilled"
+          ]
+        }
+      ],
+      "phrases": [
+        "cook the dinner|做饭",
+        "wash up the dishes|洗碗",
+        "in the cooker|在炉灶上"
+      ],
+      "repeats": "复现 morning（第 13 天）、Mother（第 3 天）、cake（第 29 天）。",
+      "covered_ids": [
+        88,
+        134,
+        280,
+        281,
+        307,
+        347,
+        373,
+        507,
+        513,
+        560,
+        561,
+        1067,
+        1428
+      ],
+      "_hint_sent": [
+        "cook",
+        "cooker",
+        "bake",
+        "boil",
+        "fry",
+        "grill",
+        "roast",
+        "cut",
+        "dish",
+        "wash up",
+        "during"
+      ]
+    },
+    {
+      "id": 54,
+      "sentence_en": "In Seaview there is a lot of fast food: pizza, chips, sausages and sandwiches; at home we have pasta, steak, pie, pancakes, an omelette, and toast and cereal for breakfast.",
+      "sentence_zh": "在 Seaview 有很多快餐：比萨、薯条、香肠和三明治；在家我们吃意大利面、牛排、馅饼、薄煎饼、煎蛋卷，早餐吃吐司和麦片。",
+      "grammar": "there is a lot of… 表示“有很多……”（food 是不可数名词）。列举食物用逗号隔开，最后一项前加 and；chips、sandwiches、pancakes 用复数。",
+      "new_words": [
+        "fast food",
+        "pizza",
+        "chips",
+        "sausage",
+        "sandwich",
+        "pasta",
+        "steak",
+        "pie",
+        "pancake",
+        "omelette",
+        "toast",
+        "cereal"
+      ],
+      "ext_groups": [],
+      "phrases": [
+        "fast food|快餐",
+        "a steak|一块牛排",
+        "toast and cereal|吐司和麦片"
+      ],
+      "repeats": "复现 Seaview（第 1 天）、home（第 1 天）、breakfast（第 13 天）。",
+      "covered_ids": [
+        214,
+        232,
+        446,
+        897,
+        926,
+        939,
+        967,
+        974,
+        1086,
+        1088,
+        1218,
+        1332
+      ],
+      "_hint_sent": [
+        "pasta",
+        "pie",
+        "pizza",
+        "sausage",
+        "steak",
+        "chips",
+        "fast food",
+        "sandwich",
+        "omelette",
+        "pancake",
+        "toast",
+        "cereal"
+      ]
+    },
+    {
+      "id": 55,
+      "sentence_en": "At the restaurant the waiter brings the menu and I order the main course; the waitress brings a plate, bowl, fork, knife and spoon, and the customer pays the bill.",
+      "sentence_zh": "在餐馆里，服务员拿来菜单，我点了主菜；女服务员端来盘子、碗、叉子、刀和勺子，顾客付账。",
+      "grammar": "order 是“点餐”，the main course 是主菜。waiter 是男服务员，waitress 是女服务员，customer 是顾客。bring sb sth：brings the menu（拿来菜单）。",
+      "new_words": [
+        "restaurant",
+        "waiter",
+        "menu",
+        "order",
+        "main course",
+        "waitress",
+        "plate",
+        "bowl",
+        "fork",
+        "knife",
+        "spoon",
+        "customer",
+        "bill"
+      ],
+      "ext_groups": [
+        {
+          "note": "餐具补充（锚词：plate）",
+          "anchor": "plate",
+          "members": [
+            "cup",
+            "glass",
+            "bottle"
+          ]
+        }
+      ],
+      "phrases": [
+        "at the restaurant|在餐馆",
+        "the main course|主菜",
+        "pay the bill|付账"
+      ],
+      "repeats": "复现 bring（第 46 天）、pay（第 35 天）、table（第 4 天）。",
+      "covered_ids": [
+        121,
+        146,
+        148,
+        303,
+        306,
+        493,
+        535,
+        701,
+        763,
+        788,
+        909,
+        980,
+        1058,
+        1203,
+        1419,
+        1420
+      ],
+      "_hint_sent": [
+        "restaurant",
+        "menu",
+        "order",
+        "waiter",
+        "waitress",
+        "customer",
+        "bill",
+        "fork",
+        "knife",
+        "spoon",
+        "plate",
+        "bowl",
+        "main course"
+      ]
+    },
+    {
+      "id": 56,
+      "sentence_en": "On Saturday I help with the housework: I tidy up my dirty room, clean and wash clothes; our cleaner is single, but Mother and Father are husband and wife.",
+      "sentence_zh": "周六我帮忙做家务：我收拾自己脏乱的房间，又打扫又洗衣服；我们的清洁工是单身，而妈妈和爸爸是夫妻。",
+      "grammar": "tidy up 是“收拾整齐”，tidy 也可以单独用。husband and wife 是固定搭配（夫妻），single 表示“单身的”。help with 后面接要做的事。",
+      "new_words": [
+        "help",
+        "housework",
+        "tidy",
+        "tidy up",
+        "dirty",
+        "clean",
+        "wash",
+        "cleaner",
+        "single",
+        "husband",
+        "wife"
+      ],
+      "ext_groups": [
+        {
+          "note": "清洁工具（锚词：clean）",
+          "anchor": "clean",
+          "members": [
+            "brush",
+            "comb"
+          ]
+        }
+      ],
+      "phrases": [
+        "do the housework|做家务",
+        "tidy up my room|收拾我的房间",
+        "husband and wife|夫妻"
+      ],
+      "repeats": "复现 Saturday（第 15 天）、room（第 2 天）、clothes（第 33 天）。",
+      "covered_ids": [
+        164,
+        247,
+        248,
+        271,
+        344,
+        599,
+        626,
+        633,
+        1145,
+        1322,
+        1323,
+        1427,
+        1461
+      ],
+      "_hint_sent": [
+        "housework",
+        "tidy",
+        "tidy up",
+        "clean",
+        "cleaner",
+        "wash",
+        "help",
+        "dirty",
+        "husband",
+        "wife",
+        "single"
+      ]
+    },
+    {
+      "id": 57,
+      "sentence_en": "Tomorrow I will post a letter and a postcard at the post office: the envelope needs a stamp; the postman will help; the bank is next to the police station.",
+      "sentence_zh": "明天我要去邮局寄一封信和一张明信片：信封需要贴邮票，邮递员会帮忙；银行就在警察局旁边。",
+      "grammar": "will + 动词原形表示将来：I will post… / the postman will help。post 是“邮寄”，postman 是邮递员，post office 是邮局；next to 表示“紧挨着”。",
+      "new_words": [
+        "will",
+        "post",
+        "letter",
+        "postcard",
+        "post office",
+        "envelope",
+        "stamp",
+        "postman",
+        "bank",
+        "police",
+        "police station"
+      ],
+      "ext_groups": [
+        {
+          "note": "警察家族（锚词：police）",
+          "anchor": "police",
+          "members": [
+            "police officer",
+            "police car"
+          ]
+        }
+      ],
+      "phrases": [
+        "post a letter|寄信",
+        "at the post office|在邮局",
+        "next to the bank|紧挨着银行"
+      ],
+      "repeats": "复现 tomorrow（第 30 天）、next to（第 41 天）、help（第 56 天）。",
+      "covered_ids": [
+        92,
+        405,
+        725,
+        990,
+        991,
+        992,
+        993,
+        999,
+        1000,
+        1002,
+        1003,
+        1212,
+        1463
+      ],
+      "_hint_sent": [
+        "bank",
+        "post office",
+        "post",
+        "postman",
+        "postcard",
+        "stamp",
+        "envelope",
+        "letter",
+        "police",
+        "police station",
+        "will"
+      ]
+    },
+    {
+      "id": 58,
+      "sentence_en": "In the town square there is a museum, a theatre, a cathedral, a church, a castle and a stadium; the firefighters and the fire station are next to it.",
+      "sentence_zh": "镇上的广场上有博物馆、剧院、大教堂、教堂、城堡和体育场；消防员和消防站就在它旁边。",
+      "grammar": "there is 后面可以接一串并列名词，逐个介绍：there is a museum, a theatre…。fire station 是消防站，firefighter 是消防员。next to it 里的 it 指前面的 the town square。",
+      "new_words": [
+        "square",
+        "museum",
+        "theatre",
+        "cathedral",
+        "church",
+        "castle",
+        "stadium",
+        "firefighter",
+        "fire station"
+      ],
+      "ext_groups": [
+        {
+          "note": "文化场所（锚词：theatre）",
+          "anchor": "theatre",
+          "members": [
+            "cinema",
+            "disco",
+            "exhibition"
+          ]
+        }
+      ],
+      "phrases": [
+        "the town square|城镇广场",
+        "a fire station|消防站",
+        "next to it|在它旁边"
+      ],
+      "repeats": "复现 town（第 1 天）、next to（第 41 天）。",
+      "covered_ids": [
+        204,
+        207,
+        236,
+        237,
+        345,
+        424,
+        468,
+        469,
+        833,
+        1207,
+        1208,
+        1293
+      ],
+      "_hint_sent": [
+        "fire station",
+        "firefighter",
+        "museum",
+        "theatre",
+        "cathedral",
+        "castle",
+        "church",
+        "square",
+        "stadium"
+      ]
+    },
+    {
+      "id": 59,
+      "sentence_en": "In the careers lesson we read about work and jobs: a boss, a manager, a secretary, a colleague, a worker, a businessman and a businesswoman — and my mother's occupation!",
+      "sentence_zh": "在职业课上我们读到关于工作和职业的内容：老板、经理、秘书、同事、工人、男商人和女商人——还有我妈妈的职业！",
+      "grammar": "career 指“职业、事业”，job 指“具体的工作”。worker 由 work + -er 构成，businessman / businesswoman 是男、女商人。",
+      "new_words": [
+        "career",
+        "work",
+        "job",
+        "boss",
+        "manager",
+        "secretary",
+        "colleague",
+        "worker",
+        "businessman",
+        "businesswoman",
+        "occupation"
+      ],
+      "ext_groups": [
+        {
+          "note": "助理与店员（锚词：boss）",
+          "anchor": "boss",
+          "members": [
+            "assistant",
+            "shop assistant",
+            "receptionist"
+          ]
+        }
+      ],
+      "phrases": [
+        "read about jobs|读关于工作的内容",
+        "a boss and a manager|老板和经理",
+        "my mother's occupation|我妈妈的职业"
+      ],
+      "repeats": "复现 lesson（第 11 天）、read（第 21 天）、mother（第 3 天）。",
+      "covered_ids": [
+        71,
+        144,
+        171,
+        172,
+        195,
+        267,
+        681,
+        767,
+        886,
+        1051,
+        1103,
+        1126,
+        1479,
+        1480
+      ],
+      "_hint_sent": [
+        "job",
+        "work",
+        "worker",
+        "occupation",
+        "career",
+        "boss",
+        "manager",
+        "secretary",
+        "colleague",
+        "businessman",
+        "businesswoman"
+      ]
+    },
+    {
+      "id": 60,
+      "sentence_en": "For my project I write about jobs: my father is an engineer, Sam is a footballer, Lily is a tennis player; the nurse, writer, journalist, photographer, musician and painter work.",
+      "sentence_zh": "为了我的课题，我写关于工作的内容：我爸爸是工程师，Sam 是足球运动员，Lily 是网球运动员；护士、作家、记者、摄影师、音乐家和画家都在工作。",
+      "grammar": "表示职业：an engineer、a footballer、a tennis player。说“某人做什么工作”常用 be 动词：my father is an engineer。",
+      "new_words": [
+        "engineer",
+        "footballer",
+        "tennis player",
+        "nurse",
+        "writer",
+        "journalist",
+        "photographer",
+        "musician",
+        "painter"
+      ],
+      "ext_groups": [
+        {
+          "note": "手艺与服务（锚词：nurse）",
+          "anchor": "nurse",
+          "members": [
+            "mechanic",
+            "chemist",
+            "hairdresser",
+            "gardener",
+            "guide",
+            "tour guide"
+          ]
+        }
+      ],
+      "phrases": [
+        "my father is an engineer|我爸爸是工程师",
+        "a tennis player|网球运动员",
+        "write about jobs|写关于工作的内容"
+      ],
+      "repeats": "复现 project（第 20 天）、father（第 3 天）、Sam、Lily（第 12 天）、work（第 59 天）。",
+      "covered_ids": [
+        226,
+        400,
+        488,
+        521,
+        567,
+        573,
+        683,
+        783,
+        835,
+        885,
+        924,
+        962,
+        1281,
+        1346,
+        1487
+      ],
+      "_hint_sent": [
+        "nurse",
+        "writer",
+        "journalist",
+        "photographer",
+        "musician",
+        "painter",
+        "footballer",
+        "tennis player",
+        "engineer"
+      ]
+    }
+  ]
+}
