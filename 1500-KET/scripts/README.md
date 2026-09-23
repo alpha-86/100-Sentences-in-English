@@ -59,9 +59,15 @@ ECDICT 音标 + 西里尔符号映射（`ә`→`ə`、`є`→`e`）+ `ə:`→`ɜ
 
 ## 复现
 
+所有脚本以脚本文件自身位置定位数据（`Path(__file__)` 锚定），**可从任意工作目录运行**：
+
 ```bash
-cd 1500-KET/scripts
-python3 parse_main_list.py    # PDF -> ket-mainlist-v2.csv
-python3 build_vocab.py        # + additions.tsv + overrides.tsv -> ../1500-KET.csv
-python3 validate_vocab.py     # 硬门禁
+python3 1500-KET/scripts/parse_main_list.py    # PDF -> ket-mainlist-v2.csv
+python3 1500-KET/scripts/build_vocab.py        # + additions.tsv + overrides.tsv -> 1500-KET.csv
+python3 1500-KET/scripts/validate_vocab.py     # 硬门禁
 ```
+
+（2026-09-23 起：此前 `parse_main_list.py`/`build_vocab.py`/`validate_vocab.py` 用相对路径，
+必须从 `1500-KET/scripts/` 运行，否则 FileNotFoundError；已统一修复。句子侧
+`validate_sentences.py`/`merge_batches.py`/`make_batch_stub.py`/`allocate_words.py`
+从一开始就锚定脚本位置，本次未改。）

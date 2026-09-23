@@ -4,8 +4,11 @@
 输出: ket-mainlist-v2.csv  (word, pos)  —— 无音标/中文，骨架文件
 """
 import re, csv, sys
+from pathlib import Path
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTTextLine
+
+SCRIPT_DIR = Path(__file__).resolve().parent   # scripts/（数据文件一律锚定此处，可从任意 CWD 运行）
 
 BULLET = ''  #  私有区子弹符
 
@@ -103,7 +106,7 @@ def normalize(w):
     return w
 
 def main():
-    lines = extract_ordered('ket.pdf')
+    lines = extract_ordered(str(SCRIPT_DIR / 'ket.pdf'))
     # 主表范围：a, an (art) 之后、Appendix 1 之前（跨页栏位标记已不在文本里）
     start = next(i for i, l in enumerate(lines) if l.startswith('a, an (art)'))
     end = next(i for i, l in enumerate(lines) if l.startswith('Appendix 1'))
@@ -135,7 +138,7 @@ def main():
         seen.add(w)
         entries.append((w, pos, w_raw))
 
-    with open('ket-mainlist-v2.csv', 'w', newline='', encoding='utf-8') as f:
+    with open(SCRIPT_DIR / 'ket-mainlist-v2.csv', 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f)
         w.writerow(['word', 'pos', 'raw'])
         for e in entries:

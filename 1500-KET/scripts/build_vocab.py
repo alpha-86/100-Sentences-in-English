@@ -18,8 +18,12 @@
 """
 import csv, re, sys
 from itertools import zip_longest
+from pathlib import Path
 
-def load_overrides(path='overrides.tsv'):
+SCRIPT_DIR = Path(__file__).resolve().parent   # scripts/（数据文件一律锚定此处，可从任意 CWD 运行）
+
+def load_overrides(path=None):
+    path = path or SCRIPT_DIR / 'overrides.tsv'
     ov = {}
     for l in open(path, encoding='utf-8'):
         if l.strip() and not l.startswith('#'):
@@ -195,24 +199,24 @@ def synth_phrase_phon(dic, word):
 
 def main():
     rows_v1 = {}
-    with open('KET词汇表.csv', encoding='utf-8-sig', newline='') as f:
+    with open(SCRIPT_DIR / 'KET词汇表.csv', encoding='utf-8-sig', newline='') as f:
         for r in csv.reader(f):
             rows_v1[r[0].strip()] = (r[1].strip(), r[3].strip())
 
     main_list = []
-    with open('ket-mainlist-v2.csv', encoding='utf-8', newline='') as f:
+    with open(SCRIPT_DIR / 'ket-mainlist-v2.csv', encoding='utf-8', newline='') as f:
         for r in csv.reader(f):
             if r[0] != 'word':
                 w, p = r[0].strip(), r[1].strip()
                 main_list.append((w, POS_FIX.get(w, p)))
 
     additions = []
-    for l in open('additions.tsv', encoding='utf-8'):
+    for l in open(SCRIPT_DIR / 'additions.tsv', encoding='utf-8'):
         if l.strip() and not l.startswith('#'):
             w, p, cn = l.rstrip('\n').split('\t')
             additions.append((w, p, cn))
 
-    dic = load_stardict('stardict.csv')
+    dic = load_stardict(SCRIPT_DIR / 'stardict.csv')
 
     # 手工增补：at the same time（v1 有、官方例句短语，保留并修翻译）
     extra = [('at the same time', 'adv', OVERRIDE.get('at the same time', '同时'))]
@@ -264,7 +268,7 @@ def main():
     # 排序：字母序（忽略大小写与非字母），稳定
     out.sort(key=lambda r: re.sub(r'[^a-z0-9]', '', r[0].lower()))
 
-    with open('../1500-KET.csv', 'w', newline='', encoding='utf-8-sig') as f:
+    with open(SCRIPT_DIR.parent / '1500-KET.csv', 'w', newline='', encoding='utf-8-sig') as f:
         wtr = csv.writer(f, lineterminator='\n')
         wtr.writerow(['英文', '音标', '词性', '中文'])
         wtr.writerows(out)

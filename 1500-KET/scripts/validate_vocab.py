@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """validate_vocab.py — 1500-KET.csv 硬门禁校验（plan Step 5）。全部通过 exit 0。"""
-import csv, re, sys, unicodedata
+import csv, re, sys
+from pathlib import Path
 
-PATH = '../1500-KET.csv'
+BASE = Path(__file__).resolve().parent.parent          # 1500-KET/
+PATH = BASE / '1500-KET.csv'
 POS_OK = {'n', 'v', 'adj', 'adv', 'prep', 'conj', 'pron', 'det', 'num', 'art',
           'exclam', 'phr v', 'prep phr', 'n & v', 'v & n', 'n & adj', 'adj & n',
           'n & adv', 'adv & n', 'n & pron', 'n pl', 'adj & adv', 'adv & adj',
@@ -16,13 +18,16 @@ PHON_EMPTY_OK = set()                               # 音标空白白名单（�
 BLACKLIST = ['性爱', '尸体', '赌博', '枪击', '政治权力', '痛饮', '性交',
              '春药', '阴茎', '阴道', '嫖', '妓', '乳房', '乳头', '堕胎',
              '避孕', '赌注', '海洛因', '可卡因', '吗啡', '自杀', '死刑']
-CYRILLIC = set('абвгдеёжзийклмнопрстуфхцчшщъыьэюяєії')
-# IPA 允许的字符（宽口径：可打印 ASCII + 常见 IPA 扩展）
-IPA_ALLOWED = re.compile(r"^[a-zA-Z0-9ˈˌ()/:;,.əɜʌɒɑɔɪʊʃʒθðŋæɛɡxrwiupbtdkfvszmnlhctæː: \-]*$")
+# IPA 允许的字符（封闭集合：可打印 ASCII + 音标符号 + 分隔符）。
+# "'" 是 ECDICT 源使用的重音号（778 词条，如 /'eibl/），与 ˈ 并存属源惯例，渲染无风险。
+IPA_ALLOWED = re.compile(r"^[a-zA-Z0-9'ˈˌ()/:;,.əɜʌɒɑɔɪʊʃʒθðŋæɛɡː \-]*$")
 
 def ipa_bad_chars(phon):
-    return [c for c in phon if c in CYRILLIC or
-            (unicodedata.category(c).startswith('L') and not IPA_ALLOWED.match(c))]
+    # 封闭字符集：任何不在允许集内的字符一律拦截。
+    # （2026-09-23 修复：此前只拦"西里尔 + 非允许集的字母"，'^' 这类符号类字符
+    #   不在 Unicode L 类，被 unicodedata.category 漏掉——v2 词表 6 处 '^' 坏字
+    #   就是这样混过门禁进 CSV 的。 Cyrillic 表随之删除：封闭集已覆盖。）
+    return [c for c in phon if not IPA_ALLOWED.match(c)]
 
 fails = []
 def check(cond, msg):
