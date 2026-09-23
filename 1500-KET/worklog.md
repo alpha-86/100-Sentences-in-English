@@ -207,3 +207,46 @@ grandfather/granddad）在讲解里点明"是同一个东西的两种说法"，�
 **判定为可接受、不予返工的**：D33/D44/D50/D54/D59/D68/D69/D70/D92/D94/D95 等同家族词密集日
 （12-15 个同类词压在同一天）的**列举式句子**——30 词上限下这是结构性必然，已尽量给每句加场景
 与起承转合。这是本阶段最主要的品质取舍，若后续要改善需放宽单句长度上限。
+
+### 产出
+
+| 文件 | 说明 |
+|---|---|
+| `1500-KET-sentences.csv` | **主交付物**：10 列 × 100 行，UTF-8 BOM + LF |
+| `sentences/batches/batch01-10-*.json` | 10 个批次源文件（只存词名与组结构，可单独重跑） |
+| `sentences/BATCH-FORMAT.md` | 批次格式、写句硬约束、陷阱清单（执行者操作手册） |
+| `scripts/validate_sentences.py` | 硬门禁（全量 / `--batch N` / `--words N` / `--check`） |
+| `scripts/merge_batches.py` | 批次 → CSV，单元格与回读文案统一生成 |
+| `scripts/make_batch_stub.py` | 批次骨架生成器 |
+| `plan/002-allocation-table.md` | 由 `allocate_words.py` 重新渲染（含 12 处微调） |
+| `scripts/allocation/act07-10.py` | 12 处微调的数据改动 |
+| 本 worklog | |
+
+### 交付确认
+
+- **产物**：`1500-KET/1500-KET-sentences.csv` —— 100 句 × 10 列（`id, sentence_en, sentence_zh,
+  grammar, new_words, extend_words, extend_note, phrases, review_note, covered_ids`），
+  UTF-8 BOM + LF，id 1-100 连续，符合需求 §5 与 output 约定；
+- **校验**：`validate_sentences.py` 全量 **0 错**，10 个批次各自 `--batch N` 亦全绿；
+  `allocate_words.py` 1500/1500 PASS；`validate_vocab.py` 全绿；
+- **关键数字**：100 句 / 1500 词 / 10 幕 / 100 天；句中**新词 1179** + **扩展必背词 321** = 1500，
+  每个词恰好分配一次；扩展组内另含 **37 个复习旧词**（不计入 covered_ids）；短语共 **299 条**；
+  93 句带扩展组；句长 21-30 词（平均 29.2，其中 60 句正好卡在 30 词上限）；
+- **提交**：main @ `6a9f03a`（2026-09-23，已 push），本阶段共 19 个提交，每个文件/批次单独提交。
+
+### 当前进展与下一步
+
+**当前**：需求 §8 验收清单中"CSV 100 行 10 列 / 1500 词全覆盖 / 校验全绿"、"分配每天 12-18 词且
+扩展组成立"、"滚动回读落到 CSV"、"故事连贯无逻辑硬伤"、"plan 与 worklog 齐全、逐步提交"
+五项已满足（内容项靠逐句通读，见"内容修订历史"）。
+
+**未做（按要求留给下一阶段）**：PDF 排版——需求 §6 与 plan002 §9。
+
+**交接给 PDF 阶段的要点**：
+1. **中文字体是首要环境风险**：渲染链（HTML+CSS → PDF）与字体回退链要先验证再批量渲染，
+   字体需同时覆盖中文与 IPA（如 `"Noto Sans CJK SC", "DejaVu Sans", sans-serif`）；
+2. **句长几乎顶格**：平均 29.2 词、60 句正好 30 词。英文句 ≥16pt 时一行放不下，
+   卡片要预留 2-3 行，排完需检查"页底留白 ≤20%"与"每页约两张卡片"是否还成立；
+3. **单元格解析一律用 `covered_ids` 回查原词表**，禁止按 `; ` 或 ` || ` 切分
+   （音标含逗号 5 例已加引号，但分号风险仍在）；
+4. 音标曾有 6 处 `^` 坏字（已修 6981fa7），**渲染前确认用的是修正后的词表**。
