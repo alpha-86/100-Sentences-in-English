@@ -1,0 +1,686 @@
+{
+  "batch": 5,
+  "days": [
+    41,
+    50
+  ],
+  "sentences": [
+    {
+      "id": 41,
+      "sentence_en": "Turn the corner, cross the street, straight on; around the roundabout, into the park, next to the school, opposite the shop, in front of the gym — go inside, not outside!",
+      "sentence_zh": "拐过街角，穿过马路，一直往前走；绕过环岛，走进公园，挨着学校、在商店对面、在体育馆前面——进到里面去，别待在外面！",
+      "grammar": "祈使句用来指路：Turn the corner / cross the street / straight on（一直往前）。方位短语 next to（挨着）、opposite（在……对面）、in front of（在……前面）后面直接跟地点名词；句末用 not 直接否定：go inside, not outside。",
+      "new_words": [
+        "turn",
+        "corner",
+        "cross",
+        "street",
+        "straight",
+        "straight on",
+        "around",
+        "roundabout",
+        "into",
+        "next to",
+        "opposite",
+        "in front of",
+        "inside",
+        "outside"
+      ],
+      "ext_groups": [
+        {
+          "note": "接近类（锚词：next to）",
+          "anchor": "next to",
+          "members": [
+            "close to"
+          ]
+        },
+        {
+          "note": "路口设施（锚词：cross）",
+          "anchor": "cross",
+          "members": [
+            "crossing",
+            "crossroads"
+          ]
+        }
+      ],
+      "phrases": [
+        "turn the corner|拐过街角",
+        "straight on|一直往前",
+        "next to the school|挨着学校"
+      ],
+      "repeats": "复现 school（第 11 天）、shop、park（第 6 天）、walk（第 21 天）。",
+      "covered_ids": [
+        63,
+        256,
+        283,
+        297,
+        298,
+        299,
+        652,
+        654,
+        664,
+        857,
+        906,
+        917,
+        1072,
+        1227,
+        1228,
+        1231,
+        1369
+      ],
+      "_hint_sent": [
+        "into",
+        "inside",
+        "outside",
+        "opposite",
+        "next to",
+        "in front of",
+        "around",
+        "straight on",
+        "turn",
+        "cross",
+        "corner",
+        "roundabout",
+        "street",
+        "straight"
+      ]
+    },
+    {
+      "id": 42,
+      "sentence_en": "The bus and the taxi wait in slow traffic at the bus stop; my bicycle and bike are at the car park, and the driver drives to the bus station.",
+      "sentence_zh": "公交车和出租车在车站旁缓慢的车流里等着；我的自行车停在停车场，司机开车去公交总站。",
+      "grammar": "bus stop 是路边的车站，bus station 是公交总站。bicycle 和 bike 是同义词，都表示“自行车”，只是说法不同。drive 是动词（the driver drives），driver 是开车的人；traffic 是不可数名词，前面不加 a。",
+      "new_words": [
+        "bus",
+        "taxi",
+        "traffic",
+        "bus stop",
+        "bicycle",
+        "bike",
+        "car",
+        "car park",
+        "driver",
+        "drive",
+        "bus station"
+      ],
+      "ext_groups": [
+        {
+          "note": "道路车辆（锚词：car）",
+          "anchor": "car",
+          "members": [
+            "lorry",
+            "van",
+            "motorbike"
+          ]
+        }
+      ],
+      "phrases": [
+        "at the bus stop|在公交车站",
+        "the car park|停车场",
+        "slow traffic|缓慢的车流"
+      ],
+      "repeats": "复现 wait（第 24 天）、slow（第 23 天）。",
+      "covered_ids": [
+        118,
+        120,
+        169,
+        173,
+        174,
+        193,
+        198,
+        367,
+        368,
+        749,
+        821,
+        1269,
+        1352,
+        1407
+      ],
+      "_hint_sent": [
+        "bus",
+        "bus stop",
+        "bus station",
+        "taxi",
+        "car",
+        "car park",
+        "bicycle",
+        "bike",
+        "drive",
+        "driver",
+        "traffic"
+      ]
+    },
+    {
+      "id": 43,
+      "sentence_en": "At the railway station the train and the tram wait on the platform; the plane and the aeroplane are at the airport, and the coach and the underground go there.",
+      "sentence_zh": "在火车站，火车和有轨电车在站台上等着；飞机停在机场，长途大巴和地铁也开往那里。",
+      "grammar": "railway station 是火车站，station 也可以单用。on the platform 表示“在站台上”。plane 和 aeroplane 是同义词，都是“飞机”。",
+      "new_words": [
+        "railway",
+        "railway station",
+        "station",
+        "train",
+        "tram",
+        "platform",
+        "plane",
+        "aeroplane",
+        "airport",
+        "coach",
+        "underground"
+      ],
+      "ext_groups": [
+        {
+          "note": "飞行相关（锚词：plane）",
+          "anchor": "plane",
+          "members": [
+            "flight",
+            "helicopter",
+            "pilot"
+          ]
+        }
+      ],
+      "phrases": [
+        "railway station|火车站",
+        "on the platform|在站台上",
+        "at the airport|在机场"
+      ],
+      "repeats": "复现 wait（第 24 天）、go（第 13 天）。",
+      "covered_ids": [
+        17,
+        29,
+        262,
+        478,
+        597,
+        971,
+        977,
+        981,
+        1037,
+        1038,
+        1216,
+        1354,
+        1356,
+        1394
+      ],
+      "_hint_sent": [
+        "train",
+        "railway",
+        "railway station",
+        "platform",
+        "station",
+        "tram",
+        "underground",
+        "coach",
+        "plane",
+        "aeroplane",
+        "airport"
+      ]
+    },
+    {
+      "id": 44,
+      "sentence_en": "For my project I draw my body: a head with hair, a face with two eyes, two ears, a nose, a mouth, teeth, a neck, two hands and ten fingers.",
+      "sentence_zh": "为了课题，我画自己的身体：长着头发的头，有两只眼睛、两只耳朵、一个鼻子和一张嘴的脸，还有牙齿、脖子、两只手和十根手指。",
+      "grammar": "复数变化：eye→eyes、ear→ears、hand→hands、finger→fingers；tooth 的复数是不规则的 teeth。with 引出“带着……的”身体部位。",
+      "new_words": [
+        "body",
+        "head",
+        "hair",
+        "face",
+        "eye",
+        "ear",
+        "nose",
+        "mouth",
+        "tooth",
+        "neck",
+        "hand",
+        "finger"
+      ],
+      "ext_groups": [
+        {
+          "note": "身体收尾（锚词：body）",
+          "anchor": "body",
+          "members": [
+            "thumb",
+            "toe",
+            "back",
+            "arm",
+            "leg",
+            "knee"
+          ]
+        }
+      ],
+      "phrases": [
+        "my body|我的身体",
+        "a face with two eyes|有两只眼睛的脸",
+        "ten fingers|十根手指"
+      ],
+      "repeats": "复现 draw（第 23 天）、project（第 20 天）、two、ten（第 8 天）。",
+      "covered_ids": [
+        62,
+        84,
+        133,
+        377,
+        431,
+        432,
+        465,
+        572,
+        579,
+        589,
+        700,
+        719,
+        825,
+        846,
+        876,
+        1318,
+        1334,
+        1341
+      ],
+      "_hint_sent": [
+        "body",
+        "head",
+        "hair",
+        "eye",
+        "ear",
+        "nose",
+        "mouth",
+        "face",
+        "tooth",
+        "neck",
+        "hand",
+        "finger"
+      ]
+    },
+    {
+      "id": 45,
+      "sentence_en": "Tom is sick and in pain: a fever, a cough, a headache; the doctor has medicine, and my tooth hurts; I go to the dentist — but I am not ill.",
+      "sentence_zh": "Tom 生病了，还浑身疼：发烧、咳嗽、头疼；医生那儿有药，我的牙也疼；我去看牙医——不过我没生病。",
+      "grammar": "说病症用 a fever / a cough / a headache（前面的 have 常省略）。in pain 表示“疼痛”，hurt 作不及物动词时主语是身体部位（my tooth hurts）。ill 和 sick 都是“生病的”，sick 更常放在名词前。",
+      "new_words": [
+        "sick",
+        "pain",
+        "fever",
+        "cough",
+        "headache",
+        "doctor",
+        "medicine",
+        "hurt",
+        "dentist",
+        "ill"
+      ],
+      "ext_groups": [
+        {
+          "note": "医疗场所（锚词：doctor）",
+          "anchor": "doctor",
+          "members": [
+            "hospital",
+            "pharmacy"
+          ]
+        }
+      ],
+      "phrases": [
+        "have a headache|头疼",
+        "my tooth hurts|我的牙疼",
+        "go to the dentist|去看牙医"
+      ],
+      "repeats": "复现 tooth（第 44 天）、Tom（第 3 天）。",
+      "covered_ids": [
+        287,
+        328,
+        349,
+        453,
+        590,
+        621,
+        632,
+        640,
+        784,
+        922,
+        959,
+        1137
+      ],
+      "_hint_sent": [
+        "ill",
+        "sick",
+        "fever",
+        "cough",
+        "headache",
+        "pain",
+        "hurt",
+        "medicine",
+        "dentist",
+        "doctor"
+      ]
+    },
+    {
+      "id": 46,
+      "sentence_en": "Two weeks ago our school had a competition; last Friday Sam brought the ball, took it and scored a goal; I won the race — the winner was very excited!",
+      "sentence_zh": "两周前我们学校举办了一场比赛；上周五 Sam 带来了球，带球射进一球；我赢了赛跑——冠军非常兴奋！",
+      "grammar": "一般过去时（含不规则变化）：have→had、bring→brought、take→took、score→scored、win→won。last Friday、two weeks ago 都是过去时间的标志。",
+      "new_words": [
+        "ago",
+        "competition",
+        "last",
+        "bring",
+        "take",
+        "score",
+        "goal",
+        "win",
+        "race",
+        "winner",
+        "excited"
+      ],
+      "ext_groups": [
+        {
+          "note": "输赢反义（锚词：win）",
+          "anchor": "win",
+          "members": [
+            "lose"
+          ]
+        }
+      ],
+      "phrases": [
+        "two weeks ago|两周前",
+        "scored a goal|进了一球",
+        "won the race|赢了赛跑"
+      ],
+      "repeats": "复现 school（第 11 天）、Friday（第 15 天）、ball（第 22 天）、Sam（第 12 天）。",
+      "covered_ids": [
+        26,
+        159,
+        275,
+        420,
+        539,
+        710,
+        750,
+        1034,
+        1097,
+        1265,
+        1464,
+        1469
+      ],
+      "_hint_sent": [
+        "ago",
+        "last",
+        "race",
+        "score",
+        "goal",
+        "win",
+        "winner",
+        "take",
+        "bring",
+        "competition",
+        "excited"
+      ]
+    },
+    {
+      "id": 47,
+      "sentence_en": "Lily had a Halloween party: I wore a strange costume, and in the dark Tom shouted; the surprise was terrible and I was afraid, but it was very special!",
+      "sentence_zh": "Lily 办了万圣节派对：我穿着一套古怪的服装，黑暗中 Tom 大叫；那个惊喜很吓人，我害怕了，不过这场派对非常特别！",
+      "grammar": "一般过去时：wear→wore、shout→shouted。in the dark 表示“在黑暗中”，be afraid 表示“害怕”。",
+      "new_words": [
+        "Halloween",
+        "party",
+        "costume",
+        "strange",
+        "dark",
+        "shout",
+        "surprise",
+        "terrible",
+        "afraid",
+        "special"
+      ],
+      "ext_groups": [
+        {
+          "note": "派对相关（锚词：party）",
+          "anchor": "party",
+          "members": [
+            "guest",
+            "present",
+            "invite"
+          ]
+        }
+      ],
+      "phrases": [
+        "a Halloween party|万圣节派对",
+        "a strange costume|古怪的服装",
+        "be afraid|害怕"
+      ],
+      "repeats": "复现 Lily（第 12 天）、Tom（第 3 天）、wear（第 34 天）。",
+      "covered_ids": [
+        18,
+        286,
+        316,
+        565,
+        578,
+        665,
+        934,
+        1009,
+        1133,
+        1200,
+        1229,
+        1255,
+        1285
+      ],
+      "_hint_sent": [
+        "Halloween",
+        "costume",
+        "dark",
+        "afraid",
+        "party",
+        "surprise",
+        "special",
+        "shout",
+        "terrible",
+        "strange"
+      ]
+    },
+    {
+      "id": 48,
+      "sentence_en": "Today I am not happy: I feel sad and tired, and I miss Ella; I am bored, surprised, worried and angry, so I cry — I am alone and hate it!",
+      "sentence_zh": "今天我不开心：我觉得又难过又累，还想念 Ella；我无聊、惊讶、担心又生气，所以我哭了——我孤零零的，讨厌这样！",
+      "grammar": "be + 形容词表达情绪：I am sad / tired / bored。miss 是“想念”，worry 是“担心”，它的形容词形式是 worried。",
+      "new_words": [
+        "happy",
+        "feel",
+        "sad",
+        "tired",
+        "miss",
+        "bored",
+        "surprised",
+        "worry",
+        "angry",
+        "cry",
+        "alone",
+        "hate"
+      ],
+      "ext_groups": [
+        {
+          "note": "un- 反义前缀（锚词：happy）",
+          "anchor": "happy",
+          "members": [
+            "unhappy"
+          ]
+        }
+      ],
+      "phrases": [
+        "feel sad|感到难过",
+        "miss Ella|想念 Ella",
+        "be angry|生气"
+      ],
+      "repeats": "复现 today（第 15 天）、Ella（白名单专名，Lucy 的表姐）。",
+      "covered_ids": [
+        34,
+        46,
+        140,
+        302,
+        451,
+        581,
+        584,
+        806,
+        1078,
+        1256,
+        1330,
+        1396,
+        1483
+      ],
+      "_hint_sent": [
+        "happy",
+        "sad",
+        "angry",
+        "surprised",
+        "bored",
+        "tired",
+        "alone",
+        "feel",
+        "cry",
+        "hate",
+        "worry",
+        "miss"
+      ]
+    },
+    {
+      "id": 49,
+      "sentence_en": "I think I know what it means; I want to remember today, I hope I do not forget it, but I believe I need to decide — I wish to understand!",
+      "sentence_zh": "我想我知道它是什么意思；我想记住今天，希望自己不要忘记，可我觉得我得做个决定——我真想弄明白！",
+      "grammar": "宾语从句用陈述语序：I think I know… / I hope I do not forget it（that 可以省略）。want、need、hope、wish 后面常接 to do：want to remember、need to decide、wish to understand。",
+      "new_words": [
+        "think",
+        "know",
+        "mean",
+        "want",
+        "remember",
+        "hope",
+        "forget",
+        "believe",
+        "need",
+        "decide",
+        "wish",
+        "understand"
+      ],
+      "ext_groups": [
+        {
+          "note": "想法名词（锚词：think）",
+          "anchor": "think",
+          "members": [
+            "idea"
+          ]
+        }
+      ],
+      "phrases": [
+        "I think|我想",
+        "remember today|记住今天",
+        "do not forget|不要忘记"
+      ],
+      "repeats": "复现 today（第 15 天）、it（第 2 天）。",
+      "covered_ids": [
+        111,
+        323,
+        492,
+        619,
+        638,
+        702,
+        781,
+        847,
+        1054,
+        1304,
+        1395,
+        1425,
+        1471
+      ],
+      "_hint_sent": [
+        "think",
+        "know",
+        "believe",
+        "hope",
+        "wish",
+        "want",
+        "need",
+        "remember",
+        "forget",
+        "decide",
+        "mean",
+        "understand"
+      ]
+    },
+    {
+      "id": 50,
+      "sentence_en": "In art I draw: a tall, strong boy; a short, thin girl with long, beautiful hair; a young, weak cat; a fat, ugly dog; a good cake and bad weather.",
+      "sentence_zh": "美术课上我画了：一个又高又壮的男孩；一个又矮又瘦、头发又长又美的女孩；一只年幼而体弱的猫；一只又胖又丑的狗；一块好吃的蛋糕和糟糕的天气。",
+      "grammar": "形容词并列作定语时用逗号隔开：a tall, strong boy。本句成对使用反义形容词：tall—short、long—short、good—bad、strong—weak、fat—thin、beautiful—ugly。",
+      "new_words": [
+        "tall",
+        "strong",
+        "short",
+        "thin",
+        "long",
+        "beautiful",
+        "young",
+        "weak",
+        "fat",
+        "ugly",
+        "good",
+        "bad"
+      ],
+      "ext_groups": [
+        {
+          "note": "反义形容词复习（锚词：tall）",
+          "anchor": "tall",
+          "members": [
+            {
+              "rev": "big",
+              "from": 2
+            },
+            {
+              "rev": "small",
+              "from": 2
+            },
+            {
+              "rev": "old",
+              "from": 6
+            },
+            {
+              "rev": "hot",
+              "from": 32
+            },
+            {
+              "rev": "cold",
+              "from": 32
+            }
+          ]
+        }
+      ],
+      "phrases": [
+        "a tall boy|高个子男孩",
+        "long hair|长头发",
+        "good weather|好天气"
+      ],
+      "repeats": "复现 art（第 12 天）、draw（第 23 天）、boy、girl、cat、dog（第 8 天）、cake（第 29 天）、weather（第 32 天）。",
+      "covered_ids": [
+        85,
+        102,
+        447,
+        542,
+        743,
+        1129,
+        1232,
+        1268,
+        1302,
+        1390,
+        1434,
+        1495
+      ],
+      "_hint_sent": [
+        "tall",
+        "short",
+        "long",
+        "good",
+        "bad",
+        "beautiful",
+        "ugly",
+        "strong",
+        "weak",
+        "fat",
+        "thin",
+        "young"
+      ]
+    }
+  ]
+}
