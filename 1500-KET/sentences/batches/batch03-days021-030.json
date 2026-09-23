@@ -1,0 +1,549 @@
+{
+  "batch": 3,
+  "days": [
+    21,
+    30
+  ],
+  "sentences": [
+    {
+      "id": 21,
+      "sentence_en": "I am sitting and writing, and Tom is standing and reading. Look and see: the dog is walking and watching, and we are listening to music, making a kite.",
+      "sentence_zh": "我坐着写东西，汤姆站着看书。快看：狗一边走一边张望，我们在听音乐，还在做风筝。",
+      "grammar": "现在进行时 be + 动词-ing，表示此刻正在进行的动作：am sitting、is reading。Look and see! 用来提醒对方注意。listen 后要接 to：listen to music。",
+      "new_words": [
+        "sit",
+        "write",
+        "stand",
+        "read",
+        "look",
+        "see",
+        "walk",
+        "watch",
+        "listen",
+        "make"
+      ],
+      "ext_groups": [
+        {
+          "note": "look 短语家族（锚词：look）",
+          "anchor": "look",
+          "members": [
+            "look at",
+            "look for",
+            "look out",
+            "look after"
+          ]
+        },
+        {
+          "note": "listen 短语（锚词：listen）",
+          "anchor": "listen",
+          "members": [
+            "listen to"
+          ]
+        }
+      ],
+      "phrases": [
+        "sit and write|坐着写字",
+        "listen to music|听音乐",
+        "look and see|去看一看"
+      ],
+      "repeats": "本句复现：第 1 天的 be 动词与 the / and；第 3 天的 Tom；第 4 天的 my；第 7 天的 to；第 8 天的 dog；第 11 天的 music；第 19 天的 kite。",
+      "covered_ids": [
+        737,
+        738,
+        744,
+        745,
+        746,
+        747,
+        748,
+        764,
+        1046,
+        1104,
+        1147,
+        1213,
+        1422,
+        1429,
+        1485
+      ]
+    },
+    {
+      "id": 22,
+      "sentence_en": "My favourite sport is football, and my club has a team. We play basketball, volleyball, table-tennis, tennis, badminton and baseball. Sam is a player with the ball in the match.",
+      "sentence_zh": "我最喜欢的运动是足球，我的俱乐部有一支球队。我们打篮球、排球、乒乓球、网球、羽毛球和棒球。萨姆是比赛中带球的队员。",
+      "grammar": "球类运动名前不加冠词：play football、play basketball。have / has 表示“有”。并列列举用 and 连接最后一个词，前面用逗号隔开。",
+      "new_words": [
+        "sport",
+        "football",
+        "club",
+        "team",
+        "basketball",
+        "volleyball",
+        "table-tennis",
+        "tennis",
+        "badminton",
+        "baseball",
+        "player",
+        "ball",
+        "match"
+      ],
+      "ext_groups": [
+        {
+          "note": "球类补充（锚词：football）",
+          "anchor": "football",
+          "members": [
+            "golf",
+            "hockey",
+            "bat",
+            "racket"
+          ]
+        }
+      ],
+      "phrases": [
+        "play football|踢足球",
+        "a football player|足球运动员",
+        "in the match|在比赛中"
+      ],
+      "repeats": "本句复现：第 4 天的 my；第 5 天的 with；第 12 天的 favourite；第 19 天的 play；第 20 天的 has。",
+      "covered_ids": [
+        86,
+        89,
+        94,
+        95,
+        96,
+        261,
+        487,
+        541,
+        613,
+        774,
+        983,
+        1035,
+        1204,
+        1264,
+        1273,
+        1280,
+        1417
+      ]
+    },
+    {
+      "id": 23,
+      "sentence_en": "I could not swim before, and now I can. I can dance, sing, draw and ride. Tom can jump, climb, kick and throw a ball.",
+      "sentence_zh": "以前我不会游泳，现在我会了。我会跳舞、唱歌、画画和骑（车、马）。汤姆会跳、会爬、会踢球、会扔球。",
+      "grammar": "can / could 表示能力，后面接动词原形。could 是 can 的过去式，could not 表示“过去不能”。now 与 before 对比，说明能力的变化。",
+      "new_words": [
+        "could",
+        "swim",
+        "can",
+        "dance",
+        "sing",
+        "draw",
+        "ride",
+        "jump",
+        "climb",
+        "kick",
+        "throw"
+      ],
+      "ext_groups": [
+        {
+          "note": "艺术表演者（锚词：dance）",
+          "anchor": "dance",
+          "members": [
+            "dancer",
+            "singer",
+            "artist"
+          ]
+        }
+      ],
+      "phrases": [
+        "can swim|会游泳",
+        "sing and dance|唱歌跳舞",
+        "throw a ball|扔球"
+      ],
+      "repeats": "本句复现：第 3 天的 Tom；第 8 天的 not；第 15 天的 now / before；第 22 天的 ball。",
+      "covered_ids": [
+        67,
+        188,
+        252,
+        288,
+        311,
+        312,
+        362,
+        687,
+        693,
+        1062,
+        1143,
+        1144,
+        1259,
+        1317
+      ]
+    },
+    {
+      "id": 24,
+      "sentence_en": "Be careful and quiet at school, and be fast, not slow: we must not be late, and we have to hurry. We should stop, wait and be early.",
+      "sentence_zh": "在学校要细心、要安静，动作要快不要慢：我们不能迟到，必须抓紧时间。我们应该停下来等一等，还要早到。",
+      "grammar": "must 表示“必须”，must not 表示“不许”；have to 也表示“必须”，强调客观要求；should 表示“应该”。祈使句 Be careful! / Be quiet! 用来提醒别人。fast / slow / quiet / careful / early / late 作表语用。",
+      "new_words": [
+        "careful",
+        "quiet",
+        "fast",
+        "slow",
+        "must",
+        "late",
+        "have to",
+        "hurry",
+        "should",
+        "stop",
+        "wait",
+        "early"
+      ],
+      "ext_groups": [
+        {
+          "note": "方式副词（锚词：careful）",
+          "anchor": "careful",
+          "members": [
+            "carefully",
+            "quick",
+            "quickly"
+          ]
+        }
+      ],
+      "phrases": [
+        "be careful|小心点",
+        "be quiet|保持安静",
+        "at school|在学校"
+      ],
+      "repeats": "本句复现：第 1 天的 be 动词与 and；第 7 天的 at；第 8 天的 not；第 11 天的 school。",
+      "covered_ids": [
+        196,
+        197,
+        378,
+        445,
+        587,
+        631,
+        711,
+        836,
+        1028,
+        1029,
+        1030,
+        1131,
+        1166,
+        1222,
+        1418
+      ]
+    },
+    {
+      "id": 25,
+      "sentence_en": "Bingo is my pet: my favourite animal. On the farm there are cows, horses, ducks, chickens, a rabbit and a mouse, and the farmer has a bird and a fish.",
+      "sentence_zh": "宾果是我的宠物，也是我最喜欢的动物。农场里有奶牛、马、鸭子、鸡、一只兔子和一只老鼠，农场主还养着一只鸟和一条鱼。",
+      "grammar": "名词复数：cow→cows、horse→horses、duck→ducks、chicken→chickens。mouse 的复数是 mice（本句用单数 a mouse），fish 单复数同形。there be 与 have / has 都表示“有”。",
+      "new_words": [
+        "pet",
+        "animal",
+        "farm",
+        "cow",
+        "horse",
+        "duck",
+        "chicken",
+        "rabbit",
+        "mouse",
+        "farmer",
+        "bird",
+        "fish"
+      ],
+      "ext_groups": [
+        {
+          "note": "动物补充（锚词：animal）",
+          "anchor": "animal",
+          "members": [
+            "parrot",
+            "bear",
+            "camel"
+          ]
+        }
+      ],
+      "phrases": [
+        "my pet|我的宠物",
+        "on the farm|在农场里",
+        "a bird and a fish|一只鸟和一条鱼"
+      ],
+      "repeats": "本句复现：第 1 天的 there be 与 the / and；第 2 天的 has；第 4 天的 my；第 8 天的 dog 同族宠物词；第 12 天的 favourite。",
+      "covered_ids": [
+        47,
+        101,
+        122,
+        184,
+        228,
+        293,
+        372,
+        442,
+        443,
+        472,
+        620,
+        824,
+        932,
+        956,
+        1033
+      ]
+    },
+    {
+      "id": 26,
+      "sentence_en": "At the zoo there are huge elephants, wild lions, tigers, monkeys and snakes. The insects are tiny: Tom has got a dinosaur book. I see a dolphin and a whale.",
+      "sentence_zh": "动物园里有巨大的大象，还有野生的狮子、老虎、猴子和蛇。昆虫很小；汤姆有一本恐龙书。我看见一条海豚和一头鲸。",
+      "grammar": "huge 与 tiny 是一对反义词，可作定语也可作表语。wild 表示“野生的”：wild lions。名词复数：elephant→elephants、monkey→monkeys。there be 与 have got 表示“有”。",
+      "new_words": [
+        "zoo",
+        "huge",
+        "elephant",
+        "wild",
+        "lion",
+        "tiger",
+        "monkey",
+        "snake",
+        "insect",
+        "tiny",
+        "dinosaur",
+        "dolphin",
+        "whale"
+      ],
+      "ext_groups": [
+        {
+          "note": "昆虫与飞虫（锚词：insect）",
+          "anchor": "insect",
+          "members": [
+            "fly"
+          ]
+        }
+      ],
+      "phrases": [
+        "at the zoo|在动物园",
+        "huge elephants|巨大的大象",
+        "a wild animal|一只野生动物"
+      ],
+      "repeats": "本句复现：第 1 天的 there be 与 the / and；第 2 天的 has got；第 3 天的 Tom；第 11 天的 book；第 21 天的 see。",
+      "covered_ids": [
+        342,
+        353,
+        392,
+        481,
+        628,
+        653,
+        736,
+        813,
+        1172,
+        1325,
+        1329,
+        1448,
+        1462,
+        1500
+      ]
+    },
+    {
+      "id": 27,
+      "sentence_en": "My favourite food is noodles and soup, and I eat bread with butter and cheese. Tom eats rice with meat and potatoes, and he eats an egg.",
+      "sentence_zh": "我最喜欢的食物是面条和汤，我吃面包时要涂黄油和奶酪。汤姆吃米饭配肉和土豆，他还要吃一个鸡蛋。",
+      "grammar": "不可数名词没有复数，前面不用 a / an：bread、rice、meat、cheese、butter、soup。可数名词 egg、potato 有复数形式。with 表示“配着、和……一起”。",
+      "new_words": [
+        "food",
+        "noodles",
+        "soup",
+        "bread",
+        "butter",
+        "cheese",
+        "rice",
+        "meat",
+        "potato",
+        "egg"
+      ],
+      "ext_groups": [
+        {
+          "note": "调味品（锚词：butter）",
+          "anchor": "butter",
+          "members": [
+            "salt",
+            "sugar",
+            "oil",
+            "pepper"
+          ]
+        }
+      ],
+      "phrases": [
+        "my favourite food|我最喜欢的食物",
+        "bread with butter|涂黄油的面包",
+        "rice with meat|肉配米饭"
+      ],
+      "repeats": "本句复现：第 3 天的 Tom；第 4 天的 my；第 5 天的 with；第 12 天的 favourite；第 13 天的 eat / eats。",
+      "covered_ids": [
+        154,
+        177,
+        225,
+        384,
+        485,
+        782,
+        870,
+        894,
+        951,
+        1004,
+        1060,
+        1084,
+        1193,
+        1240
+      ]
+    },
+    {
+      "id": 28,
+      "sentence_en": "In our new home we eat a lot of fruit: apples, bananas, oranges, grapes and strawberries. Tom likes mangoes and lemons, and I like vegetable salad.",
+      "sentence_zh": "在我们的新家里，我们吃很多水果：苹果、香蕉、橙子、葡萄和草莓。汤姆喜欢芒果和柠檬，我喜欢蔬菜沙拉。",
+      "grammar": "可数名词复数变化：apple→apples；以辅音字母 + y 结尾的 strawberry→strawberries。a lot of 表示“很多”，后面接名词。like 后接名词表示喜好，主语是第三人称单数时用 likes。",
+      "new_words": [
+        "fruit",
+        "apple",
+        "banana",
+        "orange",
+        "grape",
+        "strawberry",
+        "mango",
+        "lemon",
+        "vegetable",
+        "salad"
+      ],
+      "ext_groups": [
+        {
+          "note": "更多果蔬（锚词：fruit）",
+          "anchor": "fruit",
+          "members": [
+            "peach",
+            "pear",
+            "carrot",
+            "onion"
+          ]
+        }
+      ],
+      "phrases": [
+        "a lot of fruit|很多水果",
+        "apples and bananas|苹果和香蕉",
+        "vegetable salad|蔬菜沙拉"
+      ],
+      "repeats": "本句复现：第 1 天的 our / new / home / in；第 3 天的 Tom；第 13 天的 eat；第 17 天的 a lot of；第 19 天的 like / likes。",
+      "covered_ids": [
+        58,
+        90,
+        200,
+        512,
+        555,
+        720,
+        768,
+        901,
+        908,
+        942,
+        943,
+        1082,
+        1230,
+        1409
+      ]
+    },
+    {
+      "id": 29,
+      "sentence_en": "I drink water, milk and juice, and my mother drinks tea and coffee. Tom drinks cola and a milkshake, and he loves ice cream, chocolate and cake.",
+      "sentence_zh": "我喝水、牛奶和果汁，妈妈喝茶和咖啡。汤姆喝可乐和奶昔，他还特别爱吃冰淇淋、巧克力和蛋糕。",
+      "grammar": "drink 的第三人称单数形式是 drinks。water、milk、tea、coffee、ice cream、chocolate、cake 通常作不可数名词；a milkshake 是 a + 可数名词。love 比 like 语气更强。",
+      "new_words": [
+        "drink",
+        "water",
+        "milk",
+        "juice",
+        "tea",
+        "coffee",
+        "cola",
+        "milkshake",
+        "ice cream",
+        "chocolate",
+        "cake"
+      ],
+      "ext_groups": [
+        {
+          "note": "甜味点心（锚词：cake）",
+          "anchor": "cake",
+          "members": [
+            "biscuit",
+            "sweet",
+            "honey",
+            "jam"
+          ]
+        }
+      ],
+      "phrases": [
+        "drink water|喝水",
+        "a milkshake|一杯奶昔",
+        "ice cream and cake|冰淇淋和蛋糕"
+      ],
+      "repeats": "本句复现：第 3 天的 mother / Tom；第 4 天的 my；第 19 天的 loves（love）；第 27 天的食物词家族（food、bread）。",
+      "covered_ids": [
+        124,
+        182,
+        233,
+        264,
+        265,
+        366,
+        618,
+        636,
+        675,
+        685,
+        797,
+        798,
+        1258,
+        1270,
+        1430
+      ]
+    },
+    {
+      "id": 30,
+      "sentence_en": "My diary has got my time for tonight and tomorrow: seven o'clock, half past eight a.m., a quarter to nine p.m., an hour, a minute, a second and a moment.",
+      "sentence_zh": "我的日记里写着我今晚和明天的时间：七点整、上午八点半、晚上差一刻九点，还有一小时、一分钟、一秒钟和片刻。",
+      "grammar": "整点用 o'clock（at seven o'clock）；半点用 half past + 小时（half past eight）；差一刻用 a quarter to + 小时。a.m. 表示上午，p.m. 表示下午。hour / minute / second / moment 都是时间单位词。",
+      "new_words": [
+        "time",
+        "tonight",
+        "tomorrow",
+        "o'clock",
+        "half past",
+        "a.m.",
+        "quarter",
+        "p.m.",
+        "hour",
+        "minute",
+        "second",
+        "moment"
+      ],
+      "ext_groups": [
+        {
+          "note": "一天中的时刻（锚词：time）",
+          "anchor": "time",
+          "members": [
+            "midnight",
+            "noon"
+          ]
+        }
+      ],
+      "phrases": [
+        "seven o'clock|七点整",
+        "half past eight|八点半",
+        "a quarter to nine|差一刻九点"
+      ],
+      "repeats": "本句复现：第 2 天的 has got；第 4 天的 my；第 8 天的 seven / eight；第 9 天的 nine / twelve 数字家族；第 11 天的 diary（扩展词）。",
+      "covered_ids": [
+        39,
+        576,
+        624,
+        795,
+        803,
+        810,
+        871,
+        887,
+        987,
+        1025,
+        1102,
+        1328,
+        1338,
+        1339
+      ]
+    }
+  ]
+}
