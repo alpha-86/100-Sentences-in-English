@@ -1,0 +1,724 @@
+{
+  "batch": 8,
+  "days": [
+    71,
+    80
+  ],
+  "sentences": [
+    {
+      "id": 71,
+      "sentence_en": "Our trip: we pack suitcases and luggage, check passports and tickets, travel to Sydney, arrive on Friday, stay in a hotel, and return in a month — a long journey.",
+      "sentence_zh": "我们的旅行：收拾好行李箱和行李，检查护照和机票，飞往悉尼，周五到达，住进旅馆，一个月后回来——一段长长的旅程。",
+      "grammar": "本句用一般现在时叙述出发前的安排，冒号后是一串并列动作：pack（装箱）、check（核对）、travel（旅行）、arrive（到达）、stay（住）、return（返回）。suitcase 指一只箱子，luggage 是“行李”的总称（不可数，不加 -s）；arrive 后常接 in / at + 地点，stay 后接 in + 地点；破折号后的 a long journey 是对整段行程的总结。",
+      "new_words": [
+        "trip",
+        "pack",
+        "suitcase",
+        "luggage",
+        "passport",
+        "ticket",
+        "travel",
+        "arrive",
+        "stay",
+        "hotel",
+        "return",
+        "journey"
+      ],
+      "ext_groups": [
+        {
+          "note": "旅人（锚词：travel）",
+          "anchor": "travel",
+          "members": [
+            "visit",
+            "visitor",
+            "tourist",
+            "tour"
+          ]
+        },
+        {
+          "note": "旅行服务（锚词：journey）",
+          "anchor": "journey",
+          "members": [
+            "travel agent",
+            "tourist information centre"
+          ]
+        }
+      ],
+      "phrases": [
+        "pack a suitcase|收拾行李箱",
+        "a return ticket|往返票",
+        "travel by plane|乘飞机旅行"
+      ],
+      "repeats": "复现旧词：check（第 67 天）、Friday（第 15 天）、month（第 16 天）、and / we（第 1 天）。扩展组里的 visit / visitor / tourist / tour（锚词 travel）与 travel agent / tourist information centre（锚词 journey）随扩展块回读。",
+      "covered_ids": [
+        64,
+        623,
+        684,
+        759,
+        920,
+        937,
+        1059,
+        1217,
+        1242,
+        1321,
+        1345,
+        1347,
+        1348,
+        1357,
+        1358,
+        1361,
+        1415,
+        1416
+      ],
+      "_hint_sent": [
+        "suitcase",
+        "luggage",
+        "pack",
+        "passport",
+        "ticket",
+        "hotel",
+        "arrive",
+        "stay",
+        "trip",
+        "journey",
+        "travel",
+        "return"
+      ]
+    },
+    {
+      "id": 72,
+      "sentence_en": "Summer at the beach: warm sea, big waves — I take the surfboard and go swimming and surfing in my swimming costume, then sit under an umbrella near the swimming pool.",
+      "sentence_zh": "海滩上的夏天：温暖的海水、大大的浪——我拿起冲浪板，穿着泳衣去游泳、去冲浪，然后坐在泳池边的遮阳伞下。",
+      "grammar": "本句描写南半球夏天的海滩。go swimming / go surfing 是“去做某项运动”的固定说法，go 后面接 -ing 形式；swimming costume 是英式英语的“泳衣”，swimming pool 指泳池。冒号后的 warm sea, big waves 是并列名词短语，用来铺场景；then 表示动作的先后顺序。",
+      "new_words": [
+        "summer",
+        "beach",
+        "sea",
+        "wave",
+        "surfboard",
+        "swimming",
+        "swimming costume",
+        "surfing",
+        "umbrella",
+        "swimming pool",
+        "pool"
+      ],
+      "ext_groups": [
+        {
+          "note": "水上运动（锚词：surfing）",
+          "anchor": "surfing",
+          "members": [
+            "surfboarding",
+            "windsurfing",
+            "sailing",
+            "sail"
+          ]
+        }
+      ],
+      "phrases": [
+        "go swimming|去游泳",
+        "on the beach|在海滩上",
+        "sit under an umbrella|坐在遮阳伞下"
+      ],
+      "repeats": "复现旧词：warm（第 32 天）、big（第 2 天）、take（第 46 天）、sit（第 21 天）、near（第 6 天）。扩展组里的 surfboarding / windsurfing / sailing / sail（锚词 surfing）随扩展块回读。",
+      "covered_ids": [
+        100,
+        994,
+        1080,
+        1081,
+        1099,
+        1243,
+        1251,
+        1252,
+        1253,
+        1260,
+        1261,
+        1262,
+        1391,
+        1431,
+        1467
+      ],
+      "_hint_sent": [
+        "beach",
+        "sea",
+        "summer",
+        "swimming pool",
+        "swimming costume",
+        "swimming",
+        "pool",
+        "umbrella",
+        "wave",
+        "surfboard",
+        "surfing"
+      ]
+    },
+    {
+      "id": 73,
+      "sentence_en": "At the campsite a guy, an explorer, gives us a map, a guidebook; we put up the tent, have a barbecue and explore the rainforest — a real adventure at camp.",
+      "sentence_zh": "在露营地，一个家伙——他是位探险家——给了我们一张地图和一本旅行指南；我们搭起帐篷、烧烤、探索雨林——营地生活真是一场真正的冒险。",
+      "grammar": "本句讲露营地的一天。a guy, an explorer 是同位语，用逗号隔开，后面的 an explorer 说明这个 guy 是谁；give sb sth 表示“给某人某物”；put up the tent 是“搭帐篷”的固定搭配；破折号后的 a real adventure 是对前面活动的总结。",
+      "new_words": [
+        "campsite",
+        "guy",
+        "explorer",
+        "map",
+        "guidebook",
+        "tent",
+        "barbecue",
+        "explore",
+        "rainforest",
+        "adventure",
+        "camp"
+      ],
+      "ext_groups": [
+        {
+          "note": "船与航行（锚词：map）",
+          "anchor": "map",
+          "members": [
+            "boat",
+            "ship"
+          ]
+        }
+      ],
+      "phrases": [
+        "put up a tent|搭帐篷",
+        "have a barbecue|烧烤",
+        "a map of the rainforest|雨林地图"
+      ],
+      "repeats": "复现旧词：give（第 61 天）、real（第 68 天）、up（第 13 天）、us（第 7 天）。扩展组里的 boat / ship（锚词 map）随扩展块回读。",
+      "covered_ids": [
+        15,
+        93,
+        132,
+        186,
+        187,
+        428,
+        429,
+        568,
+        570,
+        770,
+        1042,
+        1121,
+        1282
+      ],
+      "_hint_sent": [
+        "camp",
+        "campsite",
+        "tent",
+        "barbecue",
+        "rainforest",
+        "explore",
+        "explorer",
+        "adventure",
+        "map",
+        "guidebook",
+        "guy"
+      ]
+    },
+    {
+      "id": 74,
+      "sentence_en": "In Australia I am foreign: I talk to an Australian boy about language; we speak, he tells me and says a sentence — I spell my surname, our conversation is good.",
+      "sentence_zh": "在澳大利亚我是个外国人：我和一个澳大利亚男孩聊语言；我们交谈，他跟我讲，还说了一个句子——我拼出我的姓，我们的对话很顺利。",
+      "grammar": "本句用一般现在时讲在澳大利亚的交流。talk to sb about sth 表示“和某人谈某事”；speak 强调“说话、讲某种语言”；say 强调“说出（内容）”，后接所说的话；tell 常用于 tell sb sth（告诉某人某事）。spell 是“拼写”，surname 是“姓”（first name 才是“名”）。",
+      "new_words": [
+        "Australia",
+        "foreign",
+        "talk",
+        "Australian",
+        "language",
+        "tell",
+        "speak",
+        "say",
+        "sentence",
+        "spell",
+        "surname",
+        "conversation"
+      ],
+      "ext_groups": [
+        {
+          "note": "姓名（锚词：surname）",
+          "anchor": "surname",
+          "members": [
+            "first name"
+          ]
+        },
+        {
+          "note": "语言元素（锚词：language）",
+          "anchor": "language",
+          "members": [
+            "article"
+          ]
+        }
+      ],
+      "phrases": [
+        "talk about language|谈论语言",
+        "a foreign language|一门外语",
+        "spell your name|拼写你的名字"
+      ],
+      "repeats": "复现旧词：boy（第 8 天）、good（第 50 天）、I / my（第 1 天）、we（第 1 天）。扩展组里的 first name（锚词 surname）与 article（锚词 language）随扩展块回读。",
+      "covered_ids": [
+        66,
+        79,
+        80,
+        279,
+        471,
+        490,
+        707,
+        1090,
+        1107,
+        1199,
+        1201,
+        1254,
+        1267,
+        1277
+      ],
+      "_hint_sent": [
+        "Australia",
+        "Australian",
+        "foreign",
+        "language",
+        "speak",
+        "tell",
+        "say",
+        "talk",
+        "conversation",
+        "sentence",
+        "spell",
+        "surname"
+      ]
+    },
+    {
+      "id": 75,
+      "sentence_en": "Australia is a big country: the city centre is crowded and a big crowd fills the streets, but the countryside, the village and this area of the world are quiet.",
+      "sentence_zh": "澳大利亚是个大国：市中心很拥挤，一大群人挤满街道，但乡村、小村庄和世界上这一片地区都很安静。",
+      "grammar": "本句用一般现在时对比城市与乡村。country 有两个常用意思：“国家”和“乡下”（本句取前者，countryside 才是“乡村”）；city 与 city centre 是“城市”与“市中心”；crowd 是名词“人群”，crowded 是形容词“拥挤的”。but 连接两个对照的分句。",
+      "new_words": [
+        "country",
+        "city",
+        "city centre",
+        "centre",
+        "crowded",
+        "crowd",
+        "countryside",
+        "village",
+        "area",
+        "world"
+      ],
+      "ext_groups": [
+        {
+          "note": "大洲（锚词：world）",
+          "anchor": "world",
+          "members": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "North America",
+            "South America",
+            "Antarctica"
+          ]
+        }
+      ],
+      "phrases": [
+        "in the city centre|在市中心",
+        "a big crowd|一大群人",
+        "around the world|世界各地"
+      ],
+      "repeats": "复现旧词：big（第 2 天）、quiet（第 24 天）、fill（第 67 天）、streets（第 40 天）、this（第 2 天）。扩展组里的大洲名 Africa / Asia / Europe / North America / South America / Antarctica（锚词 world）随扩展块回读。",
+      "covered_ids": [
+        19,
+        50,
+        61,
+        69,
+        212,
+        240,
+        241,
+        289,
+        290,
+        300,
+        301,
+        407,
+        875,
+        1195,
+        1413,
+        1482
+      ],
+      "_hint_sent": [
+        "country",
+        "city",
+        "countryside",
+        "village",
+        "world",
+        "area",
+        "centre",
+        "crowd",
+        "crowded",
+        "city centre"
+      ]
+    },
+    {
+      "id": 76,
+      "sentence_en": "In the city I meet people from China, Japan, India, Brazil and Mexico: a Japanese family, a Brazilian girl and an Indian boy in the big crowd.",
+      "sentence_zh": "在城里我遇见来自中国、日本、印度、巴西和墨西哥的人：一大群人里有日本家庭、巴西女孩和印度男孩。",
+      "grammar": "本句用一般现在时介绍来自不同国家的人。国家名首字母大写（China、Japan、India、Brazil、Mexico），对应的国籍词也大写（Japanese、Indian、Brazilian），在句中既可作形容词也可作名词（a Japanese family / a Brazilian girl / an Indian boy）。meet people from + 国家 表示“遇见来自……的人”。",
+      "new_words": [
+        "China",
+        "Japan",
+        "India",
+        "Brazil",
+        "Mexico",
+        "Japanese",
+        "Brazilian",
+        "Indian"
+      ],
+      "ext_groups": [
+        {
+          "note": "国籍对应 1（锚词：Japan）",
+          "anchor": "Japan",
+          "members": [
+            "Korean",
+            "Italian",
+            "Spanish",
+            "French",
+            "German"
+          ]
+        },
+        {
+          "note": "国家名 1（锚词：China）",
+          "anchor": "China",
+          "members": [
+            "Korea",
+            "Italy",
+            "Spain",
+            "France",
+            "Germany"
+          ]
+        }
+      ],
+      "phrases": [
+        "come from China|来自中国",
+        "Japanese food|日本料理",
+        "in Brazil|在巴西"
+      ],
+      "repeats": "复现旧词：city（第 75 天）、meet（第 7 天）、people（第 62 天扩展词）、crowd（第 75 天）、family / girl / boy（第 3、8 天）。扩展组的国家名 Korea / Italy / Spain / France / Germany（锚词 China）与国籍 Korean / Italian / Spanish / French / German（锚词 Japan）随扩展块回读。",
+      "covered_ids": [
+        152,
+        153,
+        230,
+        501,
+        503,
+        525,
+        526,
+        647,
+        648,
+        670,
+        671,
+        677,
+        678,
+        703,
+        704,
+        793,
+        1197,
+        1198
+      ],
+      "_hint_sent": [
+        "China",
+        "Japan",
+        "Japanese",
+        "India",
+        "Indian",
+        "Brazil",
+        "Brazilian",
+        "Mexico"
+      ]
+    },
+    {
+      "id": 77,
+      "sentence_en": "In this international city families from Britain, America, Canada, Russia and Ireland live together: British, American, Canadian, Russian, Irish and Mexican people — every nationality, and the national game is popular.",
+      "sentence_zh": "在这座国际化的城市里，来自英国、美国、加拿大、俄罗斯和爱尔兰的家庭住在一起：英国人、美国人、加拿大人、俄罗斯人、爱尔兰人和墨西哥人——各种国籍都有，而且这项全国性的运动很受欢迎。",
+      "grammar": "本句讲城市的国际化。国家名（Britain、America、Canada、Russia、Ireland）与对应国籍词（British、American、Canadian、Russian、Irish、Mexican）要成对记。national 是形容词“国家的”（the national game），nationality 是名词“国籍”；international 表示“国际的”；live together 表示“住在一起”；be popular 表示“受欢迎”。",
+      "new_words": [
+        "international",
+        "Britain",
+        "America",
+        "Canada",
+        "Russia",
+        "Ireland",
+        "British",
+        "American",
+        "Canadian",
+        "Mexican",
+        "nationality",
+        "national",
+        "popular"
+      ],
+      "ext_groups": [
+        {
+          "note": "国籍对应 2（锚词：Britain）",
+          "anchor": "Britain",
+          "members": [
+            "Irish",
+            "Russian"
+          ]
+        }
+      ],
+      "phrases": [
+        "an international city|国际化城市",
+        "the national game|全民运动",
+        "popular with people|受人们欢迎"
+      ],
+      "repeats": "复现旧词：city（第 75 天）、families / people（第 3、62 天）、together（第 67 天）、every（第 17 天）、game（第 19 天）、live（第 66 天扩展词）。扩展组的国籍 Irish / Russian（锚词 Britain）随扩展块回读。",
+      "covered_ids": [
+        42,
+        43,
+        160,
+        161,
+        189,
+        190,
+        662,
+        666,
+        667,
+        792,
+        841,
+        842,
+        997,
+        1076,
+        1077
+      ],
+      "_hint_sent": [
+        "Britain",
+        "British",
+        "America",
+        "American",
+        "Canada",
+        "Canadian",
+        "Russia",
+        "Ireland",
+        "national",
+        "nationality",
+        "international",
+        "popular",
+        "Mexican"
+      ]
+    },
+    {
+      "id": 78,
+      "sentence_en": "On the screen I see an email and a text message; I click the website, download a game, call Lily on my laptop — the telephone and the phone are old.",
+      "sentence_zh": "屏幕上有我一封电子邮件和一条短信；我点开网站，在笔记本电脑上下载了一个游戏，又用电脑给莉莉打电话——这部电话和手机都旧了。",
+      "grammar": "本句用一般现在时讲电子设备。click（点击）和 download（下载）是常用的电脑动词；text message 是“短信”，text 单独用也可以指短信；telephone 是 phone 的正式说法；email 由 electronic + mail 构成，既是“电子邮件”也是“发邮件”。分号前后是“看屏幕”和“用电脑”两组动作。",
+      "new_words": [
+        "screen",
+        "email",
+        "text",
+        "message",
+        "text message",
+        "click",
+        "website",
+        "download",
+        "laptop",
+        "telephone",
+        "phone"
+      ],
+      "ext_groups": [
+        {
+          "note": "设备（锚词：laptop）",
+          "anchor": "laptop",
+          "members": [
+            "mobile phone",
+            "printer",
+            "digital",
+            "hairdryer"
+          ]
+        }
+      ],
+      "phrases": [
+        "write an email|写电子邮件",
+        "a text message|一条短信",
+        "download a game|下载游戏"
+      ],
+      "repeats": "复现旧词：see（第 21 天）、game（第 19 天）、call（第 65 天）、old（第 6 天）、on / the（第 1 天）；Lily 是白名单人物。扩展组里的 mobile phone / printer / digital / hairdryer（锚词 laptop）随扩展块回读。",
+      "covered_ids": [
+        251,
+        339,
+        358,
+        396,
+        574,
+        708,
+        789,
+        808,
+        960,
+        1012,
+        1098,
+        1275,
+        1287,
+        1289,
+        1437
+      ],
+      "_hint_sent": [
+        "email",
+        "message",
+        "text",
+        "text message",
+        "phone",
+        "telephone",
+        "screen",
+        "click",
+        "download",
+        "website",
+        "laptop"
+      ]
+    },
+    {
+      "id": 79,
+      "sentence_en": "The television (TV) is on: the news, a film, a programme, a channel, the radio; and at the newsagent I buy videos, DVDs and a magazine with an advertisement.",
+      "sentence_zh": "电视开着：新闻、电影、节目、频道、广播；在报刊亭我买了录像带、DVD，还有一本带广告的杂志。",
+      "grammar": "本句讲媒体设备与日常资讯。television 常缩写为 TV，两者都表示“电视”；programme（英式拼写）指“节目”；channel 是“频道”；news 是不可数名词，不能加 -s；newsagent 是卖报纸杂志的“报刊亭、报摊”。冒号后是并列名词短语，列举电视和广播里的内容；句末 with an advertisement 说明杂志上有什么。",
+      "new_words": [
+        "television",
+        "TV",
+        "news",
+        "film",
+        "programme",
+        "channel",
+        "radio",
+        "newsagent",
+        "video",
+        "DVD",
+        "magazine",
+        "advertisement"
+      ],
+      "ext_groups": [
+        {
+          "note": "播放设备（锚词：DVD）",
+          "anchor": "DVD",
+          "members": [
+            "DVD player",
+            "CD player",
+            "MP3 player",
+            "video recorder"
+          ]
+        },
+        {
+          "note": "纸媒与招贴（锚词：programme）",
+          "anchor": "programme",
+          "members": [
+            "newspaper",
+            "poster"
+          ]
+        }
+      ],
+      "phrases": [
+        "watch television|看电视",
+        "watch the news|看新闻",
+        "a TV programme|电视节目"
+      ],
+      "repeats": "复现旧词：buy（第 35 天）、and / on / the（第 1 天）、with（第 6 天）。扩展组里的 DVD player / CD player / MP3 player / video recorder（锚词 DVD）与 newspaper / poster（锚词 programme）随扩展块回读。",
+      "covered_ids": [
+        16,
+        209,
+        219,
+        374,
+        375,
+        462,
+        762,
+        827,
+        852,
+        853,
+        854,
+        1001,
+        1015,
+        1036,
+        1276,
+        1372,
+        1411,
+        1412
+      ],
+      "_hint_sent": [
+        "television",
+        "TV",
+        "radio",
+        "video",
+        "DVD",
+        "channel",
+        "programme",
+        "film",
+        "newsagent",
+        "advertisement",
+        "magazine",
+        "news"
+      ]
+    },
+    {
+      "id": 80,
+      "sentence_en": "At the picnic the food is delicious: a burger, a fresh tomato, a slice of cake, a piece of cake, lemonade, mineral water and cream — every kind of snack.",
+      "sentence_zh": "野餐的食物很美味：汉堡、新鲜西红柿、一片蛋糕、一块蛋糕、柠檬水、矿泉水和奶油——各种各样的点心。",
+      "grammar": "本句描写野餐的食物。slice 和 piece 都表示“片、块”：a slice of cake 是切出来的一片蛋糕，a piece of cake 是一块蛋糕（口语里还常表示“小菜一碟”）；mineral water 是“矿泉水”，作不可数名词用；fresh 是“新鲜的”，delicious 是“美味的”。冒号后并列名词短语，破折号后用 every kind of snack 总结。",
+      "new_words": [
+        "picnic",
+        "delicious",
+        "burger",
+        "fresh",
+        "tomato",
+        "slice",
+        "piece",
+        "piece of cake",
+        "lemonade",
+        "mineral water",
+        "cream",
+        "kind",
+        "snack"
+      ],
+      "ext_groups": [
+        {
+          "note": "户内户外（锚词：picnic）",
+          "anchor": "picnic",
+          "members": [
+            "outdoor",
+            "outdoors",
+            "indoor",
+            "indoors"
+          ]
+        }
+      ],
+      "phrases": [
+        "a piece of cake|一块蛋糕；小菜一碟",
+        "mineral water|矿泉水",
+        "a slice of bread|一片面包"
+      ],
+      "repeats": "复现旧词：food（第 27 天）、cake / water（第 29 天）、every（第 17 天）、at / the（第 1 天）。扩展组里的 outdoor / outdoors / indoor / indoors（锚词 picnic）随扩展块回读。",
+      "covered_ids": [
+        167,
+        295,
+        327,
+        504,
+        649,
+        650,
+        696,
+        721,
+        802,
+        915,
+        916,
+        965,
+        968,
+        969,
+        1165,
+        1171,
+        1337
+      ],
+      "_hint_sent": [
+        "burger",
+        "cream",
+        "lemonade",
+        "mineral water",
+        "slice",
+        "snack",
+        "delicious",
+        "piece",
+        "piece of cake",
+        "tomato",
+        "picnic",
+        "kind",
+        "fresh"
+      ]
+    }
+  ]
+}
