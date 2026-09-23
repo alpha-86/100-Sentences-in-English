@@ -361,25 +361,25 @@
     },
     {
       "id": 17,
-      "sentence_en": "Every morning we both always eat too much, and we all eat so very many meals: each of us eats a few, usually three, often four, sometimes five, never eight.",
-      "sentence_zh": "每天早上我们俩总是吃太多，我们大家都要吃很多顿：其实我们每人吃得并不多，通常三顿，常常四顿，有时五顿，从没吃过八顿。",
-      "grammar": "频率副词 always / usually / often / sometimes / never 常放在实义动词前、be 动词后。every + 单数名词（every morning），each of + 复数代词（each of us）。both 和 all 放在主语后：we both、we all。many 修饰可数名词复数，much 表示不可数数量；so / very / too 表示程度。",
+      "sentence_en": "I always eat too much; usually Tom eats few meals, sometimes many, never much. We all eat every morning: we both are often so very hungry, we each eat breakfast.",
+      "sentence_zh": "我总是吃得太多；汤姆通常只吃很少几顿，有时吃很多，但从不多吃。每天早上我们一家人都要吃：我们俩常常饿得厉害，我们每个人都吃早饭。",
+      "grammar": "频率副词 always / usually / often / sometimes / never 通常放在实义动词前、be 动词后。every + 单数名词（every morning），each 和 both / all 可放在主语后作同位语（we each / we both / we all）。few 修饰可数名词复数，many 修饰可数名词复数，much 表示不可数数量；so / very / too 表示程度。",
       "new_words": [
-        "every",
-        "both",
         "always",
-        "too",
-        "much",
-        "all",
-        "so",
-        "very",
-        "many",
         "usually",
         "often",
         "sometimes",
         "never",
+        "every",
+        "each",
+        "all",
+        "both",
+        "many",
+        "much",
         "few",
-        "each"
+        "very",
+        "too",
+        "so"
       ],
       "ext_groups": [
         {
@@ -393,11 +393,11 @@
         }
       ],
       "phrases": [
-        "every morning|每天早上",
-        "too much|太多",
-        "a few|几个、少量"
+        "eat too much|吃得太多",
+        "few meals|很少几顿",
+        "every morning|每天早上"
       ],
-      "repeats": "本句复现：第 8 天的 three / five / eight；第 9 天的 twenty 同族数字词；第 13 天的 morning / eat。",
+      "repeats": "本句复现：第 3 天的 Tom；第 13 天的 morning / eat / breakfast；第 16 天的 month 之外的时间词家族。",
       "covered_ids": [
         31,
         38,
